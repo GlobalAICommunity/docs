@@ -20,7 +20,7 @@ jobs:
           submodules: true
           lfs: false
 
-      - run: pip install mkdocs-material mkdocs-glightbox
+      - run: pip install -r requirements.txt
       - run: mkdocs build
       - name: Build And Deploy
         id: builddeploy
