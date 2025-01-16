@@ -3,6 +3,7 @@ site_name: Global AI Community | Docs
 nav:
   - Welcome : index.md
   - Start a chapter: start-chapter.md
+  - Benefit - MeetUp: meetup.md
   - Global AI Bootcamp 2025: global-ai-bootcamp-2025.md
 
 
