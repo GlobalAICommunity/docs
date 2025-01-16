@@ -1,12 +1,9 @@
 site_name: Global AI Community | Docs
 
 nav:
-  - Getting started : index.md
-  - Chapter Management:
-    - Introduction: chapters/intro.md
-    - Onboarding: chapters/01-Onboarding.md
-    - Managing Events: chapters/events.md
-    - Global AI Bootcamp 2025: chapters/03-bootcamp.md
+  - Welcome : index.md
+  - Start a chapter: start-chapter.md
+  - Global AI Bootcamp 2025: global-ai-bootcamp-2025.md
 
 
 plugins:
