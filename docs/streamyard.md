@@ -87,4 +87,9 @@ If you are more of a visual learner, or want to see some other features in actio
 | ![Alt text](media/invite-guests.webp "Invite Guests")     | **Invite guests**<br>  https://www.youtube.com/watch?v=00EQw-n3GWg |  
 | ![Alt text](media/graphics.webp "Organizing graphics")    | **Organizing graphics**<br>  https://www.youtube.com/watch?v=jAK6u9T1QGo |  
 
+| | |
+|---|---|
+|Hi | Ho |
+
+
 ...or check out their [*New to StreamYard*](https://www.youtube.com/playlist?list=PLxqZPGZQ-k74PbwvByNzMAZ-umZ-5ZzBF) video collection
