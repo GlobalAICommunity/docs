@@ -5,6 +5,7 @@
 ## How to use this benefit:
 
 !!! Login credentials  
+    |||  
     | ----- | ---- |  
     | Site  | [www.streamyard.com](https://www.streamyard.com) |  
     | Login | stream@globalai.community |
