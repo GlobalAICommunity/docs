@@ -3,10 +3,8 @@ site_name: Global AI Community | Docs
 nav:
   - Welcome : index.md
   - Start a chapter: start-chapter.md
-  - Chapter benefits:
-    - benefits/index.md
-    - Meetups: benefits/meetups.md
-    - StreamYard: benefits/streamyard.md
+  - Benefit Meetup: meetup.md
+  - Benefit StreamYard: streamyard.md
   - Global AI Bootcamp 2025: global-ai-bootcamp-2025.md
 
 
