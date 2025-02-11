@@ -9,7 +9,7 @@
     | ----- | ---- |  
     | Site  | [www.streamyard.com](https://www.streamyard.com) |  
     | Login | stream@globalai.community |
-    | PIN   | Follow the instructions [below](#how-to-get-the-streamyard-pin) |
+    | PIN   | Follow the instructions [below](#how-to-get-access-to-the-streamyard-pin-channel) |
 
 ## How to get access to the StreamYard-pin channel
 
@@ -29,5 +29,5 @@ You can request access by sending a message in Slack to the **@hq** user group.
 6) Wait until your PIN pops up in the channel messages.  
 The message will have the following format: *Hi your pin for streamyard is: XXXXXX*
 7) Enter the PIN in the StreamYard login challenge and click on the *Log in* button
-8) Congratulations! 🎉 You are now logged in to StreamYard
+8) Congratulations! 🎉 You are now logged in to StreamYardFix 
 
