@@ -1,6 +1,6 @@
 # MeetUp
 
-**As part of your chapter benefits you will get the oppertunity to join the [Global AI Community MeetUp pro community](https://www.meetup.com/pro/the-global-ai-community/).**
+**As part of your chapter benefits you will get the opportunity to join the [Global AI Community MeetUp pro community](https://www.meetup.com/pro/the-global-ai-community/).**
 
 ## How to claim this benefit:
 
