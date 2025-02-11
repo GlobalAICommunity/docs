@@ -69,11 +69,10 @@ After StreamYard is done setting up the live stream, it will show up in the list
 7. !!! danger "Important"
     Make sure the correct brand is selected **before** making changes & do not delete the logos from other chapters!
 
-    Click on the + (plus) button in the Logo section to upload your chapter logo (sticker).
-8. Click on the logo you just added, to select it for the stream.
+    Click on the + (plus) button in the Logo section to upload your chapter logo (sticker).  
+8. Click on the logo you just added, to select it for the stream.  
 9. You can now leave the studio by clicking the *Leave studio* button on the bottom of the screen.
 
-!!! warning ""
-   We all share this StreamYard environment between chapters. Please do not make changes that can affect the streams of other chapters.
+!!! warning "" We all share this StreamYard environment between chapters. Please do not make changes that can affect the streams of other chapters.
 
 
