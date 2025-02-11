@@ -80,7 +80,8 @@ After StreamYard is done setting up the live stream, it will show up in the list
 ## StreamYard video tutorials
 
 If you are more of a visual learner, or want to see some other features in action, we can recommend these YouTube resources from StreamYard:  
-|       |       |  
+
+|||  
 | ----- | ----- |  
 | ![Alt text](media/go-live.webp "How to go live")          | **How to go live**<br> https://www.youtube.com/watch?v=RLXnSwgp-qY |  .
 | ![Alt text](media/invite-guests.webp "Invite Guests")     | **Invite guests**<br>  https://www.youtube.com/watch?v=00EQw-n3GWg |  
