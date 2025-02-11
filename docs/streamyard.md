@@ -4,7 +4,7 @@
 
 ## How to use this benefit:
 
-!!! Login credentials  
+!!! note "Login credentials"  
     |||  
     | ----- | ---- |  
     | Site  | [www.streamyard.com](https://www.streamyard.com) |  
@@ -60,6 +60,14 @@ After StreamYard is done setting up the live stream, it will show up in the list
 !!! warning
     Since we share this StreamYard environment among chapters, you have to make sure the branding of the live stream matches your chapter branding before going live.
 
-
+1. [Log in to StreamYard](#logging-in-to-streamyard)
+2. Make sure your [live stream is created](#create-live-stream)
+3. Click on the *Enter studio* button for your live stream
+4. Check your camera and mic and specify you display name before clicking the *Enter studio* button
+5. Navigate to the *Media assets* in the menu on the right
+6. Select the *Global AI Chapters* brand in the dropdown, just above the Logo selection. 
+7. !!! tip "Important"
+    Make sure the correct brand is selected **before** making changes
+    
 
 
