@@ -73,7 +73,7 @@ After StreamYard is done setting up the live stream, it will show up in the list
 8. Click on the logo you just added, to select it for the stream.
 9. You can now leave the studio by clicking the *Leave studio* button on the bottom of the screen.
 
-!!! warningA 
+!!! warning ""
    We all share this StreamYard environment between chapters. Please do not make changes that can affect the streams of other chapters.
 
 
