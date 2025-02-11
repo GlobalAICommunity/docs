@@ -1,8 +1,33 @@
 # StreamYard
 
-**As part of your chapter benefits you will get the opportunity to use the [Global AI Community StreamYard environment](https://www.meetup.com/pro/the-global-ai-community/).**
+**As part of your chapter benefits you will get the opportunity to use the [Global AI Community StreamYard environment](https://www.streamyard.com).**
 
 ## How to use this benefit:
 
-!!! Note
-    Before you claim the MeetUp benefit, make sure you login to meetup. If you are creating a new MeetUp group, please create a new account on MeetUp with your @globalai.community address.
+!!! Login credentials  
+    |       |      |  
+    | ----- | ---- |  
+    | Site  | [www.streamyard.com](https://www.streamyard.com) |  
+    | Login | stream@globalai.community |
+    | PIN   | Follow the instructions [below](#how-to-get-the-streamyard-pin) |
+
+## How to get access to the StreamYard-pin channel
+
+1) Get invited to the *#streamyard-pin* channel in the [Global AI community Slack workspace](slack.md).  
+You can request access by sending a message in Slack to the **@hq** user group.
+2) **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard.
+
+## Logging in to StreamYard
+!!! Note  
+    Make sure you have access to the *#streamyard-pin* channel  
+
+1) Go to [www.streamyard.com](https://www.streamyard.com)
+2) Click *Log in* in the top menu
+3) Enter *stream@globalai.community* as the e-mail address
+4) Click the *Log in* buton
+5) Navigate to the *#streamyard-pin* channel in Slack
+6) Wait until your PIN pops up in the channel messages.  
+The message will have the following format: *Hi your pin for streamyard is: XXXXXX*
+7) Enter the PIN in the StreamYard login challenge and click on the *Log in* button
+8) Congratulations! 🎉 You are now logged in to StreamYard
+
