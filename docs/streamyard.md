@@ -18,7 +18,7 @@ You can request access by sending a message in Slack to the **@hq** user group.
 2. **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard.
 
 ## Logging in to StreamYard
-!!! Note  
+!!! Note
     Make sure you have access to the *#streamyard-pin* channel  
 
 1. Go to [www.streamyard.com](https://www.streamyard.com)
@@ -34,9 +34,9 @@ The message will have the following format: *Hi your pin for streamyard is: XXXX
 ## Using StreamYard
 
 ### Prerequisites
-Prior to creating a live stream, you will need to download two of your chapter media assets from your chapter dashboard.
-1. Go to [https://globalai.community/umbraco](https://globalai.community/umbraco) aka 'Your chapter dashboard' 
-2. Browse to your [Content](https://globalai.community/umbraco#/content)
+Prior to creating a live stream, you will need to download two of your chapter media assets from your chapter dashboard.  
+1. Go to [https://globalai.community/umbraco](https://globalai.community/umbraco) aka 'Your chapter dashboard'  
+2. Browse to your [Content](https://globalai.community/umbraco#/content)  
 3. Download logo and banner by using the links on your dashboard under the *Branding* section
 
 ### Create live stream
@@ -56,6 +56,9 @@ Prior to creating a live stream, you will need to download two of your chapter m
 
 After StreamYard is done setting up the live stream, it will show up in the list of scheduled streams and recordings.
 
+### Configuring live stream branding
+!!! warning
+    Since we share this StreamYard environment among chapters, you have to make sure the branding of the live stream matches your chapter branding before going live.
 
 
 
