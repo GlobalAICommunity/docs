@@ -4,7 +4,7 @@
 
 ## How to use this benefit:
 
-!!! note "Login credentials"  
+"Login credentials"  
     |||  
     | ----- | ---- |  
     | Site  | [www.streamyard.com](https://www.streamyard.com) |  
