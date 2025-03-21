@@ -16,7 +16,7 @@ When requesting a chapter, we ask that it be local and city-based. If an existin
 ## Benefits for chapters
 - As a chapter in the Global AI Community, you get benefits to help you run your chapter.
 - Be part of a large vibrant community with 60.000+ members around the world!
-- A <your chapter>@globalai.community Microsoft 365 Business Basic licence.
+- A [your chapter]@globalai.community Microsoft 365 Business Basic licence.
 - A sponsored Meetup Pro subscription for your chapter under the [Global AI Community Network](https://www.meetup.com/pro/the-global-ai-community/).
 - Resources for branding, including banners for MeetUp, socials, events and your own Chapter Logo.
 - Ability to send [digital badges](https://globalai.community/badges/f6503dea-7129-4404-b6c8-a9ea38b644fb/) to your attendees.
