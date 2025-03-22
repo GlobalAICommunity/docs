@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Global AI Community",
   description: "Documentation for Chapters",
   themeConfig: {
-    logo: '/media/icon.png',
+    logo: 'https://globalai.community/images/favicon.ico',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/new-chapter' }

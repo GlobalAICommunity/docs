@@ -1,14 +1,18 @@
 # MeetUp
 
-**As part of your chapter benefits you will get the opportunity to join the [Global AI Community MeetUp pro community](https://www.meetup.com/pro/the-global-ai-community/).**
+**As part of your chapter benefits you will get the opportunity to join the [Global AI Community MeetUp community](https://www.meetup.com/pro/the-global-ai-community/).**
+
+**[Please request your MeetUp sponsorship here](https://gaic.io/request-meetup/)**.    
+To request the benefit you have to loging with your Global AI Community email address.
+
 
 ## How to claim this benefit:
 
-!!! Note
-    Before you claim the MeetUp benefit, make sure you login to meetup. If you are creating a new MeetUp group, please create a new account on MeetUp with your @globalai.community address.
+::: tip Before you claim the MeetUp benefit
+Make sure you login to meetup. If you are creating a new MeetUp group, please create a new account on MeetUp with your @globalai.community address.
+:::
 
-
-### You have 2 options using this benefit.
+### You have 2 options using this benefit
 
 1. Create a new MeetUp group.
 2. Connect an existing MeetUp group.
