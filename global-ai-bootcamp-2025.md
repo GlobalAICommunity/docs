@@ -31,7 +31,7 @@ Don't forgot to click "save" to save a draft or click "save and publish" to publ
 
 Please take a look at this video, it shows how to create the Global AI Bootcamp 2025.
 
-![type:video](https://www.youtube.com/embed/A3mFeLzYVz4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A3mFeLzYVz4?si=V67HWnnInfdDcVoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Questions:
 - Connect with us on Slack
