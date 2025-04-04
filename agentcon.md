@@ -36,3 +36,10 @@ To prepare for the meeting please do the following:
 - Suggested speakers
 
 
+## Content
+
+### Presentations
+
+### Workshops
+
+## Banding guidelines
