@@ -14,8 +14,11 @@ hero:
       text: Chapter Benefits
       link: /azure
     - theme: alt
-      text: Events
+      text: Global AI Bootcamp
       link: /global-ai-bootcamp-2025
+    - theme: alt
+      text: AgentCon 2025
+      link: /agentcon   
 
 features:
   - title: Learn how to start a new chapter?
