@@ -63,7 +63,7 @@ Do not use the chapter for commercial activities, your events should be not for 
 
 ## Frequently asked questions
 **Question:** How much does it cost to be a chapter lead for Global AI Community?   
-**Answer:** There is no cost to the Global AI Community for being a chapter lead. The global AI Community is run by volunteers.
+**Answer:** There is no cost to the Global AI Community for being a chapter lead. The Global AI Community is run by volunteers.
    
 **Question:** Are all applications accepted?   
 **Answer:** No, not all applications are accepted, but don't worry that does not happen a lot. 
