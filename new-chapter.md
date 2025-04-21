@@ -55,7 +55,7 @@ Do not use the chapter for commercial activities, your events should be not for 
 ## Process overview
 ***Ready to become a chapter lead?***
 
-- Prior to starting your own Global AI Community chapter, please first [join our Slack Community](http://slack.globalai.community/), and head to #new-chapters channel. We encourage you to seek mentorship from experienced chapter leads, and for you to ask questions about starting your own chapter.
+- Prior to starting your own Global AI Community chapter, please first [join our Slack Community](http://gaic.io/join-slack), and head to #new-chapters channel. We encourage you to seek mentorship from experienced chapter leads, and for you to ask questions about starting your own chapter.
 - Once you’re ready to start your own group, [please fill in the form](https://forms.office.com/e/zQAYMdiZr0).
 - We review new chapter requests once per month. Your request will be reviewed in the following month after you file your request. For example, if you filled in the form in March 2024, it will be reviewed in April 2024.
 - If we approve your request, we will send you a welcome package with your groups @globalai.community email address credentials and guidance on how to set up your Meetup account and other related social media account, like Twitter, Facebook, etc.
