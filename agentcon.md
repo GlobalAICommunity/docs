@@ -14,9 +14,9 @@ Visit the [event website](https://agentcon.dev/) to learn more about the events.
 ### Event format & requirements
 AgentCon has a fixed format.    
     
-**Hours:** 15:00-21:00   
+**Hours:** 15:00-21:00 or 10:00-17:00  
 **Time Frame:** May / June 2025     
-**Audience size:** 100-200   
+**Audience size:** 200   
 **Tracks:** 1-2 tracks, optional workshops track    
 **Keynote:** Keynote by Microsoft, speaker provided    
 **Location:** Non Microsoft building, preferable event venue or partner    
@@ -26,7 +26,6 @@ AgentCon has a fixed format.
 **Inclusion and Diversity:** Commit to the [diversity pledge](https://globalai.community/about/diversity-pledge/)    
 **Branding:** Required to follow the branding guidelines
 
-
 ### You want to run an AgentCon?
 AgentCons are fixed format events, come with some requirements and benifits and your have to be a registered chapters at the Global AI Community. If that is the case we kindly ask to connect with Henk Boelman on [Slack](https://gaic.io/join-slack) or on hq@globalai.community. We will schedule a meeting and talk about the concept.
 
@@ -35,6 +34,8 @@ To prepare for the meeting please do the following:
 - Location details, size, availability
 - Suggested speakers
 
+## Call for speakers
+Every AgentCon needs to run a public call for speakers on [sessionize](https://sessionize.com/). Sessionize is free of charge for free community organized events.
 
 ## Content
 
@@ -43,3 +44,4 @@ To prepare for the meeting please do the following:
 ### Workshops
 
 ## Banding guidelines
+- Branding will be provided and should be aways be used and not be changed.
