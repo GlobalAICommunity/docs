@@ -2,7 +2,10 @@
 
 
 
-
+::: warning
+Currently we are not accepting any new AgentCon events for June. We are working on selecting places around the world for September till December 2025. 
+Please connect with us on Slack or hq@globalai.community if you are interested in running an AgentCon. Terms as described below still apply.
+:::
 
 
 
