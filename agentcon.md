@@ -1,3 +1,5 @@
+<link href="/css/agentcon.css" rel="stylesheet"></link>
+
 # AgentCon 2025
 
 
@@ -46,5 +48,18 @@ Every AgentCon needs to run a public call for speakers on [sessionize](https://s
 
 ### Workshops
 
-## Banding guidelines
+## Banding
+
+### Guidelines
 - Branding will be provided and should be aways be used and not be changed.
+
+### Logo
+![MainLogo](/media/agentcon/agentcon_banner_v3.jpg)
+
+Find your chapter specific agentCon banner and logo's in your Chapters Media Storage in the Umbraco CMS:
+1. Log in to your chapter on https://globalai.community/umbraco
+2. Click on the **Media** tab in the top menu bar
+3. Click on the **Title** to open the image in the media explorer
+
+### Speaker banner Sessionize
+We currently have a speaker banner available for use in Sessionize. We will make these available through Umbraco CMS Media Storage.
