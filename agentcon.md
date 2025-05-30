@@ -48,10 +48,12 @@ Every AgentCon needs to run a public call for speakers on [sessionize](https://s
 
 ### Workshops
 
-## Banding
+## Branding
 
 ### Guidelines
-- Branding will be provided and should be aways be used and not be changed.
+::: warning
+Branding will be provided and should be aways be used and not be changed.
+:::
 
 ### Logo
 ![MainLogo](/media/agentcon/agentcon_banner_v3.jpg)
