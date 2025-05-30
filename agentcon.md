@@ -50,8 +50,7 @@ Every AgentCon needs to run a public call for speakers on [sessionize](https://s
 
 ## Branding
 
-### Guidelines
-::: warning
+::: danger Guidelines
 Branding will be provided and should be aways be used and not be changed.
 :::
 
