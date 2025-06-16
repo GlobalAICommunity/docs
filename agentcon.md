@@ -2,37 +2,38 @@
 
 # AgentCon 2025
 
-
-
-::: warning
-Currently we are not accepting any new AgentCon events for June. We are working on selecting places around the world for September till December 2025. 
-Please connect with us on Slack or hq@globalai.community if you are interested in running an AgentCon. Terms as described below still apply.
-:::
-
-
+**Welcome to AgentCon, a conference about AI Agents for developers by developers.**
+Want to be an organizer? Please read the requirements below carefully and fill-out an application.
 
 ## AgentCon Call for organizers
-At the moment we are looking for Chapter Leads to help us organize 10 AgentCons around the world in the months of May and June 2025. If the 10 events are succesfull we will scale to out the events going on from August 2025 till December 2025.
+At the moment we are looking for Chapter Leads to help us organize 100 AgentCons around the world in the months of September 2026 and June 2026.
 
 Visit the [event website](https://agentcon.dev/) to learn more about the events.
 
 ### Event format & requirements
-AgentCon has a fixed format.    
+AgentCon has a fixed format, if the requirements don't match with your ambition, no worries there are many other event formats to pickup.    
     
 **Hours:** 15:00-21:00 or 10:00-17:00  
-**Time Frame:** May / June 2025     
+**Time Frame:** September 2025 / June 2026 
+**Organizer:** The event can only be organized by official Global AI Chapters.    
 **Audience size:** 200   
-**Tracks:** 1-2 tracks, optional workshops track    
+**Tracks:** Minimum of 2 tracks, 1 track with sessions, 1 track with hands-on workshops     
 **Keynote:** Keynote by Microsoft, speaker provided    
-**Location:** Non Microsoft building, preferable event venue or partner    
+**Location:** Non Microsoft building, preferable event venue or partner location.   
 **Registration:** Handled by Global AI Community website    
 **Entrance fee:** Event needs to be free of charge for attendees    
 **Public Call for Speakers:** Required to fill some of the slots, use [sessionize](https://sessionize.com/)    
 **Inclusion and Diversity:** Commit to the [diversity pledge](https://globalai.community/about/diversity-pledge/)    
-**Branding:** Required to follow the branding guidelines
+**Branding:** Required to follow the branding guidelines.
+**Lead time:** 8 weeks before the event.
 
-### You want to run an AgentCon?
-AgentCons are fixed format events, come with some requirements and benifits and your have to be a registered chapters at the Global AI Community. If that is the case we kindly ask to connect with Henk Boelman on [Slack](https://gaic.io/join-slack) or on hq@globalai.community. We will schedule a meeting and talk about the concept.
+### You ready to run an AgentCon?
+AgentCons are fixed format events, come with some requirements and benifits and your have to be a registered chapters at the Global AI Community. 
+
+The first step is to fill out the 
+**[Application form](https://gaic.io/host-agentcon/)**
+
+
 
 To prepare for the meeting please do the following:     
 - Date in May or June (we will open a later call for organizers for events from August)
