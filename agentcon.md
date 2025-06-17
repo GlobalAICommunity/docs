@@ -45,11 +45,13 @@ AgentCons are fixed format events, come with some requirements and benifits and 
 Is your AgentCon approved? yeah time to get organized.
 
 ### General timeline
-Right away - Open CFP        
-8 weeks - CFP open | Venue Locked | Promotion Started         
-6 weeks - Close your CFP  | Announcing Speakers      
-4 weeks - Registration must be opened        
-0 weeks - Event       
+| | |
+| --- | --- |     
+| Right away | Open CFP  |       
+| 8 weeks | CFP open - Venue Locked - Promotion Started  |        
+| 6 weeks | Close your CFP - Announcing Speakers  |     
+| 4 weeks | Registration must be opened    |     
+| 0 weeks | Event  |      
 
 ### Event Layout
 TBA   
