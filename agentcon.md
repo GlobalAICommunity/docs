@@ -13,10 +13,10 @@ Visit the [event website](https://agentcon.dev/) to learn more about the events.
 ### Event format & requirements
 AgentCon has a fixed format, if the requirements don't match with your ambition, no worries there are many other event formats to pickup.    
     
-**Hours:** 15:00-21:00 or 10:00-17:00  
-**Time Frame:** September 2025 / June 2026 
+**Hours:** 15:00-21:00 or 10:00-17:00   
+**Time Frame:** September 2025 / June 2026     
 **Organizer:** The event can only be organized by official Global AI Chapters.    
-**Audience size:** 200   
+**Audience size:** 200    
 **Tracks:** Minimum of 2 tracks, 1 track with sessions, 1 track with hands-on workshops     
 **Keynote:** Keynote by Microsoft, speaker provided    
 **Location:** Non Microsoft building, preferable event venue or partner location.   
@@ -24,15 +24,17 @@ AgentCon has a fixed format, if the requirements don't match with your ambition,
 **Entrance fee:** Event needs to be free of charge for attendees    
 **Public Call for Speakers:** Required to fill some of the slots, use [sessionize](https://sessionize.com/)    
 **Inclusion and Diversity:** Commit to the [diversity pledge](https://globalai.community/about/diversity-pledge/)    
-**Branding:** Required to follow the branding guidelines.
-**Lead time:** 8 weeks before the event.
+**Branding:** Required to follow the branding guidelines.     
+**Lead time:** 8 weeks before the event.    
 
-### You ready to run an AgentCon?
-AgentCons are fixed format events, come with some requirements and benifits and your have to be a registered chapters at the Global AI Community. 
+## You ready to run an AgentCon?
+AgentCons are fixed format events, come with some requirements and benifits and your have to be a registered chapter at the Global AI Community. 
 
-The first step is to fill out the 
-**[Application form](https://gaic.io/host-agentcon/)**
-
+1. The first step is to fill out the **[Application form](https://gaic.io/host-agentcon/)**
+2. Wait for approval
+3. Schedule a meeting with Global AI HQ to go over the event in depth.
+4. Start planning
+5. Keep the discussion with HQ going on Slack 
 
 
 To prepare for the meeting please do the following:     
