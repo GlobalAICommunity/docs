@@ -35,35 +35,43 @@ AgentCons are fixed format events, come with some requirements and benifits and 
 3. Schedule a meeting with Global AI HQ to go over the event in depth.
 4. Start planning
 5. Keep the discussion with HQ going on Slack 
+   
+
+## Event approved?
+Is your AgentCon approved? yeah time to get organized.
+
+### General timeline
+Right away - Open CFP        
+8 weeks - CFP open | Venue Locked | Promotion Started         
+6 weeks - Close your CFP  | Announcing Speakers      
+4 weeks - Registration must be opened        
+0 weeks - Event       
+
+### Event Layout
+TBA   
 
 
-To prepare for the meeting please do the following:     
-- Date in May or June (we will open a later call for organizers for events from August)
-- Location details, size, availability
-- Suggested speakers
-
-## Call for speakers
-Every AgentCon needs to run a public call for speakers on [sessionize](https://sessionize.com/). Sessionize is free of charge for free community organized events.
-
-## Content
-
-### Presentations
-
-### Workshops
-
-## Branding
-
+### Branding
 ::: danger Guidelines
 Branding will be provided and should be aways be used and not be changed.
 :::
 
-### Logo
-![MainLogo](/media/agentcon/agentcon_banner_v3.jpg)
+To create a global event we have created branding for you, if you need anything, let us know! You will find your branding in our public [GitHub](https://github.com/GlobalAICommunity/AgentCon). 
 
-Find your chapter specific agentCon banner and logo's in your Chapters Media Storage in the Umbraco CMS:
-1. Log in to your chapter on https://globalai.community/umbraco
-2. Click on the **Media** tab in the top menu bar
-3. Click on the **Title** to open the image in the media explorer
+#### Logo's
+- ![General logo](/media/agentcon/agentcon_banner_v3.jpg)     
+- [Event Specific](https://github.com/GlobalAICommunity/AgentCon)     
+- [Speaker banner](https://github.com/GlobalAICommunity/AgentCon)
+- [Name  Badges](https://github.com/GlobalAICommunity/AgentCon) 
 
-### Speaker banner Sessionize
-We currently have a speaker banner available for use in Sessionize. We will make these available through Umbraco CMS Media Storage.
+### Call for speakers
+Every AgentCon needs to run a public call for speakers on [sessionize](https://sessionize.com/). Sessionize is free of charge for free community organized events. You can use this tool to communicate with your speakers, build the schedule and it integrates into the event website.
+
+### Content
+
+#### Presentations
+- Azure AI Foundry
+- Copilot Studio
+
+#### Workshops
+- [Build your first agent with Azure AI Agent Service](https://github.com/GlobalAICommunity/global-ai-bootcamp-2025-workshop-ai-agents)
