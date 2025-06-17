@@ -14,6 +14,8 @@ Visit the [event website](https://agentcon.dev/) to learn more about the events.
 
 ### Event format & requirements
 AgentCon has a fixed format, if the requirements don't match with your ambition, no worries there are many other event formats to pickup.    
+
+| | |
 | --- | --- |     
 | **Hours:** | 15:00-21:00 or 10:00-17:00   | 
 | **Time Frame:** | September 2025 / June 2026      |
