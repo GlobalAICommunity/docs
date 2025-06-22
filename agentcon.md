@@ -23,6 +23,7 @@ AgentCon has a fixed format, if the requirements don't match with your ambition,
 | **Audience size:** | 200+     |
 | **Tracks:** | Minimum of 2 tracks, 1 track with sessions, 1 track with hands-on workshops      |
 | **Keynote:** | Keynote by Microsoft, speaker provided     |
+| **Keynote addendum video** | https://www.youtube.com/watch?v=4MUgq_rzjqo |  
 | **Location:** | Non Microsoft building, preferable event venue or partner location.    |
 | **Registration:** | Handled by Global AI Community website     |
 | **Entrance fee:** | Event needs to be free of charge for attendees     |
