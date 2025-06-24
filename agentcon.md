@@ -8,8 +8,9 @@
 Want to be an organizer? Please read the requirements below carefully and fill-out an application.
 
 ## AgentCon Call for organizers
-At the moment we are looking for Chapter Leads to help us organize 100 AgentCons around the world in the months of September 2026 and June 2026.
-
+At the moment we are looking for Chapter Leads to help us organize 100 AgentCons around the world for the upcoming seasons:
+ * Season 2: September 2025 
+ * Season 3: June 2026
 Visit the [event website](https://agentcon.dev/) to learn more about the events.
 
 ### Event format & requirements
@@ -18,7 +19,7 @@ AgentCon has a fixed format, if the requirements don't match with your ambition,
 | | |
 | --- | --- |     
 | **Hours:** | 15:00-21:00 or 10:00-17:00   | 
-| **Time Frame:** | September 2025 / June 2026      |
+| **Time Frame:** | September 2025 (Season 2) / June 2026 (Season 3)      |
 | **Organizer:** | The event can only be organized by official Global AI Chapters.     |
 | **Audience size:** | 200+     |
 | **Tracks:** | Minimum of 2 tracks, 1 track with sessions, 1 track with hands-on workshops      |
