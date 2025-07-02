@@ -9,7 +9,7 @@ Want to be an organizer? Please read the requirements below carefully and fill-o
 
 ## AgentCon Call for organizers
 At the moment we are looking for Chapter Leads to help us organize 100 AgentCons around the world for the upcoming seasons:
- * Season 2: September 2025 
+ * Season 2: September - December 2025 
  * Season 3: June 2026
 Visit the [event website](https://agentcon.dev/) to learn more about the events.
 
