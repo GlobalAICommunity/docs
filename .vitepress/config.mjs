@@ -20,7 +20,12 @@ export default defineConfig({
       {
         text: 'Benefits',
         items: [
-          { text: 'Azure Subscriptions', link: '/azure' },
+          { text: 'Azure Subscriptions', 
+            items: [
+              { text: 'For organizers', link:  '/azure'},
+              { text: 'For attendees', link: '/azure-client' },
+            ] 
+          },
           { text: 'Slack', link: '/slack' },
           { text: 'MeetUp', link: '/meetup' },
           { text: 'Digital Badges', link: '/badges' }
