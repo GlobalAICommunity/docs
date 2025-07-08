@@ -10,7 +10,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/new-chapter' }
     ],
-
     sidebar: [
       {
         text: 'General',
@@ -28,6 +27,12 @@ export default defineConfig({
         ]
       },
       {
+        text:'Platform',
+        items: [
+          { text: 'Event Management',link: '/platform-event-management'}
+        ]
+      },
+      {
         text: 'Events',
         items: [
           { text: 'Global AI Agent Night', link:  '/agent-night'},
@@ -36,7 +41,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GlobalAICommunity/docs' }
     ]
