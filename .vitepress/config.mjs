@@ -24,15 +24,15 @@ export default defineConfig({
           { text: 'Azure Subscriptions', link: '/azure' },
           { text: 'Slack', link: '/slack' },
           { text: 'MeetUp', link: '/meetup' },
-          { text: 'Digital Badges', link: '/badges' },
-          { text: 'Streamyard', link: '/streamyard' }
+          { text: 'Digital Badges', link: '/badges' }
         ]
       },
       {
         text: 'Events',
         items: [
-          { text: 'Global AI Bootcamp 2025', link: '/global-ai-bootcamp-2025' },
-          { text: 'AgentCon 2025', link: '/agentcon' }
+          { text: 'Global AI Agent Night', link:  '/agent-night'},
+          { text: 'AgentCon', link: '/agentcon' },
+          { text: 'Global AI Bootcamp 2026', link: '/global-ai-bootcamp-2026' },          
         ]
       }
     ],
