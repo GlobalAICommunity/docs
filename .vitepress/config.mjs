@@ -38,6 +38,13 @@ export default defineConfig({
         ]
       },
       {
+        text:'Content',
+        items: [
+          { text: 'Workshops',link: '/workshops'},
+          { text: 'Presentations',link: '/presentations'}
+        ]
+      },      
+      {
         text: 'Events',
         items: [
           { text: 'Organizer 101',link:'/organize-events'},
