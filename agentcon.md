@@ -9,7 +9,7 @@ Want to be an organizer? Please read the requirements below carefully and fill-o
 
 ## AgentCon Call for organizers
 At the moment we are looking for Global AI Chapter Leads to help us organize 100 AgentCons around the world for the upcoming seasons:
- * Wave 2: September 2026 - December 2025 **Current planning**
+ * Wave 2: September 2025 - December 2025 **Current planning**
  * Wave 3: January 2026 - June 2026
 Visit the [event website](https://agentcon.dev/) to learn more about the events.
 
