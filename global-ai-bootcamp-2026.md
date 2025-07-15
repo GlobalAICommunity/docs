@@ -3,9 +3,10 @@
 **Welcome chapter lead to the [Global AI Bootcamp 2026](https://globalai.community/bootcamp), 
 on this page you find everything you need to setup your bootcamp in your Chapter Space.**
 
-!!! Note 
-    We are in the early stages of planning the Global AI Bootcamp 2026, so not everything is ready.
-    
+::: warning Note 
+We are in the early stages of planning the Global AI Bootcamp 2026, so not everything is ready.
+::: 
+
 ### Key things to know!
 - **Time frame:** 15 February - 15 April 2026.  
 - **Content:** Bring your own. Pre made content is available on December 1ste 2025.
@@ -75,8 +76,6 @@ You can expect:
 - 1x Keynote (15 minute)
 
 
-
 ## 4. Connect with us
 - Connect with us on Slack
 - Or send an email to: [hq@globalai.community](mailto:hq@globalai.community)
-

@@ -50,8 +50,10 @@ export default defineConfig({
           { text: 'Organizer 101',link:'/organize-events'},
           {
             text: 'Event formats',
+            link: '/events',
             items: [
-              { text: 'Global AI Agent Night', link:  '/agent-night'},
+              { text: 'Global Agentic Nights', link:  '/agentic-nights'},
+              { text: 'AI Community Day', link:  '/ai-community-day'},
               { text: 'AgentCon', link: '/agentcon' },
               { text: 'Global AI Bootcamp 2026', link: '/global-ai-bootcamp-2026' },
             ]
