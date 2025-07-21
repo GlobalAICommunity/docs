@@ -19,7 +19,7 @@ AgentCon has a fixed format, if the requirements don't match with your ambition,
 | | |
 | --- | --- |     
 | **Hours:** | 15:00-21:00 or 10:00-17:00   | 
-| **Time Frame:** | September-December 2025 (Season 2) / January-June 2026 (Season 3)      |
+| **Time Frame:** | September-December 2025 (Wave 2) / January-June 2026 (Wave 3)      |
 | **Organizer:** | The event can only be organized by official [Global AI Chapters](https://globalai.community/chapters).     |
 | **Audience size:** | A minimum of 200 attendees |
 | **Tracks:** | Minimum of 2 tracks, 1 track with sessions, 1 track with hands-on workshops      |
