@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Documentation for Chapters",
   themeConfig: {
     logo: 'https://globalai.community/images/favicon.ico',
+    externalLinkIcon: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/new-chapter' }
@@ -62,7 +63,27 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GlobalAICommunity/docs' }
-    ]
+      { icon: 'github', link: 'https://github.com/GlobalAICommunity/docs' },
+      { icon: 'x', link: 'https://x.com/GlobAICommunity' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/global-ai-community' }
+    ],
+    editLink: {
+      pattern: 'https://github.com/GlobalAICommunity/docs/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2025-present Global AI Community'
+    },
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+    search: {
+      provider: 'local'
+    }
   }
 })

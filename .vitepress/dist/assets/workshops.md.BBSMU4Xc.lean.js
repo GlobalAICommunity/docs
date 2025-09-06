@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as r,ag as a}from"./chunks/framework.DPDPlp3K.js";const u=JSON.parse('{"title":"Workshops","description":"","frontmatter":{},"headers":[],"relativePath":"workshops.md","filePath":"workshops.md"}'),s={name:"workshops.md"};function n(i,e,l,p,g,h){return r(),o("div",null,e[0]||(e[0]=[a("",19)]))}const b=t(s,[["render",n]]);export{u as __pageData,b as default};

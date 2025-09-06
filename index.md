@@ -6,6 +6,11 @@ hero:
   name: "Global AI Community"
   text: ""
   tagline: Documentation for Chapters
+  image:
+    src: https://github.com/GlobalAICommunity/docs/blob/main/media/icon.png?raw=true
+    width: 225
+    height: 225
+    alt: Global AI Community Logo
   actions:
     - theme: brand
       text: New Chapters
@@ -21,13 +26,16 @@ hero:
       link: /agentcon   
 
 features:
-  - title: Learn how to start a new chapter?
+  - icon: ✨
+    title: Learn how to start a new chapter?
     details: Get your chapter launched as quickly and painlessly as possible. 
     link: /new-chapter
-  - title: Chapter Benefits
+  - icon: 💎
+    title: Chapter Benefits
     details: Learn how to claim and use the benefits for your chapter.
     link: /azure
-  - title: Event Guide
+  - icon: 📚
+    title: Event Guide
     details: Participate in Global events and learn how to organize.
     link: /global-ai-bootcamp-2025
 ---
