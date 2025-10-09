@@ -49,6 +49,7 @@ export default defineConfig({
         text: 'Events',
         items: [
           { text: 'Organizer 101',link:'/organize-events'},
+          { text: 'Event Photography Checklist',link:'/event-photography-checklist'},
           {
             text: 'Event formats',
             link: '/events',
