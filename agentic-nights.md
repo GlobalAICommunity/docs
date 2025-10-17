@@ -26,7 +26,7 @@ To be part of the Global Agentic Nights, you need to be a registered chapter. Yo
 - Click create and select: Global Agentic Nights
 
 ## 2. Plan your event
-The event format is a low-key MeetUp format, target 30-50 people, run a hands-on workshop or give some presentations. We have put together a handy [organizers guide](/organize-events.html).
+The event format is a low-key MeetUp format, target 30-50 people, run a hands-on workshop or give some presentations. We have put together a handy [organizers guide](/organisers-101/).
 
 ### Support available
 - [Azure credits](/azure.md) for workshops.
