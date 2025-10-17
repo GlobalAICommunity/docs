@@ -62,8 +62,7 @@ export default defineConfig({
           { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
           {
             text: 'Event formats',
-            collapsed: true,
-            link: '/events',
+            collapsed: true,            
             items: [
               { text: 'Global Agentic Nights', link:  '/agentic-nights'},
               { text: 'AI Community Day', link:  '/ai-community-day'},
