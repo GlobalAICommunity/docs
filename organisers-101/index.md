@@ -1,4 +1,4 @@
-# Event organization 101
+# Event Organization 101
 
 Bringing people together in real life is one of the best ways to grow and energize your local AI community. In-person events foster stronger connections, encourage collaboration, and help create a sense of belonging. Whether you're sharing knowledge, working on projects, or just hanging out, these events can spark lasting engagement.
 

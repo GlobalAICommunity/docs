@@ -19,11 +19,8 @@ hero:
       text: Chapter Benefits
       link: /azure
     - theme: alt
-      text: Global AI Bootcamp
-      link: /global-ai-bootcamp-2025
-    - theme: alt
       text: AgentCon 2025
-      link: /agentcon   
+      link: /agentcon
 
 features:
   - icon: ✨
@@ -34,9 +31,9 @@ features:
     title: Chapter Benefits
     details: Learn how to claim and use the benefits for your chapter.
     link: /azure
-  - icon: 📚
-    title: Event Guide
-    details: Participate in Global events and learn how to organize.
-    link: /global-ai-bootcamp-2025
+  - icon: 📙
+    title: Organisers 101
+    details: Resources that will help you organise events.
+    link: /organisers-101/index/
 ---
 

@@ -22,6 +22,7 @@ export default defineConfig({
         text: 'Benefits',
         items: [
           { text: 'Azure Subscriptions', 
+            collapsed: true,
             items: [
               { text: 'For organizers', link:  '/azure'},
               { text: 'For attendees', link: '/azure-client' },
@@ -48,15 +49,40 @@ export default defineConfig({
       {
         text: 'Events',
         items: [
-          { text: 'Organizer 101',link:'/organize-events'},
-          { text: 'Event Photography Checklist',link:'/event-photography-checklist'},
+          { text: 'Organizer 101',link:'/organisers-101/',
+            collapsed: true,
+            items:[
+              {text: 'Email Templates',
+                items:[
+                  {text: 'Speaker Communication Template', link:'/organisers-101/speaker-communication-template/'},
+                ]
+              }
+            ]
+          },
+          { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
           {
             text: 'Event formats',
+            collapsed: true,
             link: '/events',
             items: [
               { text: 'Global Agentic Nights', link:  '/agentic-nights'},
               { text: 'AI Community Day', link:  '/ai-community-day'},
-              { text: 'AgentCon', link: '/agentcon' },
+              { text: 'AgentCon', link: '/agentcon/',
+                collapsed: true,
+                items: [
+                  { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
+                  { text: 'Event Overview', link: '/agentcon/event-overview' },
+                  { text: 'Core Requirments', link: '/agentcon/core-requirments' },
+                  { text: 'Application and Approval Process', link: '/agentcon/application-and-approval-process' },
+                  { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
+                  { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
+                  { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
+                  { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
+                  { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
+                  { text: 'Appendices', link: '/agentcon/appendices' },
+                  
+                ]
+              },
               { text: 'Global AI Bootcamp 2026', link: '/global-ai-bootcamp-2026' },
             ]
           }
