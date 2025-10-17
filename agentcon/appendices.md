@@ -16,7 +16,7 @@ outline: deep
 
 ## Templates Provided
 
-- [Email Templates for Organisers](../organisers-101/speaker-communication-template/)
+- [Email Templates for Organisers](/organisers-101/speaker-communication-template.md)
 
 ## Album
 

@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as r,ag as o}from"./chunks/framework.DPDPlp3K.js";const d=JSON.parse('{"title":"Azure Subscriptions","description":"","frontmatter":{},"headers":[],"relativePath":"azure.md","filePath":"azure.md"}'),s={name:"azure.md"};function i(n,e,p,h,u,l){return r(),t("div",null,e[0]||(e[0]=[o("",10)]))}const f=a(s,[["render",i]]);export{d as __pageData,f as default};
