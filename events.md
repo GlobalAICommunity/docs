@@ -8,6 +8,6 @@ The coming 12 months we have 4 global event types you as a chapter can pickup an
 | [Global Agentic Night](/agentic-nights.md) | MeetUp | All year  | 2-3 hours (Evening) | Low |
 | [AI Community Day](/ai-community-day.md) | MeetUp XXL | All year | Half day | Medium |
 | [AgentCon](/agentcon/) | Conference | 1 September - 15 December | Full day | High |
-| [Global AI Bootcamp](/global-ai-bootcamp-2026.md) | MeetUp/Conference | 15 February - 15 April 2026  | 2-8 hours | Medium-High |
+| [Global AI Bootcamp](/agentcamp-2026.md) | MeetUp/Conference | 15 February - 15 April 2026  | 2-8 hours | Medium-High |
 
 Questions, feel free to connect to us on Slack or email.

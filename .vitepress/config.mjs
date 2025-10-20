@@ -47,7 +47,7 @@ export default defineConfig({
         ]
       },      
       {
-        text: 'Events',
+        text: 'Events Resources',
         items: [
           { text: 'Organizer 101',link:'/organisers-101/',
             collapsed: true,
@@ -56,15 +56,14 @@ export default defineConfig({
                 items:[
                   {text: 'Speaker Communication Template', link:'/organisers-101/speaker-communication-template/'},
                 ]
-              }
+              },
+              { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
             ]
-          },
-          { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
+          },         
           {
             text: 'Event formats',
             collapsed: true,            
-            items: [
-              { text: 'Global Agentic Nights', link:  '/agentic-nights'},
+            items: [             
               { text: 'AI Community Day', link:  '/ai-community-day'},
               { text: 'AgentCon', link: '/agentcon/',
                 collapsed: true,
@@ -82,7 +81,7 @@ export default defineConfig({
                   
                 ]
               },
-              { text: 'Global AI Bootcamp 2026', link: '/global-ai-bootcamp-2026' },
+              { text: 'AgentCamp 2026', link: '/agentcamp-2026' },
             ]
           }
         ]
