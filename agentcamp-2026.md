@@ -8,7 +8,7 @@ Welcome, **Chapter Lead**, to **[AgentCamp 2026](https://globalai.community/boot
 
 ## Key Details
 
-- **Event Time Frame:** 15 February – 15 April 2026  
+- **Event Time Frame:** 01 February – 01 May 2026  
 - **Content:** Bring your own!  
   *Pre-made content will be available starting **1 December 2025***  
 - **Opening Video:** Available on **1 January 2026** (15 minutes)  
