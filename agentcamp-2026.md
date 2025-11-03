@@ -15,7 +15,9 @@ Welcome, **Chapter Lead**, to **[AgentCamp 2026](https://globalai.community/boot
 - **Registration Opens:** **1 August 2025**
 
 
-## 1. Registering Your AgentCamp 2026 in the Chapter Space
+## Registering Your AgentCamp 2026
+More details will be available soon.
+<!--## 1. Registering Your AgentCamp 2026 in the Chapter Space
 
 To be part of **AgentCamp 2026**, your community must be a **registered chapter**.  
 You can learn how to become a chapter [here](./new-chapter.html).
@@ -57,9 +59,9 @@ You can learn how to become a chapter [here](./new-chapter.html).
 
 Watch the step-by-step tutorial on how to create your **AgentCamp 2026** event:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A3mFeLzYVz4?si=V67HWnnInfdDcVoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A3mFeLzYVz4?si=V67HWnnInfdDcVoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-## 2. FAQ
+## FAQ
 
 ### What is AgentCamp 2026?
 **AgentCamp 2026** is an annual, community-driven event where AI enthusiasts and developers worldwide gather to explore the latest in artificial intelligence through **workshops**, **sessions**, and **interactive discussions**.  
@@ -82,23 +84,20 @@ If you’d like to contribute your own content, reach out to **[hq@globalai.comm
 ### Is artwork available?
 Absolutely!  
 - Official **Global AI Chapter organizers** can find all artwork in their **Chapter Dashboard**.  
-- Local community organizers can access shared artwork **[here](https://globalai.community/bootcamp)**.
+- Local community organizers can access shared artwork **[here](https://globalai.community/events/agentcamp-2026/)**.
 
 ### Can we charge a fee?
-Yes — but **only to cover costs** (venue, catering, etc.).  
-AgentCamp is a **non-profit initiative** focused on learning and accessibility, so please ensure no profit is made.
+No - AgentCamp 2026 events must be **free to attend**.
 
 ### Does the event need to be in-person?
-Not necessarily.  
-You can host your AgentCamp **virtually**, **hybrid**, or **in-person** —  
-but let’s be honest... in-person events are the best, right? 😄
+Yes! In-person events foster better collaboration and networking opportunities.
 
 ## 3. Content Catalog (Coming December 2025)
 
 You can look forward to:
 
 - **2 Workshops** — 90 minutes each  
-- **4 Presentation Decks** — 45 minutes each  
+- **2 Presentation Decks** — 45 minutes each  
 - **1 Keynote** — 15 minutes  
 
 All materials will be available in your Chapter Space in **December 2025**.
@@ -106,6 +105,6 @@ All materials will be available in your Chapter Space in **December 2025**.
 ## 4. Connect with Us
 
 - Join our **Slack community** for real-time updates and collaboration  
-- Or email us directly: **[hq@globalai.community](mailto:hq@globalai.community)**  
+- Or email us directly: **[hello@globalai.community](mailto:hello@globalai.community)**  
 
 > ✨ **AgentCamp 2026 — Empowering local communities to shape the future of AI.**
