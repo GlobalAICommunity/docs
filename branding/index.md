@@ -82,8 +82,8 @@ Using our typography consistently helps maintain a unified brand experience acro
 
 | Version | Usage |
 |---------|-------|
-| [Lufga Font](../fonts/Lufga.zip) | Lufga |
-| [Montserrat Font](../fonts/Montserrat.zip) | Montserrat |
+| [Lufga Font](/fonts/Lufga.zip) | Lufga |
+| [Montserrat Font](/fonts/Montserrat.zip) | Montserrat |
 
 ---
 
