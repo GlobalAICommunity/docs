@@ -19,6 +19,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Global AI Branding',
+        items: [
+          { text: 'Branding Assets and Design Guidelines', link: '/design-guidlines' },
+        ]
+      },
+      {
         text: 'Benefits',
         items: [
           { text: 'Azure Subscriptions', 

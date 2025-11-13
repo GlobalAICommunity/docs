@@ -35,5 +35,9 @@ features:
     title: Organisers 101
     details: Resources that will help you organise events.
     link: /organisers-101/index/
+  - icon: 🎨
+    title: Branding Assets
+    details: Resources that will help you organise events.
+    link: /design-guidlines/index/
 ---
 
