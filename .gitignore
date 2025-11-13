@@ -6,13 +6,26 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 .pnp.*
-.cache/
+.yarn/
+
+# Build outputs
+site/
 dist/
 build/
 public/
 
-# Static-site / framework caches
+# Dependencies
+node_modules/
+
+# VitePress cache
+.vitepress/cache/
+.vitepress/dist/
+.temp/
+
+# Framework caches
+.cache/
 .next/
 .nuxt/
 .gatsby/
@@ -26,11 +39,14 @@ public/
 *.ntvs*
 *.njsproj
 *.sln
-*.user
+*.swp
+*.swo
+*~
 
 # OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Environment files
 .env
@@ -42,6 +58,7 @@ logs/
 *.log
 coverage/
 *.lcov
+.nyc_output/
 
 # Misc
 .sass-cache/
