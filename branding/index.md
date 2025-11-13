@@ -6,7 +6,7 @@ outline: deep
 
 <br><br>
 
-![Global AI Community Logo](/public/logos/global-AI-community.png)
+![Global AI Community Logo](/logos/global-AI-community.png)
 
 ## Introduction
 
@@ -24,19 +24,20 @@ When using the logo, ensure it is clearly visible, uncluttered, and has adequate
 
 The logo is available in several formats for different applications. Use the full-color version on light backgrounds and the monochrome version when color reproduction is limited or for special applications.
 
-[Download Logos](/public/logos/Global-AI-Community-Logos.zip)
+[Download Logos](/logos/Global-AI-Community-Logos.zip)
 
 ### Logo Variations
 
 | Version | Usage |
 |---------|-------|
-| ![Full color](/public/logos/global-AI-community.png) | [Full color version](/public/logos/global-AI-community.png)  |
-| ![White version](/public/logos/global-AI-community-white.png) | [White version for dark backgrounds](/public/logos/global-AI-community-white.png)  |
-| ![Semi-transparent](/public/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/public/logos/global-AI-community-semi-white.png) |
+| ![Full color](/logos/global-AI-community.png) | [Full color version](/logos/global-AI-community.png)  |
+| ![White version](/logos/global-AI-community-white.png) | [White version for dark backgrounds](/logos/global-AI-community-white.png)  |
+| ![Semi-transparent](/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/logos/global-AI-community-semi-white.png) |
 
 ### Do's and Don'ts: Logo Usage
 
-![dos and dont logo](/public/logos/dos-and-dont-logo.png)
+![dos and dont logo](/logos/dos-and-dont-logo.png)
+
 ## Mark
 
 The Global AI mark is a standalone symbol that represents our community's identity. This iconic element can be used independently in situations where space is limited or as a brand recognition element across various touchpoints.
@@ -45,16 +46,16 @@ The mark embodies the essence of connectivity, global reach, and the transformat
 
 When using the mark, ensure it maintains its visual integrity. The mark is available in full color and monochrome variations. Use the appropriate version based on the application and background to ensure maximum visibility and impact.
 
-[Download Mark](/public/logos/Global-AI-Community-Mark.zip)
+[Download Mark](/logos/Global-AI-Community-Mark.zip)
 
 ### Mark Display
 
 | Version | Usage |
 |---------|-------|
-| [Full color mark](/public/logos/global-AI-mark-full-color.png) | Full color mark |
-| [White mark](/public/logos/global-AI-mark-white.png) | White mark for dark backgrounds | 
+| [Full color mark](/logos/global-AI-mark-full-color.png) | Full color mark |
+| [White mark](/logos/global-AI-mark-white.png) | White mark for dark backgrounds | 
 
-![mark usage](/public/logos/mark-usage.png)
+![mark usage](/logos/mark-usage.png)
 
 ::: info
 ### Usage Guidelines
@@ -67,7 +68,7 @@ When using the mark, ensure it maintains its visual integrity. The mark is avail
 
 ### Do's and Don'ts: Mark
 
-![dos and dont logo](/public/logos/dos-and-dont-mark.png)
+![dos and dont logo](/logos/dos-and-dont-mark.png)
 
 
 ## Typography
@@ -111,19 +112,19 @@ Always use colors from this palette to maintain brand consistency. Test color co
 
 | Brand Orange | Brand Blue | Navy | White |
 |-------|-----|-------|-------|
-| ![D2563C](/public/logos/D2563C.png) #D2563C | ![94AEBB](/public/logos/94AEBB.png) #94AEBB | ![2B3A4D](/public/logos/2B3A4D.png) #2B3A4D | ![FFFFFF](/public/logos/FFFFFF.png) #FFFFFF |
+| ![D2563C](/logos/D2563C.png) #D2563C | ![94AEBB](/logos/94AEBB.png) #94AEBB | ![2B3A4D](/logos/2B3A4D.png) #2B3A4D | ![FFFFFF](/logos/FFFFFF.png) #FFFFFF |
 
 ### Accent Colors
 
 | Accent Blue | Success Green | Warning Amber | Error Red |
 |-------|-----|---------|---------|
-| ![2563EB](/public/logos/2563EB.png) #2563EB | ![059669](/public/logos/059669.png) #059669 | ![F59E0B](/public/logos/F59E0B.png) #F59E0B | ![DC2626](/public/logos/DC2626.png) #DC2626 |
+| ![2563EB](/logos/2563EB.png) #2563EB | ![059669](/logos/059669.png) #059669 | ![F59E0B](/logos/F59E0B.png) #F59E0B | ![DC2626](/logos/DC2626.png) #DC2626 |
 
 ### Gray Scale
 
 | 50 | 100 | 200 | 400 | 600 | 900 |  
 |-------|-------|------|-------|-------|-------|
-| ![2563EB](/public/logos/F9FAFB.png) #F9FAFB | ![94AEBB](/public/logos/F3F4F6.png) #F3F4F6 | ![2B3A4D](/public/logos/E5E7EB.png) #E5E7EB | ![059669](/public/logos/9CA3AF.png) #9CA3AF | ![F59E0B](/public/logos/4B5563.png) #4B5563 | ![DC2626](/public/logos/111827.png) #111827 |
+| ![2563EB](/logos/F9FAFB.png) #F9FAFB | ![94AEBB](/logos/F3F4F6.png) #F3F4F6 | ![2B3A4D](/logos/E5E7EB.png) #E5E7EB | ![059669](/logos/9CA3AF.png) #9CA3AF | ![F59E0B](/logos/4B5563.png) #4B5563 | ![DC2626](/logos/111827.png) #111827 |
 | Very light backgrounds | Light backgrounds | Borders and dividers | Disabled states | Secondary text | Primary text and headings |
 
 ::: info
