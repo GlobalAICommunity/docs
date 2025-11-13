@@ -24,15 +24,15 @@ When using the logo, ensure it is clearly visible, uncluttered, and has adequate
 
 The logo is available in several formats for different applications. Use the full-color version on light backgrounds and the monochrome version when color reproduction is limited or for special applications.
 
-[Download Logos](/media/logos/Global-AI-Community-Logos.zip)
+[Download Logos](/logos/Global-AI-Community-Logos.zip)
 
 ### Logo Variations
 
 | Version | Usage |
 |---------|-------|
-| ![Full color](/media/logos/global-AI-community.png) | [Full color version](/media/logos/global-AI-community.png)  |
-| ![White version](/media/logos/global-AI-community-white.png) | [White version for dark backgrounds](/media/logos/global-AI-community-white.png)  |
-| ![Semi-transparent](/media/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/media/logos/global-AI-community-semi-white.png) |
+| ![Full color](/media/logos/global-AI-community.png) | [Full color version](/logos/global-AI-community.png)  |
+| ![White version](/media/logos/global-AI-community-white.png) | [White version for dark backgrounds](/logos/global-AI-community-white.png)  |
+| ![Semi-transparent](/media/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/logos/global-AI-community-semi-white.png) |
 
 ### Do's and Don'ts: Logo Usage
 
@@ -45,14 +45,14 @@ The mark embodies the essence of connectivity, global reach, and the transformat
 
 When using the mark, ensure it maintains its visual integrity. The mark is available in full color and monochrome variations. Use the appropriate version based on the application and background to ensure maximum visibility and impact.
 
-[Download Mark](/media/logos/Global-AI-Community-Mark.zip)
+[Download Mark](/logos/Global-AI-Community-Mark.zip)
 
 ### Mark Display
 
 | Version | Usage |
 |---------|-------|
-| [Full color mark](/media/logos/global-AI-mark-full-color.png) | Full color mark |
-| [White mark](/media/logos/global-AI-mark-white.png) | White mark for dark backgrounds | 
+| [Full color mark](/logos/global-AI-mark-full-color.png) | Full color mark |
+| [White mark](/logos/global-AI-mark-white.png) | White mark for dark backgrounds | 
 
 ![mark usage](/media/logos/mark-usage.png)
 
