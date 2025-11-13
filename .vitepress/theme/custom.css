@@ -1,4 +1,26 @@
 /* .vitepress/theme/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Lufga:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply to all elements 
+* {
+  font-family: 'Lufga', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}*/
+/*
+body {
+  font-family: 'Lufga', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}*/
+
+ Ensure headings use Lufga 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lufga', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+_img { 
+  max-width: 150px; 
+  border: solid 1px black;
+  display: block;
+}
+
 :root {
     --vp-c-brand-1: #d5522b;;
     --vp-c-brand-2: #d5522b;

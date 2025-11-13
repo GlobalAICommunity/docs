@@ -1,9 +1,12 @@
 ---
 outline: deep
 ---
+
 # Branding Assets and Design Guidelines
 
-<!-- ![Global AI Community Logo](/global-AI-community.png) -->
+<br><br>
+
+![Global AI Community Logo](/logos/global-AI-community.png)
 
 ## Introduction
 
@@ -21,42 +24,20 @@ When using the logo, ensure it is clearly visible, uncluttered, and has adequate
 
 The logo is available in several formats for different applications. Use the full-color version on light backgrounds and the monochrome version when color reproduction is limited or for special applications.
 
-### Logo Display
-
-<!-- ![Global AI Community Logo](/global-AI-community.png) -->
-
-*Full-color primary logo on light background*
+[Download Logos](/logos/Global-AI-Community-Logos.zip)
 
 ### Logo Variations
-<!--
+
 | Version | Usage |
 |---------|-------|
-| ![Full color](/global-AI-community.png) | Full color version |
-| ![White version](/global-AI-community-white.png) | White version for dark backgrounds |
-| ![Semi-transparent](/global-AI-community-semi-white.png) | Semi-transparent version |
-| ![Colored background](/global-AI-community-white.png) | Logo on brand color | -->
+| ![Full color](/logos/global-AI-community.png) | [Full color version](/logos/global-AI-community.png)  |
+| ![White version](/logos/global-AI-community-white.png) | [White version for dark backgrounds](/logos/global-AI-community-white.png)  |
+| ![Semi-transparent](/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/logos/global-AI-community-semi-white.png) |
 
 ### Do's and Don'ts: Logo Usage
 
-**DO:** Use the logo at appropriate sizes with proper spacing
-- Maintain clear proportions and spacing around the logo
+![dos and dont logo](/logos/dos-and-dont-logo.png)
 
-**DON'T:** Stretch or distort the logo proportions
-- Never horizontally or vertically stretch the logo
-
-**DO:** Maintain proper contrast and visibility
-- Ensure the logo is clearly visible against its background
-
-**DON'T:** Use low contrast or poor visibility combinations
-- Avoid using the logo on backgrounds where it cannot be clearly seen
-
-**DO:** Use approved color variations
-- Only use the logo in the provided color versions
-
-**DON'T:** Apply unauthorized color filters or effects
-- Never alter colors, apply hue rotations, or other effects
-
----
 
 ## Mark
 
@@ -66,56 +47,61 @@ The mark embodies the essence of connectivity, global reach, and the transformat
 
 When using the mark, ensure it maintains its visual integrity. The mark is available in full color and monochrome variations. Use the appropriate version based on the application and background to ensure maximum visibility and impact.
 
+[Download Mark](/logos/Global-AI-Community-Mark.zip)
+
 ### Mark Display
-<!--
 
 | Version | Usage |
 |---------|-------|
-| ![Full color mark](/global-AI-mark-3k.jpg) | Full color mark |
-| ![White mark](/global-AI-mark-white.png) | White mark for dark backgrounds | -->
+| [Full color mark](/logos/global-AI-mark-full-color.png) | Full color mark |
+| [White mark](/logos/global-AI-mark-white.png) | White mark for dark backgrounds | 
 
+![mark usage](/logos/mark-usage.png)
+
+::: info
 ### Usage Guidelines
 
 - Maintain clear space around the mark equal to at least half its height
 - Minimum size: 24px for digital, 0.5 inches for print
 - Never alter the colors, proportions, or design elements
 - Use on backgrounds that provide sufficient contrast
+:::
 
 ### Do's and Don'ts: Mark
 
-**DO:** Use the mark at appropriate sizes
-- Maintain consistent sizing for brand recognition
+![dos and dont logo](/logos/dos-and-dont-mark.png)
 
-**DON'T:** Rotate or tilt the mark
-- Always use the mark in its original orientation
-
-**DO:** Ensure proper contrast and visibility
-- The mark should be clearly visible on any background
-
-**DON'T:** Crop or distort the mark
-- Never alter the proportions or cut parts of the mark
-
----
 
 ## Typography
 
-Typography plays a crucial role in maintaining our brand's visual identity and ensuring clear communication. Our official typeface is **Lufga**, a modern, geometric sans-serif font that reflects our commitment to clarity, accessibility, and contemporary design principles.
+Typography plays a key role in shaping our brand identity and ensuring clear, accessible communication. Our primary display typeface is **Lufga**, a modern geometric sans-serif that brings clarity, friendliness and a contemporary visual style to all Global AI materials.
 
-Lufga provides excellent readability across all sizes and supports a wide range of weights, giving designers flexibility while maintaining brand consistency. The clean, friendly appearance of Lufga aligns perfectly with our mission to make AI accessible and understandable to a global community.
+Lufga offers excellent legibility at large sizes and a strong, confident character that aligns with our mission to make AI approachable for everyone.
 
-Consistent use of typography across all materials helps create a cohesive brand experience. Pay attention to hierarchy, spacing, and sizing to ensure readability and visual harmony. The type specifications outlined here should be followed for both digital and print applications.
+For body content, we use **Montserrat**, a clean, versatile sans-serif optimized for readability across digital and print formats. This pairing creates a balanced, cohesive typographic system that feels modern, global and consistent.
+
+Using our typography consistently helps maintain a unified brand experience across all touchpoints. Pay attention to hierarchy, spacing and sizing to keep content easy to read and visually well-structured.
+
+| Version | Usage |
+|---------|-------|
+| [Lufga Font](/fonts/Lufga.zip) | Lufga |
+| [Montserrat Font](/fonts/Montserrat.zip) | Montserrat |
+
+---
 
 ### Typography Specifications
 
-| Element | Font | Size | Weight | Line Height |
-|---------|------|------|--------|-------------|
-| Heading 1 | Lufga | 60px | 300 (Light) | — |
-| Heading 2 | Lufga | 48px | 300 (Light) | — |
-| Heading 3 | Lufga | 30px | 300 (Light) | — |
-| Body Text | Lufga | 16px | 400 (Regular) | 1.6 |
-| Small Text | Lufga | 14px | 400 (Regular) | — |
+| Element      | Font        | Size | Weight            | Line Height |
+|--------------|-------------|------|--------------------|-------------|
+| Heading 1    | Lufga       | 60px | 800 (Extra Bold)   | 1.2         |
+| Heading 2    | Lufga       | 48px | 700 (Bold)         | 1.2         |
+| Heading 3    | Lufga       | 30px | 600 (Semi Bold)    | 1.3         |
+| Body Text    | Montserrat  | 16px | 400 (Regular)      | 1.6         |
+| Small Text   | Montserrat  | 14px | 400 (Regular)      | 1.5         |
 
----
+
+> [!NOTE] 
+>Use this guide for both digital and print designs to ensure consistency across the Global AI Community brand.
 
 ## Colors
 
@@ -125,33 +111,24 @@ Always use colors from this palette to maintain brand consistency. Test color co
 
 ### Primary Colors
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Brand Orange | #D2563C | Primary brand color |
-| Brand Blue | #94AEBB | Secondary brand color |
-| Navy | #2B3A4D | Dark backgrounds and text |
-| White | #FFFFFF | Light backgrounds |
+| Brand Orange | Brand Blue | Navy | White |
+|-------|-----|-------|-------|
+| ![D2563C](/logos/D2563C.png) #D2563C | ![94AEBB](/logos/94AEBB.png) #94AEBB | ![2B3A4D](/logos/2B3A4D.png) #2B3A4D | ![FFFFFF](/logos/FFFFFF.png) #FFFFFF |
 
 ### Accent Colors
 
-| Color | Hex | Purpose |
-|-------|-----|---------|
-| Accent Blue | #2563EB | Links and interactive elements |
-| Success Green | #059669 | Success messages and positive states |
-| Warning Amber | #F59E0B | Warning messages and caution states |
-| Error Red | #DC2626 | Error messages and negative states |
+| Accent Blue | Success Green | Warning Amber | Error Red |
+|-------|-----|---------|---------|
+| ![2563EB](/logos/2563EB.png) #2563EB | ![059669](/logos/059669.png) #059669 | ![F59E0B](/logos/F59E0B.png) #F59E0B | ![DC2626](/logos/DC2626.png) #DC2626 |
 
 ### Gray Scale
 
-| Shade | Hex | Usage |
-|-------|-----|-------|
-| 50 | #F9FAFB | Very light backgrounds |
-| 100 | #F3F4F6 | Light backgrounds |
-| 200 | #E5E7EB | Borders and dividers |
-| 400 | #9CA3AF | Disabled states |
-| 600 | #4B5563 | Secondary text |
-| 900 | #111827 | Primary text and headings |
+| 50 | 100 | 200 | 400 | 600 | 900 |  
+|-------|-------|------|-------|-------|-------|
+| ![2563EB](/logos/F9FAFB.png) #F9FAFB | ![94AEBB](/logos/F3F4F6.png) #F3F4F6 | ![2B3A4D](/logos/E5E7EB.png) #E5E7EB | ![059669](/logos/9CA3AF.png) #9CA3AF | ![F59E0B](/logos/4B5563.png) #4B5563 | ![DC2626](/logos/111827.png) #111827 |
+| Very light backgrounds | Light backgrounds | Borders and dividers | Disabled states | Secondary text | Primary text and headings |
 
+::: info
 ### Color Usage Guidelines
 
 - Use Primary Black for headlines and body text on light backgrounds
@@ -159,8 +136,8 @@ Always use colors from this palette to maintain brand consistency. Test color co
 - Use accent colors sparingly to highlight important actions and information
 - Apply semantic colors (success, warning, error) consistently across all interfaces
 - Use the gray scale for subtle backgrounds, borders, and secondary information
+:::
 
----
 
 ## Questions & Support
 

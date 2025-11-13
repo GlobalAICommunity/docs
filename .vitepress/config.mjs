@@ -4,8 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Global AI Community",
   description: "Documentation for Chapters",
+  markdown: {
+    image: {
+     
+      lazyLoading: true
+    }
+  },
   themeConfig: {
     logo: 'https://globalai.community/images/favicon.ico',
+    i18nRouting: true,
     externalLinkIcon: true,
     nav: [
       { text: 'Home', link: '/' },
@@ -21,7 +28,7 @@ export default defineConfig({
       {
         text: 'Global AI Branding',
         items: [
-          { text: 'Branding Assets and Design Guidelines', link: '/design-guidlines' },
+          { text: 'Branding Assets and Design Guidelines', link: '/branding' },
         ]
       },
       {
