@@ -5,31 +5,46 @@
 ## How to use this benefit:
 
 "Login credentials"  
-    |||  
-    | ----- | ---- |  
-    | Site  | [www.streamyard.com](https://www.streamyard.com) |  
-    | Login | stream@globalai.community |
-    | PIN   | Follow the instructions [below](#how-to-get-access-to-the-streamyard-pin-channel) |
+
+|Site|Login|PIN|
+| ----- | ---- | ---- |
+| [streamyard.com](https://www.streamyard.com) | stream@globalai.community | Follow the instructions [below](#how-to-get-access-to-the-streamyard-pin-channel) |
+    
 
 ## How to get access to the StreamYard-pin channel
 
 1. Get invited to the *#streamyard-pin* channel in the [Global AI community Slack workspace](slack.md).  
-You can request access by sending a message in Slack to the **@hq** user group.
-2. **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard.
+You can request access by sending email to **support@globalai.community** using your Global AI chapter email address only.
+2. **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard. 
+
+![streamyard channel in list](/media/streamyard/streamyard-channel-in-list.png)
 
 ## Logging in to StreamYard
-!!! Note
-    Make sure you have access to the *#streamyard-pin* channel  
+> [!IMPORTANT]
+> Make sure you have access to the *#streamyard-pin* channel. Request access by sending email to _support@globalai.community_ using your Global AI chapter email address only.
 
-1. Go to [www.streamyard.com](https://www.streamyard.com)
-2. Click *Log in* in the top menu
-3. Enter *stream@globalai.community* as the e-mail address
-4. Click the *Log in* buton
-5. Navigate to the *#streamyard-pin* channel in Slack
-6. Wait until your PIN pops up in the channel messages.  
-The message will have the following format: *Hi your pin for streamyard is: XXXXXX*
-7. Enter the PIN in the StreamYard login challenge and click on the *Log in* button
-8. Congratulations! 🎉 You are now logged in to StreamYard
+**Step 1:** Join the StreamYard Pin channel in Slack. 
+
+![streamyard slack channel](/media/streamyard/streamyard-pin-channel.png)
+
+**Step 2:** Go to [streamyard.com](https://www.streamyard.com) and log in using the **stream@globalai.community** email address.
+
+**Step 3:** Click the Log in button.
+
+**Step 4:** In Slack, open the _#streamyard-pin_ channel.
+
+**Step 5:** Wait for your PIN to appear in the channel. It will look like this:
+Hi your pin for streamyard is: XXXXXX
+
+![streamyard sample pin](/media/streamyard/streamyard-sample-pin.png)
+
+**Step 6:** Enter this PIN in the StreamYard login prompt and click Log in.
+
+**Step 7:** Once you are signed in, return to the _#streamyard-pin_ channel in Slack and react to the pin message with a _white check mark_. 
+
+![white check mark](/media/streamyard/white-check-mark.png)
+
+**Step 8:** Congratulations! 🎉 You are now logged in to StreamYard
 
 ## Using StreamYard
 

@@ -43,6 +43,7 @@ export default defineConfig({
           },
           { text: 'Slack', link: '/slack' },
           { text: 'MeetUp', link: '/meetup' },
+          { text: 'StreamYard', link: '/streamyard' },
           { text: 'Digital Badges', link: '/badges' }
         ]
       },
