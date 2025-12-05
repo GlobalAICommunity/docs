@@ -48,12 +48,6 @@ export default defineConfig({
         ]
       },
       {
-        text:'Platform',
-        items: [
-          { text: 'Event Management',link: '/platform-event-management'}
-        ]
-      },
-      {
         text:'Content',
         items: [
           { text: 'Workshops',link: '/workshops'},
@@ -73,31 +67,39 @@ export default defineConfig({
               },
               { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
             ]
-          },         
-          {
-            text: 'Event formats',
-            collapsed: true,            
-            items: [             
-              { text: 'AI Community Day', link:  '/ai-community-day'},
-              { text: 'AgentCon', link: '/agentcon/',
-                collapsed: true,
-                items: [
-                  { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
-                  { text: 'Event Overview', link: '/agentcon/event-overview' },
-                  { text: 'Core Requirments', link: '/agentcon/core-requirments' },
-                  { text: 'Application and Approval Process', link: '/agentcon/application-and-approval-process' },
-                  { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
-                  { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
-                  { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
-                  { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
-                  { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
-                  { text: 'Appendices', link: '/agentcon/appendices' },
-                  
-                ]
-              },
-              { text: 'AgentCamp 2026', link: '/agentcamp-2026' },
-            ]
           }
+        ]
+      },         
+      {
+        text: 'Event formats',
+        collapsed: false,            
+        items: [             
+          { text: 'AI Community Day', link:  '/ai-community-day'},
+          { text: 'AgentCon', link: '/agentcon/',
+            collapsed: true,
+            items: [
+              { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
+              { text: 'Event Overview', link: '/agentcon/event-overview' },
+              { text: 'Core Requirments', link: '/agentcon/core-requirments' },
+              { text: 'Application and Approval Process', link: '/agentcon/application-and-approval-process' },
+              { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
+              { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
+              { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
+              { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
+              { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
+              { text: 'Appendices', link: '/agentcon/appendices' },
+            ]
+          },
+          { text: 'AgentCamp 2026', link: '/agentcamp/',
+            collapsed: true,
+            items: [
+              { text: 'Register', link: '/agentcamp/register' },
+              { text: 'Branding', link: '/agentcamp/branding' },
+              { text: 'Content', link: '/agentcamp/content' },
+              { text: 'Benefits', link: '/agentcamp/benefits' },
+              { text: 'FAQ', link: '/agentcamp/faq' },
+            ]
+          },
         ]
       }
     ],

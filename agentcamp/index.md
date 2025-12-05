@@ -2,31 +2,28 @@
 outline: deep
 ---
 
-# AgentCamp 2026  
-*(Previously known as Global AI Bootcamp)*  
+# AgentCamp 2026
+### The Global AI Bootcamp
 
-Welcome, to **[AgentCamp 2026](https://globalai.community/events/agentcamp-2026/)** — the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  
-
-> ⚠️ **Note:**  
-> We are in the early stages of planning **AgentCon 2026**, so not everything is ready yet.
+Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** — the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  
 
 ## Key Details
 
-- **Event Time Frame:** 01 February – 01 May 2026  
-- **Content:** Bring your own!  
-  *Pre-made content will be available starting **1 December 2025***  
+- **Event Time Frame:** 01 February – 1 June 2026  
+- **Content:** Bring your own or use our pre-made content
 - **Opening Video:** Available on **1 January 2026** (15 minutes)  
-- **Registration Opens:** **1 August 2025**
+- **Registration Opens:** **1 December 2025**
 
-## Organise AgentCamp in 5 Easy Steps
+## Organise AgentCamp in 6 steps
 
 Organizing an **AgentCamp** event is simple, fun, and designed to empower community builders.
 
-Step 1. **Pick a suitable venue** and confirm speakers or facilitators.  
-Step 2. **Apply** to organize AgentCamp using our [official form](#).  
-Step 3. **Spread the word** across your community and social channels. [Graphics templates available!](#)  
-Step 4. **Host the event** and bring people together for a memorable experience.  
-Step 5. **Share a recap blog** or post-event update with any call-to-action you want.  
+1. **Find a venue and select a date**
+2. **Register your event on the Global AI Community**
+3. **Create your program**
+4. **Spread the word**
+5. **Host the event** 
+6. **Fill out the feedback form**
 
 ---
 
@@ -118,41 +115,7 @@ All materials will be available in your Discord Channel in **December 2025**.
 - Or email us directly: **[hello@globalai.community](mailto:hello@globalai.community)**  
 
 
-## FAQ
-
-::: details Who can organise an AgentCamp event?
-Anyone who is passionate about AI and wants to share their knowledge can organise an AgentCamp event! 
-:::
-
-::: details How do we apply to organise an event?
-Simply fill out the **[AgentCamp 2026 Organiser Application Form](https://forms.gle/YourFormLinkHere)** to get started.
-:::
-
-
-::: details When can we host our event?
-Between **1 February and 1 May 2026**.
-:::
-
-::: details What should the agenda look like?
-That’s completely **up to you!**  We only ask that you include our **pre-recorded keynote**.  
-Otherwise, feel free to shape your agenda based on your local community — whether that means workshops, talks, or networking sessions.
-:::
- 
-::: details Will content be provided?  
-We’re curating **reusable workshops and slide decks** for you to adapt at your event.  
-:::
-
-::: details Is artwork available?
-Absolutely! As an organiser you will get access to all artwork that you can use to promote the event. Please do not make any changes to the official branding.
-:::
-
-::: details Can we charge a fee?
-**NO** - AgentCamp 2026 events must be **free to attend**.
-:::
-
-::: details Does the event need to be in-person?
-Yes! In-person events foster better collaboration and networking opportunities.
-:::
+#
 
 
 > ✨ **AgentCamp 2026 — Empowering local communities to shape the future of AI.**
