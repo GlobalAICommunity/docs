@@ -62,3 +62,4 @@ coverage/
 
 # Misc
 .sass-cache/
+.vitepress/dist/

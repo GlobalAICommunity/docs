@@ -5,7 +5,7 @@ Anyone who is passionate about AI and wants to share their knowledge can organis
 :::
 
 ::: details How do we apply to organise an event?
-Read more on how to  **[get started here](/agentcamp/register.md)**.
+Read more on how to  **[get started here](./register.md)**.
 :::
 
 
@@ -19,11 +19,11 @@ Otherwise, feel free to shape your agenda based on your local community — whet
 :::
  
 ::: details Will content be provided?  
-We’re curating **reusable workshops and slide decks** for you to adapt at your event.  You can find them **[here](/agentcamp/content.md/)**
+We’re curating **reusable workshops and slide decks** for you to adapt at your event.  You can find them **[here](./content.md)**
 
 ::: details Is artwork available?
 Absolutely! As an organiser you will get access to all artwork that you can use to promote the event. Please do not make any changes to the official branding.
- You can find them **[here](/agentcamp/branding.md/)**
+ You can find them **[here](./branding.md)**
 :::
 
 ::: details Can we charge a fee?
