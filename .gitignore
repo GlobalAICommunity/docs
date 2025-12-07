@@ -32,6 +32,7 @@ node_modules/
 .hugo_build/
 .parcel-cache/
 
+
 # IDEs and editors
 .vscode/
 .idea/
