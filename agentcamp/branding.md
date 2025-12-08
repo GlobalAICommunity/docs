@@ -8,11 +8,10 @@ These guidelines are designed to help you understand and apply our brand identit
 
 When using the logo, ensure it is clearly visible, uncluttered, and has adequate surrounding space. The logo should always be displayed in its original proportions, never stretch, compress, or alter the design in any way.
 
-[Download Logo](/logos/AgentCamp-Logo.png)
+
 
 ## Official Presentation Template
 
-[Download Presentation Template](https://stichtingthursdaycloud-my.sharepoint.com/:p:/g/personal/simon_globalai_community/IQBlxLBz1e9rQ405I-vuU0HqAQ1KLPFC5FjVJggk5ty_mG4?e=vnFWwo)
 
 ## Graphics Template
 
