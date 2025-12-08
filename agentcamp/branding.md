@@ -28,6 +28,6 @@ Typography plays a key role in shaping our brand identity and ensuring clear, ac
 
 Always use colors from this palette to maintain brand consistency.
 
-| Soft Ivory | Deep Midnight Blue | Vibrant Amber | Warm Honey Yellow | Teal Ocean |
+| Deep Forest Teal | Bright Ember Orange | Soft Sand Yellow | Rustic Brick Red | Earth Olive |
 |-------|-----|-------|-------|-------|
-| ![fffff6](/media/logos/fffff6.png) #fffff6 | ![001220](/media/logos/001220.png) #001220 | ![ee8d0a](/media/logos/ee8d0a.png) #ee8d0a | ![fedd8c](/media/logos/fedd8c.png) #fedd8c | ![02414b](/media/logos/02414b.png) #02414b |
+| ![10403c](/media/logos/10403c.png) #10403c | ![fe821e](/media/logos/fe821e.png) #fe821e | ![f5cd7c](/media/logos/f5cd7c.png) #f5cd7c | ![973618](/media/logos/973618.png) #973618 | ![837749](/media/logos/837749.png) #837749 |
