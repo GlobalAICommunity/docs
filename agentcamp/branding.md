@@ -4,10 +4,21 @@ outline: deep
 # Branding Assets and Design Guidelines
 These guidelines are designed to help you understand and apply our brand identity consistently across all touchpoints.
 
+## Social Media
+
+When posting about **AgentCamp** on social media, please use the following hashtags tag us so that we can engage with your content and reshare.
+
+Official hashtags: `#AgentCamp` , `#GlobalAICommunity`.
+
+Always tag our official social media accounts:
+- X/Twitter: [@GlobAICommunity](https://x.com/GlobAICommunity)
+- LinkedIn: [Global AI Community](https://www.linkedin.com/company/global-ai-community)
+
 ## Logo
 
 When using the logo, ensure it is clearly visible, uncluttered, and has adequate surrounding space. The logo should always be displayed in its original proportions, never stretch, compress, or alter the design in any way.
 
+[AgentCamp logo](/media/agentcamp/agent-camp-2026.png)
 
 
 ## Official Presentation Template

@@ -3,9 +3,12 @@ outline: deep
 ---
 
 # AgentCamp 2026
+
 ### The Global AI Bootcamp
 
-Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** — the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  
+Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** - the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  
+
+![agentcamp ](/media/agentcamp/agent-camp-2026-website-graphics.png)
 
 ## Key Details
 
