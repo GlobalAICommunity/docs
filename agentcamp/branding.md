@@ -18,14 +18,17 @@ Always tag our official social media accounts:
 
 When using the logo, ensure it is clearly visible, uncluttered, and has adequate surrounding space. The logo should always be displayed in its original proportions, never stretch, compress, or alter the design in any way.
 
-[AgentCamp logo](/media/agentcamp/agent-camp-2026.png)
+- [AgentCamp Logo 1536 x 1024](/logos/agentcamp-2026-graphics-1536x1024.png)
+- [AgentCamp Logo 1200 x 1200](/logos/agentcamp-2026-graphics-1200x1200.png)
 
 
 ## Official Presentation Template
 
+Coming soon!
 
 ## Graphics Template
 
+Coming soon!
 
 ## Typography
 

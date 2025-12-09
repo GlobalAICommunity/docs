@@ -14,7 +14,7 @@ pnpm-debug.log*
 site/
 dist/
 build/
-public/
+
 
 # Dependencies
 node_modules/
