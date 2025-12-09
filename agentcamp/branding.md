@@ -6,7 +6,7 @@ These guidelines are designed to help you understand and apply our brand identit
 
 ## Social Media
 
-When posting about **AgentCamp** on social media, please use the following hashtags and us so that we can engage with your content and reshare.
+When posting about **AgentCamp** on social media, please use the following hashtags and tag us so that we can engage with your content and reshare.
 
 Official hashtags: `#AgentCamp` , `#GlobalAICommunity`.
 
