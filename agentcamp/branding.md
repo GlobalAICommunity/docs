@@ -24,11 +24,13 @@ When using the logo, ensure it is clearly visible, uncluttered, and has adequate
 
 ## Official Presentation Template
 
-Coming soon!
+***Coming soon!***
 
 ## Graphics Template
 
-Coming soon!
+[AgentCamp Graphics](https://github.com/GlobalAICommunity/agentcamp-2026)
+
+***More graphics templates coming soon!***
 
 ## Typography
 
