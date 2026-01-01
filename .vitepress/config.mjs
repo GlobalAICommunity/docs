@@ -88,6 +88,7 @@ export default defineConfig({
               { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
               { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
               { text: 'Appendices', link: '/agentcon/appendices' },
+              { text: 'Sponsors', link: '/agentcon/sponsors' },
             ]
           },
           { text: 'AgentCamp 2026', link: '/agentcamp/',
