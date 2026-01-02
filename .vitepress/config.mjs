@@ -23,7 +23,7 @@ export default defineConfig({
         text: 'Chapter',
         items: [
           { text: 'Start a new chapter', link: '/new-chapter' },
-          { text: 'Chapter Onboarding', link: '/chapter-starter-kit' },
+          { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
         ]
       },
       {
