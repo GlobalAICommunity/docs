@@ -44,7 +44,7 @@ Organizers receive **recognition, resources, and visibility** for helping grow t
 
 [Read More](/agentcamp/benefits)
 
-## Content Catalog (Coming December 2025)
+## Content Catalog (Coming January 2026)
 
 You can look forward to:
 

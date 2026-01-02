@@ -20,9 +20,10 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'General',
+        text: 'Chapter',
         items: [
           { text: 'Start a new chapter', link: '/new-chapter' },
+          { text: 'Chapter Onboarding', link: '/chapter-starter-kit' },
         ]
       },
       {
