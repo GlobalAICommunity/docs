@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Chapter Onboarding
 
 Welcome to Global AI Community.  
