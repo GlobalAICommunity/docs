@@ -59,6 +59,7 @@ Meetup sponsorship is maintained only if:
 - The chapter stays active on Discord
 - LinkedIn page remains updated
 - Events are aligned with Global AI values and goals
+- Chapter must organise atleast 1 in-person event every 3 months
 
 Global AI HQ reserves the right to review or revoke sponsorship if expectations are not met.
 
