@@ -25,15 +25,9 @@ export default defineConfig({
           { text: 'Start a new chapter', link: '/new-chapter' },
           { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
         ]
-      },
+      },      
       {
-        text: 'Global AI Branding',
-        items: [
-          { text: 'Branding Assets and Design Guidelines', link: '/branding' },
-        ]
-      },
-      {
-        text: 'Benefits',
+        text: 'Chapter Benefits',
         items: [
           { text: 'Azure Subscriptions', 
             collapsed: true,
@@ -46,6 +40,20 @@ export default defineConfig({
           { text: 'MeetUp', link: '/meetup' },
           { text: 'StreamYard', link: '/streamyard' },
           { text: 'Digital Badges', link: '/badges' }
+        ]
+      },
+      {
+        text: 'Chapter Lead Meetings',
+        collapsed: true,
+        items: [
+          { text: 'December 2025', link: '/chapter-leads-meeting/december-2025' },
+          { text: 'November 2025', link: '/chapter-leads-meeting/november-2025' },
+        ]
+      },
+      {
+        text: 'Global AI Branding',
+        items: [
+          { text: 'Branding Assets and Design Guidelines', link: '/branding' },
         ]
       },
       {
