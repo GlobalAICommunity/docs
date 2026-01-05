@@ -29,9 +29,11 @@ Log in to your Chapter Dashboard and complete the following:
 - Include profile picture
 - Add social handles (LinkedIn, X, etc.)
 
-## 3. LinkedIn Page Setup
+## 3. Chapter LinkedIn Page Setup
 
-Create your chapter’s LinkedIn Showcase page.
+Please make a request to [support@globalai.community](mailto:support@globalai.community) to create your chapter’s LinkedIn Showcase page.
+
+<!-- Create your chapter’s LinkedIn Showcase page.
 
 ### Step 1: Open the page creation menu
 1. Log in to LinkedIn.
@@ -70,7 +72,12 @@ Create your chapter’s LinkedIn Showcase page.
 
 12. Tick the verification checkbox (authorized representative).
 
-13. Click **Create page**.
+13. Click **Create page**. -->
+
+## 4. Meetup Group Setup
+Please make a request to [support@globalai.community](mailto:support@globalai.community) to create your chapter’s Meetup group. 
+
+> **Note:** Meetup sponsorship is case by case basis and may not be available to all the chapters.
 
 ## 4. Important Resources
 

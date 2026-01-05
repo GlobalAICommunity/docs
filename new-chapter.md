@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Start a Global AI Chapter
 
 ***You’ve decided to start your own Global AI chapter – YAY!***    
@@ -9,8 +13,11 @@ To help you get started, we've put this guide together for starting your own Glo
 
 ## Guidelines for Starting Your Chapter
 When you start your own Global AI Chapter, you’ll be helping to build and grow a local AI community, through organizing events in your city.
-A Global AI Chapter is not meant for a one-time event or workshop. There is an expectation for ongoing community activities through your chapter, at least once every three months. Some of our groups hold events on a monthly cadence.    
+
+A Global AI Chapter is not meant for a one-time event or workshop. There is an expectation for ongoing community activities through your chapter, at least once every three months. Some of our groups hold events on a monthly cadence.   
+
 We require at least two organizers in your group to help share the workload and prevent burnout from any single organizer.
+
 When requesting a chapter, we ask that it be local and city-based. If an existing chapter already exists in your city, a second one may be allowed depending on circumstances.
 
 ## Benefits for chapters
@@ -26,30 +33,33 @@ When requesting a chapter, we ask that it be local and city-based. If an existin
 - Support channel on Slack for chapter leads.
 
 ## Role and Responsibilities of the Chapter lead
-**Be an active chapter**    
+As a chapter lead, you agree to the following responsibilities:
+
+### 1. Be an active chapter   
 You will help organize or support co-organization of at least one meetup per three months.
 As an organizer, you are not necessarily expected to be the one creating content or giving talks or workshops. It is expected for you to invite local speakers and create opportunities for aspiring new speakers among your members.
    
-**Work together**   
+### 2. Work together   
 We require at least two organizers in your group to help share the workload and prevent burnout from any single organizer.
 You will be responsible for notifying Global AI Community leadership of changes in your organizing team. For example, if you have new organizers, or if an organizer stepped down.
    
-**Be part of the Global Community**    
+### 3. Be part of the Global Community    
 Participate in global initiatives, like the Global AI Bootcamp, Global AI Conference, live streams and newsletters,
 You may be asked from time to time to share any news from Global AI Community leadership team to your members.
 You will be asked to provide a report of your group activities once a year to the Global AI Community Leadership team.
    
-**Be inclusive to everyone**    
+### 4. Be inclusive to everyone    
 Have an open registration for events and free entrance.
    
-**Create a safe place**    
+### 5. Create a safe place    
 All Global AI events (Meetups, conference lunches, etc), online spaces (IRC, Facebook, etc) are beholden to the Global AI Community Code of Conduct. Every chapter is required to make the code of conduct public in some way. 
    
-**Be the brand**    
+### 6. Be the brand    
 Only use your @globalai.community email to communicate with your members.
+
 Once your chapter has been approved, you and your group agree to use your chapters @globalai.community email address to conduct your business. For example, for any email communications with your members, and for creating meetup and social media accounts.
    
-**Be authentic**    
+### 7. Be authentic    
 Do not use the chapter for commercial activities, your events should be not for profit.
    
 ## Process overview
