@@ -75,9 +75,7 @@ Please make a request to [support@globalai.community](mailto:support@globalai.co
 13. Click **Create page**. -->
 
 ## 4. Meetup Group Setup
-Please make a request to [support@globalai.community](mailto:support@globalai.community) to create your chapter’s Meetup group. 
-
-> **Note:** Meetup sponsorship is case by case basis and may not be available to all the chapters.
+Please follow the instructions in the [MeetUp Benefit](/meetup.md) document to request your chapter's Meetup group setup. 
 
 ## 4. Important Resources
 
