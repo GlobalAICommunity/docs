@@ -6,6 +6,8 @@ outline: deep
 
 **Global AI Community Update: Introducing Agent Camp, New Benefits, and More!**
 
+## Watch the Full Recording
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EK6OEbgrRSs?si=SHZU1W18RbYmUMab" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Welcome back to the Global AI Community! The December 2025 Chapter Leads meeting was short, sweet, and packed with exciting announcements for the year ahead.
