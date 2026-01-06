@@ -43,7 +43,7 @@ Need help? We have launched a dedicated support email: **support@globalai.commun
 We are preparing to launch a new developer-focused show! Chapter leads will get the first look and the opportunity to apply as speakers. Stay tuned for more details.
 
 ### 5. Platform Feedback
-We want to hear from you! If you spot a bug or have a feature request for the Global AI platform, please submit it here: `gic.io/platform-feedback`.
+We want to hear from you! If you spot a bug or have a feature request for the Global AI platform, please submit it here: [gaic.io/platform-feedback](https://gaic.io/platform-feedback).
 
 ## Refresher: Existing Chapter Benefits
 
