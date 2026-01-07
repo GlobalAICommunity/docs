@@ -1,11 +1,31 @@
 ---
 outline: deep
 ---
-# Content
+# Content for AgentCamp 2026
 
-Below you can find a selection of content, we will update the content with new decks and workshop the coming weeks and months.
+Below you can find a selection of content
 
-## Presentations
+
+
+
+
+
+
+
+
+## Other Workshops
+- [The AI Podcast Studio Workshop](https://github.com/microsoft/edgeai-for-beginners/tree/main/WorkshopForAgentic)
+
+
+
+
+
+
+
+
+
+
+## Older presentations & workshops
 
 ### 1. Getting started with Generative AI in Azure
 
