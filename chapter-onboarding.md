@@ -14,7 +14,8 @@ This page covers everything you need to set up your chapter and get started.
 - Use this email for all tools, access requests, and communication
 
 ### Join Discord
-- Join the **#new-chapter-lead** Discord channel. Use your Global AI chapter email and request access by emailing to [support@globalai.community](mailto:support@globalai.community).
+- Join the Global AI Discord server: [discord.gg/NMryZKPC3m](https://discord.gg/NMryZKPC3m)
+- Make a request to join **#new-chapter-lead** Discord channel by emailing your discord username to [support@globalai.community](mailto:support@globalai.community).
 - This is where announcements, updates, and support happen
 
 ## 2. Chapter Dashboard (Umbraco)
@@ -31,7 +32,11 @@ Log in to your Chapter Dashboard and complete the following:
 
 ## 3. Chapter LinkedIn Page Setup
 
+We highly recommend creating a LinkedIn Showcase page for your chapter to enhance visibility and engagement and not a regular LinkedIn page. LinkedIn Showcase pages are specifically designed for highlighting different aspects of a company or organization, making them ideal for chapters within a larger community like Global AI.
+
 Please make a request to [support@globalai.community](mailto:support@globalai.community) to create your chapter’s LinkedIn Showcase page.
+
+
 
 <!-- Create your chapter’s LinkedIn Showcase page.
 
