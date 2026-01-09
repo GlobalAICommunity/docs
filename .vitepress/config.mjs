@@ -116,7 +116,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GlobalAICommunity/docs' },
       { icon: 'x', link: 'https://x.com/GlobAICommunity' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/global-ai-community' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/global-ai-community' },
+      { icon: 'discord', link: 'https://discord.gg/NMryZKPC3m' }
     ],
     editLink: {
       pattern: 'https://github.com/GlobalAICommunity/docs/edit/main/:path',

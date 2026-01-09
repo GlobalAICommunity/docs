@@ -30,7 +30,7 @@ When requesting a chapter, we ask that it be local and city-based. If an existin
 - Ability to use our global channels like [YouTube](https://www.youtube.com/globalaicommunity), [Twitter](https://x.com/GlobAICommunity) and [LinkedIn](https://www.linkedin.com/company/global-ai-community) to post updates about your chapter and stream your video content.
 - Contribute content to global initiatives like [Global AI Weekly](https://weekly.globalai.community/) and [Global AI Notes](https://www.youtube.com/playlist?list=PLMjtoLHNjR0sjqOFUpp0fhQwG-j861XEI), to reach a global audience around the world.
 - Monthly office hours for chapter leads.
-- Support channel on Slack for chapter leads.
+- Support channel on Discord for chapter leads.
 
 ## Role and Responsibilities of the Chapter lead
 As a chapter lead, you agree to the following responsibilities:

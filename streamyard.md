@@ -13,8 +13,8 @@
 
 ## How to get access to the StreamYard-pin channel
 
-1. Get invited to the *#streamyard-pin* channel in the [Global AI community Slack workspace](slack.md).  
-You can request access by sending email to **support@globalai.community** using your Global AI chapter email address only.
+1. Get invited to the *#streamyard-pin* channel in the Global AI community Slack workspace.  
+You can request access by sending email to **[support@globalai.community](mailto:support@globalai.community)** using your Global AI chapter email address only.
 2. **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard. 
 
 ![streamyard channel in list](/media/streamyard/streamyard-channel-in-list.png)
