@@ -36,7 +36,7 @@ export default defineConfig({
               { text: 'For attendees', link: '/azure-client' },
             ] 
           },
-          { text: 'Slack', link: '/slack' },
+          { text: 'Discord', link: '/discord' },
           { text: 'MeetUp', link: '/meetup' },
           { text: 'StreamYard', link: '/streamyard' },
           { text: 'Digital Badges', link: '/badges' }
