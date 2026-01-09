@@ -111,7 +111,23 @@ export default defineConfig({
             ]
           },
         ]
-      }
+      },
+      {
+        text:'Partnerships',
+        link: '/partnerships/overview',
+        items: [
+          { text: 'Overview',
+            link: '/partnerships/overview',
+            collapsed: false,
+              items: [
+                { text: 'Community Friend', link:  '/partnerships/community-partner'},
+                { text: 'Partner', link: '/partnerships/partner' },
+                { text: 'Strategic Partner', link: '/partnerships/strategic-partner' },
+              ] 
+          },
+          { text: 'Newsletter',link: '/partnerships/newsletter'}
+        ]
+      },      
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GlobalAICommunity/docs' },
@@ -125,7 +141,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present Global AI Community'
+      copyright: 'Copyright © 2026-present Global AI Community'
     },
     lastUpdated: {
       text: 'Updated at',
