@@ -3,12 +3,31 @@ outline: deep
 ---
 # Content for AgentCamp 2026
 
-Below you can find a selection of content
+Below you can find a selection of content.
 
 
 
+## Workshops
+
+### Building AI Chat Agents with LangChain, Chainlit & GitHub Models
+*A 90-minute hands-on workshop for tech conferences*
+
+Welcome to this practical workshop where you'll build a fully functional AI chat agent from scratch! By the end of this session, you'll have created an intelligent assistant that can have conversations, call external tools (like fetching weather data), and integrate with the Model Context Protocol (MCP).
+
+- [Workshop]https://sammydeprez.gitbook.io/agentcamp-chainlit-langchain-workshop/)
+- [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-workshop-langchain)
+
+---
+
+### Build a Pizza Ordering Agent with Microsoft Foundry and MCP
+In this hands-on workshop, you’ll learn to build domain-specific AI agents with Foundry Agent Service. Starting from a simple agent, you’ll add system prompts, custom instructions, and knowledge with RAG. You’ll extend it with tool calling (like a pizza calculator) and connect external services via MCP for live menu and order handling. By the end, you’ll have a working Contoso PizzaBot that can answer questions, recommend pizzas, and manage orders.
+
+- [Workshop](https://gaic.io/pizza-workshop/)
+- [GitHub Repo](https://github.com/GlobalAICommunity/agentcon-pizza-workshop)
 
 
+
+***More to be added soon***
 
 
 
