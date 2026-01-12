@@ -48,3 +48,8 @@ Happy workshopping!
 - Sometimes you need to switch tenants, before you see the subscription. [Click here](https://portal.azure.com/#settings/directory) to switch Directory.
 - Sometimes you need to adjust your [Subscription filter](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2) for the subscription to show up.
 
+### Video Walkthrough
+You may also watch this video that walks you through the process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eZXMPoR0qKQ?si=aD2dVpD1VvtTCdHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
