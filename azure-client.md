@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Redeem an Azure Subscription
 
 In case you do not have an Azure Subscription follow the guidance below to redeem a subscription.
