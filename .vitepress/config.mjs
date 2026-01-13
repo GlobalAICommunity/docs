@@ -39,7 +39,8 @@ export default defineConfig({
           { text: 'Discord', link: '/discord' },
           { text: 'MeetUp', link: '/meetup' },
           { text: 'StreamYard', link: '/streamyard' },
-          { text: 'Digital Badges', link: '/badges' }
+          { text: 'Digital Badges', link: '/badges' },
+          { text: 'Canva Pro', link: '/canva' },
         ]
       },
       {
