@@ -5,11 +5,9 @@ outline: deep
 
 Below you can find a selection of content.
 
+## New Workshops
 
-
-## Workshops
-
-### Building AI Chat Agents with LangChain, Chainlit & GitHub Models
+### 1. Building AI Chat Agents with LangChain, Chainlit & GitHub Models
 *A 90-minute hands-on workshop*
 
 Welcome to this practical workshop where you'll build a fully functional AI chat agent from scratch! By the end of this session, you'll have created an intelligent assistant that can have conversations, call external tools (like fetching weather data), and integrate with the Model Context Protocol (MCP).
@@ -17,14 +15,14 @@ Welcome to this practical workshop where you'll build a fully functional AI chat
 - [Workshop](https://sammydeprez.gitbook.io/agentcamp-chainlit-langchain-workshop/)
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-workshop-langchain)
 
-### Microsoft Agent Framework + Chainlit Workshop
+### 2. Microsoft Agent Framework + Chainlit Workshop
 *A 90-minute hands-on workshop*
 A hands-on workshop teaching how to build AI chat agents using Microsoft Agent Framework, Chainlit, and GitHub Models.
 
 - [Workshop](https://sammydeprez.gitbook.io/agentcamp-chainlit-agent-framework-workshop/)
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-workshop-agent-framework)
 
-### Build a Pizza Ordering Agent with Microsoft Foundry and MCP
+### 3. Build a Pizza Ordering Agent with Microsoft Foundry and MCP
 *A 90-minute hands-on workshop*
 In this hands-on workshop, you’ll learn to build domain-specific AI agents with Foundry Agent Service. Starting from a simple agent, you’ll add system prompts, custom instructions, and knowledge with RAG. You’ll extend it with tool calling (like a pizza calculator) and connect external services via MCP for live menu and order handling. By the end, you’ll have a working Contoso PizzaBot that can answer questions, recommend pizzas, and manage orders.
 
@@ -32,24 +30,11 @@ In this hands-on workshop, you’ll learn to build domain-specific AI agents wit
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcon-pizza-workshop)
 
 
-***More to be added soon***
-
-
-
-
-## Other Workshops
+## Other Workshop
 - [The AI Podcast Studio Workshop](https://github.com/microsoft/edgeai-for-beginners/tree/main/WorkshopForAgentic)
 
 
-
-
-
-
-
-
-
-
-## Older presentations & workshops
+## Previous presentations & workshops
 
 ### 1. Getting started with Generative AI in Azure
 
@@ -87,7 +72,7 @@ Today, there are many Generative AI models to choose from: Large Language Models
 
 
 
-## Workshops:
+## Previous Workshops:
 
 ### 1. Interacting with Multimodal models in GitHub Models and Microsoft Copilot
 

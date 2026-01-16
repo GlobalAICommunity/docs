@@ -32,7 +32,7 @@ Organizing an **AgentCamp** event is simple, fun, and designed to empower commun
 
 ---
 
-### 🎯 Benefits of Organizing AgentCamp
+### Benefits of Organizing AgentCamp
 
 Organizers receive **recognition, resources, and visibility** for helping grow the AI Community.
 
@@ -44,13 +44,15 @@ Organizers receive **recognition, resources, and visibility** for helping grow t
 
 [Read More](/agentcamp/benefits)
 
-## Content Catalog (Coming January 2026)
+## Content Catalog
 
 You can look forward to:
 
-- **2 Workshops** - 90 minutes each  
-- **2 Presentation Decks** - 45 minutes each  
-- **1 Keynote** - 15 minutes  
+- **[1 Keynote Video](https://www.youtube.com/watch?v=uMMusrdRHZA)** - 15 minutes  
+- **[3 Workshops](/agentcamp/content#new-workshops)** - 90 minutes each  
+- **[Presentation Deck](https://gaic.io/agentcamp-2026-slidedeck/)**
+    - File > Create a copy > Download the copy
+    - This presentation also has speaker's graphics templates and genereic event graphics
 
 All materials will be available in **January 2026**.
 
@@ -58,11 +60,7 @@ All materials will be available in **January 2026**.
 
 ## Connect with Us
 
-- Join our **Discord community** for real-time updates and collaboration  
-- Or email us directly: **[hello@globalai.community](mailto:hello@globalai.community)**  
-
-
-#
-
+- Join our **[Discord community](https://gaic.io/discord)** for real-time updates and collaboration  
+- Or email us directly: **[support@globalai.community](mailto:support@globalai.community)**  
 
 > ✨ **AgentCamp 2026 — Empowering local communities to shape the future of AI.**
