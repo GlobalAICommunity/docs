@@ -16,11 +16,11 @@ hero:
       text: AgentCamp 2026
       link: /agentcamp
     - theme: alt
+      text: AgentCon 2026
+      link: /agentcon
+    - theme: alt
       text: New Chapters
       link: /new-chapter
-    - theme: alt
-      text: AgentCon 2025
-      link: /agentcon
 
 features:
   - icon: ✨
