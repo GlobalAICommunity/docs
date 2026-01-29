@@ -41,7 +41,7 @@ Promote your event through:
 ### Templates for:  
 - [Social Media Promotional Graphics on Canva](https://www.canva.com/design/DAG9JTbmTf4/z2bElyqkGptR6bdEkWsOHQ/edit?utm_content=DAG9JTbmTf4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) - Accessible to Global AI Chapter Leads
 - [Name Badges](https://github.com/GlobalAICommunity/AgentCon/tree/main/branding/wave-3)
-- Slide decks
+- [Slide deck](https://stichtingthursdaycloud-my.sharepoint.com/:p:/g/personal/simon_globalai_community/IQBHpiXy-csSTJDtuZiIK_x8ATyWD0Ishr1MtOYLuESsNhQ?e=28EeKI)
 - [Pull Banner for Discord](https://www.canva.com/design/DAG1ZDMXbsQ/VfI7wdYI9-Hp2ggdagpbYw/edit?utm_content=DAG1ZDMXbsQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) (3x6 ft)    
 
 ### Do Not
