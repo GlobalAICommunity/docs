@@ -29,10 +29,17 @@ In this hands-on workshop, you’ll learn to build domain-specific AI agents wit
 - [Workshop](https://gaic.io/pizza-workshop/)
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcon-pizza-workshop)
 
+### 4. Snake Bot Hack Tournament
 
-## Other Workshop
+*A 1-2 hour competitive bot-coding competition*
+
+In this interactive hack session, you will compete against other teams to build the best bot to play a 2-version version of the classic Snake game. Come up with a strategy to win, and use any tools at your disposal to build an automated bot. Watch the knockout tournament live in your browser, and the last surviving bot is declared the winner!
+
+- [Event Instructions](https://github.com/revodavid/copperhead-server/blob/main/How-To-Host-A-Bot-Hack-Tournament.md)
+- [GitHub Repo](https://github.com/revodavid/copperhead-server)
+
+## Other Workshops
 - [The AI Podcast Studio Workshop](https://github.com/microsoft/edgeai-for-beginners/tree/main/WorkshopForAgentic)
-
 
 ## Previous presentations & workshops
 
