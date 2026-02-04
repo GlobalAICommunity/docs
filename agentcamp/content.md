@@ -13,7 +13,10 @@ Below you can find a selection of content.
 
 ## Session
 
-### Building AI Agents with Microsoft Foundry and the AI Toolkit
+### Build and launch AI agents fast with Microsoft Foundry and the AI Toolkit
+*45 minute breakout session*  
+
+Build & ship AI agents fast with Microsoft Foundry Models and Azure. Prototype with open models, scale with Foundry models, & streamline workflows with AI Toolkit in VS Code. Experiment with models & prompts, evaluate agent responses, & move from prototype to cloud with cutting-edge developer tools.
 
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-msft)
 
@@ -57,7 +60,10 @@ In this interactive hack session, you will compete against other teams to build 
 - [GitHub Repo](https://github.com/revodavid/copperhead-server)
 
 
-### 5. Building AI Agents with Microsoft Foundry and the AI Toolkit
+### 5. Prototyping multimodal agents with Microsoft Foundry and the AI Toolkit
+*A 90-minute hands-on workshop*   
+
+In this lab, you'll get hands-on with the AI Toolkit (AITK) and Microsoft Foundry in VS Code to explore and compare the frontier multimodal and reasoning models from the Model Catalog. Learn how to augment models for a real-world business scenario, using prompt and context engineering. Prototype an agent using the AITK Agent Builder, and equip the agent with the right tools via the Model context Protocol (MCP).
 
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-msft)
 
