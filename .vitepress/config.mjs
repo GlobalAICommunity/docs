@@ -16,11 +16,14 @@ export default defineConfig({
     externalLinkIcon: true,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/new-chapter' }
+      { text: 'Documentation', link: '/new-chapter' },
+      { text: 'AgentCon', link: '/agentcon/' },
+      { text: 'Partnerships', link: '/partnerships/overview' }
     ],
     sidebar: [
       {
         text: 'Chapter',
+        collapsed: true,
         items: [
           { text: 'Start a new chapter', link: '/new-chapter' },
           { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
@@ -28,6 +31,7 @@ export default defineConfig({
       },      
       {
         text: 'Chapter Benefits',
+        collapsed: true,
         items: [
           { text: 'Azure Subscriptions', 
             collapsed: true,
@@ -53,19 +57,14 @@ export default defineConfig({
       },
       {
         text: 'Global AI Branding',
+        collapsed: true,
         items: [
           { text: 'Branding Assets and Design Guidelines', link: '/branding' },
         ]
-      },
-      {
-        text:'Content',
-        items: [
-          { text: 'Workshops',link: '/workshops'},
-          { text: 'Presentations',link: '/presentations'}
-        ]
-      },      
+      }, 
       {
         text: 'Events Resources',
+        collapsed: true,
         items: [
           { text: 'Organizer 101',link:'/organisers-101/',
             collapsed: true,
@@ -116,6 +115,7 @@ export default defineConfig({
       {
         text:'Partnerships',
         link: '/partnerships/overview',
+        collapsed: true,
         items: [
           { text: 'Overview',
             link: '/partnerships/overview',
