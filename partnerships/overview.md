@@ -21,6 +21,10 @@ A long-term collaboration focused on shared goals, impact, and sustained engagem
 [Read more](./strategic-partner.md)
 
 
+### AgentCon Sponsorship
+Dedicated sponsorship opportunities for AgentCon — the Global AI Community's developer conference on AI Agents.
+[Read more](./agentcon-sponsorship.md)
+
 ## Why partner with the Global AI Community
 
 -  **Global Reach**: Tap into a community of 150+ chapters across continents, connecting with **250k+ AI developers, data scientists, students, and professionals**. Sponsorship offers unparalleled exposure to a diverse, worldwide audience in the AI field.

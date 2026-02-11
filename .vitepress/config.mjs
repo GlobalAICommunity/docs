@@ -126,7 +126,8 @@ export default defineConfig({
                 { text: 'Strategic Partner', link: '/partnerships/strategic-partner' },
               ] 
           },
-          { text: 'Newsletter',link: '/partnerships/newsletter'}
+          { text: 'Newsletter',link: '/partnerships/newsletter'},
+          { text: 'AgentCon Sponsorship', link: '/partnerships/agentcon-sponsorship' }
         ]
       },      
     ],
