@@ -19,11 +19,9 @@ First up, a quick reminder for all our new and existing chapter leads regarding 
 
 - **[Azure Credits:](/azure.md)** Available for your workshops.
 
-- **[Streamyard Pro:](/streamyard.md)** Access included for hosting virtual events.
-
 - **[Meetup Pro:](/meetup.md)** Available on a case-by-case basis for active communities.
 
-## 2. The Big Announcement: Agent Camp 2026! 
+## 2. The Big Announcement: AgentCamp 2026! 
 The biggest news of the month is the launch of our first major initiative for 2026. We are rebranding the classic "Global AI Bootcamp" to Agent Camp!
 
 - **When:** Running from February 1st to June 1st, 2026.

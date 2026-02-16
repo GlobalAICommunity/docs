@@ -41,16 +41,16 @@ export default defineConfig({
             ] 
           },
           { text: 'Discord', link: '/discord' },
-          { text: 'MeetUp', link: '/meetup' },
-          { text: 'StreamYard', link: '/streamyard' },
+          { text: 'MeetUp', link: '/meetup' },          
           { text: 'Digital Badges', link: '/badges' },
           { text: 'Canva Pro', link: '/canva' },
         ]
       },
       {
-        text: 'Chapter Lead Meetings',
+        text: 'Chapter Leads Meetings', link: '/chapter-leads-meeting/',
         collapsed: true,
         items: [
+          { text: 'January 2026', link: '/chapter-leads-meeting/january-2026' },
           { text: 'December 2025', link: '/chapter-leads-meeting/december-2025' },
           { text: 'November 2025', link: '/chapter-leads-meeting/november-2025' },
         ]
