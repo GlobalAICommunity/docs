@@ -50,6 +50,7 @@ export default defineConfig({
         text: 'Chapter Leads Meetings', link: '/chapter-leads-meeting/',
         collapsed: true,
         items: [
+          { text: 'February 2026', link: '/chapter-leads-meeting/february-2026' },
           { text: 'January 2026', link: '/chapter-leads-meeting/january-2026' },
           { text: 'December 2025', link: '/chapter-leads-meeting/december-2025' },
           { text: 'November 2025', link: '/chapter-leads-meeting/november-2025' },
