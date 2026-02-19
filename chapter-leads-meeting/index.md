@@ -10,7 +10,9 @@ Welcome to the Chapter Leads Meeting hub! This page provides access to all our m
 
 ### 2026
 
+ - **[February 2026](february-2026.md)** - AgentCamp follow-up, planning timeline, chapter support resources
 - **[January 2026](january-2026.md)** - AgentCamp Launch, Discord Migration, New Resources
+
   
 ### 2025
 
