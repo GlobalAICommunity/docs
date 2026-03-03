@@ -59,6 +59,7 @@ In this interactive hack session, you will compete against other teams to build 
 - [Event Instructions](https://github.com/revodavid/copperhead-server/blob/main/How-To-Host-A-Bot-Hack-Tournament.md)
 - [GitHub Repo](https://github.com/revodavid/copperhead-server)
 
+---
 
 ### 5. Prototyping multimodal agents with Microsoft Foundry and the AI Toolkit
 *A 90-minute hands-on workshop*   
@@ -66,6 +67,14 @@ In this interactive hack session, you will compete against other teams to build 
 In this lab, you'll get hands-on with the AI Toolkit (AITK) and Microsoft Foundry in VS Code to explore and compare the frontier multimodal and reasoning models from the Model Catalog. Learn how to augment models for a real-world business scenario, using prompt and context engineering. Prototype an agent using the AITK Agent Builder, and equip the agent with the right tools via the Model context Protocol (MCP).
 
 - [GitHub Repo](https://github.com/GlobalAICommunity/agentcamp-msft)
+
+---
+
+### 6. Semantic Search & Multi-Agent AI with DocumentDB
+*A 90-minute hands-on workshop*  
+Go from zero to AI-powered search! Learn vector embeddings, build a RAG chatbot, and create multi-agent workflows using DocumentDB, OpenAI, and LangGraph in this hands-on workshop
+
+- [GitHub Repo](https://github.com/documentdb/booking-agents-sample)
 
 
 ### Other Workshops
