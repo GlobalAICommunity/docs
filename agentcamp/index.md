@@ -23,7 +23,7 @@ Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** - the glo
 
 Organizing an **AgentCamp** event is simple, fun, and designed to empower community builders.
 
-1. **Find a venue and select a date**
+1. **Pick a date**
 2. **[Register](/agentcamp/register) your event on the Global AI Community**
 3. **Create your program**
 4. **Spread the word**
