@@ -1,12 +1,12 @@
 ---
 outline: deep
 ---
-# Microsoft Build //LOCALHOST
+# Microsoft Build &#47;&#47;LOCALHOST
 
-**Microsoft Build //LOCALHOST brings the best of Microsoft Build directly to your local community. As an official event redelivery, chapters receive a curated content kit from Global AI HQ and Microsoft, making it easy to host a high-quality evening event with minimal effort. Gather your local developers, play the special recorded opening and use the provided deck to present the highlights from Build, run a hands-on workshop, and connect over food and drinks.**
+**Microsoft Build &#47;&#47;LOCALHOST brings the best of Microsoft Build directly to your local community. As an official event redelivery, chapters receive a curated content kit from Global AI HQ and Microsoft, making it easy to host a high-quality evening event with minimal effort. Gather your local developers, play the special recorded opening and use the provided deck to present the highlights from Build, run a hands-on workshop, and connect over food and drinks.**
 
 ::: warning Note
-We are in the early stages of planning Microsoft Build //LOCALHOST, so not everything is ready.
+We are in the early stages of planning Microsoft Build &#47;&#47;LOCALHOST, so not everything is ready.
 :::
 
 ### Key things to know!
@@ -17,12 +17,12 @@ We are in the early stages of planning Microsoft Build //LOCALHOST, so not every
 - **Content:** Curated content kit provided by Global AI HQ / Microsoft.
 - **Audience:** 25–50 attendees
 - **Cost:** Free for all attendees
-- **Branding:** Custom Build //LOCALHOST branding template (provided by HQ)
+- **Branding:** Custom Build &#47;&#47;LOCALHOST branding template (provided by HQ)
 - **Registration:** Must use the Global AI Community event registration system
 
 ## 1. Registering Your Event
 
-To register your event as part of Microsoft Build //LOCALHOST, follow the step-by-step guide on the [Register](/build/register.md) page.
+To register your event as part of Microsoft Build &#47;&#47;LOCALHOST, follow the step-by-step guide on the [Register](/build/register.md) page.
 
 ## 2. What You Receive
 
@@ -51,7 +51,7 @@ The content kit will be available on the [Event Content](/build/content.md) page
 
 ### Venue
 
-Any location works for Build //LOCALHOST. Choose a space that fits your group:
+Any location works for Build &#47;&#47;LOCALHOST. Choose a space that fits your group:
 
 - **Co-working space** — often free or low-cost with AV equipment
 - **Company office** — ask a local partner or sponsor to host
@@ -77,7 +77,7 @@ Since this is an evening event, plan for light catering:
 
 ## 4. Promotion
 
-Use the provided [Build //LOCALHOST branding and promotion kit](/build/branding.md) for all promotion.
+Use the provided [Build &#47;&#47;LOCALHOST branding and promotion kit](/build/branding.md) for all promotion.
 
 ### Suggested timeline
 
@@ -123,5 +123,5 @@ Use the provided [Build //LOCALHOST branding and promotion kit](/build/branding.
 
 - [Azure credits](/azure.md) for workshop labs
 - [Event content](/build/content.md)
-- [Build //LOCALHOST branding kit](/build/branding.md)
+- [Build &#47;&#47;LOCALHOST branding kit](/build/branding.md)
 - Questions? Connect with us on Slack or email [support@globalai.community](mailto:support@globalai.community) 

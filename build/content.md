@@ -4,7 +4,7 @@ outline: deep
 # Event Content
 
 ::: warning Coming Soon
-The Build //LOCALHOST event content kit is not yet available. You will be notified when it is ready.
+The Build &#47;&#47;LOCALHOST event content kit is not yet available. You will be notified when it is ready.
 :::
 
 ## Recorded Opening

@@ -9,6 +9,6 @@ The coming 12 months we have 4 global event types you as a chapter can pickup an
 | [AI Community Day](/ai-community-day.md) | MeetUp XXL | All year | Half day | Medium |
 | [AgentCon](/agentcon/) | Conference | 1 September - 15 December | Full day | High |
 | [Global AI Bootcamp](/agentcamp/index.md) | MeetUp/Conference | 15 February - 15 April 2026  | 2-8 hours | Medium-High |
-| [Build //LOCALHOST](/build/organize.md) | MeetUp | Within 21 days after Build | 3-4 hours (Evening) | Low |
+| [Build &#47;&#47;LOCALHOST](/build/organize.md) | MeetUp | Within 21 days after Build | 3-4 hours (Evening) | Low |
 
 Questions, feel free to connect to us on Slack or email.

@@ -3,7 +3,7 @@ outline: deep
 ---
 # Register
 
-To register your event as part of Microsoft Build //LOCALHOST follow the guidance below.
+To register your event as part of Microsoft Build &#47;&#47;LOCALHOST follow the guidance below.
 
 
 ## Step 1 - Login
@@ -15,9 +15,9 @@ Please login with your chapter email address or an account that is linked to you
 :::
 
 ## Step 2 - What are you organizing
-- Select the agenda: **Microsoft Build //LOCALHOST**
+- Select the agenda: **Microsoft Build &#47;&#47;LOCALHOST**
 - Chapter: If you are a chapter lead you can select your chapter, else leave it empty.
-- Name: Follow the guidance: **Build //localhost:&lt;cityname&gt;**, do not change the format of the name.
+- Name: Follow the guidance: **Build &#47;&#47;localhost:&lt;cityname&gt;**, do not change the format of the name.
 - Description: Enter a small description for the event. You can use **markdown** to format the description.
 
 ## Step 3 - Registration
@@ -25,7 +25,7 @@ Please login with your chapter email address or an account that is linked to you
 - Enable "One-Click" registration for your event.
 
 ::: danger Important
-External registration platforms (Eventbrite, Meetup, etc.) are not allowed for Build //LOCALHOST events. All registration must go through the Global AI Community website.
+External registration platforms (Eventbrite, Meetup, etc.) are not allowed for Build &#47;&#47;LOCALHOST events. All registration must go through the Global AI Community website.
 :::
 
 ## Step 4 - When
