@@ -13,7 +13,7 @@ pnpm-debug.log*
 # Build outputs
 site/
 dist/
-build/
+
 
 
 # Dependencies
