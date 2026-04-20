@@ -29,7 +29,7 @@ External registration platforms (Eventbrite, Meetup, etc.) are not allowed for B
 :::
 
 ## Step 4 - When
-- Enter the date (must be within 21 days after Microsoft Build)
+- Enter the date (directly after Build 2026, between June 4–30, 2026)
 - Enter the time, use the local time
 - Set the timezone
 

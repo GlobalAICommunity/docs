@@ -10,7 +10,7 @@ We are in the early stages of planning Microsoft Build &#47;&#47;LOCALHOST, so n
 :::
 
 ### Key things to know!
-- **Time frame:** Within 21 days after Microsoft Build (typically late May – mid June 2026).
+- **Time frame:** Directly after Build 2026 (June 4–30, 2026).
 - **Topic:** Microsoft Build content redelivery
 - **Event Format:** MeetUp
 - **Duration:** 3–4 Hours (Evening)

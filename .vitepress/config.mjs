@@ -111,6 +111,14 @@ export default defineConfig({
               { text: 'FAQ', link: '/agentcamp/faq' },
             ]
           },
+          { text: 'Build //LOCALHOST', link: '/build/organize',
+            collapsed: true,
+            items: [
+              { text: 'Register', link: '/build/register' },
+              { text: 'Branding', link: '/build/branding' },
+              { text: 'Content', link: '/build/content' },
+            ]
+          },
         ]
       },
       {
