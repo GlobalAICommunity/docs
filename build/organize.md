@@ -28,7 +28,7 @@ To register your event as part of Microsoft Build &#47;&#47;localhost, follow th
 
 - **Event in a box content** — recorded opening, slide deck, branding assets, workshop materials, and talking points - [Event Content](/build/content.md)
 - **Azure Subscriptions** for hands-on labs — [request credits here](/azure.md)
-- **F&B credit ($500 USD)** — reimbursement 
+- **F&B credit ($600 USD)** — reimbursement (the amount depends on the number of attendees and location.)
 
 ::: tip
 The content kit will be available on the [Event Content](/build/content.md) page. You will get notified when it is ready.
@@ -125,3 +125,24 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 - [Event content](/build/content.md)
 - [Build &#47;&#47;localhost branding kit](/build/branding.md)
 - Questions? Connect with us on Slack or email [support@globalai.community](mailto:support@globalai.community) 
+
+
+
+## Q&A
+
+### F&B credit
+- Reimbursement within 30 days after submitting the event expenses.
+- Receipt required (only F&B allowed).
+- Only options: PayPal or Wise.
+
+### I'm an MVP, can I use Global AI Community?
+Yes, you can choose to organize your event through/with Global AI.
+
+### I'm an Azure Tech Group, can I use Global AI Community?
+Yes, you can choose to organize your event through/with Global AI.
+
+### Can I claim my event for multiple offers?
+No, you can claim one offer.
+
+### Can I still register my event at Global AI?
+Yes, register and add in the description that you use the Reactor as registration + link, and select Global AI Registrations. We will make sure your event shows up correctly.

@@ -20,6 +20,7 @@ Please login with your chapter email address or an account that is linked to you
 - Name: The name is auto-generated based on your city name: **Build &#47;&#47;localhost:&lt;cityname&gt;**. 
 - Description: Enter a small description for the event. You can use **markdown** to format the description.
 
+
 ## Step 3 - Registration
 
 Choose one of the following registration options:
@@ -47,3 +48,4 @@ External registration platforms (Eventbrite, Meetup, etc.) are not allowed for B
 ## Step 6 - Save
 - Save the event
 - After saving, the event is submitted for review and will be published within 24 hours.
+
