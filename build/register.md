@@ -17,15 +17,22 @@ Please login with your chapter email address or an account that is linked to you
 ## Step 2 - What are you organizing
 - Select the agenda: **Microsoft Build &#47;&#47;LOCALHOST**
 - Chapter: If you are a chapter lead you can select your chapter, else leave it empty.
-- Name: Follow the guidance: **Build &#47;&#47;localhost:&lt;cityname&gt;**, do not change the format of the name.
+- Name: The name is auto-generated based on your city name: **Build &#47;&#47;localhost:&lt;cityname&gt;**. 
 - Description: Enter a small description for the event. You can use **markdown** to format the description.
 
 ## Step 3 - Registration
-- It is **mandatory** to use the Global AI Community event registration system. Do not use external registration pages.
+
+Choose one of the following registration options:
+
+### Global AI Registrations
+Manage registrations on the Global AI website. You can manage the registrations on the event page and download the attendee list.
 - Enable "One-Click" registration for your event.
 
+### Global AI Luma Calendar
+We create an event on our Luma Calendar and add you as organizer. Registrations are managed through Luma and the event will be visible on our website calendar.
+
 ::: danger Important
-External registration platforms (Eventbrite, Meetup, etc.) are not allowed for Build &#47;&#47;LOCALHOST events. All registration must go through the Global AI Community website.
+External registration platforms (Eventbrite, Meetup, etc.) are not allowed for Build &#47;&#47;localhost events. All registration must go through one of the options above.
 :::
 
 ## Step 4 - When
@@ -34,9 +41,9 @@ External registration platforms (Eventbrite, Meetup, etc.) are not allowed for B
 - Set the timezone
 
 ## Step 5 - Where
-- Select the event type
+- Select the event type: **In-Person** (virtual events are not allowed for Build &#47;&#47;localhost)
 - Fill out the details.
 
 ## Step 6 - Save
 - Save the event
-- After saving, the event is submitted for review and will be published soon.
+- After saving, the event is submitted for review and will be published within 24 hours.
