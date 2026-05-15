@@ -30,20 +30,21 @@ export default defineConfig({
         ]
       },      
       {
-        text: 'Chapter Benefits',
+        text: 'Chapter Benefits', link: '/chapter-benefits/',
         collapsed: true,
         items: [
           { text: 'Azure Subscriptions', 
             collapsed: true,
             items: [
-              { text: 'For organizers', link:  '/azure'},
-              { text: 'For attendees', link: '/azure-client' },
+              { text: 'For organizers', link:  '/chapter-benefits/azure'},
+              { text: 'For attendees', link: '/chapter-benefits/azure-client' },
             ] 
           },
-          { text: 'Discord', link: '/discord' },
-          { text: 'MeetUp', link: '/meetup' },          
-          { text: 'Digital Badges', link: '/badges' },
-          { text: 'Canva Pro', link: '/canva' },
+          { text: 'Discord', link: '/chapter-benefits/discord' },
+          { text: 'MeetUp', link: '/chapter-benefits/meetup' },  
+          { text: 'LinkedIn Showcase Page', link: '/chapter-benefits/linkedin-showcase-page' },        ,
+          { text: 'Digital Badges', link: '/chapter-benefits/badges' },
+          { text: 'Canva Pro', link: '/chapter-benefits/canva' },
         ]
       },
       {

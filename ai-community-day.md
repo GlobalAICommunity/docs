@@ -28,7 +28,7 @@ To be part of the AI Community Day, you need to be a registered chapter. You can
 The event format is a MeetUp XXL taking place from 15:00 till 21:00 in one or more tracks targetting 80-150 people. Run a hands-on workshop or give some presentations. We have put together a handy [organizers guide](/organisers-101/).
 
 ### Support available
-- [Azure credits](/azure.md) for workshops.
+- [Azure credits](/chapter-benefits/azure.md) for workshops.
 - [Workshops](/workshops.md) and [presentations](/presentations.md).
 - Branding kit (TBA)
 

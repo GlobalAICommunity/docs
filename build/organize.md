@@ -27,7 +27,7 @@ To register your event as part of Microsoft Build &#47;&#47;localhost, follow th
 ## 2. What You Receive
 
 - **Event in a box content** — recorded opening, slide deck, branding assets, workshop materials, and talking points - [Event Content](/build/content.md)
-- **Azure Subscriptions** for hands-on labs — [request credits here](/azure.md)
+- **Azure Subscriptions** for hands-on labs — [request credits here](/chapter-benefits/azure.md)
 - **F&B credit ($600 USD)** — reimbursement (the amount depends on the number of attendees and location.)
 
 ::: tip
@@ -121,10 +121,10 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 
 ## 7. Support Available
 
-- [Azure credits](/azure.md) for workshop labs
+- [Azure credits](/chapter-benefits/azure.md) for workshop labs
 - [Event content](/build/content.md)
 - [Build &#47;&#47;localhost branding kit](/build/branding.md)
-- Questions? Connect with us on Slack or email [support@globalai.community](mailto:support@globalai.community) 
+- Questions? Connect with us on [Discord](https://discord.gg/AV2fXDQ7U) or email [support@globalai.community](mailto:support@globalai.community) 
 
 
 

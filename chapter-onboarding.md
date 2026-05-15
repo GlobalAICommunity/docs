@@ -78,7 +78,7 @@ Please make a request to [support@globalai.community](mailto:support@globalai.co
 13. Click **Create page**. -->
 
 ## 4. Meetup Group Setup
-Please follow the instructions in the [MeetUp Benefit](/meetup.md) document to request your chapter's Meetup group setup. 
+Please follow the instructions in the [MeetUp Benefit](/chapter-benefits/meetup.md) document to request your chapter's Meetup group setup. 
 
 ## 5. Important Resources
 
@@ -87,12 +87,7 @@ Please review these before hosting your first event:
 - [Organisers 101](/organisers-101/index.md)
 - [Branding Guidelines](/branding/index.md)
 
-## 6. Onboarding Call
 
-- Attend the **New Chapter Onboarding Call**
-- This is highly recommended for all new chapter organisers
-- Scheduled monthly and the meeting details share in your chapter Global AI email.
-- We will walk through expectations, events, and next steps.
 
 ## What’s Next
 

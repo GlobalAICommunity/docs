@@ -30,7 +30,7 @@ features:
   - icon: 💎
     title: Chapter Benefits
     details: Learn how to claim and use the benefits for your chapter.
-    link: /azure
+    link: /chapter-benefits
   - icon: 📙
     title: Organisers 101
     details: Resources that will help you organise events.

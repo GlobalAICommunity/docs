@@ -49,9 +49,9 @@ We want to hear from you! If you spot a bug or have a feature request for the Gl
 
 A quick reminder of the powerful tools already at your disposal:
 
-* **[Azure Credits:](/azure.md)** Host Azure workshops with ease! You can apply for Azure subscriptions for yourself and your attendees.
+* **[Azure Credits:](/chapter-benefits/azure.md)** Host Azure workshops with ease! You can apply for Azure subscriptions for yourself and your attendees.
 * **[StreamYard Paid Plan:](/streamyard.md)** Produce professional live streams, recordings, and podcasts using our paid StreamYard account.
-* **[Meetup Pro:](/meetup.md)** Available on a case-by-case basis to help grow your local presence.
+* **[Meetup Pro:](/chapter-benefits/meetup.md)** Available on a case-by-case basis to help grow your local presence.
 * **Slack Community:** The best place to get instant help and network with fellow leads from around the world.
 
 ## Central Resource Hub

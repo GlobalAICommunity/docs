@@ -12,5 +12,5 @@
 - Click Save and publish
 - You can now see the link and code to be shared with the attendee.
 
-![Event Badge](media/badge.png)
+![Event Badge](/media/badge.png)
 

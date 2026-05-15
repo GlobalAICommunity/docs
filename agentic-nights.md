@@ -29,7 +29,7 @@ To be part of the Global Agentic Nights, you need to be a registered chapter. Yo
 The event format is a low-key MeetUp format, target 30-50 people, run a hands-on workshop or give some presentations. We have put together a handy [organizers guide](/organisers-101/).
 
 ### Support available
-- [Azure credits](/azure.md) for workshops.
+- [Azure credits](/chapter-benefits/azure.md) for workshops.
 - [Workshops](/workshops.md) and [presentations](/presentations.md).
 - Branding kit (TBA)
 

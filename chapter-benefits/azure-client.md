@@ -11,34 +11,34 @@ In case you do not have an Azure Subscription follow the guidance below to redee
 - Navigate to: [https://aka.ms/JoinEduLab](https://aka.ms/JoinEduLab)
 - Sign in with a Microsoft or GitHub account
 
-![Azure Classroom Signup Screenshot](./public/azure-classroom/001.png)
+![Azure Classroom Signup Screenshot](/public/azure-classroom/001.png)
 - Ask your event organizer for the `invite code`
 - Enter the `invite code` and `click redeem`
 - Wait for the email below to arrive
 
 ## Step 2 - Activate subscription
 - Look out for the email below arriving in your mailbox.
-![You have a request to take ownership of an Azure subscription](./public/azure-classroom/002.png)
+![You have a request to take ownership of an Azure subscription](/public/azure-classroom/002.png)
 - Click on the button `Accept Ownership`
 - Login with the same account as in step 1
 
-![](./public/azure-classroom/003.png)
+![](/public/azure-classroom/003.png)
 - After login, click `Accept` to login to the Open Hack tenant.
 
-![](./public/azure-classroom/004.png)
+![](/public/azure-classroom/004.png)
 - You can use the suggested subscription name or create your own.
 - Click `Review + Accept`
 
-![](./public/azure-classroom/005.png)
+![](/public/azure-classroom/005.png)
 - Click `Accept`
 - Your subscription is being created
 
 ## Step 3 - Happy hacking
 - It can take a few minutes to create your subscription.
-![](./public/azure-classroom/007.png)
+![](/public/azure-classroom/007.png)
 
 - When your subscription is ready you will get an email with subject: **Your Azure subscription is ready**
-![](./public/azure-classroom/006.png)
+![](/public/azure-classroom/006.png)
 
 - You can also find the status of the subscription creation process under notifications.
 - Click on "Go to subscription" in the notification or `Go to the Azure portal` in the email

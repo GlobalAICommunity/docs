@@ -39,13 +39,13 @@ Both come with step-by-step guides and GitHub repositories.
 ## 3. Updates to Documentation & Benefits
 Based on your feedback over the holidays, we have updated our docs with clearer guides and video tutorials.
 
-- **Azure Credits:** We’ve added step-by-step videos for both organizers (how to request credits) and attendees (how to claim them). [Read more](/azure.md).
+- **Azure Credits:** We’ve added step-by-step videos for both organizers (how to request credits) and attendees (how to claim them). [Read more](/chapter-benefits/azure.md).
 
 Note: Please request credits at least 7 days before your event.
 
-- **Canva Pro :** [New documentation](/canva.md) is available detailing how to access Canva Pro licenses. Due to limited availability, these are reserved for active chapter leads who regularly organize events and share on social media.
+- **Canva Pro :** [New documentation](/chapter-benefits/canva.md) is available detailing how to access Canva Pro licenses. Due to limited availability, these are reserved for active chapter leads who regularly organize events and share on social media.
 
-- **Meetup Sponsorship:** We have clarified the eligibility criteria for keeping your Meetup Pro sponsorship. To maintain sponsorship, groups should organize at least one in-person event every 3 months and stay active in the community (now on Discord). [Read more](/meetup.md).
+- **Meetup Sponsorship:** We have clarified the eligibility criteria for keeping your Meetup Pro sponsorship. To maintain sponsorship, groups should organize at least one in-person event every 3 months and stay active in the community (now on Discord). [Read more](/chapter-benefits/meetup.md).
 
 ## 4. Meeting Archives
 Missed a previous update? We have created a dedicated section on the docs site for "[Chapter Leads Meetings](index.md)." 

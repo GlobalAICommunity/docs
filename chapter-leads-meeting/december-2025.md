@@ -17,9 +17,9 @@ Here's a quick summary of what we covered:
 ## 1. Refresher: Chapter Lead Benefits
 First up, a quick reminder for all our new and existing chapter leads regarding the resources available to help you run successful events:
 
-- **[Azure Credits:](/azure.md)** Available for your workshops.
+- **[Azure Credits:](/chapter-benefits/azure.md)** Available for your workshops.
 
-- **[Meetup Pro:](/meetup.md)** Available on a case-by-case basis for active communities.
+- **[Meetup Pro:](/chapter-benefits/meetup.md)** Available on a case-by-case basis for active communities.
 
 ## 2. The Big Announcement: AgentCamp 2026! 
 The biggest news of the month is the launch of our first major initiative for 2026. We are rebranding the classic "Global AI Bootcamp" to Agent Camp!
