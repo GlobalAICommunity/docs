@@ -29,7 +29,7 @@ What happens when you let AI agents do the building? In this hands-on lab, you'l
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://github.com/microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents)**
 
 ----
 
