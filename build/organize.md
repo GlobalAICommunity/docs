@@ -26,12 +26,12 @@ To register your event as part of Microsoft Build &#47;&#47;localhost, follow th
 
 ## 2. What You Receive
 
-- **Event in a box content** — recorded opening, slide deck, branding assets, workshop materials, and talking points - [Event Content](/build/content.md)
+- **Event in a box content** — slide deck and workshop materials - [Event Content](/build/content.md)
 - **Azure Subscriptions** for hands-on labs — [request credits here](/chapter-benefits/azure.md)
 - **F&B credit ($600 USD)** — reimbursement (the amount depends on the number of attendees and location.)
 
 ::: tip
-The content kit will be available on the [Event Content](/build/content.md) page. You will get notified when it is ready.
+The content kit is available on the [Event Content](/build/content.md) page.
 :::
 
 ## 3. Plan Your Event
