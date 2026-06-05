@@ -5,9 +5,6 @@ outline: deep
 
 Everything you need to run Build &#47;&#47;LOCALHOST in one place. This page brings together the workshop materials and breakout sessions that make up the event program, so chapter leads and speakers can plan their agenda, prepare delivery, and know exactly what to expect from each session. Browse the hands-on labs and talks below — each entry includes a description and a level rating to help you pick the right content for your audience.
 
-> [!NOTE]
-> Links to the GitHub repos will be added soon.
-
 > [!TIP]
 > **Good news for your Build &#47;&#47;LOCALHOST meetup!**
 >
@@ -29,7 +26,7 @@ What happens when you let AI agents do the building? In this hands-on lab, you'l
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents)**
+**> [GitHub Repo](https://github.com/microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents) | [Session Page](https://build.microsoft.com/en-US/sessions/LAB501?source=sessions)**
 
 ----
 
@@ -39,7 +36,7 @@ In this hands-on lab, you will build a production-ready AI application using Mic
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/LAB520) | [Session Page](https://build.microsoft.com/en-US/sessions/LAB520?source=sessions)**
 
 ----
 
@@ -49,7 +46,7 @@ Modern agents fail in ways traditional monitoring can't catch. In this hands-on 
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://github.com/microsoft/Build26-LAB540) | [Session Page](https://build.microsoft.com/en-US/sessions/LAB540?source=sessions)**
 
 ## Breakout Sessions
 
@@ -59,7 +56,7 @@ Every IDE has agentic code generation now, but Visual Studio goes further with b
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK207) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK207?source=sessions)**
 
 ----
 
@@ -69,7 +66,7 @@ Everyone talks about agents, but the real challenge is applying them to daily sp
 
 **Level:** (400) Expert
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK203) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK203?source=sessions)**
 
 ----
 
@@ -79,7 +76,7 @@ Agents are powerful on your machine, but what happens when you need them everywh
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK206) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK206?source=sessions)**
 
 ----
 
@@ -89,7 +86,7 @@ Agentic apps behave differently from traditional services. They make decisions, 
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK221) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK221?source=sessions)**
 
 ----
 
@@ -99,7 +96,7 @@ Agentic AI workloads don't behave like normal services. They're stateful, bursty
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK222) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK222?source=sessions)**
 
 ----
 
@@ -109,7 +106,7 @@ AI applications and agents require data platforms designed for reasoning, not ju
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK223) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK223?source=sessions)**
 
 ----
 
@@ -119,7 +116,7 @@ Discover how to quickly choose, integrate, and validate AI models inside Microso
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK230) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK230?source=sessions)**
 
 ----
 
@@ -129,7 +126,7 @@ Agents don't fail in demos — they fail in production. In this breakout, see ho
 
 **Level:** (200) Intermediate
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK231) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK231?source=sessions)**
 
 ----
 
@@ -139,7 +136,7 @@ In this hands-on lab, you will build a production-ready AI application using Mic
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/LAB520) | [Session Page](https://build.microsoft.com/en-US/sessions/LAB520?source=sessions)**
 
 ----
 
@@ -149,7 +146,7 @@ High performance agents are built on intelligence that brings together context, 
 
 **Level:** (200) Intermediate
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK240) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK240?source=sessions)**
 
 ----
 
@@ -159,7 +156,7 @@ AI agents are transforming how developers build software—but shipping producti
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK241) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK241?source=sessions)**
 
 ----
 
@@ -169,7 +166,7 @@ Go deep on multi-agent systems built on Microsoft Foundry, featuring Claw agent 
 
 **Level:** (400) Expert
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK243) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK243?source=sessions)**
 
 ----
 
@@ -179,4 +176,4 @@ Nondeterministic, multi-agent systems break traditional monitoring. As agents mo
 
 **Level:** (300) Advanced
 
-**> [GitHub Repo](https://github.com/microsoft)**
+**> [GitHub Repo](https://aka.ms/build26/BRK252) | [Session Page](https://build.microsoft.com/en-US/sessions/BRK252?source=sessions)**
