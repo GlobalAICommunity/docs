@@ -6,7 +6,7 @@ outline: deep
 **Microsoft Build &#47;&#47;localhost brings the best of Microsoft Build directly to your local community. As an official event redelivery, chapters receive a curated content kit from Global AI HQ and Microsoft, making it easy to host a high-quality evening event with minimal effort. Gather your local developers, play the special recorded opening and use the provided deck to present the highlights from Build, run a hands-on workshop, and connect over food and drinks.**
 
 ::: warning Note
-We are in the early stages of planning Microsoft Build &#47;&#47;localhost, so not everything is ready.
+We have reached capacity and funding (Azure credits and F&B credit) is no longer available. You can of course still organize your own Build &#47;&#47;localhost event.
 :::
 
 ### Key things to know!

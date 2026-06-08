@@ -6,17 +6,11 @@ outline: deep
 Everything you need to run Build &#47;&#47;LOCALHOST in one place. This page brings together the workshop materials and breakout sessions that make up the event program, so chapter leads and speakers can plan their agenda, prepare delivery, and know exactly what to expect from each session. Browse the hands-on labs and talks below — each entry includes a description and a level rating to help you pick the right content for your audience.
 
 > [!TIP]
-> **Good news for your Build &#47;&#47;LOCALHOST meetup!**
+> **Build &#47;&#47;LOCALHOST capacity reached**
 >
-> We are offering pre-configured lab environments through Skillable, identical to what attendees used at Build. That means no setup work for you — you just pick the lab and run it.
+> We have reached capacity and funding (Skillable lab support and Azure credits) is no longer available.
 >
-> To get started, tell us which lab you want to use. Fill out the form below and the team from Microsoft and Skillable will connect with you directly to set up your environment.
->
-> **Form:** [Build &#47;&#47;localhost – Fill out form](https://forms.cloud.microsoft/e/V0uAYTBWWD)
->
-> Please complete it **no later than 7 days before your event**, so everything is provisioned in time.
->
-> Please note that only approved events can get lab support through Skillable. We also have Azure Credits available for everyone.
+> You can of course still organize your own Build &#47;&#47;localhost event using the workshop materials and breakout sessions below.
 
 ## Workshop Materials
 
