@@ -28,7 +28,7 @@ To receive the **$600** reimbursement you need to meet all of the following:
 - A minimum of **25 attendees**
 - The event must be **free** for all attendees
 - You have the **original receipt**
-- You complete the **event report**, including pictures
+- You complete the **event report**, including pictures from the event
 
 ## How to Reimburse
 
