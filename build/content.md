@@ -10,6 +10,8 @@ Everything you need to run Build &#47;&#47;LOCALHOST in one place. This page bri
 >
 > We have reached capacity and funding (Skillable lab support and Azure credits) is no longer available.
 >
+> All events approved before 1 June are eligible for Skillable and reimbursement.
+>
 > You can of course still organize your own Build &#47;&#47;localhost event using the workshop materials and breakout sessions below.
 
 ## Workshop Materials
