@@ -118,6 +118,7 @@ export default defineConfig({
               { text: 'Register', link: '/build/register' },
               { text: 'Branding', link: '/build/branding' },
               { text: 'Content', link: '/build/content' },
+              { text: 'Reimbursement', link: '/build/reimbursement' },
             ]
           },
         ]

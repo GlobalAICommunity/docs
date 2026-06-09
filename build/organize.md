@@ -7,6 +7,8 @@ outline: deep
 
 ::: warning Note
 We have reached capacity and funding (Azure credits and F&B credit) is no longer available. You can of course still organize your own Build &#47;&#47;localhost event.
+
+All events approved before 1 June are eligible for Skillable and reimbursement.
 :::
 
 ### Key things to know!
