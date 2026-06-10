@@ -3,7 +3,7 @@ outline: deep
 ---
 # Microsoft Build &#47;&#47;localhost
 
-**Microsoft Build &#47;&#47;localhost brings the best of Microsoft Build directly to your local community. As an official event redelivery, chapters receive a curated content kit from Global AI HQ and Microsoft, making it easy to host a high-quality evening event with minimal effort. Gather your local developers, play the special recorded opening and use the provided deck to present the highlights from Build, run a hands-on workshop, and connect over food and drinks.**
+**Microsoft Build &#47;&#47;localhost brings the best of Microsoft Build directly to your local community. As an official event redelivery, chapters receive a curated content kit from Global AI HQ and Microsoft, making it easy to host a high-quality evening event with minimal effort. Gather your local developers, use the provided deck to present the highlights from Build, run a hands-on workshop, and connect over food and drinks.**
 
 ::: warning Note
 We have reached capacity and funding (Skillable Support and F&B credit) is no longer available. You can of course still organize your own Build &#47;&#47;localhost event.
@@ -44,7 +44,6 @@ The content kit is available on the [Event Content](/build/content.md) page.
 |-----------|--------------|
 | **17:00** | Doors open & registration |
 | **17:15** | Welcome & introductions |
-| **17:30** | Recorded opening video (15 min) |
 | **17:45** | Build highlights presentation using provided deck (30 min) |
 | **18:15** | Break + food & drinks |
 | **19:30** | Hands-on workshop / lab (60 min) |
@@ -63,7 +62,7 @@ Any location works for Build &#47;&#47;localhost. Choose a space that fits your 
 
 #### Venue checklist
 - [ ] Capacity for 25–50 people
-- [ ] Screen or projector for the recorded opening and presentations
+- [ ] Screen or projector for presentations
 - [ ] Reliable internet connection
 - [ ] Audio setup (speakers for video playback)
 - [ ] Space for a hands-on workshop (tables, power outlets)
@@ -102,7 +101,7 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 ### Quick checklist
 - [ ] Arrive **60 minutes early** to set up
 - [ ] Test screen, audio, and internet connection
-- [ ] Have the recorded opening and deck downloaded locally (don't rely on streaming)
+- [ ] Have the deck downloaded locally (don't rely on streaming)
 - [ ] Set up registration desk (laptop or tablet with attendee list)
 - [ ] Prepare food & drinks area
 - [ ] Take photos during the event
@@ -112,7 +111,7 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 - Assign one person for AV and one for registration
 - Keep introductions short — attendees are here for the content
 - Encourage networking during the break
-- Have the recorded opening and deck downloaded as backup in case of connectivity issues
+- Have the deck downloaded as backup in case of connectivity issues
 
 ## 6. After the Event
 
