@@ -27,6 +27,7 @@ To receive the **$600** reimbursement you need to meet all of the following:
 
 - A minimum of **25 attendees**
 - The event must be **free** for all attendees
+- Registration must be on the **Global AI Platform** or **Global AI Luma Calendar**
 - You have the **original receipt**
 - You complete the **event report**, including pictures from the event
 
