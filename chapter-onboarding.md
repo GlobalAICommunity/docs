@@ -18,9 +18,9 @@ This page covers everything you need to set up your chapter and get started.
 - Make a request to join **#new-chapter-lead** Discord channel by emailing your discord username to [support@globalai.community](mailto:support@globalai.community).
 - This is where announcements, updates, and support happen
 
-## 2. Chapter Dashboard (Umbraco)
+## 2. Chapter Dashboard
 
-Log in to your [Chapter Dashboard](https://globalai.community/umbraco) and complete the following:
+Log in to your [Chapter Dashboard](https://globalai.community/my/chapters) and complete the following:
 
 ### Chapter Details
 - Add a short chapter description

@@ -115,8 +115,8 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 
 ## 6. After the Event
 
-- Fill out the event report at the event (don't wait — do it on the spot)
-- Upload photos to the [Chapter Dashboard](https://globalai.community/umbraco)
+- Fill out the event report at the event (don't wait — do it on the spot).
+- Upload photos to the event report form.
 - Submit your F&B receipt for reimbursement
 - Share photos and a short recap on your chapter's social channels
 
