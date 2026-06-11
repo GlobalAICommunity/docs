@@ -117,7 +117,7 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 
 - Fill out the event report at the event (don't wait — do it on the spot).
 - Upload photos to the event report form.
-- Submit your F&B receipt for reimbursement
+- [Submit your F&B receipt for reimbursement](/build/reimbursement.md)
 - Share photos and a short recap on your chapter's social channels
 
 ## 7. Support Available
@@ -135,9 +135,9 @@ Use the provided [Build &#47;&#47;localhost branding and promotion kit](/build/b
 Each Build &#47;&#47;localhost event is eligible for an F&B credit of up to $600 USD. The exact amount depends on the number of attendees and your location. Here's how the process works:
 
 - **Pay upfront** — You cover the food and beverage costs on the day of your event.
-- **Submit your receipt** — After the event, submit your receipt through the event report. Only food and beverage expenses are eligible; other costs (venue, transport, swag, etc.) are not covered.
-- **Reimbursement** — You will be reimbursed within 30 days after submitting your expenses.
-- **Payment methods** — Reimbursement is available via **PayPal** or **Wise** only. Make sure you have an active account on one of these platforms before submitting.
+- **Submit your receipt** — After the event, submit your receipt as part of the reimbursement form you receive. Only food and beverage expenses are eligible; other costs (venue, transport, swag, etc.) are not covered.
+- **Reimbursement** — You will receive the reimbursement form before 1 July. Return the completed form before 7 July and the money will be transferred before 14 July.
+- **Payment method** — Reimbursement is sent via **PayPal**. Make sure you have an active PayPal account before submitting.
 
 ::: tip
 Keep your receipt clear and itemized. Receipts without a breakdown of items may delay the reimbursement process.
