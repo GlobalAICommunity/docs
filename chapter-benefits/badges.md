@@ -4,7 +4,7 @@
 
 ## How it works
 
-- Login to your [Chapter Space](https://globalai.community/umbraco). 
+- Login to your [Chapter Space](https://globalai.community/my/chapters). 
 - Navigate to Events
 - Click on one of your events
 - Navigate to the tab 'Digital Badge'

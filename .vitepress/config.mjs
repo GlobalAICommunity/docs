@@ -16,11 +16,19 @@ export default defineConfig({
     externalLinkIcon: true,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/new-chapter' },
+      { text: 'Documentation', link: '/my-community' },
       { text: 'AgentCon', link: '/agentcon/' },
       { text: 'Partnerships', link: '/partnerships/overview' }
     ],
     sidebar: [
+      { 
+        text: 'My Community', link: '/my-community',
+        collapsed: true,
+        items: [
+          { text: 'User Guide', link: '/my-community' },
+          { text: 'Events Guide', link: '/my-community/events-guide' },
+        ]
+      },
       {
         text: 'Chapter',
         collapsed: true,
