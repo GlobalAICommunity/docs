@@ -40,7 +40,7 @@ A hands-on learning event combining MeetUp and conference styles, using your own
 A low-effort evening MeetUp run in the weeks following Microsoft Build, with catering reimbursement available.
 
 ### [Global AI Construct](/construct.md)
-A 2-hour hands-on workshop where participants build AI agents from scratch — no slides, no spectators. "Stop watching. Start building."
+A 2-hour hands-on workshop where participants build AI agents from scratch, no slides, no spectators. "Stop watching. Start building."
 
 ---
 

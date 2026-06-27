@@ -6,7 +6,7 @@ outline: deep
 
 **Stop watching. Start building.**
 
-Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators — just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through September 2026.
+Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators, just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through September 2026.
 
 ### Key things to know!
 - **Time frame:** 1 July - 30 September 2026
@@ -37,10 +37,10 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 
 ## Suggested challenge themes
 
-- **Research Agent** — Build an agent that searches, summarizes, and presents findings on a topic.
-- **Workflow Agent** — Automate a multi-step task using tools and decision logic.
-- **Conversational Agent** — Create an agent that holds context and handles follow-up questions.
-- **Your own idea** — Chapters are free to define their own challenge based on local interests.
+- **Research Agent** - Build an agent that searches, summarizes, and presents findings on a topic.
+- **Workflow Agent** - Automate a multi-step task using tools and decision logic.
+- **Conversational Agent** - Create an agent that holds context and handles follow-up questions.
+- **Your own idea** - Chapters are free to define their own challenge based on local interests.
 
 ## Organizer checklist
 
