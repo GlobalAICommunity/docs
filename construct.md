@@ -12,17 +12,17 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 - **Time frame:** 1 July - 30 September 2026
 - **Style:** Hands-on workshop
 - **Event Format:** Community driven
-- **Duration:** 90 minutes
+- **Duration:** 2 hours
 - **Content:** Pick a challenge from the Construct challenge pack or define your own
 - **Registration:** Publish on the Global AI Community platform
 
-## Event format (90 min)
+## Event format (2 hours)
 
 | Segment | Duration |
 | --- | --- |
 | Welcome + intro | 10 min |
 | Challenge briefing | 10 min |
-| Build time | 60 min |
+| Build time | 80 min |
 | Demo + showcase | 15 min |
 | Wrap-up + next steps | 5 min |
 

@@ -12,7 +12,7 @@ The Global AI Community offers several event formats you can pick up and run in 
 | --- | --- | --- | --- | --- |
 | [Global Agentic Night](/agentic-nights.md) | MeetUp | All year | 2–3 hours (Evening) | Low |
 | [AI Community Day](/ai-community-day.md) | MeetUp XXL | All year | Half day | Medium |
-| [Global AI Construct](/construct.md) | Hands-on workshop | 1 July – 30 September 2026 | 90 minutes | Low |
+| [Global AI Construct](/construct.md) | Hands-on workshop | 1 July – 30 September 2026 | 2 hours | Low |
 
 ## Past formats
 
@@ -40,7 +40,7 @@ A hands-on learning event combining MeetUp and conference styles, using your own
 A low-effort evening MeetUp run in the weeks following Microsoft Build, with catering reimbursement available.
 
 ### [Global AI Construct](/construct.md)
-A 90-minute hands-on workshop where participants build AI agents from scratch — no slides, no spectators. "Stop watching. Start building."
+A 2-hour hands-on workshop where participants build AI agents from scratch — no slides, no spectators. "Stop watching. Start building."
 
 ---
 
