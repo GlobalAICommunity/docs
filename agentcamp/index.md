@@ -4,6 +4,9 @@ outline: deep
 
 # AgentCamp 2026
 
+> [!NOTE]
+> AgentCamp 2026 has finished. Thank you to everyone who organized, presented, and participated!
+
 ### The Global AI Bootcamp
 
 Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** - the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  

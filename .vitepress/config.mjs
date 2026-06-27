@@ -17,7 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/my-community' },
-      { text: 'AgentCon', link: '/agentcon/' },
+      { text: 'Events', link: '/event-format' },
       { text: 'Partnerships', link: '/partnerships/overview' }
     ],
     sidebar: [
@@ -93,6 +93,7 @@ export default defineConfig({
         text: 'Event formats',
         collapsed: false,            
         items: [             
+          { text: 'Overview', link: '/event-format' },
           { text: 'AI Community Day', link:  '/ai-community-day'},
           { text: 'AgentCon', link: '/agentcon/',
             collapsed: true,
@@ -129,6 +130,7 @@ export default defineConfig({
               { text: 'Reimbursement', link: '/build/reimbursement' },
             ]
           },
+          { text: 'Global AI Construct', link: '/construct' },
         ]
       },
       {

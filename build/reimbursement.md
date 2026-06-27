@@ -33,6 +33,8 @@ To receive the **$600** reimbursement you need to meet all of the following:
 
 ## How to Reimburse
 
+- Reimbursement is **open**
+- You find the reimbursement option at your event in **my** under the **event report**
 - **Fill out the reimbursement form** that you receive
 - We send the reimbursement via **PayPal**
 

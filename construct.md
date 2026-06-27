@@ -1,0 +1,68 @@
+---
+outline: deep
+---
+
+# Global AI Construct
+
+**Stop watching. Start building.**
+
+Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators — just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through September 2026.
+
+### Key things to know!
+- **Time frame:** 1 July - 30 September 2026
+- **Style:** Hands-on workshop
+- **Event Format:** Community driven
+- **Duration:** 90 minutes
+- **Content:** Pick a challenge from the Construct challenge pack or define your own
+- **Registration:** Publish on the Global AI Community platform
+
+## Event format (90 min)
+
+| Segment | Duration |
+| --- | --- |
+| Welcome + intro | 10 min |
+| Challenge briefing | 10 min |
+| Build time | 60 min |
+| Demo + showcase | 15 min |
+| Wrap-up + next steps | 5 min |
+
+## What you need
+
+- **Venue:** Space for 15-50 people with reliable Wi-Fi
+- **Tools:** Laptop per participant (or pairs)
+- **Challenge:** Pick one from the Construct challenge pack
+- **Co-organizer:** At least one helper on the day
+- **Date:** Any date between 1 July and 30 September
+- **Registration:** Publish on the Global AI Community platform
+
+## Suggested challenge themes
+
+- **Research Agent** — Build an agent that searches, summarizes, and presents findings on a topic.
+- **Workflow Agent** — Automate a multi-step task using tools and decision logic.
+- **Conversational Agent** — Create an agent that holds context and handles follow-up questions.
+- **Your own idea** — Chapters are free to define their own challenge based on local interests.
+
+## Organizer checklist
+
+### 3 weeks before
+- Book your venue
+- Set your date (1 Jul - 30 Sep)
+- Register the event on the Global AI Community platform
+- Promote via your chapter channels
+- Confirm your challenge theme
+- Brief any co-organizers or facilitators
+
+### 1 week before
+- Send reminder to registered attendees
+- Prepare the challenge briefing materials
+- Test your Wi-Fi and tech setup
+
+### On the day
+- Welcome participants
+- Keep build time focused
+- Capture photos for social
+- Collect feedback
+
+## Connect with us
+- Connect with us on Slack
+- Or send an email to: [hq@globalai.community](mailto:hq@globalai.community)
