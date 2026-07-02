@@ -44,7 +44,14 @@ Download the full Construct branding kit (logo, presentation template, speaker g
 | Build time | 80 min |
 | Demo + showcase | 15 min |
 | Wrap-up + next steps | 5 min |
+Ready-to-use labs
 
+Use these hands-on labs from the Foundry Toolkit for VS Code as ready-made challenges:
+
+- **[Lab 01 - Single Agent](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/tree/main/workshop/lab01-single-agent)** - Build your first single agent.
+- **[Lab 02 - Multi Agent](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/tree/main/workshop/lab02-multi-agent)** - Build a multi-agent solution.
+
+## 
 ## What you need
 
 - **Venue:** Space for 15-50 people with reliable Wi-Fi
