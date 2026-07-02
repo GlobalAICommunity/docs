@@ -6,15 +6,34 @@ outline: deep
 
 **Stop watching. Start building.**
 
-Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators, just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through September 2026.
+![Global AI Construct](/media/construct/global-ai-construct.png)
 
-### Key things to know!
-- **Time frame:** 1 July - 30 September 2026
+Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators, just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through August 2026.
+
+## Key things to know!
+- **Time frame:** 1 July -  31 August 2026
 - **Style:** Hands-on workshop
 - **Event Format:** Community driven
 - **Duration:** 2 hours
 - **Content:** Pick a challenge from the Construct challenge pack or define your own
 - **Registration:** Publish on the Global AI Community platform
+- **Eligibility:** This event series can only be organized by Global AI Chapter Leads.
+
+
+## How to register your event
+
+1. Join the Global AI Discord Channel for Organizers: [https://discord.gg/drYgzsytgV](https://discord.gg/drYgzsytgV)
+2. Visit [https://globalai.community/my/events/add](https://globalai.community/my/events/add).
+3. Select your chapter (you need to be logged in with your chapter email).
+4. Select **Construct** event under **Global Events**.
+5. Your event will be approved in 2 days.
+
+## Branding kit
+
+Download the full Construct branding kit (logo, presentation template, speaker graphics, and other visual assets):
+
+- [Download Branding Kit](/global-ai-construct-assets.zip)
+
 
 ## Event format (2 hours)
 
@@ -30,9 +49,9 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 
 - **Venue:** Space for 15-50 people with reliable Wi-Fi
 - **Tools:** Laptop per participant (or pairs)
-- **Challenge:** Pick one from the Construct challenge pack
+- **Challenge:** Pick one from the Construct challenge pack ***(coming soon) or define your own***
 - **Co-organizer:** At least one helper on the day
-- **Date:** Any date between 1 July and 30 September
+- **Date:** Any date between 1 July and 30 August
 - **Registration:** Publish on the Global AI Community platform
 
 ## Suggested challenge themes
@@ -64,5 +83,5 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 - Collect feedback
 
 ## Connect with us
-- Connect with us on Slack
-- Or send an email to: [hq@globalai.community](mailto:hq@globalai.community)
+- Join the Global AI Discord Channel for Organizers: [https://discord.gg/drYgzsytgV](https://discord.gg/drYgzsytgV)
+- Or send an email to: [support@globalai.community](mailto:support@globalai.community)

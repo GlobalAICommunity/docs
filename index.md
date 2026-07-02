@@ -13,13 +13,13 @@ hero:
     alt: Global AI Community Logo
   actions:
     - theme: brand
-      text: AgentCamp 2026
-      link: /agentcamp
+      text: Construct
+      link: /construct
     - theme: alt
-      text: AgentCon 2026
-      link: /agentcon
+      text: Build //localhost
+      link: /build/organize
     - theme: alt
-      text: New Chapters
+      text: New Chapter
       link: /new-chapter
 
 features:
