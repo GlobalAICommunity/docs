@@ -36,6 +36,17 @@ export default defineConfig({
           { text: 'Start a new chapter', link: '/new-chapter' },
           { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
         ]
+      },
+      {
+        text: 'Chapter Playbook', link: '/chapter-playbook/',
+        collapsed: true,
+        items: [
+          { text: 'Onboarding a New Chapter', link: '/chapter-playbook/onboarding' },
+          { text: 'Requirements to Keep Your Chapter', link: '/chapter-playbook/requirements' },
+          { text: 'Offboarding a Chapter', link: '/chapter-playbook/offboarding' },
+          { text: 'Transferring a Chapter', link: '/chapter-playbook/transferring' },
+          { text: 'Code of Conduct', link: '/chapter-playbook/code-of-conduct' },
+        ]
       },      
       {
         text: 'Chapter Benefits', link: '/chapter-benefits/',
