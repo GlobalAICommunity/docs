@@ -6,14 +6,14 @@ outline: deep
 
 Welcome to the Chapter Leads Meeting hub! This page provides access to all our monthly meeting recordings and notes. These meetings keep our chapter leads informed about new initiatives, community updates, resources, and best practices.
 
-## Meeting Recordings
+## Meeting Recaps
 
 ### 2026
 
- - **[February 2026](february-2026.md)** - AgentCamp follow-up, planning timeline, chapter support resources
+- **[July 2026](july-2026.md)** - Global AI platform launch, AgentCamp and Build // localhost wrap-up, new chapter tools
+- **[February 2026](february-2026.md)** - AgentCamp follow-up, planning timeline, chapter support resources
 - **[January 2026](january-2026.md)** - AgentCamp Launch, Discord Migration, New Resources
 
-  
 ### 2025
 
 - **[December 2025](december-2025.md)** - Introducing AgentCamp, Chapter Lead Benefits, 2026 Preview
