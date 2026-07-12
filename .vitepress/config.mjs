@@ -59,8 +59,7 @@ export default defineConfig({
               { text: 'For attendees', link: '/chapter-benefits/azure-client' },
             ] 
           },
-          { text: 'Discord', link: '/chapter-benefits/discord' },
-          { text: 'MeetUp', link: '/chapter-benefits/meetup' },  
+          { text: 'Discord', link: '/chapter-benefits/discord' },         
           { text: 'LinkedIn Showcase Page', link: '/chapter-benefits/linkedin-showcase-page' },        ,
           { text: 'Digital Badges', link: '/chapter-benefits/badges' },
           { text: 'Canva Pro', link: '/chapter-benefits/canva' },

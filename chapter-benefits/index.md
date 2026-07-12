@@ -33,10 +33,6 @@ Below is a quick guide to all chapter benefits, with links to the dedicated page
   - Request a LinkedIn Showcase Page for your chapter to promote events and updates.
   - Includes email requirements and chapter lead profile details.
 
-- [MeetUp Sponsorship](meetup.md)
-  - Apply for access to the Global AI MeetUp community and create or connect your chapter group.
-  - Sponsorship is earned through active chapter engagement and branding compliance.
-
 ## How to use this page
 
 Visit the dedicated page for each benefit to find:

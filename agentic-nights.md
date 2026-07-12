@@ -35,5 +35,5 @@ The event format is a low-key MeetUp format, target 30-50 people, run a hands-on
 
 
 ## 3. Connect with us
-- Connect with us on Slack
-- Or send an email to: [hq@globalai.community](mailto:hq@globalai.community)
+- Connect with us on [Discord](https://gaic.io/discord) to get support from the community and other chapter leads.
+- Or send an email to: [support@globalai.community](mailto:support@globalai.community)

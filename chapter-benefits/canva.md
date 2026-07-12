@@ -8,6 +8,8 @@ Global AI provides **Canva Pro access** to eligible and active chapter leads to 
 
 This benefit is available to chapters that are actively organizing and publishing Global AI events.
 
+> ⚠ We are updating the branding access and Canva Pro request process. Please check back for the latest instructions.
+
 
 ## Who Is Eligible
 
@@ -24,7 +26,7 @@ Canva Pro access is reviewed and approved by Global AI HQ.
 
 ## How to Request Canva Pro Access
 
-All requests must be sent from your **@globalai.community** chapter email.
+All requests must be sent from your chapter email address associated with your chapter.
 
 **Email**: [support@globalai.community](mailto:support@globalai.community)
 

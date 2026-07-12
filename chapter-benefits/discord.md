@@ -24,7 +24,7 @@ This role:
 - Use your real name or chapter related username if possible
 
 **Step 2: Email Support**
-After joining Discord, send an email using your **@globalai.community** chapter email.
+After joining Discord, send an email using your email identified with your chapter to request the Chapter Lead role.
 
 - **To**: support@globalai.community  
 - **Subject**: Discord Chapter Lead Role Request  
@@ -46,7 +46,7 @@ This is where Global AI HQ shares updates, guidance, and announcements.
 
 ## Discord Link
 
-👉 **Join the Global AI Discord** : [discord.gg/NMryZKPC3m](https://discord.gg/NMryZKPC3m)
+👉 **Join the Global AI Discord** : [gaic.io/discord](https://gaic.io/discord)
 
 
 ## Expectation
