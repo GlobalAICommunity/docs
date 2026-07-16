@@ -95,6 +95,16 @@ export default defineConfig({
         items: [             
           { text: 'Overview', link: '/event-format' },
           { text: 'AI Community Day', link:  '/ai-community-day'},
+          { text: 'The Global AI Conference', link: '/global-ai-conference/',
+            collapsed: true,
+            items: [
+              { text: 'Eligibility and Roles', link: '/global-ai-conference/eligibility-and-roles' },
+              { text: 'Application, Approval & Timeline', link: '/global-ai-conference/application-and-timeline' },
+              { text: 'Venue, Logistics & Event Day', link: '/global-ai-conference/venue-logistics' },
+              { text: 'Marketing, Promotion & Branding', link: '/global-ai-conference/marketing-branding' },
+              { text: 'Post-Event, Resources & Sponsors', link: '/global-ai-conference/post-event' },
+            ]
+          },
           { text: 'AgentCon', link: '/agentcon/',
             collapsed: true,
             items: [

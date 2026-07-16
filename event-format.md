@@ -12,6 +12,7 @@ The Global AI Community offers several event formats you can pick up and run in 
 | --- | --- | --- | --- | --- |
 | [Global Agentic Night](/agentic-nights.md) | MeetUp | All year | 2–3 hours (Evening) | Low |
 | [AI Community Day](/ai-community-day.md) | MeetUp XXL | All year | Half day | Medium |
+| [The Global AI Conference](/global-ai-conference/) | Conference | All year | Full day | High |
 | [Global AI Construct](/construct.md) | Hands-on workshop | 1 July – 30 September 2026 | 2 hours | Low |
 
 ## Past formats
@@ -29,7 +30,10 @@ A low-key evening MeetUp focused on AI agents. Run a hands-on workshop or give a
 
 ### [AI Community Day](/ai-community-day.md)
 A larger half-day MeetUp ("MeetUp XXL") with multiple sessions and more attendees. A step up from a regular evening event.
+The Global AI Conference](/global-ai-conference/)
+A full-day developer conference with a session track and a workshop track, a Microsoft keynote, and sponsors. The highest-effort format, run to a fixed global format.
 
+### [
 ### [AgentCon](/agentcon/)
 A full-day conference format with speakers, tracks, and sponsors. The highest-effort format, run within a defined time frame.
 
