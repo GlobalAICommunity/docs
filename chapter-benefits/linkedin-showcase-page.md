@@ -12,7 +12,7 @@ A LinkedIn Showcase Page is a dedicated page on LinkedIn that allows you to high
 
 ## Request Your Chapter LinkedIn Showcase Page
 To request a LinkedIn Showcase Page for your chapter, please follow these steps:
-1. **Email Request**: Send an email from your **city_name@globalai.community** email address to [support@globalai.community](mailto:support@globalai.community) with the subject line **"LinkedIn Showcase Page Request - [Your Chapter Name]"**
+1. **Email Request**: Send an email from your email id associated with your chapter to [support@globalai.community](mailto:support@globalai.community) with the subject line **"LinkedIn Showcase Page Request - [Your Chapter Name]"**
 2. **Include Details**: In the email body, please include the following details:
    - Chapter Leads Name(s)and their LinkedIn profile link(s)
 

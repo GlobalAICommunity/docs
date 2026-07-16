@@ -36,6 +36,17 @@ export default defineConfig({
           { text: 'Start a new chapter', link: '/new-chapter' },
           { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
         ]
+      },
+      {
+        text: 'Chapter Playbook', link: '/chapter-playbook/',
+        collapsed: true,
+        items: [
+          { text: 'Onboarding a New Chapter', link: '/chapter-playbook/onboarding' },
+          { text: 'Requirements to Keep Your Chapter', link: '/chapter-playbook/requirements' },
+          { text: 'Offboarding a Chapter', link: '/chapter-playbook/offboarding' },
+          { text: 'Transferring a Chapter', link: '/chapter-playbook/transferring' },
+          { text: 'Code of Conduct', link: '/chapter-playbook/code-of-conduct' },
+        ]
       },      
       {
         text: 'Chapter Benefits', link: '/chapter-benefits/',
@@ -48,8 +59,7 @@ export default defineConfig({
               { text: 'For attendees', link: '/chapter-benefits/azure-client' },
             ] 
           },
-          { text: 'Discord', link: '/chapter-benefits/discord' },
-          { text: 'MeetUp', link: '/chapter-benefits/meetup' },  
+          { text: 'Discord', link: '/chapter-benefits/discord' },         
           { text: 'LinkedIn Showcase Page', link: '/chapter-benefits/linkedin-showcase-page' },        ,
           { text: 'Digital Badges', link: '/chapter-benefits/badges' },
           { text: 'Canva Pro', link: '/chapter-benefits/canva' },
@@ -59,6 +69,7 @@ export default defineConfig({
         text: 'Chapter Leads Meetings', link: '/chapter-leads-meeting/',
         collapsed: true,
         items: [
+          { text: 'July 2026', link: '/chapter-leads-meeting/july-2026' },
           { text: 'February 2026', link: '/chapter-leads-meeting/february-2026' },
           { text: 'January 2026', link: '/chapter-leads-meeting/january-2026' },
           { text: 'December 2025', link: '/chapter-leads-meeting/december-2025' },
