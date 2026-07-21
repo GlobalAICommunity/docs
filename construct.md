@@ -18,6 +18,7 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 - **Content:** Pick a challenge from the Construct challenge pack or define your own (coming soon).
 - **Registration:** Publish on the Global AI Community platform
 - **Eligibility:** This event series can only be organized by Global AI Chapter Leads.
+- **Reimbursement:** Upto $200 USD only in F&B.
 
 
 ## How to register your event
