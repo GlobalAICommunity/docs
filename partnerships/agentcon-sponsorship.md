@@ -9,16 +9,10 @@ AgentCon events are free for attendees, attracting a minimum of **150 participan
 ## Why Sponsor AgentCon?
 
 - **Targeted Developer Audience**: AgentCon attendees are actively building with AI agent frameworks, tools, and infrastructure — a highly relevant audience for AI-focused organizations.
-- **Global Footprint**: AgentCon runs across multiple waves worldwide, with events hosted by 175+ Global AI chapters. Sponsoring gives you reach into local developer ecosystems on every continent.
+- **Global Footprint**: AgentCon runs across multiple waves worldwide, with events hosted by 200+ Global AI chapters. Sponsoring gives you reach into local developer ecosystems on every continent.
 - **On-Site Presence**: Events include dedicated space for sponsor booths and networking, providing direct engagement with attendees.
 - **Brand Alignment**: Associate your brand with cutting-edge AI agent technology and a community-first, diversity-committed ecosystem.
 - **Free-to-Attend Model**: Your sponsorship directly enables free access for all attendees, generating goodwill and positive brand association.
-
-## Pricing
-
-The sponsorship fee is **€3,000 per event**.
-
-Sponsors committing to **6 or more events** are recognized as a **Global AgentCon Sponsor**, gaining additional visibility across the entire AgentCon programme.
 
 ## Sponsorship Benefits
 
@@ -61,6 +55,12 @@ Sponsorship covers a series of AgentCon events over an agreed period. Sponsors r
 - Sponsors do not receive access to attendee personal data or contact lists.
 - Sponsorship does not grant exclusivity over event topics, technologies, or competing sponsors unless explicitly agreed in writing.
 - Sponsors must operate in a manner consistent with ethical and responsible AI practices.
+
+## Pricing
+
+The sponsorship fee is **€3,000 per event**.
+
+Sponsors committing to **6 or more events** are recognized as a **Global AgentCon Sponsor**, gaining additional visibility across the entire AgentCon programme.
 
 ## How to Become a Sponsor
 1. Contact **[hq@globalai.community](mailto:hq@globalai.community)** to express interest.
