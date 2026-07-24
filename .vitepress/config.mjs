@@ -163,7 +163,7 @@ export default defineConfig({
             link: '/partnerships/overview',
             collapsed: false,
               items: [
-                { text: 'Community Friend', link:  '/partnerships/community-partner'},
+                { text: 'Community Partner', link:  '/partnerships/community-partner'},
                 { text: 'Partner', link: '/partnerships/partner' },
                 { text: 'Strategic Partner', link: '/partnerships/strategic-partner' },
               ] 
