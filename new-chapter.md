@@ -23,9 +23,7 @@ When requesting a chapter, we ask that it be local and city-based. If an existin
 ## Benefits for chapters
 - As a chapter in the Global AI Community, you get benefits to help you run your chapter.
 - Be part of a large vibrant community with 100.000+ members around the world!
-- A [your chapter]@globalai.community Microsoft 365 Business Basic licence.
-- A sponsored Meetup Pro subscription for your chapter under the [Global AI Community Network](https://www.meetup.com/pro/the-global-ai-community/).
-- Resources for branding, including banners for MeetUp, socials, events and your own Chapter Logo.
+- Resources for branding, including banners for socials, events and your own Chapter Logo.
 - Ability to send [digital badges](https://globalai.community/badges/f6503dea-7129-4404-b6c8-a9ea38b644fb/) to your attendees.
 - Ability to use our global channels like [YouTube](https://www.youtube.com/globalaicommunity), [Twitter](https://x.com/GlobAICommunity) and [LinkedIn](https://www.linkedin.com/company/global-ai-community) to post updates about your chapter and stream your video content.
 - Contribute content to global initiatives like [Global AI Weekly](https://weekly.globalai.community/) and [Global AI Notes](https://www.youtube.com/playlist?list=PLMjtoLHNjR0sjqOFUpp0fhQwG-j861XEI), to reach a global audience around the world.
@@ -66,7 +64,7 @@ Do not use the chapter for commercial activities, your events should be not for 
 ***Ready to become a chapter lead?***
 
 - Prior to starting your own Global AI Community chapter, please first [join our Discord Community](https://discord.gg/NMryZKPC3m), and head to `#general` channel. We encourage you to seek mentorship from experienced chapter leads, and for you to ask questions about starting your own chapter.
-- Once you’re ready to start your own group, [please fill in the form](https://forms.office.com/e/zQAYMdiZr0).
+- Once you’re ready to start your own group, [please fill in the form](https://globalai.community/my/chapter-application).
 - We review new chapter requests once per month. Your request will be reviewed in the following month after you file your request. For example, if you filled in the form in March 2026, it will be reviewed in April 2026.
 - If we approve your request, we will send you a welcome package with your groups @globalai.community email address credentials.
 - Please do not purchase domains or setup email addresses; we will do that for you! We need to maintain accounts (both for trademark and administrative purposes).
