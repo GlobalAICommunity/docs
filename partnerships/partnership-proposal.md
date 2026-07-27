@@ -64,7 +64,7 @@ Any attendee communications will be distributed through Global AI Community-appr
 
 The Partner will sponsor six AgentCon 2027 events organized jointly by Global AI Community HQ and invited chapter leads and/or local organizers. The Partner may indicate its preferred AgentCon locations from the then-current eligible event list published in the [AgentCon 2027 events list](/agentcon/events). Global AI Community HQ will confirm the final portfolio of six events after considering the Partner's preferences in good faith, together with event availability, local organizer readiness, venue availability, expected capacity, geographic balance, scheduling, operational feasibility, and community and attendee safety. The current suggested pool includes Bengaluru, Bangkok, Toronto, New York, Silicon Valley, Ottawa, Melbourne, Hong Kong, Tokyo, Berlin, and Amsterdam, from which six locations will be confirmed.
 
-Each AgentCon 2027 event is planned with a target capacity of at least 150 attendee places, resulting in a combined target capacity of at least **900 attendee places** across the six events. Target capacity refers to planned event capacity, not a registration or attendance commitment. Actual registrations and attendance are not guaranteed and may vary by location.
+Each AgentCon 2027 event targets **300 developers**, creating a combined target of **1,800 attendee places** across the six events. This is a planning target, not a registration or attendance commitment. Actual registrations and attendance are not guaranteed and may vary by location.
 
 The Global AI Community does not guarantee any minimum number of registrations, attendance, views, impressions, engagements, leads, conversions, sales, or other commercial outcomes.
 
@@ -168,7 +168,7 @@ Invoicing and payment timing will be defined in the written agreement.
 ## Conditions and Safeguards
 
 - The Global AI Community will confirm the selected AgentCon 2027 events and schedule in writing following consultation with the Partner.
-- Branding assets and session or workshop materials should be supplied at least four weeks before each event.
+- Branding assets and session or workshop materials must be supplied at least four weeks before each event.
 - Sessions and sponsored content are subject to review for alignment with the Global AI Community's educational mission.
 - The Partner must follow the Global AI Community Code of Conduct, sponsorship guidelines, and brand policies.
 - The partnership does not provide exclusivity unless explicitly stated in the written agreement.
@@ -182,13 +182,13 @@ Deliverables that depend on Partner-supplied materials, approvals, speakers, or 
 
 ### Event changes
 
-The Global AI Community may make reasonable changes to dates, venues, locations, formats, schedules, capacity, and delivery arrangements for operational reasons, venue or organizer availability, safety, legal or regulatory requirements, community considerations, or force majeure. The Partner will be consulted where reasonably practicable. If a change materially reduces the overall sponsored scope, the parties will work together in good faith to provide a replacement event, an equivalent benefit, or another reasonable remedy agreed in writing.
+The Global AI Community may make reasonable operational changes to dates, venues within the selected location, formats, schedules, capacity, and delivery arrangements for venue or organizer availability, safety, legal or regulatory requirements, community considerations, or force majeure. The Partner will be consulted where reasonably practicable. Replacing a selected sponsored event or moving it to a different city requires mutual written agreement. If a change materially reduces the overall sponsored scope, the parties will work together in good faith to agree in writing on a replacement event, equivalent benefit, or another reasonable non-refund remedy.
 
 ### Cancellation, suspension, and force majeure
 
-- If an event is cancelled or rescheduled, or if force majeure prevents delivery, the parties will work together in good faith to reschedule, provide a replacement event, or arrange an equivalent benefit where appropriate.
+- If an event is cancelled or rescheduled, or if force majeure prevents delivery, the parties will work together in good faith to reschedule it, mutually agree in writing on a replacement event, or arrange an equivalent benefit where appropriate.
 - The Global AI Community may reject, suspend, remove, or discontinue an activity, item of content, speaker, offer, or platform access when it reasonably determines that the activity may conflict with its mission, its policies, legal or regulatory obligations, community or attendee safety, editorial independence, brand reputation, or community trust, including in cases of material breach, late payment, reputational or legal risk, or Code of Conduct violations.
-- Sponsorship fees are non-refundable, except that where the Global AI Community is unable to provide a material portion of the agreed scope for reasons within its control, the parties will work together in good faith to provide replacement events, equivalent benefits, an extension, or a fair and reasonable adjustment or partial refund, as set out in the written agreement.
+- Sponsorship fees are non-refundable. Where the Global AI Community is unable to provide a material portion of the agreed scope for reasons within its control, the parties will work together in good faith to provide replacement events, equivalent benefits, or an extension as set out in the written agreement.
 - Where the Partner cancels or is in material breach, the consequences (including any impact on the waived Partner package fee) will be as set out in the written agreement.
 
 ## Next Steps

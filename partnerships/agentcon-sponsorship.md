@@ -4,7 +4,7 @@
 
 AgentCon 2027 Sponsorship enables organizations to support invited local [AgentCon](http://agentcon.dev/) events — the Global AI Community's developer conference focused on AI Agents — while gaining targeted visibility and engagement with an audience of AI developers, data scientists, and professionals.
 
-AgentCon 2027 events are free for attendees, attracting a minimum of **150 participants** per event. Sponsors play a vital role in making these high-quality, community-driven conferences possible.
+AgentCon 2027 events are free for attendees and target **300 developers per event**. Sponsors play a vital role in making these high-quality, community-driven conferences possible.
 
 ## Why Sponsor AgentCon?
 

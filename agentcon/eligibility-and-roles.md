@@ -11,7 +11,7 @@ Invited co-organizers should have:
 
 - An active organizing team (2–5 people minimum).  
 - A local network of developers and community partners.  
-- Capacity to host at least 200 attendees.  
+- Capacity to host 300 developers.
 
 Chapters that want to organize an open conference format in 2027 should apply for the [Global AI Conference](/global-ai-conference/).
 
