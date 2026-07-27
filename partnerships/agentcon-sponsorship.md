@@ -18,9 +18,9 @@ AgentCon events are free for attendees, attracting a minimum of **150 participan
 
 Sponsorship covers a series of AgentCon events over an agreed period. Sponsors receive the following benefits per event:
 
-### Speaking Session
-- A dedicated speaking session (25 or 45 minutes depending on the event format)
-- Optional 60-90-minute workshop, if the venue permits
+### Speaking Session or Workshop
+- A dedicated speaking session (25 or 45 minutes depending on the event format), or
+- A 60-90-minute workshop, if the venue permits
 
 ### Pre-Event Exposure
 - Listing as sponsor on the event page
