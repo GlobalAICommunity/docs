@@ -3,13 +3,13 @@ outline: deep
 ---
 # Event Overview
 
-AgentCon follows a **fixed format** to ensure global consistency and quality.
+AgentCon 2027 follows a **fixed, invite-only format** to ensure global consistency and quality.
 
 | **Attribute** | **Requirement** |
 |----------------|-----------------|
 | **Duration** | 1 day |
 | **Hours** | 10:00–17:00 or 15:00–21:00 |
-| **Waves** | Wave 2: Sept–Dec 2025 / Wave 3: Jan–Jun 2026 |
+| **Schedule** | 2027 dates and locations assigned by invitation and agreed with Global AI HQ |
 | **Tracks** | Minimum 2 — one session track and one workshop track |
 | **Keynote** | Microsoft Keynote (45 min, speaker provided) |
 | **Audience** | Minimum 200 attendees |

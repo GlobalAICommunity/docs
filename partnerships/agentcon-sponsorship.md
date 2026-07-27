@@ -1,10 +1,10 @@
-# AgentCon Sponsorship
+# AgentCon 2027 Sponsorship
 
 ## Purpose
 
-AgentCon Sponsorship enables organizations to support local [AgentCon](http://agentcon.dev/) events — the Global AI Community's developer conference focused on AI Agents — while gaining targeted visibility and engagement with an audience of AI developers, data scientists, and professionals.
+AgentCon 2027 Sponsorship enables organizations to support invited local [AgentCon](http://agentcon.dev/) events — the Global AI Community's developer conference focused on AI Agents — while gaining targeted visibility and engagement with an audience of AI developers, data scientists, and professionals.
 
-AgentCon events are free for attendees, attracting a minimum of **150 participants** per event across multiple global waves. Sponsors play a vital role in making these high-quality, community-driven conferences possible.
+AgentCon 2027 events are free for attendees, attracting a minimum of **150 participants** per event. Sponsors play a vital role in making these high-quality, community-driven conferences possible.
 
 ## Why Sponsor AgentCon?
 
@@ -16,7 +16,7 @@ AgentCon events are free for attendees, attracting a minimum of **150 participan
 
 ## Sponsorship Benefits
 
-Sponsorship covers a series of AgentCon events over an agreed period. Sponsors receive the following benefits per event:
+Sponsorship covers a series of AgentCon 2027 events over an agreed period. Sponsors receive the following benefits per event:
 
 ### Speaking Session or Workshop
 - A dedicated speaking session (25 or 45 minutes depending on the event format), or
@@ -60,7 +60,7 @@ Sponsorship covers a series of AgentCon events over an agreed period. Sponsors r
 
 The sponsorship fee is **€3,000 per event**.
 
-Sponsors committing to **6 or more events** are recognized as a **Global AgentCon Sponsor**, gaining additional visibility across the entire AgentCon programme.
+Sponsors committing to **6 or more events** are recognized as a **Global AgentCon 2027 Sponsor**, gaining additional visibility across the entire AgentCon 2027 programme.
 
 ## How to Become a Sponsor
 1. Contact **[hq@globalai.community](mailto:hq@globalai.community)** to express interest.

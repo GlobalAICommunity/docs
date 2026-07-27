@@ -35,9 +35,9 @@ A custom, multi-year collaboration focused on shared goals, measurable impact, a
 
 ## Event Sponsorship
 
-### AgentCon Sponsorship
+### AgentCon 2027 Sponsorship
 
-Dedicated sponsorship opportunities for AgentCon — the Global AI Community's developer conference on AI Agents.
+Dedicated sponsorship opportunities for the invite-only AgentCon 2027 series — the Global AI Community's developer conference on AI Agents.
 
 [Read more](./agentcon-sponsorship.md)
 
@@ -69,7 +69,7 @@ We coordinate approved offers across relevant chapters, events, or programs so t
 | Partner | €6,000 per year |
 | Strategic Partner | Custom multi-year agreement |
 | Global AI Weekly | €500 per article, per edition |
-| AgentCon Sponsorship | €3,000 per event |
+| AgentCon 2027 Sponsorship | €3,000 per event |
 
 ## Interested?
 

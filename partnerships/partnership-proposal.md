@@ -15,10 +15,10 @@ head:
 
 The Global AI Community connects **250,000+ members through 200+ chapters worldwide**. Our ecosystem includes a chapter and event platform, Global AI Weekly with **70,000+ subscribers**, a YouTube channel with **50,000+ subscribers**, global event programs, and local communities on every continent.
 
-This proposal gives the Partner a year-round global presence and direct engagement with AI developers through six AgentCon events. It combines:
+This proposal gives the Partner a year-round global presence and direct engagement with AI developers through six AgentCon 2027 events. It combines:
 
 1. A complimentary annual Global AI Community Partner package with specific content, product, social, and event-platform deliverables.
-2. Six AgentCon sponsorships, qualifying the organization as a **Global AgentCon Sponsor**.
+2. Six AgentCon 2027 sponsorships, qualifying the organization as a **Global AgentCon 2027 Sponsor**.
 
 The standard combined value is **€24,000**. The proposed investment is **€18,000**, with the €6,000 annual Partner fee fully waived.
 
@@ -37,7 +37,7 @@ The partnership is designed to:
 | Component | Included scope | Standard price | Proposed price |
 | --- | --- | ---: | ---: |
 | Global AI Community Partner | 12-month package | €6,000 | €0 |
-| Global AgentCon Sponsor | 6 events at €3,000 each | €18,000 | €18,000 |
+| Global AgentCon 2027 Sponsor | 6 events at €3,000 each | €18,000 | €18,000 |
 | **Total** | **1 annual partnership and 6 events** | **€24,000** | **€18,000** |
 
 ## 1. Annual Global AI Community Partner Package
@@ -52,18 +52,17 @@ The Partner receives the following benefits for the full proposal term. These de
 | **Short technical series** | One series about the Partner's company, product, or service; each episode provides a concise technical insight, practical tip, capability, or use case; scripts and publication dates agreed in advance | Up to 4 episodes of no more than 30 minutes each |
 | **Optional in-person interview** | An additional interview may be recorded when schedules and locations align | Optional; not a guaranteed deliverable |
 | **Global social media** | Posts across agreed Global AI Community-owned channels supporting the partnership, content, product campaign, technical series, or another agreed initiative | 6 posts during the term |
-| **Product and services campaign** | One coordinated offer of credits, vouchers, licenses, subscriptions, cloud or API access, developer tools, training resources, or professional services through agreed community channels | 1 campaign with audience, channels, timing, eligibility, and redemption process agreed before launch |
-| **Event organizing tools** | Access to public event publishing, attendee registration, capacity management, attendee communications, and digital badges | 1 approved Partner event series during the term |
+| **Product and services event campaign** | One coordinated campaign built around an approved Partner event series. The Partner may offer credits, vouchers, licenses, subscriptions, cloud or API access, developer tools, training resources, or professional services. The series includes access to public event publishing, attendee registration, capacity management, attendee communications, and digital badges, with promotion through agreed community channels. | 1 campaign and event series during the term; audience, schedule, channels, eligibility, and redemption process agreed before launch |
 
 All content, campaign, and event-series plans require prior agreement and must align with the Global AI Community's educational mission and brand policies. The Global AI Community manages distribution and does not provide the Partner with community member contact details or mailing-list access.
 
-## 2. Global AgentCon Sponsorship
+## 2. Global AgentCon 2027 Sponsorship
 
-The Partner will sponsor six AgentCon events selected and scheduled by mutual agreement during the proposal term. Each AgentCon is designed for at least 150 participants, creating an expected aggregate audience of at least **900 attendee places** across the six events.
+The Partner will sponsor six AgentCon 2027 events organized jointly by Global AI HQ and invited chapter leads and/or local organizers. Event locations must be selected from the published [AgentCon 2027 events list](/agentcon/events) and are confirmed by mutual agreement based on availability. The current suggested pool includes Bengaluru, Bangkok, Toronto, New York, Silicon Valley, Ottawa, Melbourne, Hong Kong, Tokyo, Berlin, and Amsterdam, from which six locations will be selected. Each AgentCon 2027 event is designed for at least 150 participants, creating an expected aggregate audience of at least **900 attendee places** across the six events.
 
 ### Guaranteed Aggregate Deliverables
 
-Across the six sponsored AgentCon events, the Partner receives:
+Across the six sponsored AgentCon 2027 events, the Partner receives:
 
 | Deliverable | Total included |
 | --- | ---: |
@@ -77,11 +76,11 @@ Across the six sponsored AgentCon events, the Partner receives:
 | Event reports | 6 |
 | Access to event photo collections | 6 |
 
-### Global AgentCon Sponsor Recognition
+### Global AgentCon 2027 Sponsor Recognition
 
-The six-event commitment qualifies the Partner for **Global AgentCon Sponsor** status during the proposal term. This includes:
+The six-event commitment qualifies the Partner for **Global AgentCon 2027 Sponsor** status during the proposal term. This includes:
 
-- Use of the Global AgentCon Sponsor designation.
+- Use of the Global AgentCon 2027 Sponsor designation.
 - Logo and name recognition on the central AgentCon sponsor page.
 - Recognition in applicable program-wide AgentCon sponsor communications and materials.
 - Coordination of the six-event portfolio through Global AI Community HQ.
@@ -93,8 +92,7 @@ The Global AI Community will maintain a delivery record for the agreed benefits.
 - Links to the four published Global AI Weekly articles.
 - Links to the published technical series episodes and, if produced, the optional in-person interview.
 - Links or screenshots for the six annual Partner social posts.
-- A summary of the product and services campaign and the channels used.
-- Confirmation of the approved Partner event series and enabled platform capabilities.
+- A summary of the product and services event campaign, channels used, approved event series, and enabled platform capabilities.
 - An event report and photo link for each sponsored AgentCon.
 - A final summary of delivered activities and reported aggregate AgentCon attendance.
 
@@ -136,7 +134,7 @@ Invoicing and payment timing will be defined in the written agreement.
 
 ## Conditions and Safeguards
 
-- The parties will confirm the selected AgentCon events and schedule in writing.
+- The parties will confirm the selected AgentCon 2027 events and schedule in writing.
 - Branding assets and session or workshop materials must be supplied at least four weeks before each event.
 - Sessions and sponsored content are subject to review for alignment with the Global AI Community's educational mission.
 - The organization must follow the Global AI Community Code of Conduct, sponsorship guidelines, and brand policies.
@@ -150,8 +148,8 @@ Invoicing and payment timing will be defined in the written agreement.
 ## Next Steps
 
 1. Confirm acceptance of the proposed scope and €18,000 investment.
-2. Select the six AgentCon events.
-3. Agree on the Partner content calendar, product campaign, and event series.
+2. Select the six AgentCon 2027 events.
+3. Agree on the Partner content calendar and product and services event campaign.
 4. Complete the written partnership and sponsorship agreement.
 5. Schedule a kickoff meeting and begin delivery.
 

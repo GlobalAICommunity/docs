@@ -20,7 +20,7 @@ outline: deep
 
 ## Sponsors
 
-For sponsorship tiers, benefits, and guidelines, see the [AgentCon Sponsorship page](/partnerships/agentcon-sponsorship).
+For partnership and sponsorship options, see the [Global AI Community partnership overview](/partnerships/overview).
 
 ## Contact
 
