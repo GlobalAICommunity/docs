@@ -195,7 +195,7 @@ The Global AI Community may make reasonable changes to dates, venues, locations,
 ## Next Steps
 
 1. Confirm acceptance of the proposed scope and €18,000 investment.
-2. Share preferred AgentCon 2027 locations, for confirmation of the final six events by Global AI Community HQ following consultation.
+2. Share preferred AgentCon 2027 locations for confirmation of the final six events by Global AI Community HQ following consultation.
 3. Plan the Partner content calendar and product and services event campaign collaboratively.
 4. Complete the written partnership and sponsorship agreement.
 5. Schedule a kickoff meeting and begin delivery.
