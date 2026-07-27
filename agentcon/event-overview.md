@@ -12,7 +12,7 @@ AgentCon 2027 follows a **fixed, invite-only format** to ensure global consisten
 | **Schedule** | 2027 dates and locations assigned by invitation and agreed with Global AI HQ |
 | **Tracks** | Minimum 2 — one session track and one workshop track |
 | **Keynote** | Microsoft Keynote (45 min, speaker provided) |
-| **Audience** | Minimum 200 attendees |
+| **Audience** | Target of 300 developers |
 | **Venue** | Non-Microsoft location (e.g., university, cinema, partner site) |
 | **Fee** | Must be free for all attendees |
 | **Registration** | Managed via Global AI Community website |

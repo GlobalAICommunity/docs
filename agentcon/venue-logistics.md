@@ -7,7 +7,7 @@ outline: deep
 
 - **Non-Microsoft building.** In a very exceptional case, if the venue is Microsoft, then it must be on the name of one of the **Board members of Global AI Community** that works at Microsoft.  
 - **Accessible by public transport**  
-- **Capacity for at least 200 attendees**  
+- **Capacity for at least 300 attendees**
 - **Two separate rooms/tracks**  
 - **Reliable Wi-Fi and power outlets**  
 - **Space for sponsor booths and networking**  
