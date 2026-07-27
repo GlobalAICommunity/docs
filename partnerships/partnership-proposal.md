@@ -11,9 +11,9 @@ head:
 
 **Term:** 1 July 2026 through 30 June 2027 (a twelve-month term).
 
-**Effective date:** [TODO: insert effective date, e.g. the date the written partnership agreement is signed by both parties].
+**Effective date:** _[Insert effective date (e.g., the date the written partnership agreement is signed by both parties)]_.
 
-**Proposal valid until:** [TODO: insert proposal expiry date]. This proposal is an outline for discussion. The final terms are governed by the signed written partnership agreement between the parties.
+**Proposal valid until:** _[Insert proposal expiry date]_. This proposal is an outline for discussion. The final terms are governed by the signed written partnership agreement between the parties.
 
 ## Executive Summary
 
