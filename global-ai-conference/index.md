@@ -5,6 +5,10 @@ outline: deep
 
 [The Global AI Conference](https://globalai.community/) is a global developer conference focused on AI, built by developers, for developers. It is part of the Global AI Community and provides hands-on learning, collaboration, and networking around AI frameworks, tools, and infrastructure.
 
+::: info Open conference format for 2027
+The Global AI Conference replaces AgentCon as the open, chapter-organized conference format for 2027. AgentCon 2027 is a separate invite-only series.
+:::
+
 **Goals:** empower developers to build and deploy real-world AI, showcase the latest innovations, and foster collaboration between local developer communities worldwide.
 
 This guide is for **Global AI Chapter Leads** and organizers hosting a **Global AI Conference**. It covers rules and requirements, planning timelines, branding, logistics, communication, and practical execution tips.

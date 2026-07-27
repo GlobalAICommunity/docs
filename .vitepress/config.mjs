@@ -116,19 +116,25 @@ export default defineConfig({
               { text: 'Post-Event, Resources & Sponsors', link: '/global-ai-conference/post-event' },
             ]
           },
-          { text: 'AgentCon', link: '/agentcon/',
+          { text: 'AgentCon 2027', link: '/agentcon/',
             collapsed: true,
             items: [
-              { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
-              { text: 'Event Overview', link: '/agentcon/event-overview' },
-              { text: 'Core Requirments', link: '/agentcon/core-requirments' },
-              { text: 'Application and Approval Process', link: '/agentcon/application-and-approval-process' },
-              { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
-              { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
-              { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
-              { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
-              { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
-              { text: 'Appendices', link: '/agentcon/appendices' },
+              { text: 'Events', link: '/agentcon/events' },
+              { text: 'Guide', link: '/agentcon/',
+                collapsed: true,
+                items: [
+                  { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
+                  { text: 'Event Overview', link: '/agentcon/event-overview' },
+                  { text: 'Core Requirements', link: '/agentcon/core-requirments' },
+                  { text: 'Invitation and Approval Process', link: '/agentcon/application-and-approval-process' },
+                  { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
+                  { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
+                  { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
+                  { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
+                  { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
+                  { text: 'Appendices', link: '/agentcon/appendices' },
+                ]
+              },
               { text: 'Sponsors', link: '/agentcon/sponsors' },
             ]
           },
@@ -169,7 +175,7 @@ export default defineConfig({
               ] 
           },
           { text: 'Newsletter',link: '/partnerships/newsletter'},
-          { text: 'AgentCon Sponsorship', link: '/partnerships/agentcon-sponsorship' }
+          { text: 'AgentCon 2027 Sponsorship', link: '/partnerships/agentcon-sponsorship' }
         ]
       },      
     ],
