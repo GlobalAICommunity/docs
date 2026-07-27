@@ -88,7 +88,6 @@ The following opportunities depend on venue rules, local event capabilities, and
 | Venue-dependent opportunity | Total opportunity |
 | --- | ---: |
 | Banner or small stand placements, subject to venue rules and space | Up to 6 |
-| Workshop format (in place of a speaking session) where the venue permits | Where available |
 
 ### Global AgentCon 2027 Sponsor Recognition
 
