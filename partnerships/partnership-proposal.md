@@ -114,7 +114,7 @@ Reporting will use aggregated information only and will not include personal att
 
 ## Collaboration and Decision-Making
 
-The parties will work collaboratively and in good faith to develop the partnership calendar, sponsored activities, content themes, event preferences, and campaign plans. The Global AI Community will actively consider the Partner’s objectives, preferences, and feedback throughout the partnership.
+The parties will work collaboratively and in good faith to develop the partnership calendar, sponsored activities, content themes, event preferences, and campaign plans. The Global AI Community will actively consider the Partner's objectives, preferences, and feedback throughout the partnership.
 
 To protect community trust, editorial independence, brand consistency, attendee safety, and effective program delivery, the Global AI Community retains final decision-making authority over:
 
