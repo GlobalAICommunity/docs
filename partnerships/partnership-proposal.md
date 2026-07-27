@@ -49,9 +49,9 @@ The Partner receives the following benefits for the full proposal term. These de
 | **Brand recognition** | Recognition as a Partner of the Global AI Community; logo, name, and website link on the partner page; permission to use the approved Partner designation | Full term: 1 July 2026 to 1 July 2027 |
 | **Global AI Weekly** | Partner articles featuring approved educational content, technical guidance, community programs, or product and service offers; topics and dates agreed in advance and subject to editorial review | 4 articles: one in July–September 2026, October–December 2026, January–March 2027, and April–June 2027 |
 | **Additional Global AI Weekly articles** | Additional approved articles at a 50% discount on the standard €500 rate | €250 per additional article |
-| **Short technical series** | One series about the Partner's company, product, or service; each episode provides a concise technical insight, practical tip, capability, or use case; scripts and publication dates agreed in advance | Up to 4 episodes of no more than 30 seconds each |
+| **Short technical series** | One series about the Partner's company, product, or service; each episode provides a concise technical insight, practical tip, capability, or use case; scripts and publication dates agreed in advance | Up to 4 episodes of no more than 30 minutes each |
 | **Optional in-person interview** | An additional interview may be recorded when schedules and locations align | Optional; not a guaranteed deliverable |
-| **Global social media** | Posts across agreed Global AI Community-owned channels supporting the partnership, content, product campaign, technical series, or another agreed initiative | 4 posts during the term |
+| **Global social media** | Posts across agreed Global AI Community-owned channels supporting the partnership, content, product campaign, technical series, or another agreed initiative | 6 posts during the term |
 | **Product and services campaign** | One coordinated offer of credits, vouchers, licenses, subscriptions, cloud or API access, developer tools, training resources, or professional services through agreed community channels | 1 campaign with audience, channels, timing, eligibility, and redemption process agreed before launch |
 | **Event organizing tools** | Access to public event publishing, attendee registration, capacity management, attendee communications, and digital badges | 1 approved Partner event series during the term |
 
@@ -92,7 +92,7 @@ The Global AI Community will maintain a delivery record for the agreed benefits.
 
 - Links to the four published Global AI Weekly articles.
 - Links to the published technical series episodes and, if produced, the optional in-person interview.
-- Links or screenshots for the four annual Partner social posts.
+- Links or screenshots for the six annual Partner social posts.
 - A summary of the product and services campaign and the channels used.
 - Confirmation of the approved Partner event series and enabled platform capabilities.
 - An event report and photo link for each sponsored AgentCon.
