@@ -24,6 +24,8 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 | --- | --- |
 | 30 January 2027 | Bengaluru, India |
 | 6 February 2027 | Bangkok, Thailand |
+| 25 February 2027 | Houston, United States |
+| 27 February 2027 | Dallas, United States |
 | 3 April 2027 | Toronto, Canada |
 | 6 April 2027 | New York, United States |
 | 9 April 2027 | Silicon Valley, United States |
@@ -31,5 +33,5 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 | May 2027 | Melbourne, Australia |
 | May 2027 | Hong Kong |
 | May 2027 | Tokyo, Japan |
-| June 2027 | Berlin, Germany |
-| June 2027 | Amsterdam, Netherlands |
+| 22 June 2027 | Berlin, Germany |
+| 24 June 2027 | Amsterdam, Netherlands |

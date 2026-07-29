@@ -62,7 +62,7 @@ We will work together on the topics, audience, schedule, channels, and format. O
 
 The Partner will sponsor six AgentCon 2027 events. AgentCon events are organized jointly by Global AI Community HQ and invited chapter leads and/or local organizers.
 
-The Partner can share its preferred locations from the [AgentCon 2027 event list](/agentcon/events). We will then build the final six-event portfolio together, based on availability, local readiness, venue capacity, timing, geographic balance, and the Partner’s priorities.
+The Partner can share its preferred locations from the [AgentCon 2027 event list](/agentcon/events), including Bengaluru, Bangkok, Houston, Dallas, Toronto, New York, Silicon Valley, Ottawa, Melbourne, Hong Kong, Tokyo, Berlin, and Amsterdam. We will then build the final six-event portfolio together, based on availability, local readiness, venue capacity, timing, geographic balance, and the Partner’s priorities.
 
 Each event targets **300 developers**, creating a combined target of **1,800 attendee places** across six events. This is an event-planning target; actual registrations and attendance will vary by location.
 
