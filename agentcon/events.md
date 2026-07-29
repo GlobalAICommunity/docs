@@ -34,4 +34,4 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 | May 2027 | Hong Kong |
 | May 2027 | Tokyo, Japan |
 | 22 June 2027 | Berlin, Germany |
-| June 2027 | Amsterdam, Netherlands |
+| 24 June 2027 | Amsterdam, Netherlands |
