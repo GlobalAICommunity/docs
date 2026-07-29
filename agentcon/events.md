@@ -31,6 +31,7 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 | 9 April 2027 | Silicon Valley, United States |
 | April 2027 | Ottawa, Canada |
 | May 2027 | Melbourne, Australia |
+| May 2027 | Sydney, Australia |
 | May 2027 | Hong Kong |
 | May 2027 | Tokyo, Japan |
 | 22 June 2027 | Berlin, Germany |
