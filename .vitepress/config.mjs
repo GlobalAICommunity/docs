@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'Offboarding', link: '/chapter-playbook/offboarding' },
           { text: 'Transfer', link: '/chapter-playbook/transferring' },
           { text: 'Code of Conduct', link: '/chapter-playbook/code-of-conduct' },
+          { text: 'Advisory Board', link: '/chapter-playbook/advisory-board' },
           { text: 'Discord', link: '/chapter-playbook/discord' },
           { text: 'LinkedIn', link: '/chapter-playbook/linkedin' },
           { text: 'Organizing Events', link: '/organisers-101/' },

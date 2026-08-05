@@ -15,6 +15,7 @@ Use the menu to navigate:
 - **[Offboarding a Chapter](/chapter-playbook/offboarding)** *(Draft)*: how to close a chapter
 - **[Transferring a Chapter](/chapter-playbook/transferring)** *(Draft)*: how to hand over a chapter to a new organizer
 - **[Code of Conduct](/chapter-playbook/code-of-conduct)**: the rules that govern all chapter activity
+- **[Advisory Board](/chapter-playbook/advisory-board)**: how the community is represented and how nominations work
 - **[Discord](/chapter-playbook/discord)**: join the server and request the Chapter Lead role
 - **[LinkedIn](/chapter-playbook/linkedin)**: request and manage your chapter's Showcase Page
 - **[Organizing Events](/organisers-101/)**: practical steps for planning and running a local event
@@ -33,6 +34,7 @@ Use the menu to navigate:
 | Hand my chapter to a new organizer | [Transferring a Chapter](/chapter-playbook/transferring) |
 | Close my chapter | [Offboarding a Chapter](/chapter-playbook/offboarding) |
 | Read the Code of Conduct | [Code of Conduct](/chapter-playbook/code-of-conduct) |
+| Join or nominate someone for the Advisory Board | [Advisory Board](/chapter-playbook/advisory-board) |
 | Join the chapter lead community | [Discord](/chapter-playbook/discord) |
 | Set up my chapter's LinkedIn presence | [LinkedIn Showcase Page](/chapter-playbook/linkedin) |
 | Organize a local event | [Organizing Events](/organisers-101/) |
