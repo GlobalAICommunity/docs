@@ -1,39 +1,36 @@
-# Global Agentic Nights
+---
+outline: deep
+---
 
-**Global Agentic Nights are vibrant, community-driven evenings organized by the Global AI Community, designed to bring together AI enthusiasts, professionals, and curious minds from around the world. Building on the legacy of Global AI Nights, these events focus on the rapidly evolving world of AI agents—autonomous systems that reason, learn, and act.**
+# Global AI Nights
 
-::: warning Note 
-We are in the early stages of planning the Global Agentic Nights, so not everything is ready.
-:::
+**Cold winter nights. Warm community conversations.**
 
-### Key things to know!
-- **Time frame:** 1 September - 1 June 2026.  
-- **Topic:** MeetUp
-- **Event Format:** MeetUp
-- **Duration:** 2-3 Hours
-- **Content:** Bring your own or pickup some [workshops](/workshops.md) or [presentations](/presentations.md).
-- **Registration opens:** 1st August 2025
+Global AI Nights is the seasonal evening event for November 2026 through January 2027. Chapters bring people together for accessible talks, demos, discussions, or hands-on sessions around AI.
 
+## Key details
 
-## 1. Registering your event
+- **Season:** November 2026–January 2027
+- **Format:** Evening meetup
+- **Suggested duration:** 2–3 hours
+- **Audience:** Local developers, AI practitioners, students, and community members
+- **Content:** Use the shared seasonal content or add locally relevant sessions
+- **Eligibility:** Organized by registered Global AI chapters
 
-To be part of the Global Agentic Nights, you need to be a registered chapter. You can read more about how to [become a chapter here](./new-chapter.html).
+## Suggested program
 
-#### To register your event you have to: 
+| Segment | Suggested duration |
+| --- | --- |
+| Welcome and community update | 10–15 minutes |
+| Talks, demos, or workshop | 90–120 minutes |
+| Networking and closing | 30–45 minutes |
 
-- Login to your [Chapter Space](https://globalai.community/umbraco). 
-- Navigate to Events
-- Click create and select: Global Agentic Nights
+## Organizing your event
 
-## 2. Plan your event
-The event format is a low-key MeetUp format, target 30-50 people, run a hands-on workshop or give some presentations. We have put together a handy [organizers guide](/organisers-101/).
+1. Choose a date between November 2026 and January 2027.
+2. Publish the event through the Global AI Community platform.
+3. Select content that fits your local audience.
+4. Use the official seasonal branding when it becomes available.
+5. Share photos and a short event recap after the event.
 
-### Support available
-- [Azure credits](/chapter-benefits/azure.md) for workshops.
-- [Workshops](/workshops.md) and [presentations](/presentations.md).
-- Branding kit (TBA)
-
-
-## 3. Connect with us
-- Connect with us on [Discord](https://gaic.io/discord) to get support from the community and other chapter leads.
-- Or send an email to: [support@globalai.community](mailto:support@globalai.community)
+Use the [Organizer 101 guide](/organisers-101/) for practical planning support. Questions can be shared in [Discord](https://gaic.io/discord) or sent to [support@globalai.community](mailto:support@globalai.community).

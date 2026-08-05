@@ -8,17 +8,17 @@ outline: deep
 
 ![Global AI Construct](/media/construct/global-ai-construct.png)
 
-Global AI Construct is a hands-on workshop format from the Global AI Community where participants build AI agents from scratch, together. No slides, no spectators, just tools, peers, and something real to ship by the end of the night. Running across all chapters worldwide from July through August 2026.
+Global AI Construct is a hands-on event format where participants hack, build, and experiment together. No spectators—just tools, peers, and something real to demonstrate by the end of the event. The 2026/2027 season runs across chapters worldwide in July and August 2027.
 
 ## Key things to know!
-- **Time frame:** 1 July -  31 August 2026
+- **Time frame:** July–August 2027
 - **Style:** Hands-on workshop
 - **Event Format:** Community driven
 - **Duration:** 2 hours
-- **Content:** Pick a challenge from the Construct challenge pack or define your own (coming soon).
+- **Content:** Use the seasonal challenge pack or define a challenge for your local community.
 - **Registration:** Publish on the Global AI Community platform
 - **Eligibility:** This event series can only be organized by Global AI Chapter Leads.
-- **Reimbursement:** Upto $200 USD only in F&B.
+- **Reimbursement:** Any reimbursement available for the 2027 season will be announced with the organizer pack.
 
 
 ## How to register your event
@@ -27,7 +27,7 @@ Global AI Construct is a hands-on workshop format from the Global AI Community w
 2. Visit [https://globalai.community/my/events/add](https://globalai.community/my/events/add).
 3. Select your chapter (you need to be logged in with your chapter email).
 4. Select **Construct** event under **Global Events**.
-5. Your event will be approved in 2 days.
+5. Wait for event approval before publishing local campaign materials.
 
 ## Branding kit
 
@@ -57,9 +57,9 @@ Use these hands-on labs from the Foundry Toolkit for VS Code as ready-made chall
 
 - **Venue:** Space for 15-50 people with reliable Wi-Fi
 - **Tools:** Laptop per participant (or pairs)
-- **Challenge:** Pick one from the Construct challenge pack ***(coming soon) or define your own***
+- **Challenge:** Pick one from the seasonal challenge pack or define your own.
 - **Co-organizer:** At least one helper on the day
-- **Date:** Any date between 1 July and 31 August
+- **Date:** Any date in July or August 2027
 - **Registration:** Publish on the Global AI Community platform
 
 ## Suggested challenge themes
@@ -73,7 +73,7 @@ Use these hands-on labs from the Foundry Toolkit for VS Code as ready-made chall
 
 ### 3 weeks before
 - Book your venue
-- Set your date (1 Jul - 31 Aug)
+- Set your date in July or August 2027
 - Register the event on the Global AI Community platform
 - Promote via your chapter channels
 - Confirm your challenge theme

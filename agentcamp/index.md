@@ -2,68 +2,38 @@
 outline: deep
 ---
 
-# AgentCamp 2026
+# Global AI Bootcamp
 
-> [!NOTE]
-> AgentCamp 2026 has finished. Thank you to everyone who organized, presented, and participated!
+**The flagship event for every Global AI chapter.**
 
-### The Global AI Bootcamp
+Global AI Bootcamp runs from February through April 2027. It is the moment when chapters around the world learn, build, and share together through talks, workshops, demos, and hands-on labs.
 
-Welcome, to **[AgentCamp 2026](https://globalai.community/agentcamp)** - the global initiative where AI enthusiasts and developers come together to learn, share, and grow their AI knowledge!  
+## Key details
 
-![agentcamp ](/media/agentcamp/agent-camp-2026-website-graphics.png)
+- **Season:** February–April 2027
+- **Format:** Meetup, workshop day, or conference
+- **Suggested duration:** 2 hours to a full day
+- **Content:** Shared global content combined with local speakers and workshops
+- **Participation:** Every Global AI chapter is encouraged to organize an event
+- **Audience:** Developers, AI practitioners, students, and people learning to build with AI
 
-## Key Details
+## Organize a Bootcamp
 
-- **Event Time Frame:** 01 February – 1 June 2026  
-- **Content:** Bring your own or use our pre-made content
-- **Opening Video:** Available on **1 January 2026** (15 minutes)  
-- **Registration Opens:** **1 December 2025**
+1. Choose a date in February, March, or April 2027.
+2. Build an organizing team and select a venue.
+3. Register the event on the Global AI Community platform.
+4. Create a program using global and local content.
+5. Promote the event with the official campaign materials.
+6. Host the event and share the results with the global community.
 
-[Read More](/agentcamp/register)
+The 2027 content pack, branding, registration dates, and organizer benefits will be published before the season begins.
 
-## Organise AgentCamp in 6 steps
+## What makes it the flagship event
 
-Organizing an **AgentCamp** event is simple, fun, and designed to empower community builders.
+- A coordinated global campaign across chapters.
+- Flexible formats for communities of different sizes.
+- Shared learning content and practical workshops.
+- Global visibility for participating chapters and organizers.
+- A clear opportunity for every chapter to participate.
 
-1. **Pick a date**
-2. **[Register](/agentcamp/register) your event on the Global AI Community**
-3. **Create your program**
-4. **Spread the word**
-5. **Host the event** 
-6. **Fill out the feedback form**
-
----
-
-### Benefits of Organizing AgentCamp
-
-Organizers receive **recognition, resources, and visibility** for helping grow the AI Community.
-
-- **Digital badge** for LinkedIn showcasing your leadership  
-- **Feature on the official website** as a global organizer  
-- **Build your identity** as a community leader  
-- **Stay connected** with Global HQ for future collaborations  
-- **Formal letter of recognition** for your contribution  
-
-[Read More](/agentcamp/benefits)
-
-## Content Catalog
-
-You can look forward to:
-
-- **[1 Keynote Video](https://www.youtube.com/watch?v=uMMusrdRHZA)** - 15 minutes  
-- **[3 Workshops](/agentcamp/content#new-workshops)** - 90 minutes each  
-- **[Presentation Deck](https://gaic.io/agentcamp-2026-slidedeck/)**
-    - File > Create a copy > Download the copy
-    - This presentation also has speaker's graphics templates and genereic event graphics
-
-All materials will be available in **January 2026**.
-
-[Access to the content here](/agentcamp/content)
-
-## Connect with Us
-
-- Join our **[Discord community](https://gaic.io/discord)** for real-time updates and collaboration  
-- Or email us directly: **[support@globalai.community](mailto:support@globalai.community)**  
-
-> ✨ **AgentCamp 2026 — Empowering local communities to shape the future of AI.**
+For organizer support, use the [Organizer 101 guide](/organisers-101/), join [Discord](https://gaic.io/discord), or email [support@globalai.community](mailto:support@globalai.community).

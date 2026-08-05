@@ -13,11 +13,11 @@ hero:
     alt: Global AI Community Logo
   actions:
     - theme: brand
-      text: Construct
-      link: /construct
+      text: Explore Events
+      link: /event-format
     - theme: alt
-      text: Build //localhost
-      link: /build/organize
+      text: Global AI Conference
+      link: /global-ai-conference/
     - theme: alt
       text: New Chapter
       link: /new-chapter
@@ -40,4 +40,3 @@ features:
     details: Access official logos, templates and visual resources to keep your chapter on-brand.
     link: /branding
 ---
-

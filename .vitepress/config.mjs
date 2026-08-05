@@ -101,63 +101,77 @@ export default defineConfig({
         ]
       },         
       {
-        text: 'Event formats',
-        collapsed: false,            
-        items: [             
+        text: 'Events',
+        link: '/event-format',
+        collapsed: false,
+        items: [
           { text: 'Overview', link: '/event-format' },
-          { text: 'AI Community Day', link:  '/ai-community-day'},
-          { text: 'The Global AI Conference', link: '/global-ai-conference/',
-            collapsed: true,
+          {
+            text: 'Seasonal events 2026/2027',
+            collapsed: false,
             items: [
-              { text: 'Eligibility and Roles', link: '/global-ai-conference/eligibility-and-roles' },
-              { text: 'Application, Approval & Timeline', link: '/global-ai-conference/application-and-timeline' },
-              { text: 'Venue, Logistics & Event Day', link: '/global-ai-conference/venue-logistics' },
-              { text: 'Marketing, Promotion & Branding', link: '/global-ai-conference/marketing-branding' },
-              { text: 'Post-Event, Resources & Sponsors', link: '/global-ai-conference/post-event' },
+              { text: 'Global AI On Tour', link: '/global-ai-on-tour' },
+              { text: 'Global AI Nights', link: '/agentic-nights' },
+              { text: 'Global AI Bootcamp', link: '/agentcamp/' },
+              { text: 'Global AI Connect', link: '/global-ai-connect' },
+              { text: 'Global AI Construct', link: '/construct' },
             ]
           },
-          { text: 'AgentCon 2027', link: '/agentcon/',
+          {
+            text: 'Year-round events',
             collapsed: true,
             items: [
-              { text: 'Events', link: '/agentcon/events' },
-              { text: 'Guide', link: '/agentcon/',
+              {
+                text: 'Global AI Conference',
+                link: '/global-ai-conference/',
                 collapsed: true,
                 items: [
+                  { text: 'Eligibility and Roles', link: '/global-ai-conference/eligibility-and-roles' },
+                  { text: 'Application, Approval & Timeline', link: '/global-ai-conference/application-and-timeline' },
+                  { text: 'Venue, Logistics & Event Day', link: '/global-ai-conference/venue-logistics' },
+                  { text: 'Marketing, Promotion & Branding', link: '/global-ai-conference/marketing-branding' },
+                  { text: 'Post-Event, Resources & Sponsors', link: '/global-ai-conference/post-event' },
+                ]
+              },
+            ]
+          },
+          {
+            text: 'Partner-led opportunities',
+            link: '/partner-led-events',
+            collapsed: true,
+            items: [
+              { text: 'GitHub Dev Day', link: '/partner-led-events#github-dev-day' },
+            ]
+          },
+          {
+            text: 'HQ-organized events',
+            link: '/hq-organized-events',
+            collapsed: true,
+            items: [
+              {
+                text: 'AgentCon',
+                link: '/agentcon/',
+                collapsed: true,
+                items: [
+                  { text: 'Events', link: '/agentcon/events' },
                   { text: 'Eligibility and Roles', link: '/agentcon/eligibility-and-roles' },
                   { text: 'Event Overview', link: '/agentcon/event-overview' },
                   { text: 'Core Requirements', link: '/agentcon/core-requirments' },
                   { text: 'Invitation and Approval Process', link: '/agentcon/application-and-approval-process' },
                   { text: 'Planning Timeline', link: '/agentcon/planning-timeline' },
                   { text: 'Venue & Logistics', link: '/agentcon/venue-logistics' },
-                  { text: 'Marketing, Promotion & Branding Guidelines', link: '/agentcon/marketing-promotion-branding' },
+                  { text: 'Marketing, Promotion & Branding', link: '/agentcon/marketing-promotion-branding' },
                   { text: 'Day-of-Event Playbook', link: '/agentcon/day-of-event-playbook' },
                   { text: 'Post-Event Tasks', link: '/agentcon/post-event tasks' },
                   { text: 'Appendices', link: '/agentcon/appendices' },
+                  { text: 'Sponsors', link: '/agentcon/sponsors' },
                 ]
               },
-              { text: 'Sponsors', link: '/agentcon/sponsors' },
+              { text: 'Fly With Copilot', link: '/hq-organized-events#fly-with-copilot' },
+              { text: 'Future of Work Summit', link: '/hq-organized-events#future-of-work-summit' },
+              { text: 'MCP Community Days', link: '/hq-organized-events#mcp-community-days' },
             ]
           },
-          { text: 'AgentCamp 2026', link: '/agentcamp/',
-            collapsed: true,
-            items: [
-              { text: 'Register', link: '/agentcamp/register' },
-              { text: 'Branding', link: '/agentcamp/branding' },
-              { text: 'Content', link: '/agentcamp/content' },
-              { text: 'Benefits', link: '/agentcamp/benefits' },
-              { text: 'FAQ', link: '/agentcamp/faq' },
-            ]
-          },
-          { text: 'Build //LOCALHOST', link: '/build/organize',
-            collapsed: true,
-            items: [
-              { text: 'Register', link: '/build/register' },
-              { text: 'Branding', link: '/build/branding' },
-              { text: 'Content', link: '/build/content' },
-              { text: 'Reimbursement', link: '/build/reimbursement' },
-            ]
-          },
-          { text: 'Global AI Construct', link: '/construct' },
         ]
       },
       {

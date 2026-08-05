@@ -9,7 +9,7 @@ The following 2026 events are confirmed and available for sponsorship selection,
 | Date | Location | Venue | Time | Event |
 | --- | --- | --- | --- | --- |
 | 8 September 2026 | London, United Kingdom | London Southbank University | 09:00–17:00 | [AgentCon London](https://globalai.community/e/x79ncrl7) |
-| 5 November 2026 | Singapore | Singapore University of Technology and Design, Building 1, Albert Hong Lecture Theatre | 08:30–17:00 | [AgentCon Singapore](https://globalai.community/e/awgteae7) |
+| 5 November 2026 | Singapore | Lifelong Learning Institute, 11 Eunos Road 8 | 08:30–17:00 | [AgentCon Singapore](https://globalai.community/e/awgteae7) |
 | 12 November 2026 | Copenhagen, Denmark | To be announced | 09:30–17:00 | [AgentCon Copenhagen](https://globalai.community/e/6zkdqgv0) |
 
 For the latest confirmed events, visit the [live AgentCon event calendar](https://globalai.community/events/agentcon).

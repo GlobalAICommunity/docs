@@ -2,53 +2,48 @@
 outline: deep
 ---
 
-# Event Formats
+# Events
 
-The Global AI Community offers several event formats you can pick up and run in your local community. Some are low effort and can be organized any time of year, others are higher effort and run within defined time frames.
+The 2026/2027 event program gives chapters a clear rhythm for the year. Seasonal events bring chapters together around a shared global theme, while the Global AI Conference can run throughout the year. Partners and Global AI HQ also create additional opportunities for local communities.
 
-## Currently available
+## Seasonal events 2026/2027
 
-| Event | Style | Time frame | Duration | Effort |
-| --- | --- | --- | --- | --- |
-| [Global Agentic Night](/agentic-nights.md) | MeetUp | All year | 2–3 hours (Evening) | Low |
-| [AI Community Day](/ai-community-day.md) | MeetUp XXL | All year | Half day | Medium |
-| [The Global AI Conference](/global-ai-conference/) | Conference | All year | Full day | High |
-| [Global AI Construct](/construct.md) | Hands-on workshop | 1 July – 30 September 2026 | 2 hours | Low |
+| Season | Event | Purpose |
+| --- | --- | --- |
+| September–October 2026 | [Global AI On Tour](/global-ai-on-tour) | Take shared Global AI content around the world. |
+| November 2026–January 2027 | [Global AI Nights](/agentic-nights) | Bring the community together for warm, local evening events during the winter season. |
+| February–April 2027 | [Global AI Bootcamp](/agentcamp/) | Our flagship chapter event. Every chapter is encouraged to take part. |
+| May–June 2027 | [Global AI Connect](/global-ai-connect) | Connect people, chapters, speakers, and partners across the community. |
+| July–August 2027 | [Global AI Construct](/construct) | Hack, build, and experiment with your local community. |
 
-In 2027, the **Global AI Conference** replaces AgentCon as the conference format that chapters can apply to organize. **AgentCon 2027 is invite-only.**
+Each seasonal program will have its own content, branding, registration guidance, and organizer resources.
 
-## Past formats
+## Year-round events
 
-| Event | Style | Time frame | Duration | Effort |
-| --- | --- | --- | --- | --- |
-| [AgentCon open chapter format](/agentcon/) | Conference | 2025–2026 | Full day | High |
-| [Build //LOCALHOST](/build/organize.md) | MeetUp | Within 21 days after Build | 3–4 hours (Evening) | Low |
-| [Global AI Bootcamp](/agentcamp/index.md) | MeetUp/Conference | 15 February – 15 April 2026 | 2–8 hours | Medium–High |
+### [Global AI Conference](/global-ai-conference/)
 
-## The formats
+The Global AI Conference is the year-round, chapter-organized conference format. Chapters can apply to host a full-day event with sessions, workshops, partners, and a broad AI developer audience.
 
-### [Global Agentic Night](/agentic-nights.md)
-A low-key evening MeetUp focused on AI agents. Run a hands-on workshop or give a few presentations. Great for a regular community gathering.
+## Partner-led opportunities
 
-### [AI Community Day](/ai-community-day.md)
-A larger half-day MeetUp ("MeetUp XXL") with multiple sessions and more attendees. A step up from a regular evening event.
+Partners can collaborate with Global AI Community to bring focused programs to local chapters.
 
-### [The Global AI Conference](/global-ai-conference/)
+- [GitHub Dev Day](/partner-led-events#github-dev-day) — a partner-led developer event delivered with participating communities.
 
-A full-day developer conference with a session track and a workshop track, a Microsoft keynote, and sponsors. This is the open chapter-organized conference format for 2027.
+## HQ-organized events
 
-### [AgentCon 2027](/agentcon/)
+Global AI HQ leads a small number of strategic event programs. Participation, locations, and local organizing teams are coordinated directly by HQ.
 
-An invite-only, full-day developer conference focused on AI agents, with speakers, workshops, and sponsors.
+- [AgentCon](/agentcon/) — an invite-only conference series focused on developers building with AI agents.
+- [Fly With Copilot](/hq-organized-events#fly-with-copilot)
+- [Future of Work Summit](/hq-organized-events#future-of-work-summit)
+- [MCP Community Days](/hq-organized-events#mcp-community-days)
 
-### [Global AI Bootcamp (AgentCamp)](/agentcamp/index.md)
-A hands-on learning event combining MeetUp and conference styles, using your own or pre-made content.
+## Choosing an event
 
-### [Build //LOCALHOST](/build/organize.md)
-A low-effort evening MeetUp run in the weeks following Microsoft Build, with catering reimbursement available.
-
-### [Global AI Construct](/construct.md)
-A 2-hour hands-on workshop where participants build AI agents from scratch, no slides, no spectators. "Stop watching. Start building."
+- Follow the seasonal calendar when you want to join a coordinated global chapter campaign.
+- Apply for a Global AI Conference when your chapter is ready to organize a larger conference at another time of year.
+- Join partner-led or HQ-organized opportunities when your chapter is invited or when an application is announced.
 
 ---
 
