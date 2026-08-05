@@ -29,7 +29,7 @@ The biggest news of the month is the launch of our first major initiative for 20
 - **Format:** Flexible! You can organize it In-Person, Virtual, or Hybrid.
 
 - **Who Can Organize:** Everyone! You do not need to be a chapter lead to host an event.
-- **Organizer Benefits:** You’ll receive a digital badge for your LinkedIn certification section, a feature on the official website, and a formal letter of recognition.
+- **Organizer Benefits:** You’ll receive a feature on the official website and a formal letter of recognition.
 
 - **Attendee Benefits:** Attendees who register via the Global AI platform get a digital certificate/badge and Azure subscriptions for workshops.
 

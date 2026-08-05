@@ -24,7 +24,6 @@ When requesting a chapter, we ask that it be local and city-based. If an existin
 - As a chapter in the Global AI Community, you get benefits to help you run your chapter.
 - Be part of a large vibrant community with 100.000+ members around the world!
 - Resources for branding, including banners for socials, events and your own Chapter Logo.
-- Ability to send [digital badges](https://globalai.community/badges/f6503dea-7129-4404-b6c8-a9ea38b644fb/) to your attendees.
 - Ability to use our global channels like [YouTube](https://www.youtube.com/globalaicommunity), [Twitter](https://x.com/GlobAICommunity) and [LinkedIn](https://www.linkedin.com/company/global-ai-community) to post updates about your chapter and stream your video content.
 - Contribute content to global initiatives like [Global AI Weekly](https://weekly.globalai.community/) and [Global AI Notes](https://www.youtube.com/playlist?list=PLMjtoLHNjR0sjqOFUpp0fhQwG-j861XEI), to reach a global audience around the world.
 - Monthly office hours for chapter leads.

@@ -44,3 +44,24 @@ _img {
   filter: drop-shadow(-2px 4px 6px rgba(0, 0, 0, 0.2));
   padding: 18px;
 }
+
+.VPFeatures .VPFeature .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 0 12px 0 0;
+  border-radius: 9px;
+  background: rgba(213, 82, 43, 0.1);
+}
+
+.VPFeatures .VPFeature .title {
+  line-height: 36px;
+}
+
+.VPFeatures .VPFeature .details {
+  clear: both;
+  padding-top: 12px;
+}

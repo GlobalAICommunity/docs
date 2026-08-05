@@ -11,32 +11,38 @@ hero:
     width: 225
     height: 225
     alt: Global AI Community Logo
-  actions:
-    - theme: brand
-      text: Explore Events
-      link: /event-format
-    - theme: alt
-      text: Global AI Conference
-      link: /global-ai-conference/
-    - theme: alt
-      text: New Chapter
-      link: /new-chapter
 
 features:
-  - icon: ✨
-    title: Learn how to start a new chapter?
-    details: Get your chapter launched as quickly and painlessly as possible. 
-    link: /new-chapter
-  - icon: 💎
-    title: Chapter Benefits
-    details: Learn how to claim and use the benefits for your chapter.
-    link: /chapter-benefits
-  - icon: 📙
-    title: Organisers 101
-    details: Resources that will help you organise events.
-    link: /organisers-101/index/
-  - icon: 🎨
-    title: Branding Assets
-    details: Access official logos, templates and visual resources to keep your chapter on-brand.
+  - icon:
+      src: /media/home/playbook.svg
+      alt: Chapter Playbook
+      width: 24
+      height: 24
+    title: Chapter Playbook
+    details: Start, run, grow, transfer, or close a Global AI chapter.
+    link: /chapter-playbook/
+  - icon:
+      src: /media/home/events.svg
+      alt: Event Formats
+      width: 24
+      height: 24
+    title: Event Formats
+    details: Explore seasonal, year-round, partner-led, and HQ-organized events.
+    link: /event-format
+  - icon:
+      src: /media/home/partnerships.svg
+      alt: Partnerships
+      width: 24
+      height: 24
+    title: Partnerships
+    details: Discover ways organizations can support and collaborate with the community.
+    link: /partnerships/overview
+  - icon:
+      src: /media/home/branding.svg
+      alt: Branding
+      width: 24
+      height: 24
+    title: Branding
+    details: Access official logos, templates, and visual guidelines.
     link: /branding
 ---

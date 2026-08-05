@@ -27,14 +27,42 @@ See [Start a Global AI Chapter](/new-chapter) for the full list of guidelines, b
 
 ## Getting Set Up
 
-Once approved, follow [Chapter Onboarding](/chapter-onboarding) to:
+Once approved, complete the following setup steps before organizing your first event.
 
-- Set up and start using your official chapter email
-- Join the **#new-chapter-lead** Discord channel
-- Complete your Chapter Dashboard profile (description, organizers, photos, socials)
-- Set up your LinkedIn Showcase page
-- Set up your Meetup group (see [Meetup Benefit](/chapter-benefits/meetup))
-- Review [Organisers 101](/organisers-101/) and [Branding Guidelines](/branding/) before your first event
+### Chapter email
+
+- Set up and start using your official Global AI chapter email.
+- Use this email for tools, access requests, and chapter communication.
+
+### Discord
+
+1. Join the [Global AI Discord server](https://discord.gg/NMryZKPC3m).
+2. Email your Discord username to [support@globalai.community](mailto:support@globalai.community) and request access to the **#new-chapter-lead** channel.
+3. Use the channel for chapter announcements, updates, and organizer support.
+
+See the [Discord guide](/chapter-playbook/discord) for role and access details.
+
+### Chapter Dashboard
+
+Log in to the [Chapter Dashboard](https://globalai.community/my/chapters) and:
+
+- Add a short chapter description.
+- Add all organizers.
+- Add organizer profile photos and social links.
+
+### LinkedIn Showcase page
+
+Email [support@globalai.community](mailto:support@globalai.community) to request a LinkedIn Showcase page for your chapter. Do not create a separate company page.
+
+See the [LinkedIn guide](/chapter-playbook/linkedin) for request details.
+
+### Meetup group
+
+Follow the [Meetup benefit guide](/chapter-benefits/meetup) to request your chapter's Meetup group.
+
+### Before your first event
+
+Review the [Organizer 101 guide](/organisers-101/) and [Branding Guidelines](/branding/), then publish your first event through the Global AI Community platform.
 
 ## What's Next
 

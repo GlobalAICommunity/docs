@@ -15,10 +15,6 @@ outline: deep
 ## Workshop
 - [Azure AI Foundry Agent Workshop](https://gaic.io/pizza-workshop/)
 
-## Templates Provided
-
-- [Email Templates for Organisers](/organisers-101/speaker-communication-template.md)
-
 ## Album
 
 - [Check out the vibe](https://www.flickr.com/photos/196991840@N02/albums/) of Global AI Community Events.

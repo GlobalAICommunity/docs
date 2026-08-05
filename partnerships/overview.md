@@ -7,7 +7,7 @@ The **Global AI Community** is an international not-for-profit network of AI ent
 ## Our Community Ecosystem
 
 - **Global chapter platform**: A shared platform connecting 200+ chapters and 250,000+ members through chapter pages, member profiles, events, registrations, video, and AI news.
-- **Event organizing tools**: Approved partners can use our event publishing, registration, capacity management, attendee communication, and digital badge tools for agreed event series.
+- **Event organizing tools**: Approved partners can use our event publishing, registration, capacity management, and attendee communication tools for agreed event series.
 - **[Global AI Weekly](https://weekly.globalai.community/)**: A curated weekly publication reaching **70,000+ subscribers**, providing opportunities for approved educational content and relevant partner offers.
 - **[YouTube channel](https://www.youtube.com/@GlobalAICommunity)**: An educational video channel with **50,000+ subscribers**, featuring event recordings, interviews, talks, and community content.
 - **Global and local events**: A worldwide calendar of chapter meetups, conferences, and event series that create opportunities for sponsorship, speakers, workshops, and hands-on product experiences.

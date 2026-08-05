@@ -15,6 +15,10 @@ Use the menu to navigate:
 - **[Offboarding a Chapter](/chapter-playbook/offboarding)** *(Draft)*: how to close a chapter
 - **[Transferring a Chapter](/chapter-playbook/transferring)** *(Draft)*: how to hand over a chapter to a new organizer
 - **[Code of Conduct](/chapter-playbook/code-of-conduct)**: the rules that govern all chapter activity
+- **[Discord](/chapter-playbook/discord)**: join the server and request the Chapter Lead role
+- **[LinkedIn](/chapter-playbook/linkedin)**: request and manage your chapter's Showcase Page
+- **[Organizing Events](/organisers-101/)**: practical steps for planning and running a local event
+- **[Event Photography](/event-photography-checklist)**: the shots and event moments to capture
 
 > **Note:** Pages marked *(Draft)* propose a process that does not yet exist elsewhere in our documentation. Please review these carefully, they are our best-effort recommendation based on how similar volunteer communities operate, not yet a ratified policy.
 
@@ -23,9 +27,13 @@ Use the menu to navigate:
 | I want to... | Go to |
 |---|---|
 | Start a brand new chapter | [Onboarding a New Chapter](/chapter-playbook/onboarding) |
-| Set up my chapter's tools and accounts | [Chapter Onboarding](/chapter-onboarding) |
+| Set up my chapter's tools and accounts | [Onboarding a New Chapter](/chapter-playbook/onboarding#getting-set-up) |
 | Understand what's expected of me as a chapter lead | [Requirements to Keep Your Chapter](/chapter-playbook/requirements) |
 | Add or remove an organizer | [Transferring a Chapter: Partial Transfers](/chapter-playbook/transferring#partial-transfers) |
 | Hand my chapter to a new organizer | [Transferring a Chapter](/chapter-playbook/transferring) |
 | Close my chapter | [Offboarding a Chapter](/chapter-playbook/offboarding) |
 | Read the Code of Conduct | [Code of Conduct](/chapter-playbook/code-of-conduct) |
+| Join the chapter lead community | [Discord](/chapter-playbook/discord) |
+| Set up my chapter's LinkedIn presence | [LinkedIn Showcase Page](/chapter-playbook/linkedin) |
+| Organize a local event | [Organizing Events](/organisers-101/) |
+| Plan event photography | [Event Photography Checklist](/event-photography-checklist) |

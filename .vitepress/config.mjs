@@ -15,39 +15,27 @@ export default defineConfig({
     i18nRouting: true,
     externalLinkIcon: true,
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/my-community' },
-      { text: 'Events', link: '/event-format' },
+      { text: 'Chapter Playbook', link: '/chapter-playbook/' },
+      { text: 'Event Formats', link: '/event-format' },
       { text: 'Partnerships', link: '/partnerships/overview' }
     ],
     sidebar: [
-      { 
-        text: 'My Community', link: '/my-community',
-        collapsed: true,
-        items: [
-          { text: 'User Guide', link: '/my-community' },
-          { text: 'Events Guide', link: '/my-community/events-guide' },
-        ]
-      },
-      {
-        text: 'Chapter',
-        collapsed: true,
-        items: [
-          { text: 'Start a new chapter', link: '/new-chapter' },
-          { text: 'Chapter Onboarding', link: '/chapter-onboarding' },
-        ]
-      },
       {
         text: 'Chapter Playbook', link: '/chapter-playbook/',
         collapsed: true,
         items: [
-          { text: 'Onboarding a New Chapter', link: '/chapter-playbook/onboarding' },
-          { text: 'Requirements to Keep Your Chapter', link: '/chapter-playbook/requirements' },
-          { text: 'Offboarding a Chapter', link: '/chapter-playbook/offboarding' },
-          { text: 'Transferring a Chapter', link: '/chapter-playbook/transferring' },
+          { text: 'Start', link: '/new-chapter' },
+          { text: 'Onboarding', link: '/chapter-playbook/onboarding' },
+          { text: 'Requirements', link: '/chapter-playbook/requirements' },
+          { text: 'Offboarding', link: '/chapter-playbook/offboarding' },
+          { text: 'Transfer', link: '/chapter-playbook/transferring' },
           { text: 'Code of Conduct', link: '/chapter-playbook/code-of-conduct' },
+          { text: 'Discord', link: '/chapter-playbook/discord' },
+          { text: 'LinkedIn', link: '/chapter-playbook/linkedin' },
+          { text: 'Organizing Events', link: '/organisers-101/' },
+          { text: 'Event Photography', link: '/event-photography-checklist' },
         ]
-      },      
+      },
       {
         text: 'Chapter Benefits', link: '/chapter-benefits/',
         collapsed: true,
@@ -59,9 +47,6 @@ export default defineConfig({
               { text: 'For attendees', link: '/chapter-benefits/azure-client' },
             ] 
           },
-          { text: 'Discord', link: '/chapter-benefits/discord' },         
-          { text: 'LinkedIn Showcase Page', link: '/chapter-benefits/linkedin-showcase-page' },        ,
-          { text: 'Digital Badges', link: '/chapter-benefits/badges' },
           { text: 'Canva Pro', link: '/chapter-benefits/canva' },
         ]
       },
@@ -84,24 +69,7 @@ export default defineConfig({
         ]
       }, 
       {
-        text: 'Events Resources',
-        collapsed: true,
-        items: [
-          { text: 'Organizer 101',link:'/organisers-101/',
-            collapsed: true,
-            items:[
-              {text: 'Email Templates',
-                items:[
-                  {text: 'Speaker Communication Template', link:'/organisers-101/speaker-communication-template/'},
-                ]
-              },
-              { text: 'Event Photography Checklist',link:'/event-photography-checklist/'},
-            ]
-          }
-        ]
-      },         
-      {
-        text: 'Events',
+        text: 'Event Formats',
         link: '/event-format',
         collapsed: false,
         items: [

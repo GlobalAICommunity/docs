@@ -1,7 +1,7 @@
 ---
 outline: deep
 ---
-# LinkedIn Showcase Page
+# LinkedIn
 A LinkedIn Showcase Page is a dedicated page on LinkedIn that allows you to highlight specific aspects of your chapter's activities, such as events, workshops, and community initiatives. It serves as a platform to engage with your audience, share updates, and promote your chapter's events.
 
 ![LinkedIn Showcase Page Example](/media/chapter/linkedin-showcase-page.png)
@@ -19,4 +19,3 @@ To request a LinkedIn Showcase Page for your chapter, please follow these steps:
 Once the page is live, you will receive instructions on how to manage and update your Showcase Page.
 
 Linkedin has a limit to the number of Showcase Pages we can create, so we will prioritize chapters that are actively organizing and promoting events
-

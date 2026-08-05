@@ -54,7 +54,7 @@ The annual package gives the Partner a consistent presence across our content, c
 | **Technical video series** | A practical series about the Partner’s organization, technology, product, or service | Up to 4 episodes of no more than 30 minutes each |
 | **In-person interview** | An additional interview when our schedules and locations align | Optional |
 | **Global social media** | Posts supporting the partnership, content, technical series, product campaign, or another agreed initiative | 6 posts during the partnership period |
-| **Product and services event campaign** | One coordinated campaign and event series where the Partner can offer credits, vouchers, licenses, subscriptions, cloud or API access, developer tools, training, or services. The campaign can use our event publishing, registration, attendee communication, capacity management, and digital badge tools. | 1 campaign and event series, planned together |
+| **Product and services event campaign** | One coordinated campaign and event series where the Partner can offer credits, vouchers, licenses, subscriptions, cloud or API access, developer tools, training, or services. The campaign can use our event publishing, registration, attendee communication, and capacity management tools. | 1 campaign and event series, planned together |
 
 We will work together on the topics, audience, schedule, channels, and format. Our goal is to make every activity useful to the community while giving the Partner a strong and relevant platform.
 

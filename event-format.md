@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Events
+# Event Formats
 
 The 2026/2027 event program gives chapters a clear rhythm for the year. Seasonal events bring chapters together around a shared global theme, while the Global AI Conference can run throughout the year. Partners and Global AI HQ also create additional opportunities for local communities.
 

@@ -12,5 +12,5 @@ Participants gain **knowledge, opportunities, and long-term value**.
 - Learn the latest **trends, tools, and breakthroughs** in AI  
 - Receive an **Azure subscription** to boost your learning  
 - Get access to our **digital future subscription content**  
-- Earn a **certificate and digital badge** to showcase your achievements  
+- Earn a **certificate** to showcase your achievements
 - Stay updated with **future events, programs, and opportunities**  

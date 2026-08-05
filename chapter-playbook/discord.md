@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Global AI Discord Access
+# Discord
 
 As a **Global AI Chapter Lead**, you get access to the official Global AI Discord server.
 
@@ -42,7 +42,7 @@ All new chapter leads are encouraged to join and follow the:
 
 This is where Global AI HQ shares updates, guidance, and announcements.
 
-[Read more about chapter onboarding here](/chapter-onboarding.html#join-discord) for additional setup steps.
+[Read more about chapter onboarding here](/chapter-playbook/onboarding#getting-set-up) for additional setup steps.
 
 ## Discord Link
 

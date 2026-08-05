@@ -15,7 +15,6 @@ outline: deep
 
 - [Sessionize](https://sessionize.com/)
 - [Global AI Community Website](https://globalai.community/)
-- [Email Templates for Organisers](/organisers-101/speaker-communication-template.md)
 - [Event photo albums](https://www.flickr.com/photos/196991840@N02/albums/)
 
 ## Sponsors
