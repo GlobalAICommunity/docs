@@ -25,7 +25,7 @@ The Global AI Conference follows a **fixed format** to ensure global consistency
 | **Hours** | 10:00–17:00 or 15:00–21:00 |
 | **Tracks** | Minimum 2 — one session track and one workshop track |
 | **Keynote** | 45 min |
-| **Audience** | Minimum 200 attendees |
+| **Audience** | Minimum 120 attendees |
 | **Venue** | Non-Microsoft location (e.g., university, cinema, partner site) |
 | **Fee** | Must be free for all attendees |
 | **Registration** | Managed via Global AI Community website |
