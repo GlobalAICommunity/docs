@@ -5,7 +5,7 @@ outline: deep
 
 ## Who Can Organize
 
-Only **official Global AI Chapters** can organize a Global AI Conference. Each chapter should have an active organizing team (2–5 people minimum), a local network of developers and community partners, and capacity to host at least 200 attendees.
+Only **official Global AI Chapters** can organize a Global AI Conference. Each chapter should have an active organizing team (2–5 people minimum), a local network of developers and community partners, and capacity to host 120 attendees.
 
 ## Key Roles
 

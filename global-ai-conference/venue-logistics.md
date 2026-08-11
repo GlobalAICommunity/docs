@@ -5,9 +5,9 @@ outline: deep
 
 ## Venue Selection
 
-- **Non-Microsoft building.** In an exceptional case where the venue is Microsoft, it must be on the name of a **Global AI Community Board member** who works at Microsoft.
-- Accessible by public transport, with capacity for at least 200 attendees.
-- Two separate rooms/tracks, reliable Wi-Fi and power outlets, plus space for sponsor booths and networking.
+- Any suitable venue can be used if it can safely and comfortably host at least 120 people.
+- Make sure the venue has reliable Wi-Fi, power, appropriate AV equipment, and enough space for registration, sessions, workshops, and networking.
+- If you run sessions and workshops at the same time, provide suitable separate spaces for both tracks.
 
 ## Logistics Checklist
 
@@ -23,9 +23,9 @@ outline: deep
 |-----------|--------------|
 | **08:00** | Setup & volunteer briefing |
 | **09:30** | Registration opens |
-| **10:00** | Microsoft Keynote |
-| **10:45** | Coffee break |
-| **11:00** | Track sessions start |
+| **10:00** | Welcome and opening |
+| **10:15** | Track sessions start |
+| **11:15** | Coffee break |
 | **13:00** | Lunch break |
 | **14:00** | Workshops begin |
 | **17:00** | Closing remarks & networking |

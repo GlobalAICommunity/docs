@@ -6,11 +6,11 @@ outline: deep
 
 **Get Global AI content around the world.**
 
-Global AI On Tour opens the 2026/2027 seasonal calendar. During September and October 2026, chapters bring shared talks, demos, workshops, and community stories to their local audiences.
+Global AI On Tour opens the 2026/2027 seasonal calendar. During November 2026, chapters bring shared talks, demos, workshops, and community stories to their local audiences.
 
 ## Key details
 
-- **Season:** September–October 2026
+- **Season:** November 2026
 - **Format:** Meetup, workshop, or community event
 - **Purpose:** Make strong Global AI content available to communities around the world
 - **Content:** Shared campaign content combined with locally relevant sessions
@@ -27,7 +27,7 @@ Chapters can choose a format that works for their community:
 
 ## Organizer flow
 
-1. Choose a date in September or October 2026.
+1. Choose a date in November 2026.
 2. Select shared and local content for your audience.
 3. Publish the event on the Global AI Community platform.
 4. Promote it using the official campaign branding.

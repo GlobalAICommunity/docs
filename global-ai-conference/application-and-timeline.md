@@ -16,7 +16,7 @@ outline: deep
 |---------------|----------------|------------------------|----------------|
 | **Immediately** | Open CFP | Set up Sessionize page; share on socials | Provide branding templates |
 | **8 weeks before** | Lock venue | Confirm venue booking, begin promotion | Add event to Global AI website |
-| **6 weeks before** | Close CFP | Finalize speakers, design schedule | Announce keynote speaker |
+| **6 weeks before** | Close CFP | Finalize speakers, design schedule | Publish program highlights |
 | **6–5 weeks before** | Open registration | Launch event page and ticketing | Boost promotion |
 | **2 weeks before** | Final logistics | Confirm AV, catering, volunteers | HQ check-in call |
 | **0 weeks (Event)** | Execute event | Onsite management and follow-up | Monitor global stream |

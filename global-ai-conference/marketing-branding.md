@@ -5,7 +5,7 @@ outline: deep
 
 ## Marketing
 
-Use official branding assets and include the event logo and hashtag `#GlobalAIConference`, a Microsoft keynote mention, and your local chapter logo (optional).
+Use the branding provided by Global AI Community. Include the event logo and hashtag `#GlobalAIConference`; your local chapter logo is optional.
 
 **Channels:** LinkedIn, Twitter/X, Instagram, Bluesky, Luma, Meetup.com or local developer communities, universities, and tech hubs.
 
@@ -18,8 +18,10 @@ Use official branding assets and include the event logo and hashtag `#GlobalAICo
 | **4 weeks out** | Agenda release |
 | **1 week out** | Final reminders and logistics updates |
 
-## Branding Guidelines
+## Branding
 
-**Must use:** official logo, official color palette and typography, and the hashtags `#GlobalAIConference #GlobalAICommunity`. Tag Global AI Community on [LinkedIn](https://www.linkedin.com/company/global-ai-community) and [X (@GlobAICommunity)](https://x.com/GlobAICommunity).
+Global AI Community provides the branding for the event. Please use the supplied logo, color palette, typography, and templates so Global AI Conference events have a consistent identity worldwide.
+
+Use the hashtags `#GlobalAIConference #GlobalAICommunity`. Tag Global AI Community on [LinkedIn](https://www.linkedin.com/company/global-ai-community) and [X (@GlobAICommunity)](https://x.com/GlobAICommunity).
 
 **Do not:** modify or recolor the logo, add extra sponsors to main visuals without approval, or mix with unrelated branding.

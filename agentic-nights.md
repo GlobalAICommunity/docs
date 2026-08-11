@@ -6,11 +6,11 @@ outline: deep
 
 **Cold winter nights. Warm community conversations.**
 
-Global AI Nights is the seasonal evening event for November 2026 through January 2027. Chapters bring people together for accessible talks, demos, discussions, or hands-on sessions around AI.
+Global AI Nights is the seasonal evening event for December 2026 through January 2027. Chapters bring people together for accessible talks, demos, discussions, or hands-on sessions around AI.
 
 ## Key details
 
-- **Season:** November 2026–January 2027
+- **Season:** December 2026–January 2027
 - **Format:** Evening meetup
 - **Suggested duration:** 2–3 hours
 - **Audience:** Local developers, AI practitioners, students, and community members
@@ -27,7 +27,7 @@ Global AI Nights is the seasonal evening event for November 2026 through January
 
 ## Organizing your event
 
-1. Choose a date between November 2026 and January 2027.
+1. Choose a date in December 2026 or January 2027.
 2. Publish the event through the Global AI Community platform.
 3. Select content that fits your local audience.
 4. Use the official seasonal branding when it becomes available.
