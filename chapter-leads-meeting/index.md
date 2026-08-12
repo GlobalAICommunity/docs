@@ -10,6 +10,7 @@ Welcome to the Chapter Leads Meeting hub! This page provides access to all our m
 
 ### 2026
 
+- **[August 2026](august-2026.md)** - Advisory Board nominations, new award, platform launch, and event season preview
 - **[July 2026](july-2026.md)** - Global AI platform launch, AgentCamp and Build // localhost wrap-up, new chapter tools
 - **[February 2026](february-2026.md)** - AgentCamp follow-up, planning timeline, chapter support resources
 - **[January 2026](january-2026.md)** - AgentCamp Launch, Discord Migration, New Resources
