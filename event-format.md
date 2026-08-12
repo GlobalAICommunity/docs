@@ -10,7 +10,7 @@ The 2026/2027 event program gives chapters a clear rhythm for the year. Seasonal
 
 | Season | Event | Purpose |
 | --- | --- | --- |
-| November 2026 | [Global AI On Tour](/global-ai-on-tour) | Take shared Global AI content around the world. |
+| September–November 2026 | [Global AI On Tour](/global-ai-on-tour) | Take shared Global AI content around the world. |
 | December 2026–January 2027 | [Global AI Nights](/agentic-nights) | Bring the community together for warm, local evening events during the winter season. |
 | February–April 2027 | [Global AI Bootcamp](/agentcamp/) | Our flagship chapter event. Every chapter is encouraged to take part. |
 | May–June 2027 | [Global AI Connect](/global-ai-connect) | Connect people, chapters, speakers, and partners across the community. |
