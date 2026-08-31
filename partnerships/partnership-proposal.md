@@ -9,20 +9,20 @@ head:
 
 # Partnership Proposal
 
-**Partnership period:** 1 July 2026–30 June 2027
+**Partnership period:** 1 July 2026–31 December 2027
 
 ## Let’s Build Something Valuable Together
 
 The Global AI Community connects **250,000+ members across 200+ chapters worldwide**. Our ecosystem includes a global chapter and event platform, Global AI Weekly with **70,000+ subscribers**, a YouTube channel with **50,000+ subscribers**, and events led by passionate local AI communities.
 
-We would like to welcome the Partner into this ecosystem with a year-round package that combines global visibility, useful technical content, product experiences, and direct engagement with developers at six AgentCon 2027 events.
+We would like to welcome the Partner into this ecosystem with an extended partnership package that combines global visibility, useful technical content, product experiences, and direct engagement with developers at six AgentCon 2027 events.
 
 The proposal brings together:
 
-1. A full Global AI Community Partner package for one year.
+1. A full Global AI Community Partner package through 31 December 2027.
 2. Sponsorship of six AgentCon 2027 events and recognition as a **Global AgentCon 2027 Sponsor**.
 
-The standard combined value is **€24,000**. For this proposal, the annual €6,000 Partner package is included at no additional cost, bringing the total investment to **€18,000**.
+The standard combined value is **€24,000**. For this proposal, the €6,000 Partner package is extended through 31 December 2027 and included at no additional cost, bringing the total investment to **€18,000**.
 
 ## What We Want to Achieve
 
@@ -38,18 +38,18 @@ Together, we want to:
 
 | Component | Included | Standard price | Proposed price |
 | --- | --- | ---: | ---: |
-| Global AI Community Partner | 12-month package | €6,000 | Included |
+| Global AI Community Partner | 18-month package | €6,000 | Included |
 | Global AgentCon 2027 Sponsor | 6 events at €3,000 each | €18,000 | €18,000 |
-| **Total** | **Annual partnership and 6 events** | **€24,000** | **€18,000** |
+| **Total** | **18-month partnership and 6 events** | **€24,000** | **€18,000** |
 
-## 1. Annual Partner Package
+## 1. Partner Package
 
-The annual package gives the Partner a consistent presence across our content, channels, platform, and community programs.
+The package gives the Partner a consistent presence across our content, channels, platform, and community programs through 31 December 2027.
 
 | Partnership benefit | What is included | Quantity or timing |
 | --- | --- | --- |
 | **Brand recognition** | Partner name, logo, and website link on the Global AI Community partner page, plus use of the approved Partner designation | Full partnership period |
-| **Global AI Weekly** | Educational or technical Partner articles, planned together and reviewed by our editorial team | 4 articles: one per quarter |
+| **Global AI Weekly** | Educational or technical Partner articles, planned together and reviewed by our editorial team | 4 articles during the partnership period |
 | **Additional articles** | Extra approved Global AI Weekly articles at a 50% discount on the standard €500 rate | €250 per article |
 | **Technical video series** | A practical series about the Partner’s organization, technology, product, or service | Up to 4 episodes of no more than 30 minutes each |
 | **In-person interview** | An additional interview when our schedules and locations align | Optional |
@@ -92,11 +92,11 @@ The six-event commitment includes:
 
 ## How We Will Work Together
 
-We will start with a kickoff session to agree on the annual content calendar, preferred AgentCon locations, product campaign, technical series, and key contacts.
+We will start with a kickoff session to agree on the partnership content calendar, preferred AgentCon locations, product campaign, technical series, and key contacts.
 
 ### Global AI Community Will
 
-- Coordinate the annual Partner package and six AgentCon sponsorships.
+- Coordinate the Partner package and six AgentCon sponsorships.
 - Work with the Partner on content topics, campaign ideas, event preferences, and schedules.
 - Publish approved content and brand assets through the agreed community channels.
 - Provide access to the agreed event-organizing capabilities.
@@ -117,7 +117,7 @@ We will start with a kickoff session to agree on the annual content calendar, pr
 | Item | Calculation | Price |
 | --- | ---: | ---: |
 | Six AgentCon 2027 sponsorships | 6 × €3,000 | €18,000 |
-| Annual Global AI Community Partner package | Standard price €6,000 | Included |
+| Global AI Community Partner package through 31 December 2027 | Standard price €6,000 | Included |
 | **Total investment** |  | **€18,000** |
 
 The invoice schedule and final delivery calendar will be agreed during onboarding.
