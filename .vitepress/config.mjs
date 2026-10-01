@@ -160,7 +160,8 @@ export default defineConfig({
               ] 
           },
           { text: 'Newsletter',link: '/partnerships/newsletter'},
-          { text: 'AgentCon 2027 Sponsorship', link: '/partnerships/agentcon-sponsorship' }
+          { text: 'AgentCon 2027 Sponsorship', link: '/partnerships/agentcon-sponsorship' },
+          { text: 'Payment Instructions', link: '/payment' }
         ]
       },      
     ],
