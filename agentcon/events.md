@@ -19,6 +19,7 @@ _Last checked: 4 August 2026._
 
 | Date | Location | Venue | Time | Event |
 | --- | --- | --- | --- | --- |
+| 7 April 2027 | Silicon Valley, United States | To be announced | To be announced | [AgentCon Silicon Valley](https://globalai.community/e/ldoq32fc) |
 | 7 May 2027 | Mukono, Uganda | To be announced | 09:00–17:00 | [AgentCon Mukono](https://globalai.community/e/ub24qrio) |
 | 24 June 2027 | Amsterdam, Netherlands | To be announced | 09:00–17:00 | [AgentCon Amsterdam](https://globalai.community/e/zq85ollt) |
 
@@ -32,8 +33,7 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 | --- | --- |
 | Week of 25 January 2027 | Copenhagen, Denmark |
 | March 2027 | Melbourne, Australia |
-| 6 April 2027 | New York, United States |
-| 9 April 2027 | Silicon Valley, United States |
+| 10 April 2027 | New York, United States |
 | May 2027 | Bengaluru, India |
 | May 2027 | Tokyo, Japan |
 | June 2027 | Toronto, Canada |
