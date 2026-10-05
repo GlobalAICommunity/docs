@@ -17,11 +17,12 @@ _Last checked: 4 August 2026._
 
 ## Confirmed AgentCon 2027 Events
 
-| Date | Location | Venue | Time | Event |
-| --- | --- | --- | --- | --- |
-| 7 April 2027 | Silicon Valley, United States | To be announced | To be announced | [AgentCon Silicon Valley](https://globalai.community/e/ldoq32fc) |
-| 7 May 2027 | Mukono, Uganda | To be announced | 09:00–17:00 | [AgentCon Mukono](https://globalai.community/e/ub24qrio) |
-| 24 June 2027 | Amsterdam, Netherlands | To be announced | 09:00–17:00 | [AgentCon Amsterdam](https://globalai.community/e/zq85ollt) |
+| Date | Location | Venue | Time | Target attendees | Event |
+| --- | --- | --- | --- | ---: | --- |
+| 26 January 2027 | Copenhagen, Denmark | CodeNode | 09:00–17:00 | 150 | [AgentCon Copenhagen](https://globalai.community/e/6zkdqgv0) |
+| 7 April 2027 | Silicon Valley, United States | Computer History Museum | 09:00–17:00 | 400 | [AgentCon Silicon Valley](https://globalai.community/e/ldoq32fc) |
+| 7 May 2027 | Mukono, Uganda | To be announced | 09:00–17:00 | To be announced | [AgentCon Mukono](https://globalai.community/e/ub24qrio) |
+| 24 June 2027 | Amsterdam, Netherlands | Tobacco Theater | 09:00–17:00 | 150 | [AgentCon Amsterdam](https://globalai.community/e/zq85ollt) |
 
 ## Additional Proposed AgentCon 2027 Locations
 
@@ -31,7 +32,6 @@ The following invite-only locations are being considered for AgentCon 2027 and t
 
 | Suggested period | Location |
 | --- | --- |
-| Week of 25 January 2027 | Copenhagen, Denmark |
 | March 2027 | Melbourne, Australia |
 | 10 April 2027 | New York, United States |
 | May 2027 | Bengaluru, India |
