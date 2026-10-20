@@ -47,4 +47,4 @@ Global AI HQ leads a small number of strategic event programs. Participation, lo
 
 ---
 
-Questions? Feel free to connect with us on Slack or email [hq@globalai.community](mailto:hq@globalai.community).
+Questions? Connect with the community on [Discord](https://gaic.io/discord) or email [hq@globalai.community](mailto:hq@globalai.community). Slack is used for internal coordination; see the [community and internal access routes](/chapter-playbook/discord#discord-and-internal-slack).

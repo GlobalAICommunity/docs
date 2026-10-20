@@ -31,6 +31,8 @@ Members should be:
 
 Serving on the Advisory Board is an **unpaid volunteer role**. By accepting a seat, members commit to contributing the time needed to fulfil their responsibilities throughout the year. This includes preparing for and attending meetings, participating actively in Slack, following up on agreed actions, and communicating promptly when they cannot meet a commitment.
 
+The Advisory Board Slack space is private and used for internal board work. Elected members who need access should contact [hello@globalai.community](mailto:hello@globalai.community). For community connection and general chapter support, use [Discord](/chapter-playbook/discord#discord-and-internal-slack); joining Discord does not grant Advisory Board access.
+
 ## Term
 
 Each seat is held for **one year**, from **1 October until 1 October of the following year**.
@@ -46,7 +48,7 @@ You can nominate:
 - yourself; or
 - another active chapter lead or long-time community member.
 
-[Submit a nomination](https://gaic.io/nominate) during the nomination period. The selection timeline and updates are shared with chapter leads in Slack.
+[Submit a nomination](https://gaic.io/nominate) during the nomination period. For the selection timeline and updates, contact [hello@globalai.community](mailto:hello@globalai.community); access to the private Advisory Board Slack space is not required to ask about nominations.
 
 ## Meetings
 

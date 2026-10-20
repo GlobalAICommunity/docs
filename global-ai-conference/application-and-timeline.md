@@ -8,7 +8,7 @@ outline: deep
 1. **Submit the application form** — include chapter name and lead contact, proposed city and venue, estimated date, and expected audience size.
 2. **Wait for HQ approval** — HQ verifies there are no duplicate events in your region, checks venue and timeline feasibility, and confirms chapter activity status.
 3. **Meet with Global AI HQ** — a 30–45 minute call to review the event plan, roles and responsibilities, and support and promotional strategies.
-4. **Slack setup** — you'll be added to the Slack channel for ongoing coordination.
+4. **Slack setup** — HQ adds approved organizers to the private conference Slack channel in the Global AI HQ workspace for internal event coordination. If you have not received access, email [hq@globalai.community](mailto:hq@globalai.community) with your chapter and event details. [Discord](/chapter-playbook/discord#discord-and-internal-slack) remains the primary space for community connection and general chapter support.
 
 ## Planning Timeline
 
