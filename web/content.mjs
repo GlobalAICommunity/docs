@@ -87,6 +87,7 @@ const reviewNotes = {
 // These are editorial review flags, not replacements for the policies they describe.
 export const overrides = {
   'chapter-playbook/index.md': { headingAliases: { 'chapter-playbook': 'run-a-chapter', 'quick-reference': 'what-do-you-need-to-do' } },
+  'agentic-nights.md': { headingAliases: { 'organizing-your-event': 'organizer-checklist' } },
   'branding/index.md': { headingAliases: { 'typography-specifications': 'typography', 'primary-colors': 'colors', 'accent-colors': 'colors', 'gray-scale': 'colors', 'color-usage-guidelines': 'accessibility' } },
   'new-chapter.md': { review: [reviewNotes.application], summary: 'Eligibility, responsibilities, and the application process for a new local chapter.' },
   'event-format.md': { review: [reviewNotes.slack] },
