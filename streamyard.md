@@ -72,8 +72,9 @@ Prior to creating a live stream, you will need to download two of your chapter m
 After StreamYard is done setting up the live stream, it will show up in the list of scheduled streams and recordings.
 
 ### Configuring live stream branding
-!!! warning
-    Since we share this StreamYard environment among chapters, you have to make sure the branding of the live stream matches your chapter branding before going live.
+::: warning Shared environment
+Since we share this StreamYard environment among chapters, you have to make sure the branding of the live stream matches your chapter branding before going live.
+:::
 
 1. [Log in to StreamYard](#logging-in-to-streamyard)
 2. Make sure your [live stream is created](#create-live-stream)
@@ -81,15 +82,15 @@ After StreamYard is done setting up the live stream, it will show up in the list
 4. Check your camera and mic and specify you display name before clicking the *Enter studio* button
 5. Navigate to the *Media assets* in the menu on the right
 6. Select the *Global AI Chapters* brand in the dropdown, just above the Logo section. 
-7. !!! danger "Important"
-    Make sure the correct brand is selected **before** making changes & do not delete the logos from other chapters!
+7. **Important:** Make sure the correct brand is selected **before** making changes & do not delete the logos from other chapters!
 
     Click on the + (plus) button in the Logo section to upload your chapter logo (sticker).  
 8. Click on the logo you just added, to select it for the stream.  
 9. You can now leave the studio by clicking the *Leave studio* button on the bottom of the screen.
 
-!!! warning
-    We all share this StreamYard environment between chapters. Please do not make changes that can affect the streams of other chapters.
+::: warning Shared environment
+We all share this StreamYard environment between chapters. Please do not make changes that can affect the streams of other chapters.
+:::
 
 
 ## StreamYard video tutorials

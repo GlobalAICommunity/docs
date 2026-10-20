@@ -1,41 +1,43 @@
 ---
-outline: deep
+description: Start, run, and support a Global AI Community chapter, with practical next steps for every stage.
 ---
 
-# Chapter Playbook
+# Run a chapter
 
-<Badge type="warning" text="Work in Progress: draft for review" />
+You bring people together. This playbook helps with the steps around it: starting a chapter, getting your tools ready, planning events, and finding support.
 
-This playbook is the single reference for everything related to running a Global AI Community chapter: how to start one, what's expected of you while you run it, and what happens if a chapter needs to be handed over or closed down.
+## New to chapter leadership?
 
-Use the menu to navigate:
+Start with the [chapter eligibility and responsibilities](/new-chapter). You need a local, city-based community, at least two organizers, and a commitment to ongoing, free events.
 
-- **[Onboarding a New Chapter](/chapter-playbook/onboarding)**: how to start a chapter and get it set up
-- **[Requirements to Keep Your Chapter](/chapter-playbook/requirements)**: what's expected of an active chapter, and what happens if requirements aren't met
-- **[Offboarding a Chapter](/chapter-playbook/offboarding)** *(Draft)*: how to close a chapter
-- **[Transferring a Chapter](/chapter-playbook/transferring)** *(Draft)*: how to hand over a chapter to a new organizer
-- **[Code of Conduct](/chapter-playbook/code-of-conduct)**: the rules that govern all chapter activity
-- **[Advisory Board](/chapter-playbook/advisory-board)**: how the community is represented and how nominations work
-- **[Discord](/chapter-playbook/discord)**: join the server and request the Chapter Lead role
-- **[LinkedIn](/chapter-playbook/linkedin)**: request and manage your chapter's Showcase Page
-- **[Organizing Events](/organisers-101/)**: practical steps for planning and running a local event
-- **[Event Photography](/event-photography-checklist)**: the shots and event moments to capture
+Once approved, use the [onboarding checklist](/chapter-playbook/onboarding) to set up your email, chapter dashboard, and community channels. Guidance awaiting confirmation is flagged on the relevant page.
 
-> **Note:** Pages marked *(Draft)* propose a process that does not yet exist elsewhere in our documentation. Please review these carefully, they are our best-effort recommendation based on how similar volunteer communities operate, not yet a ratified policy.
+## What do you need to do?
 
-## Quick Reference
-
-| I want to... | Go to |
+| Your task | Start here |
 |---|---|
-| Start a brand new chapter | [Onboarding a New Chapter](/chapter-playbook/onboarding) |
-| Set up my chapter's tools and accounts | [Onboarding a New Chapter](/chapter-playbook/onboarding#getting-set-up) |
-| Understand what's expected of me as a chapter lead | [Requirements to Keep Your Chapter](/chapter-playbook/requirements) |
-| Add or remove an organizer | [Transferring a Chapter: Partial Transfers](/chapter-playbook/transferring#partial-transfers) |
-| Hand my chapter to a new organizer | [Transferring a Chapter](/chapter-playbook/transferring) |
-| Close my chapter | [Offboarding a Chapter](/chapter-playbook/offboarding) |
-| Read the Code of Conduct | [Code of Conduct](/chapter-playbook/code-of-conduct) |
-| Join or nominate someone for the Advisory Board | [Advisory Board](/chapter-playbook/advisory-board) |
-| Join the chapter lead community | [Discord](/chapter-playbook/discord) |
-| Set up my chapter's LinkedIn presence | [LinkedIn Showcase Page](/chapter-playbook/linkedin) |
-| Organize a local event | [Organizing Events](/organisers-101/) |
-| Plan event photography | [Event Photography Checklist](/event-photography-checklist) |
+| Start a new chapter | [Eligibility, responsibilities, and applying](/new-chapter) |
+| Set up an approved chapter | [Onboarding checklist](/chapter-playbook/onboarding#getting-set-up) |
+| Understand ongoing responsibilities | [Chapter requirements](/chapter-playbook/requirements) |
+| Organize a first meetup | [Event Organization 101](/organisers-101/) |
+| Choose a program for the year | [Event formats](/event-format) |
+| Find tools, content, or branding | [Tools & resources](/resources/) |
+| Connect with other chapter leads | [Discord](/chapter-playbook/discord) |
+| Request a chapter LinkedIn page | [LinkedIn Showcase pages](/chapter-playbook/linkedin) |
+| Help shape the community | [Advisory Board](/chapter-playbook/advisory-board) |
+
+## Keep your community welcoming
+
+Make the [Code of Conduct](/chapter-playbook/code-of-conduct) visible to members and attendees. Keep events free and open, and plan for accessibility from the start.
+
+## Changing your organizing team
+
+Contact [support@globalai.community](mailto:support@globalai.community) if you need to change organizers, hand over your chapter, or close it.
+
+::: details Proposed processes awaiting approval
+The [transfer guide](/chapter-playbook/transferring), [offboarding guide](/chapter-playbook/offboarding), and escalation section of the [chapter requirements](/chapter-playbook/requirements) are drafts. They are available for review, but their proposed timelines and procedures are not approved policy.
+:::
+
+## Stay connected
+
+Read the [chapter meeting recaps](/chapter-leads-meeting/) for community news. Recaps describe what was announced at the time; use current guides for operational instructions.

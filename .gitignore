@@ -19,9 +19,6 @@ dist/
 # Dependencies
 node_modules/
 
-# VitePress cache
-.vitepress/cache/
-.vitepress/dist/
 .temp/
 
 # Framework caches
@@ -63,5 +60,4 @@ coverage/
 
 # Misc
 .sass-cache/
-.vitepress/dist/
 temp/

@@ -20,6 +20,7 @@ Otherwise, feel free to shape your agenda based on your local community — whet
  
 ::: details Will content be provided?  
 We’re curating **reusable workshops and slide decks** for you to adapt at your event.  You can find them **[here](./content.md)**
+:::
 
 ::: details Is artwork available?
 Absolutely! As an organiser you will get access to all artwork that you can use to promote the event. Please do not make any changes to the official branding.
