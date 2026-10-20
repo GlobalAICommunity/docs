@@ -29,6 +29,7 @@ Chapters that want to organize an open conference format in 2027 should apply fo
 
 ## Communication with HQ
 
-- **Primary contact channel:** Slack (Global AI HQ workspace)  
+- **Internal organizer coordination:** Private AgentCon Slack channel (Global AI HQ workspace). Invited, approved co-organizers receive access during HQ onboarding; email [hq@globalai.community](mailto:hq@globalai.community) if access is missing.
+- **Community connection and general chapter support:** [Discord](/chapter-playbook/discord#discord-and-internal-slack).
 - **Regular updates:** Progress checkpoints every 2–3 weeks  
 - **Pre-event review call:** 2–4 weeks before event  

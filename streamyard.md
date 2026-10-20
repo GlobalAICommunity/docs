@@ -4,20 +4,15 @@
 
 ## How to use this benefit:
 
-"Login credentials"  
-
-|Site|Login|PIN|
-| ----- | ---- | ---- |
-| [streamyard.com](https://www.streamyard.com) | stream@globalai.community | Follow the instructions [below](#how-to-get-access-to-the-streamyard-pin-channel) |
+Request access using the steps [below](#how-to-get-access-to-the-streamyard-pin-channel). Support provides the login details privately. Do not post credentials, PINs, or restricted invitation links in public documentation or Discord.
     
 
 ## How to get access to the StreamYard-pin channel
 
-1. Get invited to the *#streamyard-pin* channel in the Global AI community Slack workspace.  
-You can request access by sending email to **[support@globalai.community](mailto:support@globalai.community)** using your Global AI chapter email address only.
+1. Request access to the restricted *#streamyard-pin* channel in the internal Global AI Slack workspace by emailing **[support@globalai.community](mailto:support@globalai.community)** using your Global AI chapter email address only. Include your chapter name and request StreamYard access, Slack workspace access if needed, and the current login instructions.
 2. **After** you are added to the *#streamyard-pin* channel (you will see the channel in your channel list in Slack), you can go ahead and login to StreamYard. 
 
-![streamyard channel in list](/media/streamyard/streamyard-channel-in-list.png)
+This restricted Slack channel is an internal tool-access exception. [Discord](/chapter-playbook/discord#discord-and-internal-slack) is the primary community space, but joining it does not grant StreamYard access or provide login PINs. If you cannot see the Slack channel, contact support before attempting to log in.
 
 ## Logging in to StreamYard
 > [!IMPORTANT]
@@ -25,18 +20,13 @@ You can request access by sending email to **[support@globalai.community](mailto
 
 **Step 1:** Join the StreamYard Pin channel in Slack. 
 
-![streamyard slack channel](/media/streamyard/streamyard-pin-channel.png)
-
-**Step 2:** Go to [streamyard.com](https://www.streamyard.com) and log in using the **stream@globalai.community** email address.
+**Step 2:** Go to [streamyard.com](https://www.streamyard.com) and use the login details supplied privately by support.
 
 **Step 3:** Click the Log in button.
 
 **Step 4:** In Slack, open the _#streamyard-pin_ channel.
 
-**Step 5:** Wait for your PIN to appear in the channel. It will look like this:
-Hi your pin for streamyard is: XXXXXX
-
-![streamyard sample pin](/media/streamyard/streamyard-sample-pin.png)
+**Step 5:** Wait for your login PIN to appear in the restricted channel. Keep it private.
 
 **Step 6:** Enter this PIN in the StreamYard login prompt and click Log in.
 
