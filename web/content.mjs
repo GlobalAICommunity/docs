@@ -79,25 +79,23 @@ export const navigation = {
 const reviewNotes = {
   application: 'The start-a-chapter and onboarding guides currently link to different application forms. Confirm the current application route with support@globalai.community before applying.',
   meetup: 'This guide still refers to setting up a Meetup group, but later community updates announce the retirement of Meetup support. Confirm current setup instructions with support@globalai.community.',
-  slack: 'This page refers to Slack. The January 2026 update announced a move to Discord; whether this program retains a separate Slack workspace needs confirmation from HQ.',
   schedule: 'The standard event hours differ from some confirmed event listings. Use the agreed local schedule and confirm it with HQ.',
 };
 
 // These are editorial review flags, not replacements for the policies they describe.
 export const overrides = {
   'chapter-playbook/index.md': { headingAliases: { 'chapter-playbook': 'run-a-chapter', 'quick-reference': 'what-do-you-need-to-do' } },
+  'agentic-nights.md': { headingAliases: { 'organizing-your-event': 'organizer-checklist' } },
   'branding/index.md': { headingAliases: { 'typography-specifications': 'typography', 'primary-colors': 'colors', 'accent-colors': 'colors', 'gray-scale': 'colors', 'color-usage-guidelines': 'accessibility' } },
   'new-chapter.md': { review: [reviewNotes.application], summary: 'Eligibility, responsibilities, and the application process for a new local chapter.' },
-  'event-format.md': { review: [reviewNotes.slack] },
   'chapter-playbook/onboarding.md': { review: [reviewNotes.application, reviewNotes.meetup] },
   'chapter-playbook/requirements.md': { review: ['The escalation process at the end of this page is a proposal, not an approved policy.'] },
   'chapter-playbook/offboarding.md': { status: 'draft' },
   'chapter-playbook/transferring.md': { status: 'draft' },
   'chapter-playbook/code-of-conduct.md': { review: ['The linked chapter offboarding process is still a draft. The official Code of Conduct remains the authoritative reference.'] },
-  'chapter-playbook/advisory-board.md': { review: [reviewNotes.slack] },
   'chapter-benefits/meetup.md': { status: 'archived', section: 'updates', title: 'Meetup retirement notice' },
   'chapter-benefits/canva.md': { review: ['The request process is marked as being updated. Confirm availability and current eligibility with support before relying on this benefit.'] },
-  'streamyard.md': { review: [reviewNotes.slack, 'The asset-download instructions reference the retired Umbraco dashboard. Request the current workflow from support.'] },
+  'streamyard.md': { review: ['The asset-download instructions reference the retired Umbraco dashboard. Request the current workflow from support.'] },
   'platform-event-management.md': { status: 'draft', summary: 'A placeholder for future event publishing, registration, check-in, and reporting guidance.' },
   'partnerships/overview.md': {
     navTitle: 'Explore partnerships',
@@ -115,14 +113,11 @@ export const overrides = {
   },
   'partnerships/partnership-proposal.md': { summary: 'A specific partnership proposal, not the standard public partnership terms.' },
   'agentcon/index.md': { navTitle: 'Organizer guide', summary: 'The HQ-led, invite-only conference series for developers building with AI agents.' },
-  'agentcon/eligibility-and-roles.md': { review: [reviewNotes.slack] },
   'agentcon/event-overview.md': { review: [reviewNotes.schedule] },
-  'agentcon/application-and-approval-process.md': { review: [reviewNotes.slack] },
   'agentcon/events.md': { navTitle: 'Events & locations', summary: 'Confirmed and proposed AgentCon locations, dates, venues, and attendance targets.' },
   'global-ai-conference/index.md': { navTitle: 'Organizer guide' },
   'global-ai-conference/call-for-speaker-content.md': { navTitle: 'Call for speakers template' },
-  'global-ai-conference/eligibility-and-roles.md': { review: [reviewNotes.slack] },
-  'global-ai-conference/application-and-timeline.md': { review: [reviewNotes.slack, 'The application form is not linked in this guide yet. Contact hq@globalai.community for the current application route.'] },
+  'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact hq@globalai.community for the current application route.'] },
   'agentcamp/index.md': { summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
   'agentcamp/register.md': { title: 'AgentCamp 2026 · registration' },
   'agentcamp/content.md': { title: 'AgentCamp 2026 · workshops & talks' },

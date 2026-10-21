@@ -10,8 +10,8 @@ The 2026/2027 event program gives chapters a clear rhythm for the year. Seasonal
 
 | Season | Event | Purpose |
 | --- | --- | --- |
-| September–November 2026 | [Global AI On Tour](/global-ai-on-tour) | Take shared Global AI content around the world. |
-| December 2026–January 2027 | [Global AI Nights](/agentic-nights) | Bring the community together for warm, local evening events during the winter season. |
+| September–October 2026 | [Global AI On Tour](/global-ai-on-tour) | Take shared Global AI content around the world. |
+| November 2026–January 2027 | [Global AI Nights](/agentic-nights) | Bring the community together for warm, local evening events during the winter season. |
 | February–April 2027 | [Global AI Bootcamp](/agentcamp/) | Our flagship chapter event. Every chapter is encouraged to take part. |
 | May–June 2027 | [Global AI Connect](/global-ai-connect) | Connect people, chapters, speakers, and partners across the community. |
 | July–August 2027 | [Global AI Construct](/construct) | Hack, build, and experiment with your local community. |
@@ -47,4 +47,4 @@ Global AI HQ leads a small number of strategic event programs. Participation, lo
 
 ---
 
-Questions? Feel free to connect with us on Slack or email [hq@globalai.community](mailto:hq@globalai.community).
+Questions? Connect with the community on [Discord](https://gaic.io/discord) or email [hq@globalai.community](mailto:hq@globalai.community). Slack is used for internal coordination; see the [community and internal access routes](/chapter-playbook/discord#discord-and-internal-slack).

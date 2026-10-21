@@ -30,6 +30,6 @@ outline: deep
    - Support and promotional strategies  
 
 5. **Slack Setup**
-   You’ll be added to the **AgentCon Slack channel** for ongoing coordination.
+   HQ adds approved co-organizers to the **private AgentCon Slack channel** in the Global AI HQ workspace for internal event coordination. If you have not received access, email [hq@globalai.community](mailto:hq@globalai.community) with your event and organizer details. [Discord](/chapter-playbook/discord#discord-and-internal-slack) remains the primary space for community connection and general chapter support.
 
 AgentCon 2027 does not have an open application form. Chapters seeking an open 2027 conference format should use the [Global AI Conference application process](/global-ai-conference/application-and-timeline).

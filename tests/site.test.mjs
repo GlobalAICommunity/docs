@@ -200,10 +200,48 @@ test('AgentCon attendance targets are consistent without promising actual attend
   assert.match(await htmlFor('partnerships/partnership-proposal.md'), /900–2,400 attendee places/);
   assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /not guaranteed attendance/);
   assert.match(await htmlFor('agentcon/event-overview.md'), /standard event hours differ/);
-  assert.match(await htmlFor('agentcon/eligibility-and-roles.md'), /refers to Slack/);
-  for (const path of ['agentcon/core-requirments.md', 'agentcon/venue-logistics.md']) {
+  for (const path of ['agentcon/core-requirments.md', 'agentcon/venue-logistics.md', 'agentcon/eligibility-and-roles.md']) {
     assert.doesNotMatch(await htmlFor(path), /class="review-notice"/);
   }
+});
+
+test('current chat guidance distinguishes community Discord from internal Slack access', async () => {
+  const discord = pages.get('chapter-playbook/discord.md');
+  assert.match(discord.plainText, /Discord is now the primary place/);
+  for (const purpose of ['general chapter support', 'AgentCon organizer coordination', 'Global AI Conference organizer coordination', 'Advisory Board work', 'StreamYard access']) {
+    assert.ok(discord.plainText.includes(purpose), purpose);
+  }
+  for (const [path, contact] of [
+    ['agentcon/eligibility-and-roles.md', 'hq@globalai.community'],
+    ['agentcon/application-and-approval-process.md', 'hq@globalai.community'],
+    ['global-ai-conference/eligibility-and-roles.md', 'hq@globalai.community'],
+    ['global-ai-conference/application-and-timeline.md', 'hq@globalai.community'],
+    ['chapter-playbook/advisory-board.md', 'hello@globalai.community'],
+    ['streamyard.md', 'support@globalai.community'],
+  ]) {
+    const page = pages.get(path);
+    assert.match(page.plainText, /private|restricted/i, path);
+    assert.ok(page.links.includes(`mailto:${contact}`), path);
+    assert.ok(page.links.includes('/chapter-playbook/discord.html#discord-and-internal-slack'), path);
+    assert.ok(!metadataFor(path).review.some(note => note.includes('whether this program retains')), path);
+  }
+  const formats = pages.get('event-format.md');
+  assert.ok(formats.links.includes('https://gaic.io/discord'));
+  assert.match(metadataFor('streamyard.md').review.join(' '), /retired Umbraco dashboard/);
+  assert.equal(metadataFor('agentcon/eligibility-and-roles.md').review.length, 0);
+  assert.match(metadataFor('global-ai-conference/application-and-timeline.md').review.join(' '), /application form is not linked/);
+});
+
+test('StreamYard access instructions keep login details private and preserve access anchors', async () => {
+  const page = pages.get('streamyard.md');
+  assert.match(page.plainText, /Global AI chapter email address only/);
+  assert.match(page.plainText, /Slack workspace access if needed/);
+  assert.match(page.plainText, /login details supplied privately by support/);
+  assert.doesNotMatch(page.content, /stream@globalai\.community|streamyard-sample-pin\.png|streamyard-pin-channel\.png/);
+  const html = await htmlFor('streamyard.md');
+  assert.match(html, /id="how-to-get-access-to-the-streamyard-pin-channel"/);
+  assert.match(html, /id="logging-in-to-streamyard"/);
+  assert.match(pages.get('chapter-leads-meeting/january-2026.md').content, /Slack will remain active only until \*\*February 28th\*\*/);
 });
 
 test('Markdown renders nested details, notices, alerts, badges and responsive tables', async () => {
