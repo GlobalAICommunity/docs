@@ -3,8 +3,8 @@ import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import MiniSearch from 'minisearch';
 import { directories, metadataFor, pathToUrl, site } from '../web/content.mjs';
-import { createMarkdown, readFrontmatter, escapeHtml } from './markdown.mjs';
-import { homePage, documentPage, searchPage, notFoundPage } from '../web/templates.mjs';
+import { createMarkdown, readFrontmatter, escapeHtml, agentConEventCards } from './markdown.mjs';
+import { homePage, landingPage, documentPage, searchPage, notFoundPage } from '../web/templates.mjs';
 import { searchOptions } from '../web/search-options.js';
 
 export const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -35,9 +35,22 @@ export async function loadPages() {
   const renderer = createMarkdown(knownPaths);
   const pages = new Map();
   for (const path of paths) {
-    const { data, content } = readFrontmatter(await readFile(join(root, path), 'utf8'));
+    let { data, content } = readFrontmatter(await readFile(join(root, path), 'utf8'));
+    if (content.includes('<!-- agentcon-confirmed-events -->')) {
+      const events = await readFile(join(root, 'agentcon/events.md'), 'utf8');
+      content = content.replaceAll('<!-- agentcon-confirmed-events -->', agentConEventCards(events, knownPaths));
+    }
     const metadata = metadataFor(path);
     const rendered = renderer.render(content, path);
+    if (data.layout === 'landing') {
+      if (typeof data.eyebrow !== 'string' || !data.eyebrow.trim() ||
+          !Array.isArray(data.actions) || data.actions.length < 1 || data.actions.length > 2 ||
+          data.actions.some(action => !action || typeof action.label !== 'string' || !action.label.trim() ||
+            typeof action.href !== 'string' || !/^(?:\/(?!\/)|#[^\s]+$|https?:\/\/|mailto:)[^\s]*$/.test(action.href))) {
+        throw new Error(`Invalid landing metadata in ${path}: provide an eyebrow and one or two labeled links.`);
+      }
+      rendered.links.push(...data.actions.map(action => action.href));
+    }
     const title = metadata.title ?? data.title ?? rendered.headings.find(heading => heading.level === 1)?.text;
     if (typeof title !== 'string' || !title.trim()) throw new Error(`Missing or invalid page title: ${path}`);
     const plainText = renderer.plainText(content);
@@ -99,7 +112,8 @@ export async function build() {
   await cp(join(root, 'node_modules/minisearch/LICENSE.txt'), join(output, 'assets/minisearch-LICENSE.txt'));
   for (const page of pages.values()) {
     const path = page.path.replace(/\.md$/, '.html');
-    const html = page.path === 'index.md' ? homePage(page) : documentPage(page, pages);
+    const html = page.path === 'index.md' ? homePage(page)
+      : page.data.layout === 'landing' ? landingPage(page) : documentPage(page, pages);
     await writeOutput(path, html);
     // Directory aliases preserve clean URLs on static hosts without per-page routing rules.
     if (page.path !== 'index.md' && !page.path.endsWith('/index.md')) await writeOutput(page.path.replace(/\.md$/, '/index.html'), html);

@@ -27,9 +27,9 @@ function header(active) {
     </header>`;
 }
 
-function footer() {
+function footer(landing = false) {
   return `<footer class="site-footer">
-    <div class="footer-top"><div><p class="eyebrow">A community, not a solo project</p><h2>You don't have to figure it out alone.</h2><p>Get help from HQ and chapter leads who have been there.</p></div><a class="button button-light" href="mailto:support@globalai.community">Contact support ${arrow}</a></div>
+    ${landing ? '' : `<div class="footer-top"><div><p class="eyebrow">A community, not a solo project</p><h2>You don't have to figure it out alone.</h2><p>Get help from HQ and chapter leads who have been there.</p></div><a class="button button-light" href="mailto:support@globalai.community">Contact support ${arrow}</a></div>`}
     <div class="footer-bottom"><a href="/" class="footer-brand">global AI community<span>The shared playbook.</span></a><nav aria-label="Footer"><a href="https://globalai.community">Community website ${arrow}</a><a href="https://gaic.io/discord">Discord ${arrow}</a><a href="${site.repository}">GitHub ${arrow}</a><a href="/chapter-playbook/code-of-conduct.html">Code of Conduct</a></nav><p>Built by the community. For the community.</p></div>
   </footer>`;
 }
@@ -60,7 +60,7 @@ export function shell(page, body) {
 <body>
 ${header(page.section)}
 ${body}
-${footer()}
+${footer(page.data?.layout === 'landing')}
 </body>
 </html>`;
 }
@@ -128,26 +128,48 @@ function statusNotice(page) {
   };
   const notice = statuses[page.status];
   return `${notice ? `<aside class="status-notice"><span class="status-label">${e(notice[0])}</span><p>${e(notice[1])}</p><a href="${page.status === 'draft' ? '/chapter-playbook/' : '/updates/'}">${page.status === 'draft' ? 'Back to the handbook' : 'Browse current guidance and archives'} <span aria-hidden="true">→</span></a></aside>` : ''}
-    ${page.review.length ? `<details class="review-notice" open><summary>Some guidance on this page needs confirmation</summary><ul>${page.review.map(note => `<li>${e(note)}</li>`).join('')}</ul><p>Original guidance is preserved below. Please confirm these points with HQ before acting on them.</p></details>` : ''}`;
+    ${page.review.length ? `<details class="review-notice" open><summary>Some guidance on this page needs confirmation</summary><ul>${page.review.map(note => `<li>${e(note)}</li>`).join('')}</ul><p>Please confirm these points with HQ before acting on them.</p></details>` : ''}`;
+}
+
+function articleWithAliases(page) {
+  const headingId = page.headings.find(heading => heading.level === 1)?.id;
+  let html = page.html;
+  let headingAliases = '';
+  for (const [alias, target] of Object.entries(page.headingAliases ?? {})) {
+    if (!page.headings.some(heading => heading.id === target)) throw new Error(`Missing alias target ${target} in ${page.path}`);
+    const marker = `<span class="anchor-alias" id="${e(alias)}" aria-hidden="true"></span>`;
+    if (target === headingId) headingAliases += marker;
+    else html = html.replace(new RegExp(`(<h[2-6] id="${target}")`), `${marker}$1`);
+  }
+  return { html, headingId, headingAliases };
+}
+
+export function landingPage(page) {
+  const { eyebrow, actions } = page.data;
+  const { html, headingId, headingAliases } = articleWithAliases(page);
+  return shell(page, `<main class="landing-page" id="main" tabindex="-1">
+    <header class="landing-hero">
+      <div class="container">
+        <p class="eyebrow">${e(eyebrow)}</p>
+        ${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1>
+        <p class="landing-intro">${e(page.summary)}</p>
+        <div class="landing-actions">${actions.map((action, index) => `<a class="button ${index === 0 ? 'button-ink' : 'button-outline'}" href="${e(action.href)}">${e(action.label)} ${arrow}</a>`).join('')}</div>
+      </div>
+    </header>
+    <article class="landing-content container">${html}</article>
+    ${page.review.length || page.status !== 'current' ? `<div class="container landing-review">${statusNotice(page)}</div>` : ''}
+  </main>`);
 }
 
 export function documentPage(page, pages) {
   const section = sections.find(item => item.id === page.section);
   const toc = page.headings.filter(heading => heading.level > 1 && heading.level <= 3 && heading.text);
   const tocLinks = toc.map(heading => `<a class="toc-level-${heading.level}" href="#${e(heading.id)}">${e(heading.text)}</a>`).join('');
-  const headingId = page.headings.find(heading => heading.level === 1)?.id;
+  const { html: articleHtml, headingId, headingAliases } = articleWithAliases(page);
   const paths = (navigation[page.section] ?? []).flatMap(([, items]) => items);
   const currentIndex = paths.indexOf(page.path);
   const next = currentIndex >= 0 ? paths.slice(currentIndex + 1).map(path => pages.get(path)).find(target => target.searchable && target.status === 'current') : null;
   const sourceUrl = `${site.repository}/edit/main/${page.path.split('/').map(encodeURIComponent).join('/')}`;
-  let articleHtml = page.html;
-  let headingAliases = '';
-  for (const [alias, target] of Object.entries(page.headingAliases ?? {})) {
-    if (!page.headings.some(heading => heading.id === target)) throw new Error(`Missing alias target ${target} in ${page.path}`);
-    const marker = `<span class="anchor-alias" id="${e(alias)}" aria-hidden="true"></span>`;
-    if (target === headingId) headingAliases += marker;
-    else articleHtml = articleHtml.replace(new RegExp(`(<h[2-6] id="${target}")`), `${marker}$1`);
-  }
   return shell(page, `<div class="docs-layout container-wide">
     <aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>
     <main class="doc-main" id="main" tabindex="-1"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Handbook</a><span aria-hidden="true">/</span><a href="${pathToUrl(section.path)}">${e(section.label)}</a></nav>

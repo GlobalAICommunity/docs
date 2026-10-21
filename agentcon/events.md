@@ -2,6 +2,10 @@
 
 AgentCon 2027 is an invite-only event series organized jointly by Global AI HQ and invited chapter leads and/or local organizers. Global AI HQ selects the locations and confirms each local co-organizing team.
 
+In 2027, we celebrate **10 years of Global AI** with a goal of **10 AgentCon conferences**. The confirmed locations below are part of that goal; proposed locations remain separate until confirmed.
+
+Each 2027 event targets **150–400 attendees**: a minimum target of 150 and a maximum target of 400. Individual event targets are listed below where confirmed; these are planning targets, not guaranteed attendance.
+
 ## Remaining Confirmed 2026 Events
 
 The following 2026 events are confirmed and available for sponsorship selection, subject to availability and written confirmation from Global AI Community HQ.

@@ -64,7 +64,7 @@ The Partner will sponsor six AgentCon 2027 events. AgentCon events are organized
 
 The Partner can share its preferred locations from the [AgentCon 2027 event list](/agentcon/events), including Bengaluru, Bangkok, Houston, Dallas, Toronto, New York, Silicon Valley, Ottawa, Melbourne, Sydney, Hong Kong, Tokyo, Mukono, Berlin, and Amsterdam. We will then build the final six-event portfolio together, based on availability, local readiness, venue capacity, timing, geographic balance, and the Partner’s priorities.
 
-Each event targets **300 developers**, creating a combined target of **1,800 attendee places** across six events. This is an event-planning target; actual registrations and attendance will vary by location.
+Each event targets **150–400 attendees**, creating a combined planning range of **900–2,400 attendee places** across six events. The combined target depends on the selected events. These are planning targets, not guaranteed attendance or unique people; actual registrations and attendance will vary by location.
 
 ### Included Across Six Events
 

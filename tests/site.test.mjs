@@ -4,7 +4,7 @@ import { readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import MiniSearch from 'minisearch';
 import { build, output, searchOptions, validateLinks } from '../scripts/build.mjs';
-import { createMarkdown, resolveLink, readFrontmatter } from '../scripts/markdown.mjs';
+import { createMarkdown, resolveLink, readFrontmatter, agentConEventCards } from '../scripts/markdown.mjs';
 import { pathToUrl, metadataFor } from '../web/content.mjs';
 
 let pages;
@@ -69,6 +69,88 @@ test('existing and renamed section anchors stay usable', async () => {
   }
 });
 
+test('partner landing pages keep their URLs, anchors, terms and contact routes without docs chrome', async () => {
+  const cases = [
+    ['partnerships/overview.md', ['partner-with-the-global-ai-community', 'our-community-ecosystem', 'partnership-levels', 'community-partner', 'partner', 'strategic-partner', 'event-sponsorship', 'agentcon-2027-sponsorship', 'expose-your-products-and-services', 'why-partner-with-the-global-ai-community', 'pricing', 'interested']],
+    ['partnerships/agentcon-sponsorship.md', ['agentcon-2027-sponsorship', 'purpose', 'why-sponsor-agentcon', 'sponsorship-benefits', 'speaking-session-or-workshop', 'pre-event-exposure', 'post-event-exposure', 'on-site-visibility', 'sponsor-obligations', 'guidelines', 'limitations', 'pricing', 'how-to-become-a-sponsor']],
+  ];
+  for (const [path, anchors] of cases) {
+    const html = await htmlFor(path);
+    assert.match(html, /class="landing-page"/);
+    assert.doesNotMatch(html, /class="docs-sidebar"|class="toc"|class="doc-meta"|class="next-page"/);
+    assert.match(html, /href="mailto:hq@globalai\.community\?subject=/);
+    for (const id of anchors) assert.ok(html.includes(`id="${id}"`), `${path}: ${id}`);
+    for (const action of pages.get(path).data.actions) {
+      assert.ok(pages.get(path).links.includes(action.href), 'Hero links must be validated.');
+    }
+  }
+  const partner = await htmlFor(cases[0][0]);
+  assert.match(partner, /<details class="review-notice" open>/);
+  assert.match(partner, /€6,000/);
+  assert.match(partner, /€500/);
+  assert.doesNotMatch(partner, /250,000|70,000|50,000|200\+/);
+  const sponsor = await htmlFor(cases[1][0]);
+  assert.doesNotMatch(sponsor, /class="review-notice"|host footprint|not confirmed sponsorship inventory/);
+  assert.match(sponsor, /€3,000/);
+  assert.match(sponsor, /6 or more events/);
+  assert.match(sponsor, /4 weeks before each event/);
+  assert.match(sponsor, /non-refundable/);
+  assert.match(sponsor, /do not receive attendee personal data or contact lists/);
+  assert.doesNotMatch(sponsor, /hosted by 200\+|target <strong>300 developers per event/);
+  assert.match(await htmlFor('partnerships/strategic-partner.md'), /class="docs-sidebar"/);
+});
+
+test('sponsor locations come from confirmed 2027 events, not proposed or previous editions', async () => {
+  const html = await htmlFor('partnerships/agentcon-sponsorship.md');
+  const source = pages.get('agentcon/events.md').content;
+  const paths = new Set(pages.keys());
+  const cards = createMarkdown(paths).render(agentConEventCards(source, paths), 'partnerships/agentcon-sponsorship.md');
+  assert.ok(html.includes(cards.html.trim()), 'The sponsor page must contain the current source event cards.');
+  assert.match(html, /href="#confirmed-locations"/);
+  assert.doesNotMatch(html, /<!-- agentcon-confirmed-events -->/);
+  assert.match(html, /HQ organizes and runs the 2027 series/);
+  const fixture = `## Remaining Confirmed 2026 Events
+| Date | Location |
+| --- | --- |
+| 2026 | Previous edition |
+
+## Confirmed AgentCon 2027 Events
+| Date | Location | Venue | Time | Target attendees | Event |
+| --- | --- | --- | --- | --- | --- |
+| 26 January 2027 | Confirmed city | Original venue | 09:00 | 150 | [Event](https://example.com/event) |
+| 1 April 2027 | Another city | To be announced | To be announced | To be announced | To be announced |
+
+## Additional Proposed AgentCon 2027 Locations
+| Date | Location |
+| --- | --- |
+| 2027 | Proposed city |
+`;
+  const rendered = agentConEventCards(fixture, paths);
+  assert.equal([...rendered.matchAll(/class="landing-card landing-event"/g)].length, 2);
+  assert.match(rendered, /Confirmed city/);
+  assert.match(rendered, /Venue to be announced/);
+  assert.match(rendered, /Event page coming soon/);
+  assert.match(rendered, /\[View event\]\(https:\/\/example.com\/event\)/);
+  assert.doesNotMatch(rendered, /Previous edition|Proposed city/);
+  const changed = agentConEventCards(fixture.replace('Original venue', 'Updated venue').replace('26 January 2027', '27 January 2027'), paths);
+  assert.match(changed, /Updated venue/);
+  assert.match(changed, /27 January 2027/);
+  assert.doesNotMatch(changed, /Original venue|26 January 2027/);
+  assert.throws(() => agentConEventCards('# No confirmed section', paths), /Missing confirmed 2027 section/);
+  assert.throws(() => agentConEventCards(fixture.replace('| Target attendees |', '| Unexpected column |'), paths), /Expected a populated/);
+  const index = MiniSearch.loadJSON(await readFile(join(output, 'assets/search-index.json'), 'utf8'), searchOptions);
+  assert.ok(index.search(cards.headings[0].text).some(result => result.id === 'partnerships/agentcon-sponsorship.md' && !result.needsReview));
+});
+
+test('the anniversary campaign distinguishes its ten-conference goal from confirmed events', async () => {
+  for (const path of ['partnerships/agentcon-sponsorship.md', 'partnerships/overview.md', 'agentcon/events.md', 'agentcon/index.md']) {
+    const html = await htmlFor(path);
+    assert.match(html, /10 years of Global AI/, path);
+    assert.match(html, /goal (?:is|of) (?:<strong>)?10 (?:free-to-attend )?AgentCon conferences/, path);
+  }
+  assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /locations confirmed so far/);
+});
+
 test('search excludes private-discovery pages and drafts, with archives opt-in', async () => {
   const json = await readFile(join(output, 'assets/search-index.json'), 'utf8');
   const index = MiniSearch.loadJSON(json, searchOptions);
@@ -99,10 +181,29 @@ test('archived offers, meeting recaps, drafts and contradictory guidance are vis
   assert.match(await htmlFor('chapter-leads-meeting/january-2026.md'), /Meeting archive/);
   assert.match(await htmlFor('chapter-playbook/offboarding.md'), /Draft · not approved policy/);
   assert.match(await htmlFor('chapter-playbook/onboarding.md'), /different application forms/);
-  assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /confirmed event targets vary/);
   assert.equal(metadataFor('agentcamp/index.md').status, 'current');
   assert.equal(metadataFor('agentcamp/register.md').status, 'archived');
   assert.throws(() => metadataFor('unclassified.md'), /Assign a section/);
+});
+
+test('AgentCon attendance targets are consistent without promising actual attendance', async () => {
+  for (const path of [
+    'agentcon/event-overview.md', 'agentcon/core-requirments.md',
+    'agentcon/venue-logistics.md', 'agentcon/eligibility-and-roles.md',
+    'agentcon/events.md', 'partnerships/agentcon-sponsorship.md',
+    'partnerships/partnership-proposal.md',
+  ]) {
+    const html = await htmlFor(path);
+    assert.match(html, /150–400/, path);
+    assert.doesNotMatch(html, /\b300\b|1,800|confirmed event targets vary/, path);
+  }
+  assert.match(await htmlFor('partnerships/partnership-proposal.md'), /900–2,400 attendee places/);
+  assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /not guaranteed attendance/);
+  assert.match(await htmlFor('agentcon/event-overview.md'), /standard event hours differ/);
+  assert.match(await htmlFor('agentcon/eligibility-and-roles.md'), /refers to Slack/);
+  for (const path of ['agentcon/core-requirments.md', 'agentcon/venue-logistics.md']) {
+    assert.doesNotMatch(await htmlFor(path), /class="review-notice"/);
+  }
 });
 
 test('Markdown renders nested details, notices, alerts, badges and responsive tables', async () => {

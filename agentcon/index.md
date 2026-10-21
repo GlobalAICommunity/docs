@@ -7,6 +7,8 @@ outline: deep
 
 [AgentCon](http://agentcon.dev/) is a global developer conference focused on AI Agents, built by developers, for developers. It is part of the Global AI Community and provides hands-on learning, collaboration, and networking for people working with AI agent frameworks, tools, and infrastructure.
 
+In 2027, we celebrate **10 years of Global AI** with a goal of **10 AgentCon conferences**, organized by Global AI HQ. See the [confirmed locations and proposed events](./events.md) for the current lineup.
+
 ::: warning AgentCon 2027 is invite-only
 AgentCon 2027 events are organized jointly by Global AI HQ and invited chapter leads and/or local organizers. Global AI HQ selects the locations and co-organizing teams. Open organizer applications are not available.
 

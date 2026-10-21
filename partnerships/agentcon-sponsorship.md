@@ -1,70 +1,220 @@
+---
+layout: landing
+title: 10 years of Global AI. 10 conferences.
+description: In 2027, Global AI turns 10. Our goal is 10 free-to-attend AgentCon conferences. Help us bring developers together to build with AI agents.
+eyebrow: AgentCon 2027 / Sponsor our anniversary year
+actions:
+  - label: Talk about sponsoring
+    href: mailto:hq@globalai.community?subject=AgentCon%202027%20sponsorship
+  - label: Explore locations
+    href: "#confirmed-locations"
+---
+
 # AgentCon 2027 Sponsorship
 
-## Purpose
+<section class="landing-section landing-split">
+<div>
 
-AgentCon 2027 Sponsorship enables organizations to support invited local [AgentCon](http://agentcon.dev/) events — the Global AI Community's developer conference focused on AI Agents — while gaining targeted visibility and engagement with an audience of AI developers, data scientists, and professionals.
+## A developer conference. A practical contribution.
 
-AgentCon 2027 events are free for attendees and target **300 developers per event**. Sponsors play a vital role in making these high-quality, community-driven conferences possible.
+</div>
+<div>
+
+[AgentCon](https://agentcon.dev/) is the Global AI Community's conference series focused on AI agents. Sponsorship helps keep events free for attendees while bringing technical expertise into the room.
+
+Global AI HQ organizes and runs the 2027 series, managing locations, event coordination, and sponsorship. You'll work directly with HQ from your first conversation through to event delivery.
+
+Each event targets **150–400 attendees**, with a minimum target of 150 and a maximum target of 400. These are planning targets, not guaranteed attendance.
+
+</div>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
 
 ## Why Sponsor AgentCon?
 
-- **Targeted Developer Audience**: AgentCon attendees are actively building with AI agent frameworks, tools, and infrastructure — a highly relevant audience for AI-focused organizations.
-- **Global Footprint**: AgentCon runs across multiple waves worldwide, with events hosted by 200+ Global AI chapters. Sponsoring gives you reach into local developer ecosystems on every continent.
-- **On-Site Presence**: Events include dedicated space for sponsor booths and networking, providing direct engagement with attendees.
-- **Brand Alignment**: Associate your brand with cutting-edge AI agent technology and a community-first, diversity-committed ecosystem.
-- **Free-to-Attend Model**: Your sponsorship directly enables free access for all attendees, generating goodwill and positive brand association.
+Be part of what developers learn next.
 
-## Sponsorship Benefits
+</div>
+<div class="landing-grid">
+<div class="landing-card">
 
-Sponsorship covers a series of AgentCon 2027 events over an agreed period. Sponsors receive the following benefits per event:
+### Share something practical
 
-### Speaking Session or Workshop
-- A dedicated speaking session (25 or 45 minutes depending on the event format), or
-- A 60-90-minute workshop, if the venue permits
+Show how a tool, framework, or approach works through educational content reviewed for the event.
 
-### Pre-Event Exposure
-- Listing as sponsor on the event page
-- Content block in the pre-event email
-- Social media post announcing the sponsorship
+</div>
+<div class="landing-card">
 
-### Post-Event Exposure
-- Content block in the post-event email
-- Event report for each sponsored event
-- Event photos available via the [Global AI Community Flickr album](https://www.flickr.com/photos/196991840@N02/albums)
+### Have real conversations
 
-### On-Site Visibility
-- Verbal mention during the opening remarks
-- Banner or small stand placement (if permitted by the venue)
+Meet developers working with AI agents. Use the agreed on-site presence to listen, demonstrate, and exchange ideas.
 
-## Sponsor Obligations
-- Provide logos, branding assets, and session/workshop materials at least **4 weeks before each event**.
-- Ensure speakers are available and confirmed for their sessions.
-- Supply any physical materials (banners, stands) as needed.
+</div>
+<div class="landing-card">
 
-## Guidelines
-- All sponsorship arrangements must be confirmed in a written sponsorship agreement with Global AI HQ.
-- Sponsor branding must not modify or override official AgentCon branding — see the [Marketing, Promotion & Branding Guidelines](/agentcon/marketing-promotion-branding).
-- Sponsors may not add logos to main event visuals without prior approval from Global AI HQ.
-- Sponsored content or sessions are subject to content review to ensure alignment with the community's educational mission.
-- Sponsors must respect the [Global AI Community Code of Conduct](https://globalai.community/code-of-conduct/).
-- All sponsorship fees are non-refundable.
-- Switching sponsorship events is not allowed unless both parties mutually agree in writing.
+### Keep learning accessible
 
-## Limitations
-- Sponsors do not influence speaker selection, agenda curation, or chapter governance.
-- Sponsors do not receive access to attendee personal data or contact lists.
-- Sponsorship does not grant exclusivity over event topics, technologies, or competing sponsors unless explicitly agreed in writing.
-- Sponsors must operate in a manner consistent with ethical and responsible AI practices.
+Support a free-to-attend event model and the local teams bringing the community together.
+
+</div>
+</div>
+</section>
+
+<section class="landing-section landing-offer">
+<div>
 
 ## Pricing
 
-The sponsorship fee is **€3,000 per event**.
+<p class="landing-price">€3,000 <span>/ event</span></p>
 
-Sponsors committing to **6 or more events** are recognized as a **Global AgentCon 2027 Sponsor**, gaining additional visibility across the entire AgentCon 2027 programme.
+Choose the locations that fit your goals. HQ confirms event availability, scope, and deliverables in a written sponsorship agreement.
+
+Sponsors committing to **6 or more events** are recognized as a **Global AgentCon 2027 Sponsor**, with additional programme-wide visibility.
+
+</div>
+<div class="landing-card">
+
+### Start with the right locations
+
+Choose from the confirmed 2027 locations below. HQ is your single point of contact for putting together a sponsorship across one or more events.
+
+[Explore confirmed locations](#confirmed-locations)
+
+[Discuss your shortlist with HQ](mailto:hq@globalai.community?subject=AgentCon%202027%20event%20shortlist)
+
+</div>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
+## Confirmed locations
+
+Our anniversary goal is 10 conferences. These are the 2027 locations confirmed so far.
+
+</div>
+
+<!-- agentcon-confirmed-events -->
+
+[See the full event calendar and proposed locations](../agentcon/events.md)
+
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
+## Sponsorship Benefits
+
+Before, during, and after the event.
+
+</div>
+
+The published per-event offer below is confirmed in your agreement. Format, agenda, and venue permissions determine what can be delivered locally.
+
+<div class="landing-grid landing-grid-two">
+<div class="landing-card">
+
+### Speaking Session or Workshop
+
+A dedicated **25- or 45-minute session**, depending on the event format, or a **60–90-minute workshop** where the venue permits. Content is reviewed for educational value.
+
+</div>
+<div class="landing-card">
+
+### Pre-Event Exposure
+
+Sponsor listing on the event page, a content block in the pre-event email, and a social media post announcing the sponsorship.
+
+</div>
+<div class="landing-card">
+
+### On-Site Visibility
+
+A verbal mention during opening remarks and space for a banner or small stand where the venue permits. Don't assume a full booth or exhibition area.
+
+</div>
+<div class="landing-card">
+
+### Post-Event Exposure
+
+A content block in the post-event email, an event report, and event photos through the [Global AI Community Flickr albums](https://www.flickr.com/photos/196991840@N02/albums).
+
+</div>
+</div>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
 
 ## How to Become a Sponsor
-1. Contact **[hq@globalai.community](mailto:hq@globalai.community)** to express interest.
-2. A sponsorship agreement will be drafted outlining events, benefits, contributions, and timelines.
-3. Once confirmed, your branding assets will be integrated into event materials.
 
-For questions or custom sponsorship arrangements, reach out to **[hq@globalai.community](mailto:hq@globalai.community)**.
+From first conversation to event day.
+
+</div>
+<ol class="landing-steps">
+<li>
+
+### Share your goals
+
+Tell HQ about your organization, preferred locations, and the technical content or expertise you'd like to bring.
+
+</li>
+<li>
+
+### Agree the scope
+
+Confirm the events, benefits, contributions, and timeline in writing. HQ reviews content and coordinates with local organizers.
+
+</li>
+<li>
+
+### Get ready together
+
+Confirm your speakers and send logos, branding assets, and session materials at least **4 weeks before each event**.
+
+</li>
+</ol>
+</section>
+
+<section class="landing-section landing-details">
+
+## Community-first, by design.
+
+Useful content. Clear agreements. An independent community.
+
+All sponsorship arrangements require a written agreement with Global AI HQ. Sponsored content is reviewed for alignment with the community's educational mission, and sponsors must follow the [Code of Conduct](https://globalai.community/code-of-conduct/).
+
+::: details Sponsor responsibilities and terms
+
+### Sponsor Obligations
+
+- Provide logos, branding assets, and session/workshop materials at least **4 weeks before each event**.
+- Ensure speakers are available and confirmed.
+- Supply physical materials, such as banners and stands, as needed.
+- Follow the [AgentCon branding guidelines](../agentcon/marketing-promotion-branding.md). Sponsor branding must not override AgentCon branding; logos on main event visuals require HQ approval.
+- All sponsorship fees are non-refundable. Switching events requires mutual written agreement.
+
+### Limitations
+
+- Sponsors do not influence speaker selection, agenda curation, or chapter governance. A sponsored session remains subject to content review.
+- Sponsors do not receive attendee personal data or contact lists.
+- Sponsorship does not grant exclusivity over topics, technologies, or competing sponsors unless explicitly agreed in writing.
+- Sponsors must follow ethical and responsible AI practices.
+
+:::
+
+</section>
+
+<section class="landing-section landing-contact">
+
+## Let's build a useful event together.
+
+Send us your preferred cities and what you'd like to share with the community. We'll start with the fit, then work through the details.
+
+[Talk to HQ about AgentCon](mailto:hq@globalai.community?subject=AgentCon%202027%20sponsorship)
+
+[Looking for a year-round partnership?](./overview.md)
+
+</section>

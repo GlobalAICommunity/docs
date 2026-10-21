@@ -36,6 +36,10 @@ Edit a Markdown page, then run the tests and build. Each page needs a title, eit
 
 New pages in an existing content directory inherit its section. Register a new top-level page or directory in `web/content.mjs`, and add reader-facing pages to the relevant navigation group or hub. Keep one authoritative page for each process; link to it rather than copying policy.
 
+The partner overview and AgentCon sponsorship page use `layout: landing` in frontmatter to render without documentation sidebars. Their `eyebrow`, `description`, and one or two `actions` (each with `label` and `href`) supply the hero. Keep the pitch, prices, and terms in Markdown; HTML section/card wrappers use the shared `landing-*` styles in `web/styles.css`. Preserve headings for existing inbound links. Review notices remain visible below the landing content, and these pages use the same search, URL, and link-validation pipeline as other guides.
+
+The sponsor page's `<!-- agentcon-confirmed-events -->` marker generates location cards from the **Confirmed AgentCon 2027 Events** table in `agentcon/events.md`. Update dates, venues, and event links there only. Proposed locations and other years are not included; missing venues or links stay explicitly to be announced. The build fails if the source section or expected table structure is missing.
+
 The build fails on missing local links or heading anchors. External links need editorial verification; a successful build does not verify policy, commercial promises, or third-party content.
 
 ## Content states and privacy

@@ -24,7 +24,7 @@ outline: deep
 
 ## Venue Selection
 
-- Choose a **venue that holds at least 300 people**.
+- Choose a venue that can accommodate the event's **attendance target of 150–400 people**.
 - Minimal catering should include **coffee/tea, lunch, and water**.  
 - Read more about [**Venue and Logistics →** ](/agentcon/venue-logistics) 
 

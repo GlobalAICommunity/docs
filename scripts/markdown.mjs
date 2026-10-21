@@ -42,6 +42,40 @@ function prepareMarkdown(content) {
   });
 }
 
+export function agentConEventCards(source, knownPaths) {
+  const tokens = new MarkdownIt().parse(source, {});
+  const start = tokens.findIndex((token, index) => token.type === 'heading_open' && token.tag === 'h2' &&
+    tokens[index + 1]?.content === 'Confirmed AgentCon 2027 Events');
+  if (start === -1) throw new Error('Missing confirmed 2027 section in agentcon/events.md.');
+  const next = tokens.findIndex((token, index) => index > start && token.type === 'heading_open' && token.tag === 'h2');
+  const section = tokens.slice(start + 3, next === -1 ? tokens.length : next);
+  const rows = [];
+  for (let index = 0; index < section.length; index++) {
+    if (section[index].type !== 'tr_open') continue;
+    const cells = [];
+    while (++index < section.length && section[index].type !== 'tr_close') {
+      if (section[index].type === 'inline') cells.push(section[index]);
+    }
+    rows.push(cells);
+  }
+  const [headers, ...events] = rows;
+  if (headers?.map(cell => cell.content).join('|') !== 'Date|Location|Venue|Time|Target attendees|Event' ||
+      !events.length || events.some(row => row.length !== 6 || row.some(cell => !cell.content.trim()))) {
+    throw new Error('Expected a populated confirmed 2027 event table with Date, Location, Venue, Time, Target attendees, and Event columns.');
+  }
+  return `<div class="landing-grid landing-event-grid">\n\n${events.map(([date, location, venue, , , event]) => {
+    const links = event.children.filter(token => token.type === 'link_open');
+    let eventLink = 'Event page coming soon.';
+    if (links.length === 1) {
+      const href = resolveLink(links[0].attrGet('href'), 'agentcon/events.md', knownPaths);
+      eventLink = `[View event](${href})`;
+    } else if (event.content !== 'To be announced') {
+      throw new Error(`Expected one event link or "To be announced" for ${location.content}.`);
+    }
+    return `<div class="landing-card landing-event">\n\n${date.content}\n\n### ${location.content}\n\n${venue.content === 'To be announced' ? 'Venue to be announced.' : venue.content}\n\n${eventLink}\n\n</div>`;
+  }).join('\n\n')}\n\n</div>`;
+}
+
 export function createMarkdown(knownPaths) {
   const markdown = new MarkdownIt({ html: true, linkify: true, typographer: false });
   const headingText = tokens => {

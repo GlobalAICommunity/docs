@@ -1,76 +1,200 @@
+---
+layout: landing
+title: Help more people build with AI.
+description: Bring your expertise, tools, and support to a community that learns by doing. Let's create something useful for developers, together.
+eyebrow: Partner with the Global AI Community
+actions:
+  - label: Let's talk partnerships
+    href: mailto:hq@globalai.community?subject=Global%20AI%20partnership
+  - label: Find your fit
+    href: "#partnership-levels"
+---
+
 # Partner with the Global AI Community
 
-**This page is for organizations that want to partner with the Global AI Community.**
+<section class="landing-section">
+<div class="landing-section-heading">
 
-The **Global AI Community** is an international not-for-profit network of AI enthusiasts and professionals, uniting **200+ chapters worldwide** and reaching **250,000+ members**. Our chapters host local meetups and global conferences and produce online content to share AI knowledge. Partnerships help us sustain and grow these initiatives. By partnering with us, your organization can engage with a vibrant worldwide AI network while supporting grassroots AI education, diversity, and innovation.
+## Good partnerships start with something worth sharing.
 
-## Our Community Ecosystem
+</div>
 
-- **Global chapter platform**: A shared platform connecting 200+ chapters and 250,000+ members through chapter pages, member profiles, events, registrations, video, and AI news.
-- **Event organizing tools**: Approved partners can use our event publishing, registration, capacity management, and attendee communication tools for agreed event series.
-- **[Global AI Weekly](https://weekly.globalai.community/)**: A curated weekly publication reaching **70,000+ subscribers**, providing opportunities for approved educational content and relevant partner offers.
-- **[YouTube channel](https://www.youtube.com/@GlobalAICommunity)**: An educational video channel with **50,000+ subscribers**, featuring event recordings, interviews, talks, and community content.
-- **Global and local events**: A worldwide calendar of chapter meetups, conferences, and event series that create opportunities for sponsorship, speakers, workshops, and hands-on product experiences.
-- **Community channels**: Ongoing engagement through our website, LinkedIn, Discord, and other social channels.
+We're an international, not-for-profit network of local AI communities. Our chapters bring developers, students, and professionals together to learn, experiment, and share what works. Partners help make that possible.
 
-## Partnership Levels
+<div class="landing-grid">
+<div class="landing-card">
+
+### Support local learning
+
+Help chapter leads deliver meetups, workshops, and conferences. Put your contribution close to the people doing the work.
+
+</div>
+<div class="landing-card">
+
+### Bring useful expertise
+
+Share technical knowledge, practical demos, and learning resources. Give developers something they can use, not just a product pitch.
+
+</div>
+<div class="landing-card">
+
+### Build a longer conversation
+
+Explore agreed opportunities across events, educational content, and community channels, beyond a single launch or campaign.
+
+</div>
+</div>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
+## Find your fit.
+
+Find the right starting point.
+
+</div>
+<div class="landing-grid">
+<div class="landing-card">
 
 ### Community Partner
 
-Free, non-commercial recognition for organizations that support our mission and want to stay connected to the community.
+<p class="landing-price">Free</p>
 
-[Read more](./community-partner.md)
+For organizations that share our mission and want a non-commercial connection to the community.
+
+- Recognition by name on our website
+- Public partner communications and updates
+- Invitations to public events and open initiatives
+
+No commercial promotion or logo-use rights. Donations are welcome, but don't unlock extra benefits.
+
+[Explore Community Partner](./community-partner.md)
+
+</div>
+<div class="landing-card landing-card-featured">
 
 ### Partner
 
-An annual paid partnership for organizations seeking agreed brand visibility and engagement opportunities across chapters, events, or content.
+<p class="landing-price">€6,000 <span>/ year</span></p>
 
-[Read more](./partner.md)
+For organizations ready to support community activities with agreed visibility and engagement.
+
+- Partner recognition and relevant channel visibility
+- Agreed event or content opportunities
+- Opportunities to share approved tools, credits, or resources
+
+Scope is agreed in writing. Speaking and content opportunities are proposal-based.
+
+[Explore Partner](./partner.md)
+
+</div>
+<div class="landing-card">
 
 ### Strategic Partner
 
-A custom, multi-year collaboration focused on shared goals, measurable impact, and sustained engagement with the global AI ecosystem.
+<p class="landing-price">Let's shape it together</p>
 
-[Read more](./strategic-partner.md)
+A custom, multi-year collaboration built around shared goals and sustained community support.
+
+- Collaboration on programs, content, or initiatives
+- Partner recognition and co-branding as agreed
+- Dedicated coordination and advisory discussions
+
+Requires leadership approval and a custom agreement.
+
+[Explore Strategic Partner](./strategic-partner.md)
+
+</div>
+</div>
+</section>
+
+<section class="landing-section landing-band">
 
 ## Event Sponsorship
 
 ### AgentCon 2027 Sponsorship
 
-Dedicated sponsorship opportunities for the invite-only AgentCon 2027 series — the Global AI Community's developer conference on AI Agents.
+Celebrate **10 years of Global AI** in 2027, with a goal of **10 AgentCon conferences**. Support free-to-attend developer events, share your technical expertise, and take part in local conversations.
 
-[Read more](./agentcon-sponsorship.md)
+**€3,000 per event**, with locations and benefits confirmed with HQ.
 
-## Expose Your Products and Services
+[Explore AgentCon sponsorship](./agentcon-sponsorship.md)
 
-Partners can support hands-on learning by giving community members access to useful products and services. In-kind contributions may include:
+</section>
 
-- Product credits or vouchers
-- Software licenses or subscriptions
-- Cloud, platform, API, or sandbox access
-- Developer tools, learning platforms, or training resources
+<section class="landing-section">
+<div class="landing-section-heading">
 
-We coordinate approved offers across relevant chapters, events, or programs so they meet community needs. Offering a product does not imply endorsement, guarantee adoption, or provide access to community member data.
+## Local connections. More ways to contribute.
 
-## Why partner with the Global AI Community
+</div>
+<div class="landing-grid">
+<div class="landing-card">
 
-- **Global Reach**: Connect with **250,000+ AI developers, data scientists, students, and professionals** through 200+ chapters worldwide.
-- **Active Events Calendar**: Engage with frequent in-person and virtual chapter events, flagship global events, and conferences.
-- **Year-Round Online Presence**: Reach community members through channels including video, webinars, podcasts, and newsletters.
-- **Direct Community Support**: Help fund local chapter activities, educational workshops, global conferences, and content creation.
-- **Flexible Contributions**: Support may include funding, product access, credits, licenses, subscriptions, tools, training resources, or expert speakers.
-- **Mutual Benefit**: Gain relevant visibility, engagement, and thought-leadership opportunities while helping the community continue its mission.
+### Chapters & events
+
+Local meetups, conferences, and hands-on learning. Discuss speakers, workshops, sponsorship, or an agreed event series using our shared community platform.
+
+[Meet the community](https://globalai.community/)
+
+</div>
+<div class="landing-card">
+
+### Global AI Weekly
+
+Share relevant educational content with readers of our curated AI newsletter. Paid articles are **€500 per article, per edition**, subject to review.
+
+[Explore newsletter opportunities](./newsletter.md)
+
+</div>
+<div class="landing-card">
+
+### Video & community channels
+
+Talks, interviews, event recordings, and ongoing conversations. Explore content that fits the community and the channel.
+
+[Watch our YouTube channel](https://www.youtube.com/@GlobalAICommunity)
+
+</div>
+</div>
+</section>
+
+<section class="landing-section landing-split">
+<div>
+
+## Give people the tools to try an idea.
+
+</div>
+<div>
+
+Useful contributions aren't only financial. Product credits, software licenses, API or sandbox access, developer tools, and training resources can support hands-on learning.
+
+HQ coordinates approved offers with relevant chapters, events, or programs. Offers do not imply endorsement, guarantee adoption, or provide access to community member data.
+
+</div>
+</section>
+
+<section class="landing-section landing-details">
 
 ## Pricing
 
-| Opportunity | Price |
-| --- | --- |
-| Community Partner | Free; donations are appreciated |
-| Partner | €6,000 per year |
-| Strategic Partner | Custom multi-year agreement |
-| Global AI Weekly | €500 per article, per edition |
-| AgentCon 2027 Sponsorship | €3,000 per event |
+Choose a starting point above, then agree the scope with HQ. Community Partner is free, Partner is €6,000 per year, and Strategic Partner is a custom multi-year agreement. Newsletter articles and AgentCon sponsorship are separate opportunities, not automatically included in an annual partnership.
+
+::: details What stays community-first?
+Partnerships are reviewed for alignment with our mission and values. Chapters retain their independence, and partners do not control community governance or editorial decisions. Benefits, brand use, and contributions follow the relevant partnership guidelines and written agreement.
+
+Read the full [Community Partner](./community-partner.md), [Partner](./partner.md), or [Strategic Partner](./strategic-partner.md) guidance before making a commitment.
+:::
+
+</section>
+
+<section class="landing-section landing-contact">
 
 ## Interested?
 
-Partnership arrangements are reviewed to ensure they align with our mission, values, and community-first approach. To discuss the most appropriate level for your organization, contact **[hq@globalai.community](mailto:hq@globalai.community)**.
+Tell us what you're building, who you'd like to support, and what you can contribute. HQ will help identify a fit and agree the next steps.
+
+[Let's talk: hq@globalai.community](mailto:hq@globalai.community?subject=Global%20AI%20partnership)
+
+</section>
