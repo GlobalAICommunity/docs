@@ -15,7 +15,7 @@
     "@fontsource-variable/instrument-sans": "^5.2.0",
     "@fontsource-variable/space-grotesk": "^5.2.0",
     "@mdit-vue/shared": "^2.1.4",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.3.3",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-container": "^4.0.0",
     "minisearch": "^7.2.0",
