@@ -15,8 +15,8 @@ Discord is now the primary place to stay connected with the community and get ge
 | Purpose | Current space | How to request access |
 | --- | --- | --- |
 | Community connection and general chapter support | [Global AI Discord](https://gaic.io/discord) | Join Discord; chapter leads can request the Chapter Lead role using the steps below. |
-| AgentCon organizer coordination | Private AgentCon channel in the Global AI HQ Slack workspace | Invited, approved co-organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
-| Global AI Conference organizer coordination | Private conference channel in the Global AI HQ Slack workspace | Approved organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
+| Global AI Conference organizer coordination | Private Global AI Conference channel in the Global AI HQ Slack workspace | Invited, approved co-organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
+| Global AI Community Connect organizer coordination | Private Global AI Community Connect channel in the Global AI HQ Slack workspace | Approved organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
 | Advisory Board work | Private Advisory Board Slack space | Elected members can contact [hello@globalai.community](mailto:hello@globalai.community) for access. |
 | StreamYard access | Restricted `#streamyard-pin` channel in Slack | Email [support@globalai.community](mailto:support@globalai.community) from your Global AI chapter email address; see the [StreamYard guide](/streamyard). |
 

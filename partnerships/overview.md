@@ -113,13 +113,13 @@ Requires leadership approval and a custom agreement.
 
 ## Event Sponsorship
 
-### AgentCon 2027 Sponsorship
+### Global AI Conference 2027 Sponsorship
 
-Celebrate **10 years of Global AI** in 2027, with a goal of **10 AgentCon conferences**. Support free-to-attend developer events, share your technical expertise, and take part in local conversations.
+Celebrate **10 years of Global AI** in 2027, with a goal of **10 Global AI Conferences**. Support free-to-attend developer events, share your technical expertise, and take part in local conversations.
 
 **€3,000 per event**, with locations and benefits confirmed with HQ.
 
-[Explore AgentCon sponsorship](./agentcon-sponsorship.md)
+[Explore Global AI Conference sponsorship](https://globalaiconference.city/sponsor.html)
 
 </section>
 
@@ -179,7 +179,7 @@ HQ coordinates approved offers with relevant chapters, events, or programs. Offe
 
 ## Pricing
 
-Choose a starting point above, then agree the scope with HQ. Community Partner is free, Partner is €6,000 per year, and Strategic Partner is a custom multi-year agreement. Newsletter articles and AgentCon sponsorship are separate opportunities, not automatically included in an annual partnership.
+Choose a starting point above, then agree the scope with HQ. Community Partner is free, Partner is €6,000 per year, and Strategic Partner is a custom multi-year agreement. Newsletter articles and Global AI Conference sponsorship are separate opportunities, not automatically included in an annual partnership.
 
 ::: details What stays community-first?
 Partnerships are reviewed for alignment with our mission and values. Chapters retain their independence, and partners do not control community governance or editorial decisions. Benefits, brand use, and contributions follow the relevant partnership guidelines and written agreement.

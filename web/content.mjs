@@ -30,6 +30,7 @@ export const directories = {
 const rootSections = {
   'new-chapter.md': 'chapters',
   'event-format.md': 'events',
+  'conference.md': 'events',
   'events.md': 'events',
   'agentic-nights.md': 'events',
   'global-ai-connect.md': 'events',
@@ -55,9 +56,8 @@ export const navigation = {
   events: [
     ['Plan an event', ['event-format.md', 'organisers-101/index.md', 'event-photography-checklist.md']],
     ['Seasonal programs', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
-    ['Global AI Conference', ['global-ai-conference/index.md', 'global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
-    ['AgentCon · invited organizers', ['agentcon/index.md', 'agentcon/events.md', 'agentcon/eligibility-and-roles.md', 'agentcon/event-overview.md', 'agentcon/core-requirments.md', 'agentcon/application-and-approval-process.md', 'agentcon/planning-timeline.md', 'agentcon/venue-logistics.md', 'agentcon/marketing-promotion-branding.md', 'agentcon/day-of-event-playbook.md', 'agentcon/post-event tasks.md', 'agentcon/appendices.md', 'agentcon/sponsors.md']],
-    ['Other opportunities', ['partner-led-events.md', 'hq-organized-events.md']],
+    ['Global AI Community Connect', ['global-ai-conference/index.md', 'global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
+    ['Other opportunities', ['conference.md', 'agentcon/index.md', 'partner-led-events.md', 'hq-organized-events.md']],
   ],
   resources: [
     ['Find a resource', ['resources/index.md', 'chapter-benefits/index.md']],
@@ -66,7 +66,7 @@ export const navigation = {
   ],
   partners: [
     ['Work with us', ['partnerships/overview.md', 'partnerships/community-partner.md', 'partnerships/partner.md', 'partnerships/strategic-partner.md']],
-    ['Sponsorship & content', ['partnerships/agentcon-sponsorship.md', 'agentcon/events.md', 'partnerships/newsletter.md']],
+    ['Sponsorship & content', ['partnerships/newsletter.md']],
     ['Already a partner', ['payment.md']],
   ],
   updates: [
@@ -79,7 +79,6 @@ export const navigation = {
 const reviewNotes = {
   application: 'The start-a-chapter and onboarding guides currently link to different application forms. Confirm the current application route with support@globalai.community before applying.',
   meetup: 'This guide still refers to setting up a Meetup group, but later community updates announce the retirement of Meetup support. Confirm current setup instructions with support@globalai.community.',
-  schedule: 'The standard event hours differ from some confirmed event listings. Use the agreed local schedule and confirm it with HQ.',
 };
 
 // These are editorial review flags, not replacements for the policies they describe.
@@ -104,19 +103,24 @@ export const overrides = {
       'partnership-levels': 'find-your-fit',
       'our-community-ecosystem': 'local-connections-more-ways-to-contribute',
       'expose-your-products-and-services': 'give-people-the-tools-to-try-an-idea',
+      'agentcon-2027-sponsorship': 'global-ai-conference-2027-sponsorship',
     },
     review: ['Audience metrics are under review across partner materials. Request dated, approved figures from HQ when preparing an agreement.'],
   },
-  'partnerships/agentcon-sponsorship.md': {
-    navTitle: 'Sponsor AgentCon',
-    headingAliases: { purpose: 'a-developer-conference-a-practical-contribution', guidelines: 'community-first-by-design' },
-  },
   'partnerships/partnership-proposal.md': { summary: 'A specific partnership proposal, not the standard public partnership terms.' },
-  'agentcon/index.md': { navTitle: 'Organizer guide', summary: 'The HQ-led, invite-only conference series for developers building with AI agents.' },
-  'agentcon/event-overview.md': { review: [reviewNotes.schedule] },
-  'agentcon/events.md': { navTitle: 'Events & locations', summary: 'Confirmed and proposed AgentCon locations, dates, venues, and attendance targets.' },
-  'global-ai-conference/index.md': { navTitle: 'Organizer guide' },
-  'global-ai-conference/call-for-speaker-content.md': { navTitle: 'Call for speakers template' },
+  'conference.md': { summary: 'The HQ-run conference series for developers building with AI agents, previously known as AgentCon.' },
+  'agentcon/index.md': { navTitle: 'AgentCon announcement', summary: 'AgentCon is discontinued and continues as the Global AI Conference. AgentCon Singapore is the final AgentCon event.' },
+  'event-format.md': { headingAliases: { 'global-ai-conference': 'global-ai-community-connect' } },
+  'hq-organized-events.md': { headingAliases: { agentcon: 'global-ai-conference' } },
+  'global-ai-conference/index.md': {
+    navTitle: 'Organizer guide',
+    summary: 'The open, chapter-organized conference format previously called the Global AI Conference.',
+    headingAliases: { 'the-global-ai-conference-organizer-guide': 'global-ai-community-connect-organizer-guide' },
+  },
+  'global-ai-conference/call-for-speaker-content.md': {
+    navTitle: 'Call for speakers template',
+    headingAliases: { 'global-ai-conference-call-for-speakers-cfs-page': 'global-ai-community-connect-call-for-speakers-cfs-page' },
+  },
   'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact hq@globalai.community for the current application route.'] },
   'agentcamp/index.md': { summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
   'agentcamp/register.md': { title: 'AgentCamp 2026 · registration' },
@@ -132,6 +136,18 @@ export const overrides = {
   'ai-community-day.md': { status: 'archived', review: ['The original program date range is ambiguous. These instructions are retained for reference, not as a current event offer.'] },
   'presentations.md': { summary: 'Reusable presentation decks, with source editions identified for organizers.', review: ['These materials include 2025 editions. Check the linked repositories and demos before delivery; inclusion is not a guarantee that every technical step is current.'] },
   'workshops.md': { summary: 'Hands-on workshops with duration, skill level, and Azure requirements.', review: ['These workshops come from the 2025 Bootcamp edition. Check the linked instructions and prerequisites before using them at a new event.'] },
+};
+
+const conferenceSite = 'https://globalaiconference.city/';
+
+// Removed pages keep their URLs as redirects. Targets are handbook paths or external URLs.
+export const redirects = {
+  'agentcon/events.md': conferenceSite,
+  'agentcon/sponsors.md': `${conferenceSite}sponsor.html`,
+  'partnerships/agentcon-sponsorship.md': `${conferenceSite}sponsor.html`,
+  ...Object.fromEntries(['appendices', 'application-and-approval-process', 'core-requirments', 'day-of-event-playbook',
+    'eligibility-and-roles', 'event-overview', 'marketing-promotion-branding', 'planning-timeline', 'post-event tasks', 'venue-logistics']
+    .map(name => [`agentcon/${name}.md`, 'conference.md'])),
 };
 
 export function metadataFor(path) {

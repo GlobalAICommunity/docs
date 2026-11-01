@@ -4,15 +4,15 @@ import { readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import MiniSearch from 'minisearch';
 import { build, output, searchOptions, validateLinks } from '../scripts/build.mjs';
-import { createMarkdown, resolveLink, readFrontmatter, agentConEventCards } from '../scripts/markdown.mjs';
-import { pathToUrl, metadataFor } from '../web/content.mjs';
+import { createMarkdown, resolveLink, readFrontmatter } from '../scripts/markdown.mjs';
+import { pathToUrl, metadataFor, redirects, navigation } from '../web/content.mjs';
 
 let pages;
 before(async () => { pages = await build(); });
 const htmlFor = path => readFile(join(output, path.replace(/\.md$/, '.html')), 'utf8');
 
 test('all documents render with exactly one page heading and no Vue components', async () => {
-  assert.ok(pages.size >= 80);
+  assert.ok(pages.size >= 65);
   for (const page of pages.values()) {
     const html = await htmlFor(page.path);
     assert.equal([...html.matchAll(/<h1(?:\s|>)/g)].length, 1, page.path);
@@ -69,10 +69,9 @@ test('existing and renamed section anchors stay usable', async () => {
   }
 });
 
-test('partner landing pages keep their URLs, anchors, terms and contact routes without docs chrome', async () => {
+test('the partner landing page keeps its URL, anchors, terms and contact routes without docs chrome', async () => {
   const cases = [
-    ['partnerships/overview.md', ['partner-with-the-global-ai-community', 'our-community-ecosystem', 'partnership-levels', 'community-partner', 'partner', 'strategic-partner', 'event-sponsorship', 'agentcon-2027-sponsorship', 'expose-your-products-and-services', 'why-partner-with-the-global-ai-community', 'pricing', 'interested']],
-    ['partnerships/agentcon-sponsorship.md', ['agentcon-2027-sponsorship', 'purpose', 'why-sponsor-agentcon', 'sponsorship-benefits', 'speaking-session-or-workshop', 'pre-event-exposure', 'post-event-exposure', 'on-site-visibility', 'sponsor-obligations', 'guidelines', 'limitations', 'pricing', 'how-to-become-a-sponsor']],
+    ['partnerships/overview.md', ['partner-with-the-global-ai-community', 'our-community-ecosystem', 'partnership-levels', 'community-partner', 'partner', 'strategic-partner', 'event-sponsorship', 'agentcon-2027-sponsorship', 'global-ai-conference-2027-sponsorship', 'expose-your-products-and-services', 'why-partner-with-the-global-ai-community', 'pricing', 'interested']],
   ];
   for (const [path, anchors] of cases) {
     const html = await htmlFor(path);
@@ -89,66 +88,42 @@ test('partner landing pages keep their URLs, anchors, terms and contact routes w
   assert.match(partner, /€6,000/);
   assert.match(partner, /€500/);
   assert.doesNotMatch(partner, /250,000|70,000|50,000|200\+/);
-  const sponsor = await htmlFor(cases[1][0]);
-  assert.doesNotMatch(sponsor, /class="review-notice"|host footprint|not confirmed sponsorship inventory/);
-  assert.match(sponsor, /€3,000/);
-  assert.match(sponsor, /6 or more events/);
-  assert.match(sponsor, /4 weeks before each event/);
-  assert.match(sponsor, /non-refundable/);
-  assert.match(sponsor, /do not receive attendee personal data or contact lists/);
-  assert.doesNotMatch(sponsor, /hosted by 200\+|target <strong>300 developers per event/);
+  assert.match(partner, /href="https:\/\/globalaiconference\.city\/sponsor\.html"/);
   assert.match(await htmlFor('partnerships/strategic-partner.md'), /class="docs-sidebar"/);
 });
 
-test('sponsor locations come from confirmed 2027 events, not proposed or previous editions', async () => {
-  const html = await htmlFor('partnerships/agentcon-sponsorship.md');
-  const source = pages.get('agentcon/events.md').content;
-  const paths = new Set(pages.keys());
-  const cards = createMarkdown(paths).render(agentConEventCards(source, paths), 'partnerships/agentcon-sponsorship.md');
-  assert.ok(html.includes(cards.html.trim()), 'The sponsor page must contain the current source event cards.');
-  assert.match(html, /href="#confirmed-locations"/);
-  assert.doesNotMatch(html, /<!-- agentcon-confirmed-events -->/);
-  assert.match(html, /HQ organizes and runs the 2027 series/);
-  const fixture = `## Remaining Confirmed 2026 Events
-| Date | Location |
-| --- | --- |
-| 2026 | Previous edition |
-
-## Confirmed AgentCon 2027 Events
-| Date | Location | Venue | Time | Target attendees | Event |
-| --- | --- | --- | --- | --- | --- |
-| 26 January 2027 | Confirmed city | Original venue | 09:00 | 150 | [Event](https://example.com/event) |
-| 1 April 2027 | Another city | To be announced | To be announced | To be announced | To be announced |
-
-## Additional Proposed AgentCon 2027 Locations
-| Date | Location |
-| --- | --- |
-| 2027 | Proposed city |
-`;
-  const rendered = agentConEventCards(fixture, paths);
-  assert.equal([...rendered.matchAll(/class="landing-card landing-event"/g)].length, 2);
-  assert.match(rendered, /Confirmed city/);
-  assert.match(rendered, /Venue to be announced/);
-  assert.match(rendered, /Event page coming soon/);
-  assert.match(rendered, /\[View event\]\(https:\/\/example.com\/event\)/);
-  assert.doesNotMatch(rendered, /Previous edition|Proposed city/);
-  const changed = agentConEventCards(fixture.replace('Original venue', 'Updated venue').replace('26 January 2027', '27 January 2027'), paths);
-  assert.match(changed, /Updated venue/);
-  assert.match(changed, /27 January 2027/);
-  assert.doesNotMatch(changed, /Original venue|26 January 2027/);
-  assert.throws(() => agentConEventCards('# No confirmed section', paths), /Missing confirmed 2027 section/);
-  assert.throws(() => agentConEventCards(fixture.replace('| Target attendees |', '| Unexpected column |'), paths), /Expected a populated/);
-  const index = MiniSearch.loadJSON(await readFile(join(output, 'assets/search-index.json'), 'utf8'), searchOptions);
-  assert.ok(index.search(cards.headings[0].text).some(result => result.id === 'partnerships/agentcon-sponsorship.md' && !result.needsReview));
-});
-
-test('the anniversary campaign distinguishes its ten-conference goal from confirmed events', async () => {
-  for (const path of ['partnerships/agentcon-sponsorship.md', 'partnerships/overview.md', 'agentcon/events.md', 'agentcon/index.md']) {
-    const html = await htmlFor(path);
-    assert.match(html, /10 years of Global AI/, path);
-    assert.match(html, /goal (?:is|of) (?:<strong>)?10 (?:free-to-attend )?AgentCon conferences/, path);
+test('the HQ-run Global AI Conference points to its website and old URLs redirect', async () => {
+  const current = [...pages.values()].filter(page => metadataFor(page.path).status === 'current');
+  const allowed = new Set(['agentcon/index.md', 'conference.md', 'hq-organized-events.md', 'event-format.md', 'global-ai-conference/index.md']);
+  for (const page of current) {
+    if (!allowed.has(page.path)) assert.doesNotMatch(page.plainText, /AgentCon/, page.path);
   }
-  assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /locations confirmed so far/);
+  assert.deepEqual([...pages.keys()].filter(path => path.startsWith('agentcon/')), ['agentcon/index.md']);
+  const agentcon = pages.get('agentcon/index.md');
+  assert.match(agentcon.plainText, /AGNTCON/);
+  assert.match(agentcon.plainText, /AgentCon Singapore on 5 November 2026 is the final AgentCon event/);
+  assert.ok(agentcon.links.includes('/conference.html'));
+  const otherOpportunities = navigation.events.find(([label]) => label === 'Other opportunities')[1];
+  assert.ok(otherOpportunities.includes('conference.md') && otherOpportunities.includes('agentcon/index.md'));
+  const conference = pages.get('conference.md');
+  assert.ok(conference.links.includes('/agentcon/'));
+  for (const href of ['https://globalaiconference.city/', 'https://globalaiconference.city/sponsor.html', '/global-ai-conference/']) {
+    assert.ok(conference.links.includes(href), href);
+  }
+  for (const [from, to] of Object.entries(redirects)) {
+    const target = to.startsWith('https://') ? to : pathToUrl(to);
+    for (const file of [from.replace(/\.md$/, '.html'), from.replace(/\.md$/, '/index.html')]) {
+      const html = await readFile(join(output, file), 'utf8');
+      assert.ok(html.includes(`url=${target}"`), file);
+      assert.match(html, /name="robots" content="noindex,follow"/, file);
+    }
+  }
+  const sitemap = await readFile(join(output, 'sitemap.xml'), 'utf8');
+  assert.ok(!sitemap.includes('/agentcon/events.html') && !sitemap.includes('agentcon-sponsorship'));
+  const connect = await htmlFor('global-ai-conference/index.md');
+  assert.match(connect, /Global AI Community Connect Organizer Guide/);
+  assert.match(connect, /id="the-global-ai-conference-organizer-guide"/);
+  assert.match(await htmlFor('chapter-leads-meeting/february-2026.md'), /AgentCon/);
 });
 
 test('search excludes private-discovery pages and drafts, with archives opt-in', async () => {
@@ -161,7 +136,7 @@ test('search excludes private-discovery pages and drafts, with archives opt-in',
   assert.ok(current.every(result => result.status === 'current'));
   assert.ok(index.search('AgentCamp').some(result => result.id === 'agentcamp/register.md'));
   assert.ok(index.search('Azure credits', { filter: result => result.section === 'resources' }).some(result => result.id === 'chapter-benefits/azure.md'));
-  assert.ok(index.search('sponsorship').some(result => result.id === 'partnerships/agentcon-sponsorship.md'));
+  assert.ok(index.search('sponsorship').some(result => result.id === 'partnerships/overview.md'));
 });
 
 test('robots, sitemap and agent index preserve discovery exclusions', async () => {
@@ -186,34 +161,13 @@ test('archived offers, meeting recaps, drafts and contradictory guidance are vis
   assert.throws(() => metadataFor('unclassified.md'), /Assign a section/);
 });
 
-test('AgentCon attendance targets are consistent without promising actual attendance', async () => {
-  for (const path of [
-    'agentcon/event-overview.md', 'agentcon/core-requirments.md',
-    'agentcon/venue-logistics.md', 'agentcon/eligibility-and-roles.md',
-    'agentcon/events.md', 'partnerships/agentcon-sponsorship.md',
-    'partnerships/partnership-proposal.md',
-  ]) {
-    const html = await htmlFor(path);
-    assert.match(html, /150–400/, path);
-    assert.doesNotMatch(html, /\b300\b|1,800|confirmed event targets vary/, path);
-  }
-  assert.match(await htmlFor('partnerships/partnership-proposal.md'), /900–2,400 attendee places/);
-  assert.match(await htmlFor('partnerships/agentcon-sponsorship.md'), /not guaranteed attendance/);
-  assert.match(await htmlFor('agentcon/event-overview.md'), /standard event hours differ/);
-  for (const path of ['agentcon/core-requirments.md', 'agentcon/venue-logistics.md', 'agentcon/eligibility-and-roles.md']) {
-    assert.doesNotMatch(await htmlFor(path), /class="review-notice"/);
-  }
-});
-
 test('current chat guidance distinguishes community Discord from internal Slack access', async () => {
   const discord = pages.get('chapter-playbook/discord.md');
   assert.match(discord.plainText, /Discord is now the primary place/);
-  for (const purpose of ['general chapter support', 'AgentCon organizer coordination', 'Global AI Conference organizer coordination', 'Advisory Board work', 'StreamYard access']) {
+  for (const purpose of ['general chapter support', 'Global AI Conference organizer coordination', 'Global AI Community Connect organizer coordination', 'Advisory Board work', 'StreamYard access']) {
     assert.ok(discord.plainText.includes(purpose), purpose);
   }
   for (const [path, contact] of [
-    ['agentcon/eligibility-and-roles.md', 'hq@globalai.community'],
-    ['agentcon/application-and-approval-process.md', 'hq@globalai.community'],
     ['global-ai-conference/eligibility-and-roles.md', 'hq@globalai.community'],
     ['global-ai-conference/application-and-timeline.md', 'hq@globalai.community'],
     ['chapter-playbook/advisory-board.md', 'hello@globalai.community'],
@@ -228,7 +182,6 @@ test('current chat guidance distinguishes community Discord from internal Slack 
   const formats = pages.get('event-format.md');
   assert.ok(formats.links.includes('https://gaic.io/discord'));
   assert.match(metadataFor('streamyard.md').review.join(' '), /retired Umbraco dashboard/);
-  assert.equal(metadataFor('agentcon/eligibility-and-roles.md').review.length, 0);
   assert.match(metadataFor('global-ai-conference/application-and-timeline.md').review.join(' '), /application form is not linked/);
 });
 

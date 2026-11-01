@@ -1,23 +1,23 @@
 ---
 outline: deep
 ---
-# The Global AI Conference Organizer Guide
+# Global AI Community Connect Organizer Guide
 
-[The Global AI Conference](https://globalai.community/) is a global developer conference focused on AI, built by developers, for developers. It is part of the Global AI Community and provides hands-on learning, collaboration, and networking around AI frameworks, tools, and infrastructure.
+[Global AI Community Connect](https://globalai.community/) is a community-organized developer conference focused on AI, built by developers, for developers. It is part of the Global AI Community and provides hands-on learning, collaboration, and networking around AI frameworks, tools, and infrastructure.
 
-::: info Open conference format for 2026 and 2027
-The Global AI Conference is the open, chapter-organized conference format for both 2026 and 2027. In 2027, it replaces AgentCon as the open format; AgentCon 2027 is a separate invite-only series.
+::: info Formerly the Global AI Conference
+Global AI Community Connect is the open, chapter-organized conference format. It was previously called the Global AI Conference. That name now belongs to the HQ-led, invite-only [Global AI Conference](/conference) series, which continues the format previously known as AgentCon.
 :::
 
 **Goals:** empower developers to build and deploy real-world AI, showcase the latest innovations, and foster collaboration between local developer communities worldwide.
 
-This guide is for **Global AI Chapter Leads** and organizers hosting a **Global AI Conference**. It covers rules and requirements, planning timelines, branding, logistics, communication, and practical execution tips.
+This guide is for **Global AI Chapter Leads** and organizers hosting a **Global AI Community Connect** event. It covers rules and requirements, planning timelines, branding, logistics, communication, and practical execution tips.
 
 By hosting, you commit to following the fixed format, upholding diversity, inclusion, and accessibility standards, using the branding provided by Global AI Community, and coordinating regularly with Global AI HQ.
 
 ## Event Overview
 
-The Global AI Conference follows a **fixed format** to ensure global consistency and quality.
+Global AI Community Connect follows a **fixed format** to ensure global consistency and quality.
 
 | **Attribute** | **Requirement** |
 |----------------|-----------------|

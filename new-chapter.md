@@ -41,7 +41,7 @@ We require at least two organizers in your group to help share the workload and 
 You will be responsible for notifying Global AI Community leadership of changes in your organizing team. For example, if you have new organizers, or if an organizer stepped down.
    
 ### 3. Be part of the Global Community    
-Participate in global initiatives, like the Global AI Bootcamp, Global AI Conference, live streams and newsletters,
+Participate in global initiatives, like the Global AI Bootcamp, Global AI Community Connect, live streams and newsletters,
 You may be asked from time to time to share any news from Global AI Community leadership team to your members.
 You will be asked to provide a report of your group activities once a year to the Global AI Community Leadership team.
    

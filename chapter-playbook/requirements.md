@@ -15,7 +15,7 @@ Being approved is the start, not the finish line. To stay a chapter in good stan
 - Notify Global AI Community leadership whenever your organizing team changes (new organizer joins, or someone steps down).
 
 ## 3. Participate Globally
-- Take part in global initiatives: Global AI Bootcamp, Global AI Conference, livestreams, newsletters.
+- Take part in global initiatives: Global AI Bootcamp, Global AI Community Connect, livestreams, newsletters.
 - Relay official announcements from the leadership team to your members when asked.
 - Submit an **annual activity report** to the leadership team.
 

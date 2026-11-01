@@ -5,7 +5,7 @@ outline: deep
 
 ## Who Can Organize
 
-Only **official Global AI Chapters** can organize a Global AI Conference. Each chapter should have an active organizing team (2–5 people minimum), a local network of developers and community partners, and capacity to host 120 attendees.
+Only **official Global AI Chapters** can organize a Global AI Community Connect event. Each chapter should have an active organizing team (2–5 people minimum), a local network of developers and community partners, and capacity to host 120 attendees.
 
 ## Key Roles
 
@@ -19,7 +19,7 @@ Only **official Global AI Chapters** can organize a Global AI Conference. Each c
 
 ## Communication with HQ
 
-- **Internal organizer coordination:** Private conference Slack channel (Global AI HQ workspace). Approved organizers receive access during HQ onboarding; email [hq@globalai.community](mailto:hq@globalai.community) if access is missing.
+- **Internal organizer coordination:** Private Global AI Community Connect Slack channel (Global AI HQ workspace). Approved organizers receive access during HQ onboarding; email [hq@globalai.community](mailto:hq@globalai.community) if access is missing.
 - **Community connection and general chapter support:** [Discord](/chapter-playbook/discord#discord-and-internal-slack).
 - **Regular updates:** Progress checkpoints every 2–3 weeks
 - **Pre-event review call:** 2–4 weeks before event

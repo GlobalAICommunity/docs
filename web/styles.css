@@ -264,9 +264,6 @@ kbd { font: .7rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; border
 .landing-card > :last-child { margin-bottom: 0; }
 .landing-card-featured { background: var(--warm); border-color: #d6b29c; }
 .landing-card-featured h3 { color: var(--orange-deep); }
-.landing-event { display: flex; flex-direction: column; }
-.landing-event > p:first-child { font: 500 .78rem var(--heading); color: var(--orange-deep); margin-bottom: 22px; }
-.landing-event > p:last-child { margin-top: auto; padding-top: 14px; }
 .landing-price, .landing-card .landing-price { font: 600 clamp(1.5rem, 2.6vw, 2rem)/1.2 var(--heading); color: var(--ink); letter-spacing: -.035em; margin: 20px 0; }
 .landing-price span { font: 400 .9rem var(--body); letter-spacing: 0; color: var(--muted); }
 .landing-band { background: var(--ink); color: var(--cream); padding: 42px; border-radius: 25px; }

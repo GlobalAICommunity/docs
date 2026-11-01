@@ -14,7 +14,7 @@ Keep up with the community, or find material from a previous program. Meeting re
 
 ## Current programs
 
-Planning a new event? Start with the [2026/2027 event formats](/event-format), [Global AI Bootcamp 2027](/agentcamp/), [Global AI Conference](/global-ai-conference/), or the [AgentCon organizer guide](/agentcon/).
+Planning a new event? Start with the [2026/2027 event formats](/event-format), [Global AI Bootcamp 2027](/agentcamp/), [Global AI Community Connect](/global-ai-conference/), or the [Global AI Conference](/conference).
 
 ## Previous event editions
 

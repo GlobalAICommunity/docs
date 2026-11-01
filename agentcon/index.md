@@ -1,41 +1,26 @@
 ---
 outline: deep
 ---
-# AgentCon 2027 Organizer Guide
+# AgentCon
 
-![General logo](/media/agentcon/agentcon_banner_v3.jpg) 
+AgentCon was the Global AI Community's conference series for developers building with AI agents. Local Global AI chapters brought it to cities around the world in 2025 and 2026.
 
-[AgentCon](http://agentcon.dev/) is a global developer conference focused on AI Agents, built by developers, for developers. It is part of the Global AI Community and provides hands-on learning, collaboration, and networking for people working with AI agent frameworks, tools, and infrastructure.
+## Announcement: AgentCon is now the Global AI Conference
 
-In 2027, we celebrate **10 years of Global AI** with a goal of **10 AgentCon conferences**, organized by Global AI HQ. See the [confirmed locations and proposed events](./events.md) for the current lineup.
+We have discontinued AgentCon. The Agentic AI Foundation launched a similar event called AGNTCON, so we are continuing our format under a new name: the **[Global AI Conference](/conference)**.
 
-::: warning AgentCon 2027 is invite-only
-AgentCon 2027 events are organized jointly by Global AI HQ and invited chapter leads and/or local organizers. Global AI HQ selects the locations and co-organizing teams. Open organizer applications are not available.
+The format stays the same: a free, one-day conference with builder sessions, hands-on workshops, and the local community at its center. Global AI HQ runs the series and works with invited chapter teams in each city.
 
-The [Global AI Conference](/global-ai-conference/) replaces AgentCon as the open, chapter-organized conference format for 2027.
-:::
+[AgentCon Singapore](https://globalai.community/e/awgteae7) on 5 November 2026 is the final AgentCon event.
 
-The goal of AgentCon is to:
+## What this means for you
 
-- Empower developers to build and deploy real-world AI Agents. 
-- Showcase the latest innovations from the AI ecosystem. 
-- Foster collaboration between local developer communities worldwide. 
+- **Attendees and speakers:** find upcoming cities, registration, and calls for speakers on [globalaiconference.city](https://globalaiconference.city/).
+- **Sponsors:** see the [Global AI Conference sponsor page](https://globalaiconference.city/sponsor.html).
+- **Chapter leads:** do not use the AgentCon name or branding for new events. To host a conference with your chapter, use [Global AI Community Connect](/global-ai-conference/), the open chapter-organized format previously called the Global AI Conference.
 
-## Purpose of this Guide
+## Thank you
 
-This guide is designed for invited **Global AI Chapter Leads** and/or local organizers co-organizing an **AgentCon 2027** event with Global AI HQ. It includes:
+Thank you to every chapter lead, volunteer, speaker, sponsor, and attendee who made AgentCon happen. See the moments in the [Global AI Community Flickr albums](https://www.flickr.com/photos/196991840@N02/albums/).
 
-- Rules and requirements set by Global AI HQ.  
-- Planning timelines and checklists.  
-- Branding, logistics, and communication guidelines.  
-- Templates and practical tips for execution.  
-
-
-## Organizer Commitment
-
-By accepting an invitation to co-organize **AgentCon 2027** with Global AI HQ, you commit to:
-
-- Following the fixed AgentCon format.  
-- Upholding diversity, inclusion, and accessibility standards.  
-- Ensuring all branding and materials follow official guidelines.  
-- Coordinating regularly with Global AI HQ.  
+Questions? Email [hq@globalai.community](mailto:hq@globalai.community).

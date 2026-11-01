@@ -2,9 +2,9 @@ import { readdir, readFile, writeFile, mkdir, cp, rm, stat } from 'node:fs/promi
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import MiniSearch from 'minisearch';
-import { directories, metadataFor, pathToUrl, site } from '../web/content.mjs';
-import { createMarkdown, readFrontmatter, escapeHtml, agentConEventCards } from './markdown.mjs';
-import { homePage, landingPage, documentPage, searchPage, notFoundPage } from '../web/templates.mjs';
+import { directories, metadataFor, pathToUrl, redirects, site } from '../web/content.mjs';
+import { createMarkdown, readFrontmatter, escapeHtml } from './markdown.mjs';
+import { homePage, landingPage, documentPage, searchPage, notFoundPage, redirectPage } from '../web/templates.mjs';
 import { searchOptions } from '../web/search-options.js';
 
 export const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -35,11 +35,7 @@ export async function loadPages() {
   const renderer = createMarkdown(knownPaths);
   const pages = new Map();
   for (const path of paths) {
-    let { data, content } = readFrontmatter(await readFile(join(root, path), 'utf8'));
-    if (content.includes('<!-- agentcon-confirmed-events -->')) {
-      const events = await readFile(join(root, 'agentcon/events.md'), 'utf8');
-      content = content.replaceAll('<!-- agentcon-confirmed-events -->', agentConEventCards(events, knownPaths));
-    }
+    const { data, content } = readFrontmatter(await readFile(join(root, path), 'utf8'));
     const metadata = metadataFor(path);
     const rendered = renderer.render(content, path);
     if (data.layout === 'landing') {
@@ -63,6 +59,15 @@ export async function loadPages() {
     pages.set(path, { ...metadata, ...rendered, path, url: pathToUrl(path), title, summary, data, content, plainText, searchable, robots });
   }
   return pages;
+}
+
+export function redirectTargets(pages) {
+  return Object.fromEntries(Object.entries(redirects).map(([from, to]) => {
+    if (pages.has(from)) throw new Error(`Redirect source ${from} is still a page.`);
+    if (/^https:\/\//.test(to)) return [from, to];
+    if (!pages.has(to)) throw new Error(`Redirect target ${to} for ${from} is not a page.`);
+    return [from, pathToUrl(to)];
+  }));
 }
 
 export async function validateLinks(pages) {
@@ -117,6 +122,11 @@ export async function build() {
     await writeOutput(path, html);
     // Directory aliases preserve clean URLs on static hosts without per-page routing rules.
     if (page.path !== 'index.md' && !page.path.endsWith('/index.md')) await writeOutput(page.path.replace(/\.md$/, '/index.html'), html);
+  }
+  for (const [from, to] of Object.entries(redirectTargets(pages))) {
+    const html = redirectPage(to);
+    await writeOutput(from.replace(/\.md$/, '.html'), html);
+    await writeOutput(from.replace(/\.md$/, '/index.html'), html);
   }
   await writeOutput('search.html', searchPage());
   await writeOutput('404.html', notFoundPage());

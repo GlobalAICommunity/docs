@@ -31,8 +31,7 @@ Check the source repository and try the exercises before your event. Historical 
 
 - [Branding assets and guidelines](/branding/): official logos, typography, colors, and visual principles.
 - [Event photography checklist](/event-photography-checklist): capture the event's speakers, people, and atmosphere.
-- [Global AI Conference promotion](/global-ai-conference/marketing-branding): planning and branding for the open conference format.
-- [AgentCon promotion](/agentcon/marketing-promotion-branding): guidance for invited AgentCon organizers.
+- [Global AI Community Connect promotion](/global-ai-conference/marketing-branding): planning and branding for the open conference format.
 
 ## Manage your chapter and events
 

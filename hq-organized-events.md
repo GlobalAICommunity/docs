@@ -6,11 +6,11 @@ outline: deep
 
 Global AI HQ organizes a small number of strategic event programs. HQ defines the program, confirms locations, and invites chapter leads or local organizers to collaborate where needed.
 
-These programs are separate from the seasonal chapter calendar and the year-round Global AI Conference.
+These programs are separate from the seasonal chapter calendar and the year-round Global AI Community Connect conference format.
 
-## AgentCon
+## Global AI Conference
 
-[AgentCon](/agentcon/) is an invite-only, full-day conference series for developers building with AI agents. Global AI HQ selects locations and confirms each local co-organizing team.
+The [Global AI Conference](https://globalaiconference.city/) is an invite-only, full-day conference series for developers building with AI agents. Global AI HQ selects locations and confirms each local co-organizing team. See the [Global AI Conference page](/conference) for how chapters get involved. It continues the format previously known as AgentCon; read the [AgentCon announcement](/agentcon/).
 
 ## Fly With Copilot
 
