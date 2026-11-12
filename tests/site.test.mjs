@@ -94,7 +94,7 @@ test('the partner landing page keeps its URL, anchors, terms and contact routes 
 
 test('the HQ-run Global AI Conference points to its website and old URLs redirect', async () => {
   const current = [...pages.values()].filter(page => metadataFor(page.path).status === 'current');
-  const allowed = new Set(['agentcon/index.md', 'conference.md', 'hq-organized-events.md', 'event-format.md', 'global-ai-conference/index.md']);
+  const allowed = new Set(['agentcon/index.md', 'conference.md', 'hq-organized-events.md', 'event-format.md', 'events.md', 'global-ai-conference/index.md']);
   for (const page of current) {
     if (!allowed.has(page.path)) assert.doesNotMatch(page.plainText, /AgentCon/, page.path);
   }
@@ -103,8 +103,8 @@ test('the HQ-run Global AI Conference points to its website and old URLs redirec
   assert.match(agentcon.plainText, /AGNTCON/);
   assert.match(agentcon.plainText, /AgentCon Singapore on 5 November 2026 is the final AgentCon event/);
   assert.ok(agentcon.links.includes('/conference.html'));
-  const otherOpportunities = navigation.events.find(([label]) => label === 'Other opportunities')[1];
-  assert.ok(otherOpportunities.includes('conference.md') && otherOpportunities.includes('agentcon/index.md'));
+  const yearRound = navigation.events.find(([label]) => label === 'Year-round events')[1];
+  assert.ok(yearRound.includes('conference.md') && yearRound.includes('agentcon/index.md'));
   const conference = pages.get('conference.md');
   assert.ok(conference.links.includes('/agentcon/'));
   for (const href of ['https://globalaiconference.city/', 'https://globalaiconference.city/sponsor.html', '/global-ai-conference/']) {
@@ -249,4 +249,17 @@ test('brand typography, asset licenses and local font files ship with the site',
     assert.match(await readFile(join(output, `assets/${font}-LICENSE.txt`), 'utf8'), /SIL OPEN FONT LICENSE/i);
   }
   await stat(join(output, 'assets/minisearch-LICENSE.txt'));
+});
+
+test('the events landing page offers seasonal, year-round and organizer blocks', async () => {
+  const page = pages.get('events.md');
+  assert.equal(page.data.layout, 'landing');
+  assert.equal(page.url, '/events.html');
+  for (const heading of ['Seasonal events', 'Year-round events', 'Organizer guide']) {
+    assert.ok(page.headings.some(item => item.text === heading), heading);
+  }
+  for (const link of ['/global-ai-on-tour.html', '/agentcamp/', '/global-ai-conference/', '/conference.html', '/organisers-101/', '/event-format.html']) {
+    assert.ok(page.links.some(href => href.startsWith(link)), link);
+  }
+  assert.ok(navigation.events[0][1].includes('events.md'));
 });

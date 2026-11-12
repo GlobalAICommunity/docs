@@ -93,14 +93,14 @@ export function homePage(page) {
     <section class="section container task-section"><div class="section-heading"><div><p class="eyebrow">Less searching. More doing.</p><h2>What are you working on?</h2></div></div>
       <div class="task-grid">
         ${taskCard('new-chapter.md', 'Start a chapter', 'Bring the community to your city.', 'chapters')}
-        ${taskCard('event-format.md', 'Plan your next event', 'Choose a format and find your next steps.', 'events')}
+        ${taskCard('events.md', 'Plan your next event', 'Choose a format and find your next steps.', 'events')}
         ${taskCard('chapter-benefits/index.md', 'Get tools & benefits', 'Azure credits, Canva, and organizer support.', 'resources')}
         ${taskCard('resources/index.md', 'Find talks & workshops', 'Spend less time starting from scratch.', 'resources')}
         ${taskCard('branding/index.md', 'Make it look like Global AI', 'Logos, typography, colors, and templates.', 'brand')}
         ${taskCard('partnerships/overview.md', 'Partner with us', 'Find the right partnership and talk to HQ.', 'partners')}
       </div>
     </section>
-    <section class="container season-band"><div><p class="eyebrow">Plan ahead · 2026 / 2027</p><h2>Your next event starts here.</h2><p>Explore the seasonal chapter programs, year-round Global AI Community Connect, and the HQ-led Global AI Conference.</p></div><a class="button button-ink" href="/event-format.html">Explore event formats <span aria-hidden="true">→</span></a></section>
+    <section class="container season-band"><div><p class="eyebrow">Plan ahead · 2026 / 2027</p><h2>Your next event starts here.</h2><p>Explore the seasonal chapter programs, year-round Global AI Community Connect, and the HQ-led Global AI Conference.</p></div><a class="button button-ink" href="/events.html">Explore events <span aria-hidden="true">→</span></a></section>
     <section class="section container"><div class="section-heading"><div><p class="eyebrow">Stay in the loop</p><h2>From the chapter community.</h2></div><a class="text-link" href="/updates/">All updates & archives <span aria-hidden="true">→</span></a></div>
       <div class="updates-grid">
         <a class="update-card" href="/chapter-leads-meeting/august-2026.html"><span class="date-label">August 2026 · meeting recap</span><h3>A new season. A shared direction.</h3><p>Advisory Board nominations, chapter tools, and a preview of the event season.</p><span class="text-link">Read the recap <span aria-hidden="true">→</span></span></a>
@@ -189,7 +189,7 @@ export function searchPage() {
     `<main id="main" tabindex="-1" class="search-page container"><p class="eyebrow">A good answer starts here</p><h1>Search the handbook.</h1>${searchForm('', 'search-query')}
     <div class="search-filters"><label for="search-section">Look in <select id="search-section"><option value="">All sections</option>${sections.map(section => `<option value="${section.id}">${e(section.label)}</option>`).join('')}</select></label><label class="archive-toggle"><input id="include-archives" type="checkbox"> Include archives & meeting recaps</label></div>
     <p id="search-status" role="status" aria-live="polite">Search by task, tool, event, or question.</p>
-    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/event-format.html">event formats</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
+    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
 }
 
 export function redirectPage(to) {

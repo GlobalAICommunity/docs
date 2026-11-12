@@ -6,7 +6,7 @@ export const site = {
 
 export const sections = [
   { id: 'chapters', title: 'Chapters', label: 'Run a chapter', path: 'chapter-playbook/index.md' },
-  { id: 'events', title: 'Events', label: 'Organize an event', path: 'event-format.md' },
+  { id: 'events', title: 'Events', label: 'Organize an event', path: 'events.md' },
   { id: 'resources', title: 'Resources', label: 'Tools & resources', path: 'resources/index.md' },
   { id: 'partners', title: 'Partners', label: 'Partner with us', path: 'partnerships/overview.md' },
   { id: 'updates', title: 'Updates', label: 'Updates & archive', path: 'updates/index.md' },
@@ -54,10 +54,11 @@ export const navigation = {
     ['Useful next steps', ['organisers-101/index.md', 'chapter-benefits/index.md', 'branding/index.md']],
   ],
   events: [
-    ['Plan an event', ['event-format.md', 'organisers-101/index.md', 'event-photography-checklist.md']],
-    ['Seasonal programs', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
-    ['Global AI Community Connect', ['global-ai-conference/index.md', 'global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
-    ['Other opportunities', ['conference.md', 'agentcon/index.md', 'partner-led-events.md', 'hq-organized-events.md']],
+    ['Overview', ['events.md', 'event-format.md']],
+    ['Seasonal events', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
+    ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'partner-led-events.md', 'hq-organized-events.md', 'agentcon/index.md']],
+    ['Organizer guide', ['organisers-101/index.md', 'event-photography-checklist.md']],
+    ['Community Connect guide', ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
   ],
   resources: [
     ['Find a resource', ['resources/index.md', 'chapter-benefits/index.md']],
@@ -110,10 +111,11 @@ export const overrides = {
   'partnerships/partnership-proposal.md': { summary: 'A specific partnership proposal, not the standard public partnership terms.' },
   'conference.md': { summary: 'The HQ-run conference series for developers building with AI agents, previously known as AgentCon.' },
   'agentcon/index.md': { navTitle: 'AgentCon announcement', summary: 'AgentCon is discontinued and continues as the Global AI Conference. AgentCon Singapore is the final AgentCon event.' },
-  'event-format.md': { headingAliases: { 'global-ai-conference': 'global-ai-community-connect' } },
+  'events.md': { navTitle: 'Events overview' },
+  'event-format.md': { navTitle: 'Event calendar & formats', headingAliases: { 'global-ai-conference': 'global-ai-community-connect' } },
   'hq-organized-events.md': { headingAliases: { agentcon: 'global-ai-conference' } },
   'global-ai-conference/index.md': {
-    navTitle: 'Organizer guide',
+    navTitle: 'Global AI Community Connect',
     summary: 'The open, chapter-organized conference format previously called the Global AI Conference.',
     headingAliases: { 'the-global-ai-conference-organizer-guide': 'global-ai-community-connect-organizer-guide' },
   },
