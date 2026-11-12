@@ -157,6 +157,16 @@ kbd { font: .7rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; border
 .breadcrumbs { display: flex; gap: 10px; color: var(--muted); font-size: .74rem; margin-bottom: 37px; flex-wrap: wrap; }
 .breadcrumbs a { text-decoration: none; }
 .breadcrumbs a:hover { text-decoration: underline; }
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 6px 10px; margin: 0; padding: 0; list-style: none; }
+.breadcrumbs li { display: flex; gap: 10px; min-width: 0; }
+.breadcrumbs li + li::before { content: "/"; color: var(--line); }
+.breadcrumbs [aria-current] { color: var(--ink); }
+.guide-chapters { margin-top: 48px; }
+.guide-chapters h2 { font-size: 1.35rem; margin-bottom: 18px; }
+.guide-chapters ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; counter-reset: chapter; }
+.guide-chapters a { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 20px 22px; border: 1px solid var(--line); border-radius: 16px; background: var(--white); color: inherit; text-decoration: none; }
+.guide-chapters a:hover, .guide-chapters a:focus-visible { border-color: var(--ink); }
+.guide-chapters span { color: var(--muted); font-size: .86rem; line-height: 1.5; }
 .doc-heading .eyebrow { color: var(--orange-deep); margin-bottom: 16px; }
 .doc-heading h1 { font-size: clamp(2rem, 3.4vw, 3rem); margin-bottom: 30px; overflow-wrap: anywhere; }
 .prose { font-size: .97rem; line-height: 1.85; overflow-wrap: break-word; }

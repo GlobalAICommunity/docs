@@ -19,6 +19,8 @@ export const directories = {
   'agentcon': 'events',
   'global-ai-conference': 'events',
   'agentcamp': 'events',
+  'agentic-nights': 'events',
+  'construct': 'events',
   'build': 'updates',
   'branding': 'resources',
   'partnerships': 'partners',
@@ -58,6 +60,8 @@ export const navigation = {
     ['Seasonal events', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
     ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'partner-led-events.md', 'hq-organized-events.md', 'agentcon/index.md']],
     ['Organizer guide', ['organisers-101/index.md', 'event-photography-checklist.md']],
+    ['Global AI Nights guide', ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md']],
+    ['Global AI Construct guide', ['construct/format.md', 'construct/checklist.md']],
     ['Community Connect guide', ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
   ],
   resources: [
@@ -77,6 +81,15 @@ export const navigation = {
   ],
 };
 
+// Event guides: an overview page and its chapter pages, in reading order. Drives breadcrumbs and chapter navigation.
+export const guides = {
+  'agentic-nights.md': ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md'],
+  'construct.md': ['construct/format.md', 'construct/checklist.md'],
+  'global-ai-conference/index.md': ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md'],
+};
+
+const guideParents = Object.fromEntries(Object.entries(guides).flatMap(([parent, children]) => children.map(child => [child, parent])));
+
 const reviewNotes = {
   application: 'The start-a-chapter and onboarding guides currently link to different application forms. Confirm the current application route with support@globalai.community before applying.',
   meetup: 'This guide still refers to setting up a Meetup group, but later community updates announce the retirement of Meetup support. Confirm current setup instructions with support@globalai.community.',
@@ -85,7 +98,9 @@ const reviewNotes = {
 // These are editorial review flags, not replacements for the policies they describe.
 export const overrides = {
   'chapter-playbook/index.md': { headingAliases: { 'chapter-playbook': 'run-a-chapter', 'quick-reference': 'what-do-you-need-to-do' } },
-  'agentic-nights.md': { headingAliases: { 'organizing-your-event': 'organizer-checklist' } },
+  // Sections moved to chapter pages; old links to these anchors are forwarded in the browser.
+  'agentic-nights.md': { movedAnchors: { 'choose-your-format': 'agentic-nights/formats.md#choose-your-format', 'option-a-hands-on-night': 'agentic-nights/formats.md#option-a-hands-on-night', 'option-b-talks-and-community-night': 'agentic-nights/formats.md#option-b-talks-and-community-night', 'activity-ideas': 'agentic-nights/formats.md#activity-ideas', 'learning-resource-agent-framework-101': 'agentic-nights/learning-and-speakers.md#learning-resource-agent-framework-101', 'speaker-kit': 'agentic-nights/learning-and-speakers.md#speaker-kit', 'hashtags-and-social-sharing': 'agentic-nights/promotion.md#hashtags-and-social-sharing', 'event-description': 'agentic-nights/promotion.md#event-description', 'setup-email-for-option-a': 'agentic-nights/promotion.md#setup-email-for-option-a', 'organizer-checklist': 'agentic-nights/checklist.md', 'organizing-your-event': 'agentic-nights/checklist.md' } },
+  'construct.md': { movedAnchors: { 'event-format-2-hours': 'construct/format.md#event-format-2-hours', 'ready-to-use-labs': 'construct/format.md#ready-to-use-labs', 'suggested-challenge-themes': 'construct/format.md#suggested-challenge-themes', 'what-you-need': 'construct/format.md#what-you-need', 'organizer-checklist': 'construct/checklist.md' } },
   'branding/index.md': { headingAliases: { 'typography-specifications': 'typography', 'primary-colors': 'colors', 'accent-colors': 'colors', 'gray-scale': 'colors', 'color-usage-guidelines': 'accessibility' } },
   'new-chapter.md': { review: [reviewNotes.application], summary: 'Eligibility, responsibilities, and the application process for a new local chapter.' },
   'chapter-playbook/onboarding.md': { review: [reviewNotes.application, reviewNotes.meetup] },
@@ -159,7 +174,7 @@ export function metadataFor(path) {
   let status = 'current';
   if (directory === 'build' || (directory === 'agentcamp' && path !== 'agentcamp/index.md')) status = 'archived';
   if (directory === 'chapter-leads-meeting' && path !== 'chapter-leads-meeting/index.md') status = 'historical';
-  return { section, status, review: [], ...overrides[path], ...(status === 'archived' ? { section: 'updates' } : {}) };
+  return { section, status, review: [], parent: guideParents[path], ...overrides[path], ...(status === 'archived' ? { section: 'updates' } : {}) };
 }
 
 export function pathToUrl(path) {

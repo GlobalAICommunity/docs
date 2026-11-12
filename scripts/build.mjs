@@ -80,7 +80,7 @@ export async function validateLinks(pages) {
       const target = byUrl.get(url.pathname);
       if (target) {
         const fragment = decodeURIComponent(url.hash.slice(1));
-        if (fragment && !target.headings.some(heading => heading.id === fragment) && !target.headingAliases?.[fragment]) {
+        if (fragment && !target.headings.some(heading => heading.id === fragment) && !target.headingAliases?.[fragment] && !target.movedAnchors?.[fragment]) {
           errors.push(`${page.path}: missing heading ${href}`);
         }
       } else {
