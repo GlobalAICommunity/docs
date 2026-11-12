@@ -396,3 +396,5 @@ kbd { font: .7rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; border
   .table-scroll { overflow: visible; }
   .review-notice:not([open])::after { content: "Some guidance needs confirmation. Refer to the online version before acting on this page."; display: block; }
 }
+.prose td img[src^="/logos/gaic/"] { display: block; width: 200px; max-width: 100%; height: auto; padding: 12px; border-radius: 10px; }
+.prose td img[src$="-reversed.svg"], .prose td img[src$="-mono-white.svg"] { background: var(--ink); }

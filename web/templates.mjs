@@ -19,7 +19,7 @@ function header(active) {
   return `<a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="/" aria-label="Global AI Handbook home"><img src="/media/logos/global-AI-community.png" width="150" height="54" alt="Global AI Community"><span>Handbook</span></a>
+        <a class="brand" href="/" aria-label="Global AI Handbook home"><img src="/logos/gaic/global-ai-community.svg" width="157" height="40" alt="Global AI Community"><span>Handbook</span></a>
         <nav class="desktop-nav" aria-label="Main navigation">${links}</nav>
         <a class="header-search" href="/search.html" aria-label="Search the handbook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Search</span><kbd>/</kbd></a>
         <details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">${links}<a href="/search.html">Search the handbook</a><a href="https://globalai.community/my">Chapter dashboard ${arrow}</a></nav></details>
@@ -50,7 +50,7 @@ export function shell(page, body) {
   <meta property="og:title" content="${e(page.title)}">
   <meta property="og:description" content="${e(page.summary)}">
   <meta property="og:url" content="${e(canonical)}">
-  <meta property="og:image" content="${site.origin}/media/logos/global-AI-community.png">
+  <meta property="og:image" content="${site.origin}/logos/gaic/global-ai-community.png">
   <link rel="icon" href="/media/icon.png">
   <link rel="preload" href="/assets/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
