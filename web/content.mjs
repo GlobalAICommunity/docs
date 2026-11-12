@@ -123,7 +123,7 @@ export const overrides = {
     navTitle: 'Call for speakers template',
     headingAliases: { 'global-ai-conference-call-for-speakers-cfs-page': 'global-ai-community-connect-call-for-speakers-cfs-page' },
   },
-  'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact hq@globalai.community for the current application route.'] },
+  'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact support@globalai.community for the current application route.'] },
   'agentcamp/index.md': { summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
   'agentcamp/register.md': { title: 'AgentCamp 2026 · registration' },
   'agentcamp/content.md': { title: 'AgentCamp 2026 · workshops & talks' },

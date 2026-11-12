@@ -60,8 +60,8 @@ Plan, promote, and run your event with step-by-step guidance from chapter leads 
 
 ## Planning something?
 
-Ask chapter leads on [Discord](https://gaic.io/discord) or email HQ. We'll help you find the right format and the next steps.
+Ask chapter leads on [Discord](https://gaic.io/discord) or email support. We'll help you find the right format and the next steps.
 
-[Email hq@globalai.community](mailto:hq@globalai.community?subject=Global%20AI%20event)
+[Email support@globalai.community](mailto:support@globalai.community?subject=Global%20AI%20event)
 
 </section>

@@ -168,8 +168,8 @@ test('current chat guidance distinguishes community Discord from internal Slack 
     assert.ok(discord.plainText.includes(purpose), purpose);
   }
   for (const [path, contact] of [
-    ['global-ai-conference/eligibility-and-roles.md', 'hq@globalai.community'],
-    ['global-ai-conference/application-and-timeline.md', 'hq@globalai.community'],
+    ['global-ai-conference/eligibility-and-roles.md', 'support@globalai.community'],
+    ['global-ai-conference/application-and-timeline.md', 'support@globalai.community'],
     ['chapter-playbook/advisory-board.md', 'hello@globalai.community'],
     ['streamyard.md', 'support@globalai.community'],
   ]) {

@@ -27,4 +27,4 @@ Want to host a conference with your chapter? Use the open, chapter-organized for
 
 ## Contact
 
-Email [hq@globalai.community](mailto:hq@globalai.community).
+Email [support@globalai.community](mailto:support@globalai.community).

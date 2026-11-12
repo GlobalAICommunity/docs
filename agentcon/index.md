@@ -23,4 +23,4 @@ The format stays the same: a free, one-day conference with builder sessions, han
 
 Thank you to every chapter lead, volunteer, speaker, sponsor, and attendee who made AgentCon happen. See the moments in the [Global AI Community Flickr albums](https://www.flickr.com/photos/196991840@N02/albums/).
 
-Questions? Email [hq@globalai.community](mailto:hq@globalai.community).
+Questions? Email [support@globalai.community](mailto:support@globalai.community).

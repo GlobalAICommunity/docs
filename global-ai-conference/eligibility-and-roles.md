@@ -19,7 +19,7 @@ Only **official Global AI Chapters** can organize a Global AI Community Connect 
 
 ## Communication with HQ
 
-- **Internal organizer coordination:** Private Global AI Community Connect Slack channel (Global AI HQ workspace). Approved organizers receive access during HQ onboarding; email [hq@globalai.community](mailto:hq@globalai.community) if access is missing.
+- **Internal organizer coordination:** Private Global AI Community Connect Slack channel (Global AI HQ workspace). Approved organizers receive access during HQ onboarding; email [support@globalai.community](mailto:support@globalai.community) if access is missing.
 - **Community connection and general chapter support:** [Discord](/chapter-playbook/discord#discord-and-internal-slack).
 - **Regular updates:** Progress checkpoints every 2–3 weeks
 - **Pre-event review call:** 2–4 weeks before event

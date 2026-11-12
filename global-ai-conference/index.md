@@ -37,7 +37,7 @@ Global AI Community Connect follows a **fixed format** to ensure global consiste
 
 - **Tracks:** Track 1 — speaker sessions (talks, demos, discussions on AI). Track 2 — hands-on workshops (e.g., Azure AI Agent Service, Copilot Studio).
 - **Registration:** On the Global AI Community website; use the Global AI scanner to check people in.
-- **Call for Speakers:** Add hq@globalai.community as a team member in Sessionize.
+- **Call for Speakers:** Add support@globalai.community as a team member in Sessionize.
 - **Venue:** Use any suitable venue that safely and comfortably holds at least 120 people. See [Venue & Logistics](/global-ai-conference/venue-logistics).
 - **Inclusion and diversity:** Ensure gender and background diversity in speakers, accessible venues, and avoid conflicts with major cultural or religious events.
 - **Branding:** Global AI Community provides the event branding. Please use the supplied assets and do not modify the logos, colors, or fonts.
