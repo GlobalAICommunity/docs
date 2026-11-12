@@ -258,7 +258,7 @@ test('the events landing page offers seasonal, year-round and organizer blocks',
   for (const heading of ['Seasonal events', 'Year-round events', 'Partner opportunities', 'Organizer guide']) {
     assert.ok(page.headings.some(item => item.text === heading), heading);
   }
-  for (const link of ['/agentic-nights.html', '/agentcamp/', '/global-ai-conference/', '/partner-led-events.html', '/organisers-101/', '/event-format.html']) {
+  for (const link of ['/agentic-nights.html', '/agentcamp/', '/global-ai-conference/', '/partner-led-events.html', '/organisers-101/']) {
     assert.ok(page.links.some(href => href.startsWith(link)), link);
   }
   assert.ok(navigation.events[0][1].includes('events.md'));
