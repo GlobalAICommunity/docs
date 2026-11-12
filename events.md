@@ -31,34 +31,44 @@ Join a coordinated global campaign. Each season has a shared theme, content, bra
 
 </section>
 
-<section class="landing-section">
-<div class="landing-grid">
-<div class="landing-card">
+<section class="landing-section event-banners">
+<div class="event-banner">
+<div>
 
 ### Year-round events
 
-Host [Global AI Community Connect](/global-ai-conference/) when your chapter is ready: a full-day conference organized by your chapter, at any time of year.
+Host Global AI Community Connect when your chapter is ready: a full-day conference organized by your chapter, at any time of year.
+
+</div>
+<div class="event-banner-action">
 
 [Explore Community Connect](/global-ai-conference/)
 
 </div>
-<div class="landing-card">
+</div>
+<div class="event-banner">
+<div>
 
 ### Partner opportunities
 
-Run events with our partners, using shared content, speakers, and branding.
+Run events with our partners, such as GitHub Dev Day and Microsoft Ignite &#47;&#47;localhost (to be announced).
 
-- [GitHub Dev Day](/partner-led-events#github-dev-day)
-- [Microsoft Ignite &#47;&#47;localhost](/partner-led-events#microsoft-ignite-localhost): to be announced
+</div>
+<div class="event-banner-action">
 
 [See partner opportunities](/partner-led-events)
 
 </div>
-<div class="landing-card landing-card-featured">
+</div>
+<div class="event-banner event-banner-featured">
+<div>
 
 ### Organizer guide
 
 Plan, promote, and run your event with step-by-step guidance from chapter leads who have done it before.
+
+</div>
+<div class="event-banner-action">
 
 [Open the organizer guide](/organisers-101/)
 
