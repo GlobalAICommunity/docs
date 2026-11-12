@@ -34,7 +34,7 @@ Join a coordinated global campaign. Each season has a shared theme, content, bra
 </section>
 
 <section class="landing-section">
-<div class="landing-grid landing-grid-two">
+<div class="landing-grid">
 <div class="landing-card">
 
 ### Year-round events
@@ -42,6 +42,18 @@ Join a coordinated global campaign. Each season has a shared theme, content, bra
 Host [Global AI Community Connect](/global-ai-conference/) when your chapter is ready: a full-day conference organized by your chapter, at any time of year.
 
 [Explore Community Connect](/global-ai-conference/)
+
+</div>
+<div class="landing-card">
+
+### Partner opportunities
+
+Run events with our partners, using shared content, speakers, and branding.
+
+- [GitHub Dev Day](/partner-led-events#github-dev-day)
+- [Microsoft Ignite &#47;&#47;localhost](/partner-led-events#microsoft-ignite-localhost): to be announced
+
+[See partner opportunities](/partner-led-events)
 
 </div>
 <div class="landing-card landing-card-featured">
