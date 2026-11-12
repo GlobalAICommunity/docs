@@ -1,5 +1,5 @@
 import { escapeHtml as e } from '../scripts/markdown.mjs';
-import { site, sections, navigation, pathToUrl } from './content.mjs';
+import { site, sections, navigation, guides, pathToUrl } from './content.mjs';
 
 const arrow = '<span aria-hidden="true">↗</span>';
 const icons = {
@@ -166,17 +166,33 @@ export function documentPage(page, pages) {
   const toc = page.headings.filter(heading => heading.level > 1 && heading.level <= 3 && heading.text);
   const tocLinks = toc.map(heading => `<a class="toc-level-${heading.level}" href="#${e(heading.id)}">${e(heading.text)}</a>`).join('');
   const { html: articleHtml, headingId, headingAliases } = articleWithAliases(page);
-  const paths = (navigation[page.section] ?? []).flatMap(([, items]) => items);
+  const guidePath = guides[page.path] ? page.path : page.parent;
+  const paths = guidePath ? [guidePath, ...guides[guidePath]] : (navigation[page.section] ?? []).flatMap(([, items]) => items);
   const currentIndex = paths.indexOf(page.path);
   const next = currentIndex >= 0 ? paths.slice(currentIndex + 1).map(path => pages.get(path)).find(target => target.searchable && target.status === 'current') : null;
+  const parent = page.parent ? pages.get(page.parent) : null;
+  const trail = [['/', 'Handbook'], ...(section.path === page.path ? [] : [[pathToUrl(section.path), section.title]]), ...(parent ? [[parent.url, parent.title]] : [])];
+  const breadcrumbs = `<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>${trail.map(([url, label]) => `<li><a href="${url}">${e(label)}</a></li>`).join('')}<li><span aria-current="page">${e(page.navTitle ?? page.title)}</span></li></ol></nav>`;
+  const chapters = guides[page.path] ? `<nav class="guide-chapters" aria-labelledby="guide-chapters-title"><h2 id="guide-chapters-title">Guide chapters</h2><ol>${guides[page.path].map(path => {
+    const target = pages.get(path);
+    if (!target) throw new Error(`Guide ${page.path} points to missing page: ${path}`);
+    return `<li><a href="${target.url}"><strong>${e(target.navTitle ?? target.title)}</strong><span>${e(target.summary)}</span></a></li>`;
+  }).join('')}</ol></nav>` : '';
+  const movedAnchors = Object.fromEntries(Object.entries(page.movedAnchors ?? {}).map(([anchor, to]) => {
+    const [path, fragment] = to.split('#');
+    const target = pages.get(path);
+    if (!target || (fragment && !target.headings.some(heading => heading.id === fragment))) throw new Error(`Moved anchor ${anchor} in ${page.path} points to missing ${to}`);
+    return [anchor, target.url + (fragment ? `#${fragment}` : '')];
+  }));
   const sourceUrl = `${site.repository}/edit/main/${page.path.split('/').map(encodeURIComponent).join('/')}`;
-  return shell(page, `<div class="docs-layout container-wide">
-    <aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>
-    <main class="doc-main" id="main" tabindex="-1"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Handbook</a><span aria-hidden="true">/</span><a href="${pathToUrl(section.path)}">${e(section.label)}</a></nav>
-      <header class="doc-heading"><p class="eyebrow">${e(section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
+  return shell(page, `<div class="docs-layout container-wide${guidePath ? ' docs-layout-focused' : ''}">
+    ${guidePath ? '' : `<aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>`}
+    <main class="doc-main" id="main" tabindex="-1"${Object.keys(movedAnchors).length ? ` data-moved-anchors="${e(JSON.stringify(movedAnchors))}"` : ''}>${breadcrumbs}
+      <header class="doc-heading"><p class="eyebrow">${e(parent?.title ?? section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
       ${statusNotice(page)}
       ${toc.length && page.data.outline !== false ? `<details class="mobile-toc"><summary>On this page</summary><nav aria-label="On this page">${tocLinks}</nav></details>` : ''}
       <article class="prose">${articleHtml}</article>
+      ${chapters}
       <div class="doc-meta">${page.data.editLink === false ? '' : `<a href="${sourceUrl}">Suggest an edit on GitHub ${arrow}</a>`}<a href="mailto:support@globalai.community?subject=${encodeURIComponent(`Handbook: ${page.title}`)}">Something unclear? Contact support ${arrow}</a></div>
       ${next ? `<a class="next-page" href="${next.url}"><span>Keep going</span><strong>${e(next.title)} <span aria-hidden="true">→</span></strong></a>` : ''}
     </main>

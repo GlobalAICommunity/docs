@@ -5,7 +5,7 @@ import { join } from 'node:path';
 import MiniSearch from 'minisearch';
 import { build, output, searchOptions, validateLinks } from '../scripts/build.mjs';
 import { createMarkdown, resolveLink, readFrontmatter } from '../scripts/markdown.mjs';
-import { pathToUrl, metadataFor, redirects, navigation } from '../web/content.mjs';
+import { pathToUrl, metadataFor, redirects, navigation, guides } from '../web/content.mjs';
 
 let pages;
 before(async () => { pages = await build(); });
@@ -262,4 +262,24 @@ test('the events landing page offers seasonal, year-round and organizer blocks',
     assert.ok(page.links.some(href => href.startsWith(link)), link);
   }
   assert.ok(navigation.events[0][1].includes('events.md'));
+});
+
+test('event guides split into chapters with a breadcrumb trail and forwarded anchors', async () => {
+  for (const [overview, chapters] of Object.entries(guides)) {
+    const html = await htmlFor(overview);
+    assert.match(html, /class="guide-chapters"/, overview);
+    for (const chapter of chapters) {
+      assert.equal(pages.get(chapter).parent, overview, chapter);
+      assert.match(html, new RegExp(`href="${pages.get(chapter).url}"`), chapter);
+    }
+  }
+  const formats = await htmlFor('agentic-nights/formats.md');
+  assert.match(formats, /docs-layout-focused/);
+  assert.doesNotMatch(formats, /class="docs-sidebar"/);
+  assert.doesNotMatch(await htmlFor('agentic-nights.md'), /class="docs-sidebar"/);
+  assert.match(formats, /<li><a href="\/">Handbook<\/a><\/li><li><a href="\/events.html">Events<\/a><\/li><li><a href="\/agentic-nights.html">Global AI Nights<\/a><\/li><li><span aria-current="page">/);
+  assert.match(formats, /class="next-page" href="\/agentic-nights\/learning-and-speakers.html"/);
+  assert.equal(pages.get('agentic-nights.md').movedAnchors['speaker-kit'], 'agentic-nights/learning-and-speakers.md#speaker-kit');
+  assert.match(await htmlFor('agentic-nights.md'), /data-moved-anchors="[^"]*\/agentic-nights\/learning-and-speakers.html#speaker-kit/);
+  await validateLinks(new Map([...pages, ['probe.md', { path: 'probe.md', url: '/probe.html', headings: [], links: ['/agentic-nights.html#organizing-your-event', '/construct.html#ready-to-use-labs'] }]]));
 });

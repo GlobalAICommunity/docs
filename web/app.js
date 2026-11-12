@@ -1,3 +1,9 @@
+const movedAnchors = document.querySelector('[data-moved-anchors]');
+if (movedAnchors && location.hash) {
+  const target = JSON.parse(movedAnchors.dataset.movedAnchors)[decodeURIComponent(location.hash.slice(1))];
+  if (target) location.replace(target);
+}
+
 const sectionMenu = document.querySelector('.section-menu');
 if (sectionMenu) {
   const mobile = window.matchMedia('(max-width: 850px)');
