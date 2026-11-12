@@ -185,8 +185,8 @@ export function documentPage(page, pages) {
     return [anchor, target.url + (fragment ? `#${fragment}` : '')];
   }));
   const sourceUrl = `${site.repository}/edit/main/${page.path.split('/').map(encodeURIComponent).join('/')}`;
-  return shell(page, `<div class="docs-layout container-wide">
-    <aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>
+  return shell(page, `<div class="docs-layout container-wide${guidePath ? ' docs-layout-focused' : ''}">
+    ${guidePath ? '' : `<aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>`}
     <main class="doc-main" id="main" tabindex="-1"${Object.keys(movedAnchors).length ? ` data-moved-anchors="${e(JSON.stringify(movedAnchors))}"` : ''}>${breadcrumbs}
       <header class="doc-heading"><p class="eyebrow">${e(parent?.title ?? section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
       ${statusNotice(page)}
