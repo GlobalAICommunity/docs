@@ -15,53 +15,43 @@ actions:
 <section class="landing-section">
 <div class="landing-section-heading">
 
-## Choose how you want to bring people together.
-
-Every event starts with a local chapter and a group of people who want to learn by doing.
-
-</div>
-<div class="landing-grid">
-<div class="landing-card">
-
-### Seasonal events
+## Seasonal events
 
 Join a coordinated global campaign. Each season has a shared theme, content, branding, and organizer resources.
 
-- [Global AI On Tour](/global-ai-on-tour): September–October 2026
-- [Global AI Nights](/agentic-nights): November 2026–January 2027
-- [Global AI Bootcamp](/agentcamp/): February–April 2027
-- [Global AI Connect](/global-ai-connect): May–June 2027
-- [Global AI Construct](/construct): July–August 2027
+</div>
+<div class="event-timeline">
 
-[See the seasonal calendar](/event-format#seasonal-events-2026-2027)
+1. **Sep–Oct 2026** [Global AI On Tour](/global-ai-on-tour)
+2. **Nov 2026–Jan 2027** [Global AI Nights](/agentic-nights)
+3. **Feb–Apr 2027** [Global AI Bootcamp](/agentcamp/)
+4. **May–Jun 2027** [Global AI Connect](/global-ai-connect)
+5. **Jul–Aug 2027** [Global AI Construct](/construct)
 
 </div>
+
+[See the full seasonal calendar](/event-format#seasonal-events-2026-2027)
+
+</section>
+
+<section class="landing-section">
+<div class="landing-grid landing-grid-two">
 <div class="landing-card">
 
 ### Year-round events
 
-Host or join a larger event at any time of year.
+Host [Global AI Community Connect](/global-ai-conference/) when your chapter is ready: a full-day conference organized by your chapter, at any time of year.
 
-- [Global AI Community Connect](/global-ai-conference/): a full-day conference organized by your chapter
-- [Global AI Conference](/conference): the HQ-run conference series, previously known as [AgentCon](/agentcon/)
-- [Partner-led events](/partner-led-events): programs delivered with partners, such as GitHub Dev Day
-- [HQ-organized events](/hq-organized-events): strategic programs coordinated by Global AI HQ
-
-[Compare event formats](/event-format)
+[Explore Community Connect](/global-ai-conference/)
 
 </div>
-<div class="landing-card">
+<div class="landing-card landing-card-featured">
 
 ### Organizer guide
 
 Plan, promote, and run your event with step-by-step guidance from chapter leads who have done it before.
 
-- [Event Organization 101](/organisers-101/): plan, find a venue and sponsors, promote, and follow up
-- [Community Connect organizer guide](/global-ai-conference/): roles, application, speakers, venue, and branding
-- [Workshops](/workshops) and [presentations](/presentations) you can reuse
-- [Event photography checklist](/event-photography-checklist)
-
-[Start planning](/organisers-101/)
+[Open the organizer guide](/organisers-101/)
 
 </div>
 </div>
