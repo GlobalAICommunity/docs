@@ -19,7 +19,7 @@ function header(active) {
   return `<a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="/" aria-label="Global AI Handbook home"><img src="/media/logos/global-AI-community.png" width="150" height="54" alt="Global AI Community"><span>Handbook</span></a>
+        <a class="brand" href="/" aria-label="Global AI Handbook home"><img src="/logos/gaic/global-ai-community.svg" width="157" height="40" alt="Global AI Community"><span>Handbook</span></a>
         <nav class="desktop-nav" aria-label="Main navigation">${links}</nav>
         <a class="header-search" href="/search.html" aria-label="Search the handbook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span>Search</span><kbd>/</kbd></a>
         <details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">${links}<a href="/search.html">Search the handbook</a><a href="https://globalai.community/my">Chapter dashboard ${arrow}</a></nav></details>
@@ -50,7 +50,7 @@ export function shell(page, body) {
   <meta property="og:title" content="${e(page.title)}">
   <meta property="og:description" content="${e(page.summary)}">
   <meta property="og:url" content="${e(canonical)}">
-  <meta property="og:image" content="${site.origin}/media/logos/global-AI-community.png">
+  <meta property="og:image" content="${site.origin}/logos/gaic/global-ai-community.png">
   <link rel="icon" href="/media/icon.png">
   <link rel="preload" href="/assets/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -93,14 +93,14 @@ export function homePage(page) {
     <section class="section container task-section"><div class="section-heading"><div><p class="eyebrow">Less searching. More doing.</p><h2>What are you working on?</h2></div></div>
       <div class="task-grid">
         ${taskCard('new-chapter.md', 'Start a chapter', 'Bring the community to your city.', 'chapters')}
-        ${taskCard('event-format.md', 'Plan your next event', 'Choose a format and find your next steps.', 'events')}
+        ${taskCard('events.md', 'Plan your next event', 'Choose a format and find your next steps.', 'events')}
         ${taskCard('chapter-benefits/index.md', 'Get tools & benefits', 'Azure credits, Canva, and organizer support.', 'resources')}
         ${taskCard('resources/index.md', 'Find talks & workshops', 'Spend less time starting from scratch.', 'resources')}
         ${taskCard('branding/index.md', 'Make it look like Global AI', 'Logos, typography, colors, and templates.', 'brand')}
         ${taskCard('partnerships/overview.md', 'Partner with us', 'Find the right partnership and talk to HQ.', 'partners')}
       </div>
     </section>
-    <section class="container season-band"><div><p class="eyebrow">Plan ahead · 2026 / 2027</p><h2>Your next event starts here.</h2><p>Explore the seasonal chapter programs, year-round Global AI Community Connect, and the HQ-led Global AI Conference.</p></div><a class="button button-ink" href="/event-format.html">Explore event formats <span aria-hidden="true">→</span></a></section>
+    <section class="container season-band"><div><p class="eyebrow">Plan ahead · 2026 / 2027</p><h2>Your next event starts here.</h2><p>Explore the seasonal chapter programs, year-round Global AI Community Connect, and the HQ-led Global AI Conference.</p></div><a class="button button-ink" href="/events.html">Explore events <span aria-hidden="true">→</span></a></section>
     <section class="section container"><div class="section-heading"><div><p class="eyebrow">Stay in the loop</p><h2>From the chapter community.</h2></div><a class="text-link" href="/updates/">All updates & archives <span aria-hidden="true">→</span></a></div>
       <div class="updates-grid">
         <a class="update-card" href="/chapter-leads-meeting/august-2026.html"><span class="date-label">August 2026 · meeting recap</span><h3>A new season. A shared direction.</h3><p>Advisory Board nominations, chapter tools, and a preview of the event season.</p><span class="text-link">Read the recap <span aria-hidden="true">→</span></span></a>
@@ -189,7 +189,7 @@ export function searchPage() {
     `<main id="main" tabindex="-1" class="search-page container"><p class="eyebrow">A good answer starts here</p><h1>Search the handbook.</h1>${searchForm('', 'search-query')}
     <div class="search-filters"><label for="search-section">Look in <select id="search-section"><option value="">All sections</option>${sections.map(section => `<option value="${section.id}">${e(section.label)}</option>`).join('')}</select></label><label class="archive-toggle"><input id="include-archives" type="checkbox"> Include archives & meeting recaps</label></div>
     <p id="search-status" role="status" aria-live="polite">Search by task, tool, event, or question.</p>
-    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/event-format.html">event formats</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
+    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
 }
 
 export function redirectPage(to) {

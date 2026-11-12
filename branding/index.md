@@ -4,7 +4,7 @@ outline: deep
 
 # Branding Assets and Design Guidelines
 
-![Global AI Community Logo](/media/logos/global-AI-community.png)
+![Global AI Community logo](/logos/gaic/global-ai-community.svg)
 
 ## Introduction
 
@@ -14,25 +14,39 @@ This page follows the [Global AI Community design system, version 2.0](https://s
 
 ## Logo
 
-Our community logo serves as our most recognizable symbol and should be used consistently across all applications. The logo has been carefully designed to reflect our mission and values while maintaining versatility across various media.
+The Global AI Community logo pairs the community's "g" mark with a Space Grotesk Bold wordmark in Ink `#16130e`. The mark uses Signal Orange and Sky Blue. Use the logo for "Organized by" lines, sponsor decks, chapter material, and anything else that represents the community.
 
-When using the logo, ensure it is clearly visible, uncluttered, and has adequate surrounding space. The logo should always be displayed in its original proportions—never stretch, compress, or alter the design in any way. For optimal legibility, maintain a minimum size as specified in these guidelines.
+The full guidelines and every source file are on the [Global AI Community logo page](https://globalaicommunity.github.io/agentcon-brand/gaic.html).
 
-The logo is available in several formats for different applications. Use the full-color version on light backgrounds and the monochrome version when color reproduction is limited or for special applications.
-
-[Download Logos](/logos/Global-AI-Community-Logos.zip)
+[Download Logos](/logos/gaic/global-ai-community-logos.zip)
 
 ### Logo Variations
 
-| Version | Usage |
-|---------|-------|
-| ![Full color](/media/logos/global-AI-community.png) | [Full color version](/logos/global-AI-community.png)  |
-| ![White version](/media/logos/global-AI-community-white.png) | [White version for dark backgrounds](/logos/global-AI-community-white.png)  |
-| ![Semi-transparent](/media/logos/global-AI-community-semi-white.png) | [Semi-transparent version](/logos/global-AI-community-semi-white.png) |
+One logo, four versions. PNGs are 2400 px wide with a transparent background.
+
+| Version | Use | Download |
+| --- | --- | --- |
+| ![Full color](/logos/gaic/global-ai-community.svg) | Full color, on white and cream backgrounds | [PNG](/logos/gaic/global-ai-community.png) · [SVG](/logos/gaic/global-ai-community.svg) |
+| ![Reversed](/logos/gaic/global-ai-community-reversed.svg) | Reversed, on Ink and other dark backgrounds | [PNG](/logos/gaic/global-ai-community-reversed.png) · [SVG](/logos/gaic/global-ai-community-reversed.svg) |
+| ![One-color ink](/logos/gaic/global-ai-community-mono-ink.svg) | One-color ink, for single-ink printing | [PNG](/logos/gaic/global-ai-community-mono-ink.png) · [SVG](/logos/gaic/global-ai-community-mono-ink.svg) |
+| ![One-color white](/logos/gaic/global-ai-community-mono-white.svg) | One-color white, for single-ink printing on dark backgrounds | [PNG](/logos/gaic/global-ai-community-mono-white.png) · [SVG](/logos/gaic/global-ai-community-mono-white.svg) |
+
+### Chapter logos
+
+Each chapter has its own logo: "Global AI Community" with the city name in Signal Orange. Use it for your chapter pages on Meetup, LinkedIn, and Luma, and for local material. Download your city's logo from the [chapter logos section](https://globalaicommunity.github.io/agentcon-brand/gaic.html). If your city is not listed, ask [support@globalai.community](mailto:support@globalai.community).
 
 ### Do's and Don'ts: Logo Usage
 
-![dos and dont logo](/media/logos/dos-and-dont-logo.png)
+- Keep a clear space of x around the logo, where x is a quarter of the logo's height.
+- Do not use the logo smaller than 120 px (30 mm) wide.
+- Use the full-color logo on white and cream, and the reversed logo on Ink.
+- Never stretch, recolor, rearrange, or redraw the logo.
+- Next to the Global AI Conference logo, use the ready-made endorsed lockup from the [logo page](https://globalaicommunity.github.io/agentcon-brand/gaic.html) instead of placing the two logos by hand.
+
+### Previous logo
+
+The previous lowercase wordmark is retired. Do not use it for new material; replace it when you update existing material. The files remain available so older material can be recognized: [previous logos (ZIP)](/logos/Global-AI-Community-Logos.zip), [full color](/logos/global-AI-community.png), [white](/logos/global-AI-community-white.png), and [semi-transparent](/logos/global-AI-community-semi-white.png).
+
 ## Mark
 
 The Global AI mark is a standalone symbol that represents our community's identity. This iconic element can be used independently in situations where space is limited or as a brand recognition element across various touchpoints.

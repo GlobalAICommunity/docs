@@ -17,3 +17,11 @@ The event focuses on practical developer learning and community engagement aroun
 ::: info Participation
 GitHub Dev Day is not part of the seasonal calendar. Chapters should wait for an invitation or application announcement before planning an event.
 :::
+
+## Microsoft Ignite &#47;&#47;localhost
+
+Microsoft Ignite &#47;&#47;localhost is a partner-led opportunity with Microsoft. Dates, eligible locations, and organizer details are to be announced.
+
+::: info Participation
+Wait for the announcement before planning an Ignite &#47;&#47;localhost event.
+:::

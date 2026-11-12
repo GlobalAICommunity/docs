@@ -23,4 +23,4 @@ For partnership and sponsorship options, see the [Global AI Community partnershi
 
 ## Contact
 
-**Global AI HQ:** [hq@globalai.community](mailto:hq@globalai.community)
+**Global AI HQ:** [support@globalai.community](mailto:support@globalai.community)
