@@ -29,7 +29,11 @@ Join a coordinated global campaign. Each season has a shared theme, content, bra
 
 </div>
 
+<div class="timeline-cta">
+
 [See the full seasonal calendar](/event-format#seasonal-events-2026-2027)
+
+</div>
 
 </section>
 

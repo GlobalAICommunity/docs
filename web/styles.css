@@ -412,3 +412,5 @@ kbd { font: .7rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; border
   .event-timeline li::before { grid-row: span 2; margin: 0; }
   .event-timeline li strong { margin: 0; }
 }
+.timeline-cta a { display: inline-flex; align-items: center; padding: 14px 25px; border: 1px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font-size: .85rem; font-weight: 600; text-decoration: none; }
+.timeline-cta a:hover { background: var(--ink); color: var(--white); }
