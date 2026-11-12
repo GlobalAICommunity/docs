@@ -22,11 +22,10 @@ Join a coordinated global campaign. Each season has a shared theme, content, bra
 </div>
 <div class="event-timeline">
 
-1. **Sep–Oct 2026** [Global AI On Tour](/global-ai-on-tour)
-2. **Nov 2026–Jan 2027** [Global AI Nights](/agentic-nights)
-3. **Feb–Apr 2027** [Global AI Bootcamp](/agentcamp/)
-4. **May–Jun 2027** [Global AI Connect](/global-ai-connect)
-5. **Jul–Aug 2027** [Global AI Construct](/construct)
+1. **Nov 2026–Jan 2027** [Global AI Nights](/agentic-nights)
+2. **Feb–Apr 2027** [Global AI Bootcamp](/agentcamp/)
+3. **May–Jun 2027** [Global AI Connect](/global-ai-connect)
+4. **Jul–Aug 2027** [Global AI Construct](/construct)
 
 </div>
 

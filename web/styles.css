@@ -399,8 +399,8 @@ kbd { font: .7rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; border
 .prose td img[src^="/logos/gaic/"] { display: block; width: 200px; max-width: 100%; height: auto; padding: 12px; border-radius: 10px; }
 .prose td img[src$="-reversed.svg"], .prose td img[src$="-mono-white.svg"] { background: var(--ink); }
 
-.event-timeline ol { list-style: none; margin: 10px 0 30px; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; position: relative; counter-reset: season; }
-.event-timeline ol::before { content: ""; position: absolute; top: 21px; left: 10%; right: 10%; height: 2px; background: linear-gradient(90deg, var(--blue), var(--orange)); }
+.event-timeline ol { list-style: none; margin: 10px 0 30px; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; position: relative; counter-reset: season; }
+.event-timeline ol::before { content: ""; position: absolute; top: 21px; left: 12.5%; right: 12.5%; height: 2px; background: linear-gradient(90deg, var(--blue), var(--orange)); }
 .event-timeline li { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0; padding: 0 6px; counter-increment: season; }
 .event-timeline li::before { content: counter(season, decimal-leading-zero); display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 18px; border: 2px solid var(--orange); border-radius: 50%; background: var(--white); color: var(--orange-deep); font: 600 .9rem/1 var(--heading); position: relative; z-index: 1; }
 .event-timeline li strong { display: block; color: var(--muted); font-size: .82rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; margin-bottom: 6px; }
