@@ -52,7 +52,7 @@ if (results) {
   const archives = document.getElementById('include-archives');
   const status = document.getElementById('search-status');
   const form = input.closest('form');
-  const labels = { chapters: 'Chapters', events: 'Events', partners: 'Partners', updates: 'Updates & archive' };
+  const labels = { chapters: 'Chapters', events: 'Events', brand: 'Brand', partners: 'Partners', updates: 'Updates & archive' };
   let searchIndex;
   let request = 0;
   let timer;

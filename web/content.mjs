@@ -7,6 +7,7 @@ export const site = {
 export const sections = [
   { id: 'chapters', title: 'Chapters', label: 'Run a chapter', path: 'chapter-playbook/index.md' },
   { id: 'events', title: 'Events', label: 'Organize an event', path: 'events.md' },
+  { id: 'brand', title: 'Brand', label: 'Brand & design', path: 'branding/index.md' },
   { id: 'partners', title: 'Partners', label: 'Partner with us', path: 'partnerships/overview.md' },
   { id: 'updates', title: 'Updates', label: 'Updates & archive', path: 'updates/index.md' },
 ];
@@ -22,7 +23,7 @@ export const directories = {
   'construct': 'events',
   'global-ai-connect': 'events',
   'build': 'updates',
-  'branding': 'chapters',
+  'branding': 'brand',
   'partnerships': 'partners',
   'chapter-leads-meeting': 'updates',
   'resources': 'chapters',
