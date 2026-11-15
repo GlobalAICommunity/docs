@@ -489,3 +489,22 @@ kbd { font: .75rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; borde
   .brand-logos-chapters { grid-template-columns: 1fr; }
 }
 .brand-logos-chapters .brand-logo img { width: 88%; }
+.logo-generator { margin-top: 26px; }
+.logo-generator-controls { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: end; margin: 18px 0; }
+.logo-generator-city { display: grid; gap: 6px; flex: 1 1 260px; color: var(--ink); font-weight: 600; font-size: .88rem; }
+.logo-generator-city input { padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; font: 400 1.05rem var(--body); color: var(--ink); background: var(--white); }
+.logo-generator-city input:focus { outline: 2px solid var(--orange); outline-offset: 1px; }
+.logo-generator-variants { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; border: 0; }
+.logo-generator-variants legend { margin-bottom: 6px; padding: 0; color: var(--ink); font-weight: 600; font-size: .88rem; }
+.logo-generator-variants label { display: inline-flex; gap: 6px; align-items: center; padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: .88rem; cursor: pointer; }
+.logo-generator-variants label:has(input:checked) { border-color: var(--ink); background: var(--cream); }
+.logo-generator-variants input { accent-color: var(--ink); }
+.logo-generator-preview { display: grid; place-items: center; min-height: 200px; padding: 36px; border: 1px solid var(--line); border-radius: 18px; background: var(--white); }
+.logo-generator-preview.is-dark { background: var(--ink); border-color: var(--ink); }
+.logo-generator-preview svg { width: min(100%, 560px); height: auto; }
+.logo-generator-preview.is-placeholder svg { opacity: .35; }
+.landing-card .logo-generator-status { min-height: 1.4em; margin: 10px 0; color: var(--orange-deep); font-size: .88rem; }
+.logo-generator-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.logo-generator-actions .button:disabled { opacity: .45; cursor: not-allowed; }
+.logo-generator-actions .button-outline { border-color: var(--ink); color: var(--ink); background: var(--white); cursor: pointer; }
+.logo-generator-actions .button-ink { cursor: pointer; }

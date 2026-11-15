@@ -111,7 +111,7 @@ The previous lowercase wordmark is retired. Do not use it for new material; repl
 
 ## Chapter logos
 
-Local chapters use "Global AI Community" with their city in Signal Orange. Use it for chapter pages on Meetup, LinkedIn, and Luma, and for local material. "All versions" is a ZIP with full color, reversed, and one-color files in SVG and PNG. Need a city that isn't here? Ask [support@globalai.community](mailto:support@globalai.community).
+Local chapters use "Global AI Community" with their city in Signal Orange. Use it for chapter pages on Meetup, LinkedIn, and Luma, and for local material. "All versions" is a ZIP with full color, reversed, and one-color files in SVG and PNG. City not listed? Make its logo with the generator below. Questions? Ask [support@globalai.community](mailto:support@globalai.community).
 
 </div>
 <div class="brand-logos brand-logos-chapters">
@@ -125,6 +125,31 @@ Local chapters use "Global AI Community" with their city in Signal Orange. Use i
 <figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-bengaluru.svg" alt="Global AI Community Bengaluru logo"></p><figcaption><strong>Bengaluru</strong> <a href="/logos/gaic/chapters/global-ai-community-bengaluru.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-bengaluru.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-bengaluru.zip">All versions</a></figcaption></figure>
 <figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-singapore.svg" alt="Global AI Community Singapore logo"></p><figcaption><strong>Singapore</strong> <a href="/logos/gaic/chapters/global-ai-community-singapore.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-singapore.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-singapore.zip">All versions</a></figcaption></figure>
 <figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-melbourne.svg" alt="Global AI Community Melbourne logo"></p><figcaption><strong>Melbourne</strong> <a href="/logos/gaic/chapters/global-ai-community-melbourne.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-melbourne.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-melbourne.zip">All versions</a></figcaption></figure>
+</div>
+
+<div class="landing-card logo-generator" id="logo-generator" data-city-logo>
+
+### Make your chapter logo
+
+Type your city as it appears on your chapter page. The generator sets it in Space Grotesk Regular in Signal Orange, exactly like the logos above.
+
+<div class="logo-generator-controls">
+<label class="logo-generator-city"><span>City</span><input name="city" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Your city"></label>
+<fieldset class="logo-generator-variants"><legend>Version</legend>
+<label><input type="radio" name="variant" value="color" checked> Full color</label>
+<label><input type="radio" name="variant" value="reversed"> Reversed</label>
+<label><input type="radio" name="variant" value="mono-ink"> One-color ink</label>
+<label><input type="radio" name="variant" value="mono-white"> One-color white</label>
+</fieldset>
+</div>
+<div class="logo-generator-preview is-placeholder" aria-live="polite"></div>
+<p class="logo-generator-status" role="status"></p>
+<div class="logo-generator-actions">
+<button type="button" class="button button-ink" data-format="svg" disabled>Download SVG</button>
+<button type="button" class="button button-outline" data-format="png" disabled>Download PNG (2400 px)</button>
+</div>
+<noscript><p>The generator needs JavaScript. Ask support@globalai.community for your city's logo.</p></noscript>
+
 </div>
 </section>
 
