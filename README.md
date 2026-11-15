@@ -49,6 +49,6 @@ The build fails on missing local links or heading anchors. External links need e
 - **Archived:** previous programs and retired tools; old benefits and funding are not current offers.
 - **Draft:** incomplete or unapproved guidance, excluded from search and the sitemap.
 
-Preserve `search: false` and robots metadata on pages such as payment instructions and specific partnership proposals. They must not enter search, the sitemap, or `llms.txt`. These flags are discovery controls, **not access control**: the pages and repository remain accessible. Do not put secrets or private agreements in public Markdown.
+Preserve `search: false` and robots metadata on pages such as specific partnership proposals. They must not enter search, the sitemap, or `llms.txt`. These flags are discovery controls, **not access control**: the pages and repository remain accessible. Do not put secrets or private agreements in public Markdown.
 
 The current design reference is the [Global AI design system](https://salmon-cliff-06ec72a03.7.azurestaticapps.net/), reflected in `branding/index.md`. Previous event editions retain their original visual assets.

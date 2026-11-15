@@ -47,7 +47,6 @@ const rootSections = {
   'presentations.md': 'resources',
   'workshops.md': 'resources',
   'streamyard.md': 'resources',
-  'payment.md': 'partners',
 };
 
 export const navigation = {
@@ -75,7 +74,6 @@ export const navigation = {
   partners: [
     ['Work with us', ['partnerships/overview.md', 'partnerships/community-partner.md', 'partnerships/partner.md', 'partnerships/strategic-partner.md']],
     ['Sponsorship & content', ['partnerships/newsletter.md']],
-    ['Already a partner', ['payment.md']],
   ],
   updates: [
     ['Community updates', ['updates/index.md', 'chapter-leads-meeting/index.md', 'chapter-leads-meeting/august-2026.md', 'chapter-leads-meeting/july-2026.md', 'chapter-leads-meeting/february-2026.md', 'chapter-leads-meeting/january-2026.md', 'chapter-leads-meeting/december-2025.md', 'chapter-leads-meeting/november-2025.md']],

@@ -129,7 +129,7 @@ test('the HQ-run Global AI Conference points to its website and old URLs redirec
 test('search excludes private-discovery pages and drafts, with archives opt-in', async () => {
   const json = await readFile(join(output, 'assets/search-index.json'), 'utf8');
   const index = MiniSearch.loadJSON(json, searchOptions);
-  for (const path of ['payment.md', 'partnerships/partnership-proposal.md', 'chapter-playbook/offboarding.md', 'chapter-playbook/transferring.md', 'platform-event-management.md']) {
+  for (const path of ['partnerships/partnership-proposal.md', 'chapter-playbook/offboarding.md', 'chapter-playbook/transferring.md', 'platform-event-management.md']) {
     assert.equal(index.has(path), false, path);
   }
   const current = index.search('AgentCamp', { filter: result => result.status === 'current' });
@@ -142,12 +142,12 @@ test('search excludes private-discovery pages and drafts, with archives opt-in',
 test('robots, sitemap and agent index preserve discovery exclusions', async () => {
   const sitemap = await readFile(join(output, 'sitemap.xml'), 'utf8');
   const llms = await readFile(join(output, 'llms.txt'), 'utf8');
-  for (const path of ['payment.md', 'partnerships/partnership-proposal.md', 'chapter-playbook/offboarding.md', 'agentcamp/register.md']) {
+  for (const path of ['partnerships/partnership-proposal.md', 'chapter-playbook/offboarding.md', 'agentcamp/register.md']) {
     assert.match(await htmlFor(path), /name="robots" content="noindex,/);
     assert.ok(!sitemap.includes(pathToUrl(path)), path);
     assert.ok(!llms.includes(pathToUrl(path)), path);
   }
-  assert.match(await htmlFor('payment.md'), /name="robots" content="noindex, nofollow"/);
+  await assert.rejects(stat(join(output, 'payment.html')));
 });
 
 test('archived offers, meeting recaps, drafts and contradictory guidance are visibly labeled', async () => {
@@ -222,9 +222,6 @@ Do not add an intermediary.
   assert.match(page.html, /<span class="badge">Draft<\/span>/);
   assert.equal(page.headings[1].id, 'policy');
   assert.match(page.html, /class="table-scroll" role="region"/);
-  const payment = await htmlFor('payment.md');
-  assert.equal([...payment.matchAll(/<details class="disclosure">/g)].length, 2);
-  assert.match(payment, /notice-danger/);
   const faq = await htmlFor('agentcamp/faq.md');
   assert.equal([...faq.matchAll(/<details class="disclosure">/g)].length, 8);
 });
