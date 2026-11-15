@@ -7,14 +7,13 @@ export const site = {
 export const sections = [
   { id: 'chapters', title: 'Chapters', label: 'Run a chapter', path: 'chapter-playbook/index.md' },
   { id: 'events', title: 'Events', label: 'Organize an event', path: 'events.md' },
-  { id: 'resources', title: 'Resources', label: 'Tools & resources', path: 'resources/index.md' },
   { id: 'partners', title: 'Partners', label: 'Partner with us', path: 'partnerships/overview.md' },
   { id: 'updates', title: 'Updates', label: 'Updates & archive', path: 'updates/index.md' },
 ];
 
 export const directories = {
   'chapter-playbook': 'chapters',
-  'chapter-benefits': 'resources',
+  'chapter-benefits': 'chapters',
   'organisers-101': 'events',
   'agentcon': 'events',
   'global-ai-conference': 'events',
@@ -23,10 +22,10 @@ export const directories = {
   'construct': 'events',
   'global-ai-connect': 'events',
   'build': 'updates',
-  'branding': 'resources',
+  'branding': 'chapters',
   'partnerships': 'partners',
   'chapter-leads-meeting': 'updates',
-  'resources': 'resources',
+  'resources': 'chapters',
   'updates': 'updates',
 };
 
@@ -42,18 +41,20 @@ const rootSections = {
   'hq-organized-events.md': 'events',
   'partner-led-events.md': 'events',
   'ai-community-day.md': 'updates',
-  'event-photography-checklist.md': 'resources',
-  'platform-event-management.md': 'resources',
-  'presentations.md': 'resources',
-  'workshops.md': 'resources',
-  'streamyard.md': 'resources',
+  'event-photography-checklist.md': 'chapters',
+  'platform-event-management.md': 'chapters',
+  'presentations.md': 'chapters',
+  'workshops.md': 'chapters',
+  'streamyard.md': 'chapters',
 };
 
 export const navigation = {
   chapters: [
     ['Get started', ['chapter-playbook/index.md', 'new-chapter.md', 'chapter-playbook/onboarding.md']],
     ['Run your chapter', ['chapter-playbook/requirements.md', 'chapter-playbook/code-of-conduct.md', 'chapter-playbook/discord.md', 'chapter-playbook/linkedin.md', 'chapter-playbook/advisory-board.md']],
-    ['Useful next steps', ['organisers-101/index.md', 'chapter-benefits/index.md', 'branding/index.md']],
+    ['Tools & benefits', ['chapter-benefits/index.md', 'chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md', 'streamyard.md']],
+    ['Content & creative', ['resources/index.md', 'workshops.md', 'presentations.md', 'branding/index.md', 'event-photography-checklist.md']],
+    ['Useful next steps', ['organisers-101/index.md']],
   ],
   events: [
     ['Overview', ['events.md', 'event-format.md']],
@@ -65,11 +66,6 @@ export const navigation = {
     ['Global AI Connect guide', ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md']],
     ['Global AI Construct guide', ['construct/format.md', 'construct/checklist.md']],
     ['Community Connect guide', ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
-  ],
-  resources: [
-    ['Find a resource', ['resources/index.md', 'chapter-benefits/index.md']],
-    ['Tools & benefits', ['chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md', 'streamyard.md']],
-    ['Content & creative', ['workshops.md', 'presentations.md', 'branding/index.md', 'event-photography-checklist.md']],
   ],
   partners: [
     ['Work with us', ['partnerships/overview.md', 'partnerships/community-partner.md', 'partnerships/partner.md', 'partnerships/strategic-partner.md']],

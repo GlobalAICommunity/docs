@@ -211,7 +211,7 @@ export function searchPage() {
     `<main id="main" tabindex="-1" class="search-page container"><p class="eyebrow">A good answer starts here</p><h1>Search the handbook.</h1>${searchForm('', 'search-query')}
     <div class="search-filters"><label for="search-section">Look in <select id="search-section"><option value="">All sections</option>${sections.map(section => `<option value="${section.id}">${e(section.label)}</option>`).join('')}</select></label><label class="archive-toggle"><input id="include-archives" type="checkbox"> Include archives & meeting recaps</label></div>
     <p id="search-status" role="status" aria-live="polite">Search by task, tool, event, or question.</p>
-    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
+    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">tools &amp; resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
 }
 
 export function redirectPage(to) {

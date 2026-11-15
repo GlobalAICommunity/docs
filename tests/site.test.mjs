@@ -135,7 +135,7 @@ test('search excludes private-discovery pages and drafts, with archives opt-in',
   const current = index.search('AgentCamp', { filter: result => result.status === 'current' });
   assert.ok(current.every(result => result.status === 'current'));
   assert.ok(index.search('AgentCamp').some(result => result.id === 'agentcamp/register.md'));
-  assert.ok(index.search('Azure credits', { filter: result => result.section === 'resources' }).some(result => result.id === 'chapter-benefits/azure.md'));
+  assert.ok(index.search('Azure credits', { filter: result => result.section === 'chapters' }).some(result => result.id === 'chapter-benefits/azure.md'));
   assert.ok(index.search('sponsorship').some(result => result.id === 'partnerships/overview.md'));
 });
 
