@@ -4,88 +4,65 @@ outline: deep
 
 # Start a Global AI Chapter
 
-***You’ve decided to start your own Global AI chapter – YAY!***    
-     
-We’re excited to have people like you join our growing community and want to help you get your chapter launched as quickly and painlessly as possible. If our experience is any indication, your first major event will galvanize and inspire the AI community in your area and create momentum for subsequent events, so it’s crucial to start things off on the right foot!
-To help you get started, we've put this guide together for starting your own Global AI chapter in your city. 
-     
-*The Global AI Community is your gateway into the global AI community!*
+Most chapters begin with a simple thought: *there should be a place in my city where people learn about AI together.* If that's you, welcome. This page explains what a chapter is, what you get, what you commit to, and how to apply.
 
-## Guidelines for Starting Your Chapter
-When you start your own Global AI Chapter, you’ll be helping to build and grow a local AI community, through organizing events in your city.
+## What a chapter is
 
-A Global AI Chapter is not meant for a one-time event or workshop. There is an expectation for ongoing community activities through your chapter, at least once every three months. Some of our groups hold events on a monthly cadence.   
+A Global AI chapter is a local, city-based community that keeps meeting. It isn't a one-off event or a single workshop. Chapters run community activities at least once every three months, and many meet monthly.
 
-We require at least two organizers in your group to help share the workload and prevent burnout from any single organizer.
+You start with **at least two organizers**. Sharing the work keeps a chapter going and prevents any one person from burning out.
 
-When requesting a chapter, we ask that it be local and city-based. If an existing chapter already exists in your city, a second one may be allowed depending on circumstances.
+If a chapter already exists in your city, a second one may be possible depending on the circumstances. Ask before you apply.
 
-## Benefits for chapters
-- As a chapter in the Global AI Community, you get benefits to help you run your chapter.
-- Be part of a large vibrant community with 100.000+ members around the world!
-- Resources for branding, including banners for socials, events and your own Chapter Logo.
-- Ability to use our global channels like [YouTube](https://www.youtube.com/globalaicommunity), [Twitter](https://x.com/GlobAICommunity) and [LinkedIn](https://www.linkedin.com/company/global-ai-community) to post updates about your chapter and stream your video content.
-- Contribute content to global initiatives like [Global AI Weekly](https://weekly.globalai.community/) and [Global AI Notes](https://www.youtube.com/playlist?list=PLMjtoLHNjR0sjqOFUpp0fhQwG-j861XEI), to reach a global audience around the world.
-- Monthly office hours for chapter leads.
-- Support channel on Discord for chapter leads.
+## What you get
 
-## Role and Responsibilities of the Chapter lead
-As a chapter lead, you agree to the following responsibilities:
+You join a worldwide network of local AI communities, and the support that comes with it:
 
-### 1. Be an active chapter   
-You will help organize or support co-organization of at least one meetup per three months.
-As an organizer, you are not necessarily expected to be the one creating content or giving talks or workshops. It is expected for you to invite local speakers and create opportunities for aspiring new speakers among your members.
-   
-### 2. Work together   
-We require at least two organizers in your group to help share the workload and prevent burnout from any single organizer.
-You will be responsible for notifying Global AI Community leadership of changes in your organizing team. For example, if you have new organizers, or if an organizer stepped down.
-   
-### 3. Be part of the Global Community    
-Participate in global initiatives, like the Global AI Bootcamp, Global AI Community Connect, live streams and newsletters,
-You may be asked from time to time to share any news from Global AI Community leadership team to your members.
-You will be asked to provide a report of your group activities once a year to the Global AI Community Leadership team.
-   
-### 4. Be inclusive to everyone    
-Have an open registration for events and free entrance.
-   
-### 5. Create a safe place    
-All Global AI events (Meetups, conference lunches, etc), online spaces (IRC, Facebook, etc) are beholden to the Global AI Community Code of Conduct. Every chapter is required to make the code of conduct public in some way. 
-   
-### 6. Be the brand    
-Only use your @globalai.community email to communicate with your members.
+- **Your chapter identity:** a `@globalai.community` email address, branding for socials and events, and your own [chapter logo](/branding/#chapter-logos).
+- **A global stage:** share chapter updates and video through our [YouTube](https://www.youtube.com/globalaicommunity), [X](https://x.com/GlobAICommunity), and [LinkedIn](https://www.linkedin.com/company/global-ai-community) channels.
+- **A bigger audience for your content:** contribute to [Global AI Weekly](https://weekly.globalai.community/) and [Global AI Notes](https://www.youtube.com/playlist?list=PLMjtoLHNjR0sjqOFUpp0fhQwG-j861XEI).
+- **People to ask:** monthly office hours and a Discord support channel for chapter leads.
+- **Tools:** [chapter tools and benefits](/chapter-benefits/) for building, designing, and streaming.
 
-Once your chapter has been approved, you and your group agree to use your chapters @globalai.community email address to conduct your business. For example, for any email communications with your members, and for creating meetup and social media accounts.
-   
-### 7. Be authentic    
-Do not use the chapter for commercial activities, your events should be not for profit.
-   
-## Process overview
-***Ready to become a chapter lead?***
+## What you commit to
 
-- Prior to starting your own Global AI Community chapter, please first [join our Discord Community](https://discord.gg/NMryZKPC3m), and head to `#general` channel. We encourage you to seek mentorship from experienced chapter leads, and for you to ask questions about starting your own chapter.
-- Once you’re ready to start your own group, [please fill in the form](https://globalai.community/my/chapter-application).
-- We review new chapter requests once per month. Your request will be reviewed in the following month after you file your request. For example, if you filled in the form in March 2026, it will be reviewed in April 2026.
-- If we approve your request, we will send you a welcome package with your groups @globalai.community email address credentials.
-- Please do not purchase domains or setup email addresses; we will do that for you! We need to maintain accounts (both for trademark and administrative purposes).
+Being a chapter lead is a promise to your members and to the wider community. As a chapter lead, you agree to:
+
+1. **Be active.** Organize or co-organize at least one meetup every three months. You don't have to give the talks yourself: invite local speakers and give aspiring speakers their first stage.
+2. **Work together.** Keep at least two organizers, and tell Global AI Community leadership when someone joins or steps down.
+3. **Be part of the global community.** Take part in global initiatives such as Global AI Bootcamp, Global AI Community Connect, livestreams, and newsletters. Share leadership news with your members when asked, and report on your chapter's activities once a year.
+4. **Be inclusive.** Keep registration open and events free.
+5. **Create a safe place.** Every event and online space follows the [Code of Conduct](/chapter-playbook/code-of-conduct), and your chapter makes it publicly visible.
+6. **Be the brand.** Use your `@globalai.community` email for chapter business, including member communication and creating accounts for your chapter.
+7. **Be authentic.** Keep the chapter not-for-profit. No commercial activities.
+
+The [chapter requirements](/chapter-playbook/requirements) explain each commitment in more detail.
+
+## How to apply
+
+1. **Talk to people first.** [Join our Discord](https://discord.gg/NMryZKPC3m), head to `#general`, and ask experienced chapter leads about starting a chapter. Many are happy to mentor.
+2. **Apply.** When you're ready, [fill in the chapter application](https://globalai.community/my/chapter-application).
+3. **Wait for the monthly review.** HQ reviews new chapter requests once a month, in the month after you apply. For example, an application sent in March is reviewed in April.
+4. **Get your welcome package.** If your chapter is approved, you receive your chapter's `@globalai.community` email credentials. Then follow the [onboarding checklist](/chapter-playbook/onboarding).
+
+Please don't buy domains or set up email addresses yourself. We create and maintain these accounts for trademark and administrative reasons.
 
 ## Frequently asked questions
-**Question:** How much does it cost to be a chapter lead for Global AI Community?   
-**Answer:** There is no cost to the Global AI Community for being a chapter lead. The Global AI Community is run by volunteers.
-   
-**Question:** Are all applications accepted?   
-**Answer:** No, not all applications are accepted, but don't worry that does not happen a lot. 
-A few reasons of not being accepted are:
-Having one organizer.
-There is already an active chapter in the city
-   
-**Question:**  Can I convert my current meetup/usergroup to a chapter.   
-**Answer:** Yes, it is possible to rebrand your current meetup/usergroup to a global ai chapter. 
-   
-**Question:** What kind of activities does a chapter do?   
-**Answer:** Organize MeetUps (Small local events), organize virtual meetups (Teams / Youtube), run discussion groups
-   
-**Question:** Can the Global AI Community provide sponsorship in the form of food and cash to my events.   
-**Answer:** No, the Global AI Community does not provide financial support to events.
-   
-**Question:**  Where does Global AI Community get its funding?   
-**Answer:** Global AI is funded through sponsors. Look at the sponsor page to see the current sponsors and read about how you can become a sponsor of the Global AI Community.
+
+**Does it cost anything to be a chapter lead?**
+No. Being a chapter lead is free. The Global AI Community is run by volunteers.
+
+**Are all applications accepted?**
+No, but most are. The usual reasons for not approving a chapter are having only one organizer, or an active chapter already existing in the city.
+
+**Can I convert my existing meetup or user group into a chapter?**
+Yes. You can rebrand an existing meetup or user group as a Global AI chapter.
+
+**What does a chapter actually do?**
+Chapters organize small local meetups, virtual meetups, and discussion groups, and take part in global programs. See the [event calendar & formats](/event-format).
+
+**Can the Global AI Community pay for food or other event costs?**
+No. The Global AI Community does not provide financial support for events.
+
+**How is the Global AI Community funded?**
+Through sponsors and partners. See [partnerships](/partnerships/overview) to learn how organizations support the community.

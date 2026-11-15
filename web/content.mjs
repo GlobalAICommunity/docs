@@ -7,23 +7,26 @@ export const site = {
 export const sections = [
   { id: 'chapters', title: 'Chapters', label: 'Run a chapter', path: 'chapter-playbook/index.md' },
   { id: 'events', title: 'Events', label: 'Organize an event', path: 'events.md' },
-  { id: 'resources', title: 'Resources', label: 'Tools & resources', path: 'resources/index.md' },
+  { id: 'brand', title: 'Brand', label: 'Brand & design', path: 'branding/index.md' },
   { id: 'partners', title: 'Partners', label: 'Partner with us', path: 'partnerships/overview.md' },
   { id: 'updates', title: 'Updates', label: 'Updates & archive', path: 'updates/index.md' },
 ];
 
 export const directories = {
   'chapter-playbook': 'chapters',
-  'chapter-benefits': 'resources',
+  'chapter-benefits': 'chapters',
   'organisers-101': 'events',
   'agentcon': 'events',
   'global-ai-conference': 'events',
   'agentcamp': 'events',
+  'agentic-nights': 'events',
+  'construct': 'events',
+  'global-ai-connect': 'events',
   'build': 'updates',
-  'branding': 'resources',
+  'branding': 'brand',
   'partnerships': 'partners',
   'chapter-leads-meeting': 'updates',
-  'resources': 'resources',
+  'resources': 'chapters',
   'updates': 'updates',
 };
 
@@ -39,36 +42,35 @@ const rootSections = {
   'hq-organized-events.md': 'events',
   'partner-led-events.md': 'events',
   'ai-community-day.md': 'updates',
-  'event-photography-checklist.md': 'resources',
-  'platform-event-management.md': 'resources',
-  'presentations.md': 'resources',
-  'workshops.md': 'resources',
-  'streamyard.md': 'resources',
-  'payment.md': 'partners',
+  'event-photography-checklist.md': 'chapters',
+  'platform-event-management.md': 'chapters',
+  'presentations.md': 'chapters',
+  'workshops.md': 'chapters',
+  'streamyard.md': 'chapters',
 };
 
 export const navigation = {
   chapters: [
     ['Get started', ['chapter-playbook/index.md', 'new-chapter.md', 'chapter-playbook/onboarding.md']],
     ['Run your chapter', ['chapter-playbook/requirements.md', 'chapter-playbook/code-of-conduct.md', 'chapter-playbook/discord.md', 'chapter-playbook/linkedin.md', 'chapter-playbook/advisory-board.md']],
-    ['Useful next steps', ['organisers-101/index.md', 'chapter-benefits/index.md', 'branding/index.md']],
+    ['Tools & benefits', ['chapter-benefits/index.md', 'chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md', 'streamyard.md']],
+    ['Content & creative', ['resources/index.md', 'workshops.md', 'presentations.md', 'branding/index.md', 'event-photography-checklist.md']],
+    ['Useful next steps', ['organisers-101/index.md']],
   ],
   events: [
     ['Overview', ['events.md', 'event-format.md']],
     ['Seasonal events', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
     ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'partner-led-events.md', 'hq-organized-events.md', 'agentcon/index.md']],
     ['Organizer guide', ['organisers-101/index.md', 'event-photography-checklist.md']],
+    ['Global AI Nights guide', ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md']],
+    ['Global AI Bootcamp guide', ['agentcamp/checklist.md']],
+    ['Global AI Connect guide', ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md']],
+    ['Global AI Construct guide', ['construct/format.md', 'construct/checklist.md']],
     ['Community Connect guide', ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
-  ],
-  resources: [
-    ['Find a resource', ['resources/index.md', 'chapter-benefits/index.md']],
-    ['Tools & benefits', ['chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md', 'streamyard.md']],
-    ['Content & creative', ['workshops.md', 'presentations.md', 'branding/index.md', 'event-photography-checklist.md']],
   ],
   partners: [
     ['Work with us', ['partnerships/overview.md', 'partnerships/community-partner.md', 'partnerships/partner.md', 'partnerships/strategic-partner.md']],
     ['Sponsorship & content', ['partnerships/newsletter.md']],
-    ['Already a partner', ['payment.md']],
   ],
   updates: [
     ['Community updates', ['updates/index.md', 'chapter-leads-meeting/index.md', 'chapter-leads-meeting/august-2026.md', 'chapter-leads-meeting/july-2026.md', 'chapter-leads-meeting/february-2026.md', 'chapter-leads-meeting/january-2026.md', 'chapter-leads-meeting/december-2025.md', 'chapter-leads-meeting/november-2025.md']],
@@ -77,18 +79,50 @@ export const navigation = {
   ],
 };
 
+// Event guides: an overview page and its chapter pages, in reading order. Drives breadcrumbs and chapter navigation.
+export const guides = {
+  'agentic-nights.md': ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md'],
+  'agentcamp/index.md': ['agentcamp/checklist.md'],
+  'global-ai-connect.md': ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md'],
+  'construct.md': ['construct/format.md', 'construct/checklist.md'],
+  'global-ai-conference/index.md': ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md'],
+};
+
+const guideParents = Object.fromEntries(Object.entries(guides).flatMap(([parent, children]) => children.map(child => [child, parent])));
+
 const reviewNotes = {
-  application: 'The start-a-chapter and onboarding guides currently link to different application forms. Confirm the current application route with support@globalai.community before applying.',
-  meetup: 'This guide still refers to setting up a Meetup group, but later community updates announce the retirement of Meetup support. Confirm current setup instructions with support@globalai.community.',
+  application: 'The chapter guides have linked to different application forms. Confirm the current application route with support@globalai.community before applying.',
+  meetup: 'Meetup support has been retired. Confirm the current steps for setting up your chapter on the Global AI Community platform with support@globalai.community.',
 };
 
 // These are editorial review flags, not replacements for the policies they describe.
 export const overrides = {
   'chapter-playbook/index.md': { headingAliases: { 'chapter-playbook': 'run-a-chapter', 'quick-reference': 'what-do-you-need-to-do' } },
-  'agentic-nights.md': { headingAliases: { 'organizing-your-event': 'organizer-checklist' } },
+  // Sections moved to chapter pages; old links to these anchors are forwarded in the browser.
+  'agentic-nights.md': { movedAnchors: { 'choose-your-format': 'agentic-nights/formats.md#choose-your-format', 'option-a-hands-on-night': 'agentic-nights/formats.md#option-a-hands-on-night', 'option-b-talks-and-community-night': 'agentic-nights/formats.md#option-b-talks-and-community-night', 'activity-ideas': 'agentic-nights/formats.md#activity-ideas', 'learning-resource-agent-framework-101': 'agentic-nights/learning-and-speakers.md#learning-resource-agent-framework-101', 'speaker-kit': 'agentic-nights/learning-and-speakers.md#speaker-kit', 'hashtags-and-social-sharing': 'agentic-nights/promotion.md#hashtags-and-social-sharing', 'event-description': 'agentic-nights/promotion.md#event-description', 'setup-email-for-option-a': 'agentic-nights/promotion.md#setup-email-for-option-a', 'organizer-checklist': 'agentic-nights/checklist.md', 'organizing-your-event': 'agentic-nights/checklist.md' } },
+  'construct.md': { movedAnchors: { 'event-format-2-hours': 'construct/format.md#event-format-2-hours', 'ready-to-use-labs': 'construct/format.md#ready-to-use-labs', 'suggested-challenge-themes': 'construct/format.md#suggested-challenge-themes', 'what-you-need': 'construct/format.md#what-you-need', 'organizer-checklist': 'construct/checklist.md' } },
   'branding/index.md': { headingAliases: { 'typography-specifications': 'typography', 'primary-colors': 'colors', 'accent-colors': 'colors', 'gray-scale': 'colors', 'color-usage-guidelines': 'accessibility' } },
-  'new-chapter.md': { review: [reviewNotes.application], summary: 'Eligibility, responsibilities, and the application process for a new local chapter.' },
-  'chapter-playbook/onboarding.md': { review: [reviewNotes.application, reviewNotes.meetup] },
+  'new-chapter.md': {
+    review: [reviewNotes.application],
+    summary: 'Eligibility, responsibilities, and the application process for a new local chapter.',
+    headingAliases: {
+      'guidelines-for-starting-your-chapter': 'what-a-chapter-is',
+      'benefits-for-chapters': 'what-you-get',
+      'role-and-responsibilities-of-the-chapter-lead': 'what-you-commit-to',
+      '1-be-an-active-chapter': 'what-you-commit-to',
+      '2-work-together': 'what-you-commit-to',
+      '3-be-part-of-the-global-community': 'what-you-commit-to',
+      '4-be-inclusive-to-everyone': 'what-you-commit-to',
+      '5-create-a-safe-place': 'what-you-commit-to',
+      '6-be-the-brand': 'what-you-commit-to',
+      '7-be-authentic': 'what-you-commit-to',
+      'process-overview': 'how-to-apply',
+    },
+  },
+  'chapter-playbook/onboarding.md': {
+    review: [reviewNotes.application, reviewNotes.meetup],
+    headingAliases: { 'step-by-step-process': 'eligibility', 'meetup-group': 'events-on-the-global-ai-community-platform' },
+  },
   'chapter-playbook/requirements.md': { review: ['The escalation process at the end of this page is a proposal, not an approved policy.'] },
   'chapter-playbook/offboarding.md': { status: 'draft' },
   'chapter-playbook/transferring.md': { status: 'draft' },
@@ -108,6 +142,12 @@ export const overrides = {
     },
     review: ['Audience metrics are under review across partner materials. Request dated, approved figures from HQ when preparing an agreement.'],
   },
+  'partnerships/newsletter.md': {
+    headingAliases: {
+      'partner-opportunities': 'bring-something-readers-will-use',
+      privacy: 'readers-trust-comes-first',
+    },
+  },
   'partnerships/partnership-proposal.md': { summary: 'A specific partnership proposal, not the standard public partnership terms.' },
   'conference.md': { summary: 'The HQ-run conference series for developers building with AI agents, previously known as AgentCon.' },
   'agentcon/index.md': { navTitle: 'AgentCon announcement', summary: 'AgentCon is discontinued and continues as the Global AI Conference. AgentCon Singapore is the final AgentCon event.' },
@@ -124,7 +164,8 @@ export const overrides = {
     headingAliases: { 'global-ai-conference-call-for-speakers-cfs-page': 'global-ai-community-connect-call-for-speakers-cfs-page' },
   },
   'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact support@globalai.community for the current application route.'] },
-  'agentcamp/index.md': { summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
+  'global-ai-connect.md': { movedAnchors: { 'suggested-formats': 'global-ai-connect/formats.md', 'organizer-flow': 'global-ai-connect/checklist.md' } },
+  'agentcamp/index.md': { movedAnchors: { 'organize-a-bootcamp': 'agentcamp/checklist.md' }, summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
   'agentcamp/register.md': { title: 'AgentCamp 2026 · registration' },
   'agentcamp/content.md': { title: 'AgentCamp 2026 · workshops & talks' },
   'agentcamp/branding.md': { title: 'AgentCamp 2026 · branding' },
@@ -157,9 +198,9 @@ export function metadataFor(path) {
   const section = path === 'index.md' ? null : directories[directory] ?? rootSections[path];
   if (section === undefined) throw new Error(`Assign a section to ${path} in web/content.mjs.`);
   let status = 'current';
-  if (directory === 'build' || (directory === 'agentcamp' && path !== 'agentcamp/index.md')) status = 'archived';
+  if (directory === 'build' || (directory === 'agentcamp' && !['agentcamp/index.md', 'agentcamp/checklist.md'].includes(path))) status = 'archived';
   if (directory === 'chapter-leads-meeting' && path !== 'chapter-leads-meeting/index.md') status = 'historical';
-  return { section, status, review: [], ...overrides[path], ...(status === 'archived' ? { section: 'updates' } : {}) };
+  return { section, status, review: [], parent: guideParents[path], ...overrides[path], ...(status === 'archived' ? { section: 'updates' } : {}) };
 }
 
 export function pathToUrl(path) {

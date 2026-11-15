@@ -1,5 +1,5 @@
 import { escapeHtml as e } from '../scripts/markdown.mjs';
-import { site, sections, navigation, pathToUrl } from './content.mjs';
+import { site, sections, navigation, guides, pathToUrl } from './content.mjs';
 
 const arrow = '<span aria-hidden="true">↗</span>';
 const icons = {
@@ -120,6 +120,12 @@ function sideNavigation(page, pages) {
     }).join('')}</details>`).join('')}</nav></details>`;
 }
 
+function guideNavigation(guidePath, page, pages) {
+  const overview = pages.get(guidePath);
+  const link = (path, label) => `<a href="${pages.get(path).url}"${path === page.path ? ' aria-current="page"' : ''}>${e(label)}</a>`;
+  return `<details class="section-menu" open><summary>In this guide</summary><nav class="guide-menu" aria-label="${e(overview.title)} guide"><a class="guide-menu-back" href="${pathToUrl(sections.find(item => item.id === page.section).path)}"><span aria-hidden="true">←</span> All events</a><p class="guide-menu-title">${e(overview.title)}</p>${link(guidePath, 'Overview')}${guides[guidePath].map(path => link(path, pages.get(path).navTitle ?? pages.get(path).title)).join('')}</nav></details>`;
+}
+
 function statusNotice(page) {
   const statuses = {
     archived: ['Archived edition', 'These are historical instructions, not a current offer. Dates, benefits, funding, and registration details may no longer apply.'],
@@ -166,17 +172,33 @@ export function documentPage(page, pages) {
   const toc = page.headings.filter(heading => heading.level > 1 && heading.level <= 3 && heading.text);
   const tocLinks = toc.map(heading => `<a class="toc-level-${heading.level}" href="#${e(heading.id)}">${e(heading.text)}</a>`).join('');
   const { html: articleHtml, headingId, headingAliases } = articleWithAliases(page);
-  const paths = (navigation[page.section] ?? []).flatMap(([, items]) => items);
+  const guidePath = guides[page.path] ? page.path : page.parent;
+  const paths = guidePath ? [guidePath, ...guides[guidePath]] : (navigation[page.section] ?? []).flatMap(([, items]) => items);
   const currentIndex = paths.indexOf(page.path);
   const next = currentIndex >= 0 ? paths.slice(currentIndex + 1).map(path => pages.get(path)).find(target => target.searchable && target.status === 'current') : null;
+  const parent = page.parent ? pages.get(page.parent) : null;
+  const trail = [['/', 'Handbook'], ...(section.path === page.path ? [] : [[pathToUrl(section.path), section.title]]), ...(parent ? [[parent.url, parent.title]] : [])];
+  const breadcrumbs = `<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>${trail.map(([url, label]) => `<li><a href="${url}">${e(label)}</a></li>`).join('')}<li><span aria-current="page">${e(page.navTitle ?? page.title)}</span></li></ol></nav>`;
+  const chapters = guides[page.path] ? `<nav class="guide-chapters" aria-labelledby="guide-chapters-title"><h2 id="guide-chapters-title">Guide chapters</h2><ol>${guides[page.path].map(path => {
+    const target = pages.get(path);
+    if (!target) throw new Error(`Guide ${page.path} points to missing page: ${path}`);
+    return `<li><a href="${target.url}"><strong>${e(target.navTitle ?? target.title)}</strong><span>${e(target.summary)}</span></a></li>`;
+  }).join('')}</ol></nav>` : '';
+  const movedAnchors = Object.fromEntries(Object.entries(page.movedAnchors ?? {}).map(([anchor, to]) => {
+    const [path, fragment] = to.split('#');
+    const target = pages.get(path);
+    if (!target || (fragment && !target.headings.some(heading => heading.id === fragment))) throw new Error(`Moved anchor ${anchor} in ${page.path} points to missing ${to}`);
+    return [anchor, target.url + (fragment ? `#${fragment}` : '')];
+  }));
   const sourceUrl = `${site.repository}/edit/main/${page.path.split('/').map(encodeURIComponent).join('/')}`;
   return shell(page, `<div class="docs-layout container-wide">
-    <aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>
-    <main class="doc-main" id="main" tabindex="-1"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Handbook</a><span aria-hidden="true">/</span><a href="${pathToUrl(section.path)}">${e(section.label)}</a></nav>
-      <header class="doc-heading"><p class="eyebrow">${e(section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
+    <aside class="docs-sidebar">${guidePath ? guideNavigation(guidePath, page, pages) : sideNavigation(page, pages)}</aside>
+    <main class="doc-main" id="main" tabindex="-1"${Object.keys(movedAnchors).length ? ` data-moved-anchors="${e(JSON.stringify(movedAnchors))}"` : ''}>${breadcrumbs}
+      <header class="doc-heading"><p class="eyebrow">${e(parent?.title ?? section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
       ${statusNotice(page)}
       ${toc.length && page.data.outline !== false ? `<details class="mobile-toc"><summary>On this page</summary><nav aria-label="On this page">${tocLinks}</nav></details>` : ''}
       <article class="prose">${articleHtml}</article>
+      ${chapters}
       <div class="doc-meta">${page.data.editLink === false ? '' : `<a href="${sourceUrl}">Suggest an edit on GitHub ${arrow}</a>`}<a href="mailto:support@globalai.community?subject=${encodeURIComponent(`Handbook: ${page.title}`)}">Something unclear? Contact support ${arrow}</a></div>
       ${next ? `<a class="next-page" href="${next.url}"><span>Keep going</span><strong>${e(next.title)} <span aria-hidden="true">→</span></strong></a>` : ''}
     </main>
@@ -189,7 +211,7 @@ export function searchPage() {
     `<main id="main" tabindex="-1" class="search-page container"><p class="eyebrow">A good answer starts here</p><h1>Search the handbook.</h1>${searchForm('', 'search-query')}
     <div class="search-filters"><label for="search-section">Look in <select id="search-section"><option value="">All sections</option>${sections.map(section => `<option value="${section.id}">${e(section.label)}</option>`).join('')}</select></label><label class="archive-toggle"><input id="include-archives" type="checkbox"> Include archives & meeting recaps</label></div>
     <p id="search-status" role="status" aria-live="polite">Search by task, tool, event, or question.</p>
-    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
+    <div id="search-results"></div><noscript><p>Search needs JavaScript. You can still browse every guide through the <a href="/chapter-playbook/">chapter playbook</a>, <a href="/events.html">events</a>, <a href="/resources/">tools &amp; resources</a>, <a href="/partnerships/overview.html">partnerships</a>, and <a href="/updates/">archive</a>.</p></noscript></main>`);
 }
 
 export function redirectPage(to) {

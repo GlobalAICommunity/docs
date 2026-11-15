@@ -13,7 +13,7 @@ head:
 
 ## Let’s Build Something Valuable Together
 
-The Global AI Community connects **250,000+ members across 200+ chapters worldwide**. Our ecosystem includes a global chapter and event platform, Global AI Weekly with **70,000+ subscribers**, a YouTube channel with **50,000+ subscribers**, and events led by passionate local AI communities.
+The Global AI Community connects **250,000+ members across 200+ chapters worldwide**. Our ecosystem includes a global chapter and event platform, Global AI Weekly with **100,000+ subscribers**, a YouTube channel with **50,000+ subscribers**, and events led by passionate local AI communities.
 
 We would like to welcome the Partner into this ecosystem with an extended partnership package that combines global visibility, useful technical content, product experiences, and direct engagement with developers at six Global AI Conference 2027 events.
 

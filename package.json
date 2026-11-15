@@ -19,6 +19,7 @@
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-container": "^4.0.0",
     "minisearch": "^7.2.0",
+    "opentype.js": "^2.0.0",
     "yaml": "^2.8.1"
   }
 }

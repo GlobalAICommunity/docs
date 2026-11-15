@@ -29,6 +29,7 @@ The build writes static HTML and assets to `dist/`. Azure Static Web Apps serves
 - `web/templates.mjs` and `web/styles.css` own the layout and design system.
 - Search runs locally in the reader's browser using MiniSearch. It searches current guidance by default, with an explicit archive option.
 - Fonts are self-hosted with their license files. No external search service or font request is needed.
+- The chapter logo generator on the brand page uses `public/logos/gaic/city-logo-glyphs.json`, a Space Grotesk Regular glyph table plus the official chapter logo variants in `scripts/city-logo-template/`. Regenerate it with `node scripts/city-logo-glyphs.mjs` after changing either. The 1:1 event banner generator on the same page reuses that city logo and draws the banner in the browser; photos are never uploaded.
 
 ## Add or edit content
 
@@ -49,6 +50,6 @@ The build fails on missing local links or heading anchors. External links need e
 - **Archived:** previous programs and retired tools; old benefits and funding are not current offers.
 - **Draft:** incomplete or unapproved guidance, excluded from search and the sitemap.
 
-Preserve `search: false` and robots metadata on pages such as payment instructions and specific partnership proposals. They must not enter search, the sitemap, or `llms.txt`. These flags are discovery controls, **not access control**: the pages and repository remain accessible. Do not put secrets or private agreements in public Markdown.
+Preserve `search: false` and robots metadata on pages such as specific partnership proposals. They must not enter search, the sitemap, or `llms.txt`. These flags are discovery controls, **not access control**: the pages and repository remain accessible. Do not put secrets or private agreements in public Markdown.
 
 The current design reference is the [Global AI design system](https://salmon-cliff-06ec72a03.7.azurestaticapps.net/), reflected in `branding/index.md`. Previous event editions retain their original visual assets.
