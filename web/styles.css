@@ -476,19 +476,12 @@ kbd { font: .75rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; borde
 @media (max-width: 850px) {
   .brand-examples { grid-template-columns: 1fr; }
 }
-.brand-logos-chapters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.brand-logos-chapters .brand-logo > p { min-height: 130px; padding: 26px; }
-.brand-logos-chapters figcaption strong { margin-bottom: 2px; }
 .clearspace { display: grid; place-items: center; padding: 24px 0 28px; --w: min(340px, 62vw); --x: calc(var(--w) * 25.18 / 395.05); }
 .clearspace-box { position: relative; padding: var(--x); outline: 1.5px dashed #d5522b; background: repeating-linear-gradient(45deg, rgba(213, 82, 43, .08) 0 6px, transparent 6px 12px); }
 .clearspace-box img { display: block; width: var(--w); max-width: none; background: var(--white); }
 .clearspace-x { position: absolute; display: grid; place-items: center; width: var(--x); height: var(--x); font: 600 .75rem/1 var(--heading); color: #b8431f; }
 .landing-card .brand-lockup { display: grid; place-items: center; min-height: 150px; margin: 0 0 18px; }
 .brand-lockup img { width: min(100%, 360px); height: auto; }
-@media (max-width: 850px) {
-  .brand-logos-chapters { grid-template-columns: 1fr; }
-}
-.brand-logos-chapters .brand-logo img { width: 88%; }
 .logo-generator { margin-top: 26px; }
 .logo-generator-controls { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: end; margin: 18px 0; }
 .logo-generator-city { display: grid; gap: 6px; flex: 1 1 260px; color: var(--ink); font-weight: 600; font-size: .88rem; }
