@@ -239,7 +239,7 @@ Use real, verified numbers with a date when the context requires one. Do not cop
 
 ## Questions & Support
 
-These guidelines follow the [Global AI Community design system, version 2.0](https://salmon-cliff-06ec72a03.7.azurestaticapps.net/). Archived event editions retain their original branding; do not recolor an old event kit or modify an official logo. For questions or additional brand assets, email us.
+Archived event editions retain their original branding; do not recolor an old event kit or modify an official logo. For questions or additional brand assets, email us.
 
 [Email support@globalai.community](mailto:support@globalai.community)
 
