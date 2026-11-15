@@ -121,11 +121,13 @@ Downloads: [full color mark](/logos/global-AI-mark-full-color.png) · [white mar
 </div>
 </div>
 
-<details class="disclosure"><summary>Do's and Don'ts: Mark</summary>
+<div class="landing-card brand-rules">
+
+### Do's and Don'ts: Mark
 
 ![dos and dont logo](/media/logos/dos-and-dont-mark.png)
 
-</details>
+</div>
 </section>
 
 <section class="landing-section">
