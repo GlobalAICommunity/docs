@@ -510,3 +510,18 @@ kbd { font: .75rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; borde
   .newsletter-stats { grid-template-columns: 1fr; }
   .newsletter-stats > div { min-height: 0; }
 }
+.event-banner-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: start; margin-top: 18px; }
+.event-banner-form { display: grid; gap: 16px; min-width: 0; }
+.event-banner-form .logo-generator-city { min-width: 0; }
+.event-banner-form input:not([type="radio"]) { width: 100%; min-width: 0; }
+.event-banner-row { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; }
+.event-banner-form small { color: var(--muted); font-weight: 400; }
+.event-banner-photo { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.event-banner-photo input[type="file"] { padding: 9px 12px; font-size: .9rem; }
+.event-banner-photo .button { border-color: var(--line); color: var(--ink); background: var(--white); cursor: pointer; }
+.event-banner-output canvas { display: block; width: 100%; height: auto; aspect-ratio: 1; border: 1px solid var(--line); border-radius: 18px; }
+.landing-card .event-banner-note { margin: 18px 0 0; font-size: .86rem; }
+@media (max-width: 850px) {
+  .event-banner-layout { grid-template-columns: 1fr; }
+  .event-banner-row { grid-template-columns: 1fr; }
+}

@@ -29,7 +29,7 @@ The build writes static HTML and assets to `dist/`. Azure Static Web Apps serves
 - `web/templates.mjs` and `web/styles.css` own the layout and design system.
 - Search runs locally in the reader's browser using MiniSearch. It searches current guidance by default, with an explicit archive option.
 - Fonts are self-hosted with their license files. No external search service or font request is needed.
-- The chapter logo generator on the brand page uses `public/logos/gaic/city-logo-glyphs.json`, a Space Grotesk Regular glyph table plus the official chapter logo variants in `scripts/city-logo-template/`. Regenerate it with `node scripts/city-logo-glyphs.mjs` after changing either.
+- The chapter logo generator on the brand page uses `public/logos/gaic/city-logo-glyphs.json`, a Space Grotesk Regular glyph table plus the official chapter logo variants in `scripts/city-logo-template/`. Regenerate it with `node scripts/city-logo-glyphs.mjs` after changing either. The 1:1 event banner generator on the same page reuses that city logo and draws the banner in the browser; photos are never uploaded.
 
 ## Add or edit content
 

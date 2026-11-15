@@ -144,6 +144,53 @@ Type your city as it appears on your chapter page. The generator sets it in Spac
 <section class="landing-section">
 <div class="landing-section-heading">
 
+## Event banners
+
+Announce your next event with a square 1:1 banner for LinkedIn, Instagram, Discord, and your event page. It uses your chapter logo, the brand fonts, and the brand colors. Add a real photo from your community if you have one.
+
+</div>
+
+<div class="landing-card logo-generator event-banner" id="event-banner" data-event-banner>
+
+### Make your event banner
+
+<div class="event-banner-layout">
+<form class="event-banner-form">
+<label class="logo-generator-city"><span>City</span><input name="city" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Your city"></label>
+<label class="logo-generator-city"><span>Program <small>(optional)</small></span><input name="program" type="text" maxlength="40" list="event-banner-programs" placeholder="Global AI Nights"></label>
+<datalist id="event-banner-programs"><option value="Global AI Nights"><option value="Global AI Bootcamp"><option value="Global AI Connect"><option value="Global AI Construct"><option value="Global AI Community Connect"><option value="Meetup"></datalist>
+<label class="logo-generator-city"><span>Event title</span><input name="title" type="text" maxlength="90" autocomplete="off" placeholder="Building agents with open models"></label>
+<div class="event-banner-row">
+<label class="logo-generator-city"><span>Date</span><input name="date" type="text" maxlength="40" autocomplete="off" placeholder="Thursday 4 February 2027"></label>
+<label class="logo-generator-city"><span>Time</span><input name="time" type="text" maxlength="24" autocomplete="off" placeholder="18:00–21:00"></label>
+</div>
+<label class="logo-generator-city"><span>Venue</span><input name="venue" type="text" maxlength="70" autocomplete="off" placeholder="Venue name, street"></label>
+<div class="event-banner-photo">
+<label class="logo-generator-city"><span>Photo <small>(optional)</small></span><input name="photo" type="file" accept="image/*"></label>
+<button type="button" class="button button-outline" data-clear-photo>Remove photo</button>
+</div>
+<fieldset class="logo-generator-variants"><legend>Background</legend>
+<label><input type="radio" name="theme" value="light" checked> Cream</label>
+<label><input type="radio" name="theme" value="dark"> Ink</label>
+</fieldset>
+</form>
+<div class="event-banner-output">
+<canvas width="1080" height="1080" role="img" aria-label="Event banner preview"></canvas>
+<p class="logo-generator-status" role="status"></p>
+<div class="logo-generator-actions">
+<button type="button" class="button button-ink" data-download disabled>Download PNG (1080 × 1080)</button>
+</div>
+</div>
+</div>
+<p class="event-banner-note">Your photo stays in your browser; nothing is uploaded.</p>
+<noscript><p>The banner generator needs JavaScript.</p></noscript>
+
+</div>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
 ## Mark
 
 A standalone symbol for places where space is limited, or as a recognition element across touchpoints. Its circular design stands for inclusivity, continuous learning, and the interconnected global AI community.
