@@ -123,6 +123,12 @@ export const overrides = {
     },
     review: ['Audience metrics are under review across partner materials. Request dated, approved figures from HQ when preparing an agreement.'],
   },
+  'partnerships/newsletter.md': {
+    headingAliases: {
+      'partner-opportunities': 'bring-something-readers-will-use',
+      privacy: 'readers-trust-comes-first',
+    },
+  },
   'partnerships/partnership-proposal.md': { summary: 'A specific partnership proposal, not the standard public partnership terms.' },
   'conference.md': { summary: 'The HQ-run conference series for developers building with AI agents, previously known as AgentCon.' },
   'agentcon/index.md': { navTitle: 'AgentCon announcement', summary: 'AgentCon is discontinued and continues as the Global AI Conference. AgentCon Singapore is the final AgentCon event.' },

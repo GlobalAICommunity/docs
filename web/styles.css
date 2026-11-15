@@ -501,3 +501,12 @@ kbd { font: .75rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; borde
 .logo-generator-actions .button:disabled { opacity: .45; cursor: not-allowed; }
 .logo-generator-actions .button-outline { border-color: var(--ink); color: var(--ink); background: var(--white); cursor: pointer; }
 .logo-generator-actions .button-ink { cursor: pointer; }
+.newsletter-stats { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 1px; overflow: hidden; border-radius: 25px; background: #3a352c; }
+.newsletter-stats > div { display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; min-height: 190px; padding: 34px 36px; background: var(--ink); color: #d7d3c8; }
+.newsletter-stats strong { font: 650 clamp(2.4rem, 4.4vw, 3.8rem)/1 var(--heading); letter-spacing: -.03em; color: var(--cream); }
+.newsletter-stats > div:first-child strong { font-size: clamp(3rem, 6.5vw, 5.6rem); color: var(--orange); }
+.newsletter-stats span { font-size: .95rem; }
+@media (max-width: 850px) {
+  .newsletter-stats { grid-template-columns: 1fr; }
+  .newsletter-stats > div { min-height: 0; }
+}
