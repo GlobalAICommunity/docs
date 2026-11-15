@@ -21,6 +21,7 @@ export const directories = {
   'agentcamp': 'events',
   'agentic-nights': 'events',
   'construct': 'events',
+  'global-ai-connect': 'events',
   'build': 'updates',
   'branding': 'resources',
   'partnerships': 'partners',
@@ -61,6 +62,8 @@ export const navigation = {
     ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'partner-led-events.md', 'hq-organized-events.md', 'agentcon/index.md']],
     ['Organizer guide', ['organisers-101/index.md', 'event-photography-checklist.md']],
     ['Global AI Nights guide', ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md']],
+    ['Global AI Bootcamp guide', ['agentcamp/checklist.md']],
+    ['Global AI Connect guide', ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md']],
     ['Global AI Construct guide', ['construct/format.md', 'construct/checklist.md']],
     ['Community Connect guide', ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md']],
   ],
@@ -84,6 +87,8 @@ export const navigation = {
 // Event guides: an overview page and its chapter pages, in reading order. Drives breadcrumbs and chapter navigation.
 export const guides = {
   'agentic-nights.md': ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md'],
+  'agentcamp/index.md': ['agentcamp/checklist.md'],
+  'global-ai-connect.md': ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md'],
   'construct.md': ['construct/format.md', 'construct/checklist.md'],
   'global-ai-conference/index.md': ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md'],
 };
@@ -139,7 +144,8 @@ export const overrides = {
     headingAliases: { 'global-ai-conference-call-for-speakers-cfs-page': 'global-ai-community-connect-call-for-speakers-cfs-page' },
   },
   'global-ai-conference/application-and-timeline.md': { review: ['The application form is not linked in this guide yet. Contact support@globalai.community for the current application route.'] },
-  'agentcamp/index.md': { summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
+  'global-ai-connect.md': { movedAnchors: { 'suggested-formats': 'global-ai-connect/formats.md', 'organizer-flow': 'global-ai-connect/checklist.md' } },
+  'agentcamp/index.md': { movedAnchors: { 'organize-a-bootcamp': 'agentcamp/checklist.md' }, summary: 'The Global AI Bootcamp season for February–April 2027. Organizer materials are still to be announced.' },
   'agentcamp/register.md': { title: 'AgentCamp 2026 · registration' },
   'agentcamp/content.md': { title: 'AgentCamp 2026 · workshops & talks' },
   'agentcamp/branding.md': { title: 'AgentCamp 2026 · branding' },
@@ -172,7 +178,7 @@ export function metadataFor(path) {
   const section = path === 'index.md' ? null : directories[directory] ?? rootSections[path];
   if (section === undefined) throw new Error(`Assign a section to ${path} in web/content.mjs.`);
   let status = 'current';
-  if (directory === 'build' || (directory === 'agentcamp' && path !== 'agentcamp/index.md')) status = 'archived';
+  if (directory === 'build' || (directory === 'agentcamp' && !['agentcamp/index.md', 'agentcamp/checklist.md'].includes(path))) status = 'archived';
   if (directory === 'chapter-leads-meeting' && path !== 'chapter-leads-meeting/index.md') status = 'historical';
   return { section, status, review: [], parent: guideParents[path], ...overrides[path], ...(status === 'archived' ? { section: 'updates' } : {}) };
 }
