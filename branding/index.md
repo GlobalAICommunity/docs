@@ -7,7 +7,7 @@ actions:
   - label: Download logos
     href: /logos/gaic/global-ai-community-logos.zip
   - label: Find your chapter logo
-    href: https://globalaicommunity.github.io/agentcon-brand/gaic.html
+    href: '#chapter-logos'
 ---
 
 # Branding Assets and Design Guidelines
@@ -63,27 +63,40 @@ The community's "g" mark with a Space Grotesk Bold wordmark in Ink. Use it for "
 </figure>
 </div>
 
-PNGs are 2400 px wide with a transparent background. The full guidelines and every source file are on the [Global AI Community logo page](https://globalaicommunity.github.io/agentcon-brand/gaic.html).
+PNGs are 2400 px wide with a transparent background.
+
+<h3 id="clear-space">Clear space and minimum size</h3>
 
 <div class="landing-grid landing-grid-two brand-rules">
 <div class="landing-card">
+<div class="clearspace"><div class="clearspace-box"><img src="/logos/gaic/global-ai-community.svg" alt="Global AI Community logo with clear space marked"><span class="clearspace-x" style="top:0;left:calc(50% - var(--x)/2)">x</span><span class="clearspace-x" style="bottom:0;left:calc(50% - var(--x)/2)">x</span><span class="clearspace-x" style="left:0;top:calc(50% - var(--x)/2)">x</span><span class="clearspace-x" style="right:0;top:calc(50% - var(--x)/2)">x</span></div></div>
+
+Keep a clear space of **x** around the logo, where x is a quarter of its height. Don't use it smaller than 120 px (30 mm) wide.
+
+</div>
+<div class="landing-card">
+<p class="brand-lockup"><img src="/logos/gaic/global-ai-conference-2027-endorsed-color.svg" alt="Global AI Conference 2027, organized by Global AI Community"></p>
+
+**Endorsed lockup.** Next to the Global AI Conference logo, use the ready-made endorsed lockup instead of placing the two logos by hand. [Color](/logos/gaic/global-ai-conference-2027-endorsed-color.svg) · [Reversed](/logos/gaic/global-ai-conference-2027-endorsed-reversed.svg)
+
+</div>
+</div>
+
+<div class="landing-card brand-rules">
 
 ### Do's and Don'ts: Logo Usage
 
-- Keep a clear space of x around the logo, where x is a quarter of the logo's height.
-- Do not use the logo smaller than 120 px (30 mm) wide.
-- Use the full-color logo on white and cream, and the reversed logo on Ink.
-- Never stretch, recolor, rearrange, or redraw the logo.
-- Next to the Global AI Conference logo, use the ready-made endorsed lockup from the [logo page](https://globalaicommunity.github.io/agentcon-brand/gaic.html) instead of placing the two logos by hand.
-
+<div class="brand-examples">
+<figure class="brand-example brand-do"><div class="brand-example-tile "><img src="/logos/gaic/global-ai-community.svg" alt="Full color logo on cream"></div><figcaption><strong>DO:</strong> Use the full-color logo on white and cream.</figcaption></figure>
+<figure class="brand-example brand-dont"><div class="brand-example-tile brand-stretch"><img src="/logos/gaic/global-ai-community.svg" alt="Stretched logo"></div><figcaption><strong>DON'T:</strong> Stretch or distort the proportions.</figcaption></figure>
+<figure class="brand-example brand-do"><div class="brand-example-tile brand-on-ink"><img src="/logos/gaic/global-ai-community-reversed.svg" alt="Reversed logo on Ink"></div><figcaption><strong>DO:</strong> Use the reversed logo on Ink and other dark backgrounds.</figcaption></figure>
+<figure class="brand-example brand-dont"><div class="brand-example-tile brand-low-contrast"><img src="/logos/gaic/global-ai-community-reversed.svg" alt="Reversed logo on cream"></div><figcaption><strong>DON'T:</strong> Place the logo where it lacks contrast.</figcaption></figure>
+<figure class="brand-example brand-do"><div class="brand-example-tile "><img src="/logos/gaic/global-ai-community-mono-ink.svg" alt="One-color ink logo"></div><figcaption><strong>DO:</strong> Use a one-color version when you print in a single ink.</figcaption></figure>
+<figure class="brand-example brand-dont"><div class="brand-example-tile brand-recolor"><img src="/logos/gaic/global-ai-community.svg" alt="Recolored logo"></div><figcaption><strong>DON'T:</strong> Recolor the logo or apply filters and effects.</figcaption></figure>
 </div>
-<div class="landing-card landing-card-featured">
 
-### Chapter logos
+Never rearrange or redraw the logo.
 
-Each chapter has its own logo: "Global AI Community" with the city name in Signal Orange. Use it for your chapter pages on Meetup, LinkedIn, and Luma, and for local material. Download your city's logo from the [chapter logos section](https://globalaicommunity.github.io/agentcon-brand/gaic.html). If your city is not listed, ask [support@globalai.community](mailto:support@globalai.community).
-
-</div>
 </div>
 
 <details class="disclosure"><summary>Previous logo</summary>
@@ -91,6 +104,28 @@ Each chapter has its own logo: "Global AI Community" with the city name in Signa
 The previous lowercase wordmark is retired. Do not use it for new material; replace it when you update existing material. The files remain available so older material can be recognized: [previous logos (ZIP)](/logos/Global-AI-Community-Logos.zip), [full color](/logos/global-AI-community.png), [white](/logos/global-AI-community-white.png), and [semi-transparent](/logos/global-AI-community-semi-white.png).
 
 </details>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
+## Chapter logos
+
+Local chapters use "Global AI Community" with their city in Signal Orange. Use it for chapter pages on Meetup, LinkedIn, and Luma, and for local material. "All versions" is a ZIP with full color, reversed, and one-color files in SVG and PNG. Need a city that isn't here? Ask [support@globalai.community](mailto:support@globalai.community).
+
+</div>
+<div class="brand-logos brand-logos-chapters">
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-copenhagen.svg" alt="Global AI Community Copenhagen logo"></p><figcaption><strong>Copenhagen</strong> <a href="/logos/gaic/chapters/global-ai-community-copenhagen.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-copenhagen.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-copenhagen.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-houston.svg" alt="Global AI Community Houston logo"></p><figcaption><strong>Houston</strong> <a href="/logos/gaic/chapters/global-ai-community-houston.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-houston.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-houston.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-newyork.svg" alt="Global AI Community New York logo"></p><figcaption><strong>New York</strong> <a href="/logos/gaic/chapters/global-ai-community-newyork.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-newyork.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-newyork.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-siliconvalley.svg" alt="Global AI Community Silicon Valley logo"></p><figcaption><strong>Silicon Valley</strong> <a href="/logos/gaic/chapters/global-ai-community-siliconvalley.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-siliconvalley.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-siliconvalley.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-sofia.svg" alt="Global AI Community Sofia logo"></p><figcaption><strong>Sofia</strong> <a href="/logos/gaic/chapters/global-ai-community-sofia.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-sofia.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-sofia.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-berlin.svg" alt="Global AI Community Berlin logo"></p><figcaption><strong>Berlin</strong> <a href="/logos/gaic/chapters/global-ai-community-berlin.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-berlin.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-berlin.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-toronto.svg" alt="Global AI Community Toronto logo"></p><figcaption><strong>Toronto</strong> <a href="/logos/gaic/chapters/global-ai-community-toronto.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-toronto.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-toronto.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-bengaluru.svg" alt="Global AI Community Bengaluru logo"></p><figcaption><strong>Bengaluru</strong> <a href="/logos/gaic/chapters/global-ai-community-bengaluru.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-bengaluru.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-bengaluru.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-singapore.svg" alt="Global AI Community Singapore logo"></p><figcaption><strong>Singapore</strong> <a href="/logos/gaic/chapters/global-ai-community-singapore.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-singapore.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-singapore.zip">All versions</a></figcaption></figure>
+<figure class="brand-logo"><p><img src="/logos/gaic/chapters/global-ai-community-melbourne.svg" alt="Global AI Community Melbourne logo"></p><figcaption><strong>Melbourne</strong> <a href="/logos/gaic/chapters/global-ai-community-melbourne.png">PNG</a> · <a href="/logos/gaic/chapters/global-ai-community-melbourne.svg">SVG</a> · <a href="/logos/gaic/chapters/global-ai-community-melbourne.zip">All versions</a></figcaption></figure>
+</div>
 </section>
 
 <section class="landing-section">
