@@ -120,6 +120,12 @@ function sideNavigation(page, pages) {
     }).join('')}</details>`).join('')}</nav></details>`;
 }
 
+function guideNavigation(guidePath, page, pages) {
+  const overview = pages.get(guidePath);
+  const link = (path, label) => `<a href="${pages.get(path).url}"${path === page.path ? ' aria-current="page"' : ''}>${e(label)}</a>`;
+  return `<details class="section-menu" open><summary>In this guide</summary><nav class="guide-menu" aria-label="${e(overview.title)} guide"><a class="guide-menu-back" href="${pathToUrl(sections.find(item => item.id === page.section).path)}"><span aria-hidden="true">←</span> All events</a><p class="guide-menu-title">${e(overview.title)}</p>${link(guidePath, 'Overview')}${guides[guidePath].map(path => link(path, pages.get(path).navTitle ?? pages.get(path).title)).join('')}</nav></details>`;
+}
+
 function statusNotice(page) {
   const statuses = {
     archived: ['Archived edition', 'These are historical instructions, not a current offer. Dates, benefits, funding, and registration details may no longer apply.'],
@@ -185,8 +191,8 @@ export function documentPage(page, pages) {
     return [anchor, target.url + (fragment ? `#${fragment}` : '')];
   }));
   const sourceUrl = `${site.repository}/edit/main/${page.path.split('/').map(encodeURIComponent).join('/')}`;
-  return shell(page, `<div class="docs-layout container-wide${guidePath ? ' docs-layout-focused' : ''}">
-    ${guidePath ? '' : `<aside class="docs-sidebar">${sideNavigation(page, pages)}</aside>`}
+  return shell(page, `<div class="docs-layout container-wide">
+    <aside class="docs-sidebar">${guidePath ? guideNavigation(guidePath, page, pages) : sideNavigation(page, pages)}</aside>
     <main class="doc-main" id="main" tabindex="-1"${Object.keys(movedAnchors).length ? ` data-moved-anchors="${e(JSON.stringify(movedAnchors))}"` : ''}>${breadcrumbs}
       <header class="doc-heading"><p class="eyebrow">${e(parent?.title ?? section.label)}</p>${headingAliases}<h1${headingId ? ` id="${e(headingId)}"` : ''}>${e(page.title)}</h1></header>
       ${statusNotice(page)}

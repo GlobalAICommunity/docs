@@ -274,9 +274,11 @@ test('event guides split into chapters with a breadcrumb trail and forwarded anc
     }
   }
   const formats = await htmlFor('agentic-nights/formats.md');
-  assert.match(formats, /docs-layout-focused/);
-  assert.doesNotMatch(formats, /class="docs-sidebar"/);
-  assert.doesNotMatch(await htmlFor('agentic-nights.md'), /class="docs-sidebar"/);
+  const menu = formats.match(/<nav class="guide-menu".*?<\/nav>/)[0];
+  assert.match(menu, /href="\/agentic-nights.html">Overview</);
+  assert.match(menu, /href="\/agentic-nights\/formats.html" aria-current="page"/);
+  assert.match(menu, /href="\/agentic-nights\/checklist.html"/);
+  assert.doesNotMatch(menu, /construct/);
   assert.match(formats, /<li><a href="\/">Handbook<\/a><\/li><li><a href="\/events.html">Events<\/a><\/li><li><a href="\/agentic-nights.html">Global AI Nights<\/a><\/li><li><span aria-current="page">/);
   assert.match(formats, /class="next-page" href="\/agentic-nights\/learning-and-speakers.html"/);
   assert.equal(pages.get('agentic-nights.md').movedAnchors['speaker-kit'], 'agentic-nights/learning-and-speakers.md#speaker-kit');
