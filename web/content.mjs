@@ -91,8 +91,8 @@ export const guides = {
 const guideParents = Object.fromEntries(Object.entries(guides).flatMap(([parent, children]) => children.map(child => [child, parent])));
 
 const reviewNotes = {
-  application: 'The start-a-chapter and onboarding guides currently link to different application forms. Confirm the current application route with support@globalai.community before applying.',
-  meetup: 'This guide still refers to setting up a Meetup group, but later community updates announce the retirement of Meetup support. Confirm current setup instructions with support@globalai.community.',
+  application: 'The chapter guides have linked to different application forms. Confirm the current application route with support@globalai.community before applying.',
+  meetup: 'Meetup support has been retired. Confirm the current steps for setting up your chapter on the Global AI Community platform with support@globalai.community.',
 };
 
 // These are editorial review flags, not replacements for the policies they describe.
@@ -102,8 +102,27 @@ export const overrides = {
   'agentic-nights.md': { movedAnchors: { 'choose-your-format': 'agentic-nights/formats.md#choose-your-format', 'option-a-hands-on-night': 'agentic-nights/formats.md#option-a-hands-on-night', 'option-b-talks-and-community-night': 'agentic-nights/formats.md#option-b-talks-and-community-night', 'activity-ideas': 'agentic-nights/formats.md#activity-ideas', 'learning-resource-agent-framework-101': 'agentic-nights/learning-and-speakers.md#learning-resource-agent-framework-101', 'speaker-kit': 'agentic-nights/learning-and-speakers.md#speaker-kit', 'hashtags-and-social-sharing': 'agentic-nights/promotion.md#hashtags-and-social-sharing', 'event-description': 'agentic-nights/promotion.md#event-description', 'setup-email-for-option-a': 'agentic-nights/promotion.md#setup-email-for-option-a', 'organizer-checklist': 'agentic-nights/checklist.md', 'organizing-your-event': 'agentic-nights/checklist.md' } },
   'construct.md': { movedAnchors: { 'event-format-2-hours': 'construct/format.md#event-format-2-hours', 'ready-to-use-labs': 'construct/format.md#ready-to-use-labs', 'suggested-challenge-themes': 'construct/format.md#suggested-challenge-themes', 'what-you-need': 'construct/format.md#what-you-need', 'organizer-checklist': 'construct/checklist.md' } },
   'branding/index.md': { headingAliases: { 'typography-specifications': 'typography', 'primary-colors': 'colors', 'accent-colors': 'colors', 'gray-scale': 'colors', 'color-usage-guidelines': 'accessibility' } },
-  'new-chapter.md': { review: [reviewNotes.application], summary: 'Eligibility, responsibilities, and the application process for a new local chapter.' },
-  'chapter-playbook/onboarding.md': { review: [reviewNotes.application, reviewNotes.meetup] },
+  'new-chapter.md': {
+    review: [reviewNotes.application],
+    summary: 'Eligibility, responsibilities, and the application process for a new local chapter.',
+    headingAliases: {
+      'guidelines-for-starting-your-chapter': 'what-a-chapter-is',
+      'benefits-for-chapters': 'what-you-get',
+      'role-and-responsibilities-of-the-chapter-lead': 'what-you-commit-to',
+      '1-be-an-active-chapter': 'what-you-commit-to',
+      '2-work-together': 'what-you-commit-to',
+      '3-be-part-of-the-global-community': 'what-you-commit-to',
+      '4-be-inclusive-to-everyone': 'what-you-commit-to',
+      '5-create-a-safe-place': 'what-you-commit-to',
+      '6-be-the-brand': 'what-you-commit-to',
+      '7-be-authentic': 'what-you-commit-to',
+      'process-overview': 'how-to-apply',
+    },
+  },
+  'chapter-playbook/onboarding.md': {
+    review: [reviewNotes.application, reviewNotes.meetup],
+    headingAliases: { 'step-by-step-process': 'eligibility', 'meetup-group': 'events-on-the-global-ai-community-platform' },
+  },
   'chapter-playbook/requirements.md': { review: ['The escalation process at the end of this page is a proposal, not an approved policy.'] },
   'chapter-playbook/offboarding.md': { status: 'draft' },
   'chapter-playbook/transferring.md': { status: 'draft' },

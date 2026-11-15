@@ -4,34 +4,42 @@ outline: deep
 
 # Requirements to Keep Your Chapter
 
-Being approved is the start, not the finish line. To stay a chapter in good standing, organizers agree to the following ongoing responsibilities (see also [Start a Chapter: Role and Responsibilities](/new-chapter#role-and-responsibilities-of-the-chapter-lead)):
+Approval is the start, not the finish line. Members trust a Global AI chapter because every chapter keeps the same promises: it meets regularly, it's open to everyone, and it's safe. These are the commitments you made when you [applied](/new-chapter#what-you-commit-to), and what keeps your chapter in good standing.
 
 ## 1. Stay Active
-- Organize or co-organize **at least one event every three months**.
-- You don't have to be the speaker: invite local talent and create opportunities for first-time speakers.
+
+A community that doesn't meet fades away. Organize or co-organize **at least one event every three months**.
+
+You don't have to be the speaker. Invite local talent, and give first-time speakers a stage.
 
 ## 2. Maintain a Team of Organizers
-- Keep **at least two organizers** at all times.
-- Notify Global AI Community leadership whenever your organizing team changes (new organizer joins, or someone steps down).
+
+Keep **at least two organizers** at all times, so the chapter never depends on one person. Tell Global AI Community leadership whenever your team changes, whether someone joins or steps down.
 
 ## 3. Participate Globally
-- Take part in global initiatives: Global AI Bootcamp, Global AI Community Connect, livestreams, newsletters.
-- Relay official announcements from the leadership team to your members when asked.
+
+Your chapter is part of something bigger.
+
+- Take part in global initiatives such as Global AI Bootcamp, Global AI Community Connect, livestreams, and newsletters.
+- Share official announcements from the leadership team with your members when asked.
 - Submit an **annual activity report** to the leadership team.
 
 ## 4. Be Inclusive
-- Keep event registration open and free of charge.
+
+Keep event registration open and free of charge.
 
 ## 5. Keep It Safe
-- All chapter activity (events, online spaces, chats) is governed by the [Global AI Community Code of Conduct](/chapter-playbook/code-of-conduct).
-- You must make the Code of Conduct publicly visible for your chapter (e.g., linked from your Meetup page or event description).
+
+All chapter activity, from events to online spaces and chats, follows the [Global AI Community Code of Conduct](/chapter-playbook/code-of-conduct). Make the Code of Conduct publicly visible for your chapter, for example by linking it from your event descriptions.
 
 ## 6. Represent the Brand Correctly
-- Use only your `@globalai.community` email for chapter business: member communication, Meetup, and social media account ownership.
-- Follow the [Branding Guidelines](/branding/) for logos, colors, and templates.
+
+- Use only your `@globalai.community` email for chapter business: member communication and owning your chapter's accounts.
+- Follow the [brand guidelines](/branding/) for logos, colors, and templates.
 
 ## 7. Stay Not-for-Profit
-- Chapter activity must not be used for commercial purposes.
+
+Don't use chapter activity for commercial purposes.
 
 ## What Happens If Requirements Aren't Met? <Badge type="warning" text="Draft" />
 
