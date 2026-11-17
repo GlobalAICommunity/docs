@@ -121,7 +121,7 @@ The chapter-lead channels on Discord are where organizers swap ideas, ask questi
 
 ### Use the tools and benefits
 
-Azure, Canva, and StreamYard help you build demos, design, and go live.
+Azure and Canva help you build demos and design.
 
 [Tools & benefits](/chapter-benefits/)
 

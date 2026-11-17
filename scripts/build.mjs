@@ -31,7 +31,8 @@ async function writeOutput(path, content) {
 
 export async function loadPages() {
   const paths = await contentPaths();
-  const knownPaths = new Set(paths);
+  // Redirect sources stay linkable so historical pages keep working links to removed pages.
+  const knownPaths = new Set([...paths, ...Object.keys(redirects)]);
   const renderer = createMarkdown(knownPaths);
   const pages = new Map();
   for (const path of paths) {

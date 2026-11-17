@@ -13,7 +13,6 @@ Spend less time starting from scratch. Find the tools and reusable materials tha
 | Azure subscriptions for a workshop | [Request Azure credits](/chapter-benefits/azure) at least 7 days before your event |
 | Help attendees activate their subscription | [Azure activation walkthrough](/chapter-benefits/azure-client) |
 | Canva for chapter graphics | [Canva access and eligibility](/chapter-benefits/canva) |
-| Livestreaming support | [StreamYard guide](/streamyard), including instructions that need confirmation |
 | A chapter LinkedIn presence | [Request a Showcase page](/chapter-playbook/linkedin) |
 
 The [benefits overview](/chapter-benefits/) explains how to use these resources. Availability and eligibility are described on each benefit page; do not assume that a previous event's offer applies to a new program.

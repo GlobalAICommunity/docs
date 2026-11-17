@@ -18,7 +18,6 @@ Discord is now the primary place to stay connected with the community and get ge
 | Global AI Conference organizer coordination | Private Global AI Conference channel in the Global AI HQ Slack workspace | Invited, approved co-organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
 | Global AI Community Connect organizer coordination | Private Global AI Community Connect channel in the Global AI HQ Slack workspace | Approved organizers receive access during HQ onboarding. Contact [hq@globalai.community](mailto:hq@globalai.community) if access is missing. |
 | Advisory Board work | Private Advisory Board Slack space | Elected members can contact [hello@globalai.community](mailto:hello@globalai.community) for access. |
-| StreamYard access | Restricted `#streamyard-pin` channel in Slack | Email [support@globalai.community](mailto:support@globalai.community) from your Global AI chapter email address; see the [StreamYard guide](/streamyard). |
 
 These internal Slack uses are separate from the community chat migration announced in the [January 2026 meeting recap](/chapter-leads-meeting/january-2026). That recap is a historical announcement, not the current access guide. Joining Discord does not grant access to private Slack spaces; request access through the relevant contact above.
 

@@ -164,14 +164,13 @@ test('archived offers, meeting recaps, drafts and contradictory guidance are vis
 test('current chat guidance distinguishes community Discord from internal Slack access', async () => {
   const discord = pages.get('chapter-playbook/discord.md');
   assert.match(discord.plainText, /Discord is now the primary place/);
-  for (const purpose of ['general chapter support', 'Global AI Conference organizer coordination', 'Global AI Community Connect organizer coordination', 'Advisory Board work', 'StreamYard access']) {
+  for (const purpose of ['general chapter support', 'Global AI Conference organizer coordination', 'Global AI Community Connect organizer coordination', 'Advisory Board work']) {
     assert.ok(discord.plainText.includes(purpose), purpose);
   }
   for (const [path, contact] of [
     ['global-ai-conference/eligibility-and-roles.md', 'support@globalai.community'],
     ['global-ai-conference/application-and-timeline.md', 'support@globalai.community'],
     ['chapter-playbook/advisory-board.md', 'hello@globalai.community'],
-    ['streamyard.md', 'support@globalai.community'],
   ]) {
     const page = pages.get(path);
     assert.match(page.plainText, /private|restricted/i, path);
@@ -181,19 +180,16 @@ test('current chat guidance distinguishes community Discord from internal Slack 
   }
   const formats = pages.get('event-format.md');
   assert.ok(formats.links.includes('https://gaic.io/discord'));
-  assert.match(metadataFor('streamyard.md').review.join(' '), /retired Umbraco dashboard/);
   assert.match(metadataFor('global-ai-conference/application-and-timeline.md').review.join(' '), /application form is not linked/);
 });
 
-test('StreamYard access instructions keep login details private and preserve access anchors', async () => {
-  const page = pages.get('streamyard.md');
-  assert.match(page.plainText, /Global AI chapter email address only/);
-  assert.match(page.plainText, /Slack workspace access if needed/);
-  assert.match(page.plainText, /login details supplied privately by support/);
-  assert.doesNotMatch(page.content, /stream@globalai\.community|streamyard-sample-pin\.png|streamyard-pin-channel\.png/);
-  const html = await htmlFor('streamyard.md');
-  assert.match(html, /id="how-to-get-access-to-the-streamyard-pin-channel"/);
-  assert.match(html, /id="logging-in-to-streamyard"/);
+test('StreamYard is removed and its old URL redirects to chapter benefits', () => {
+  assert.ok(!pages.has('streamyard.md'));
+  assert.equal(redirects['streamyard.md'], 'chapter-benefits/index.md');
+  for (const [path, page] of pages) {
+    if (path.startsWith('chapter-leads-meeting/')) continue;
+    assert.doesNotMatch(page.content, /streamyard/i, path);
+  }
   assert.match(pages.get('chapter-leads-meeting/january-2026.md').content, /Slack will remain active only until \*\*February 28th\*\*/);
 });
 

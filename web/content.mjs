@@ -46,14 +46,13 @@ const rootSections = {
   'platform-event-management.md': 'chapters',
   'presentations.md': 'chapters',
   'workshops.md': 'chapters',
-  'streamyard.md': 'chapters',
 };
 
 export const navigation = {
   chapters: [
     ['Get started', ['chapter-playbook/index.md', 'new-chapter.md', 'chapter-playbook/onboarding.md']],
     ['Run your chapter', ['chapter-playbook/requirements.md', 'chapter-playbook/code-of-conduct.md', 'chapter-playbook/discord.md', 'chapter-playbook/linkedin.md', 'chapter-playbook/advisory-board.md']],
-    ['Tools & benefits', ['chapter-benefits/index.md', 'chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md', 'streamyard.md']],
+    ['Tools & benefits', ['chapter-benefits/index.md', 'chapter-benefits/azure.md', 'chapter-benefits/azure-client.md', 'chapter-benefits/canva.md']],
     ['Content & creative', ['resources/index.md', 'workshops.md', 'presentations.md', 'branding/index.md', 'event-photography-checklist.md']],
     ['Useful next steps', ['organisers-101/index.md']],
   ],
@@ -129,7 +128,6 @@ export const overrides = {
   'chapter-playbook/code-of-conduct.md': { review: ['The linked chapter offboarding process is still a draft. The official Code of Conduct remains the authoritative reference.'] },
   'chapter-benefits/meetup.md': { status: 'archived', section: 'updates', title: 'Meetup retirement notice' },
   'chapter-benefits/canva.md': { review: ['The request process is marked as being updated. Confirm availability and current eligibility with support before relying on this benefit.'] },
-  'streamyard.md': { review: ['The asset-download instructions reference the retired Umbraco dashboard. Request the current workflow from support.'] },
   'platform-event-management.md': { status: 'draft', summary: 'A placeholder for future event publishing, registration, check-in, and reporting guidance.' },
   'partnerships/overview.md': {
     navTitle: 'Explore partnerships',
@@ -188,6 +186,7 @@ export const redirects = {
   'agentcon/events.md': conferenceSite,
   'agentcon/sponsors.md': `${conferenceSite}sponsor.html`,
   'partnerships/agentcon-sponsorship.md': `${conferenceSite}sponsor.html`,
+  'streamyard.md': 'chapter-benefits/index.md',
   ...Object.fromEntries(['appendices', 'application-and-approval-process', 'core-requirments', 'day-of-event-playbook',
     'eligibility-and-roles', 'event-overview', 'marketing-promotion-branding', 'planning-timeline', 'post-event tasks', 'venue-logistics']
     .map(name => [`agentcon/${name}.md`, 'conference.md'])),
