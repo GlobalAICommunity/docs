@@ -119,7 +119,7 @@ export async function build() {
   for (const page of pages.values()) {
     const path = page.path.replace(/\.md$/, '.html');
     const html = page.path === 'index.md' ? homePage(page)
-      : page.data.layout === 'landing' ? landingPage(page) : documentPage(page, pages);
+      : page.data.layout === 'landing' ? landingPage(page, pages) : documentPage(page, pages);
     await writeOutput(path, html);
     // Directory aliases preserve clean URLs on static hosts without per-page routing rules.
     if (page.path !== 'index.md' && !page.path.endsWith('/index.md')) await writeOutput(page.path.replace(/\.md$/, '/index.html'), html);

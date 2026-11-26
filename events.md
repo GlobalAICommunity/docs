@@ -51,7 +51,7 @@ Host Global AI Community Connect when your chapter is ready: a full-day conferen
 
 ### Partner opportunities
 
-Run events with our partners, such as GitHub Dev Day and Microsoft Ignite &#47;&#47;localhost (to be announced).
+Run events with our partners, such as GitHub Dev Day, or host Microsoft Ignite &#47;&#47;localhost through the Global AI Community.
 
 </div>
 <div class="event-banner-action">

@@ -22,6 +22,7 @@ export const directories = {
   'agentic-nights': 'events',
   'construct': 'events',
   'global-ai-connect': 'events',
+  'ignite-localhost': 'events',
   'build': 'updates',
   'branding': 'brand',
   'partnerships': 'partners',
@@ -41,6 +42,7 @@ const rootSections = {
   'construct.md': 'events',
   'hq-organized-events.md': 'events',
   'partner-led-events.md': 'events',
+  'ignite-localhost.md': 'events',
   'ai-community-day.md': 'updates',
   'event-photography-checklist.md': 'chapters',
   'platform-event-management.md': 'chapters',
@@ -59,7 +61,8 @@ export const navigation = {
   events: [
     ['Overview', ['events.md', 'event-format.md']],
     ['Seasonal events', ['global-ai-on-tour.md', 'agentic-nights.md', 'agentcamp/index.md', 'global-ai-connect.md', 'construct.md']],
-    ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'partner-led-events.md', 'hq-organized-events.md', 'agentcon/index.md']],
+    ['Year-round events', ['global-ai-conference/index.md', 'conference.md', 'hq-organized-events.md', 'agentcon/index.md']],
+    ['Partner opportunities', ['partner-led-events.md', 'ignite-localhost.md']],
     ['Organizer guide', ['organisers-101/index.md', 'event-photography-checklist.md']],
     ['Global AI Nights guide', ['agentic-nights/formats.md', 'agentic-nights/learning-and-speakers.md', 'agentic-nights/promotion.md', 'agentic-nights/checklist.md']],
     ['Global AI Bootcamp guide', ['agentcamp/checklist.md']],
@@ -84,6 +87,16 @@ export const guides = {
   'agentcamp/index.md': ['agentcamp/checklist.md'],
   'global-ai-connect.md': ['global-ai-connect/formats.md', 'global-ai-connect/checklist.md'],
   'construct.md': ['construct/format.md', 'construct/checklist.md'],
+  'ignite-localhost.md': [
+    'ignite-localhost/create-event.md',
+    'ignite-localhost/content-and-labs.md',
+    'ignite-localhost/host-readiness.md',
+    'ignite-localhost/digital-assets.md',
+    'ignite-localhost/reimbursement.md',
+    'ignite-localhost/reporting.md',
+    'ignite-localhost/faq.md',
+    'ignite-localhost/organizer-support.md',
+  ],
   'global-ai-conference/index.md': ['global-ai-conference/eligibility-and-roles.md', 'global-ai-conference/application-and-timeline.md', 'global-ai-conference/call-for-speaker-content.md', 'global-ai-conference/venue-logistics.md', 'global-ai-conference/marketing-branding.md', 'global-ai-conference/post-event.md'],
 };
 
@@ -129,6 +142,15 @@ export const overrides = {
   'chapter-benefits/meetup.md': { status: 'archived', section: 'updates', title: 'Meetup retirement notice' },
   'chapter-benefits/canva.md': { review: ['The request process is marked as being updated. Confirm availability and current eligibility with support before relying on this benefit.'] },
   'platform-event-management.md': { status: 'draft', summary: 'A placeholder for future event publishing, registration, check-in, and reporting guidance.' },
+  'ignite-localhost.md': { guideTitle: 'Ignite //localhost' },
+  'ignite-localhost/create-event.md': { navTitle: 'Create your event' },
+  'ignite-localhost/content-and-labs.md': { navTitle: 'Official content and labs' },
+  'ignite-localhost/host-readiness.md': { navTitle: 'Host readiness' },
+  'ignite-localhost/digital-assets.md': { navTitle: 'Digital assets' },
+  'ignite-localhost/organizer-support.md': { navTitle: 'Organizer support' },
+  'ignite-localhost/faq.md': { navTitle: 'FAQ' },
+  'ignite-localhost/reimbursement.md': { navTitle: 'Reimbursement' },
+  'ignite-localhost/reporting.md': { navTitle: 'Event reporting' },
   'partnerships/overview.md': {
     navTitle: 'Explore partnerships',
     headingAliases: {

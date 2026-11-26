@@ -20,8 +20,8 @@ GitHub Dev Day is not part of the seasonal calendar. Chapters should wait for an
 
 ## Microsoft Ignite &#47;&#47;localhost
 
-Microsoft Ignite &#47;&#47;localhost is a partner-led opportunity with Microsoft. Dates, eligible locations, and organizer details are to be announced.
+Individuals and chapters can apply to host a **free, fully in-person** Microsoft Ignite &#47;&#47;localhost event through Global AI Community. Use approved Ignite sessions, with optional hands-on labs and local examples. Chapter membership and Microsoft MVP status are not required.
 
-::: info Participation
-Wait for the announcement before planning an Ignite &#47;&#47;localhost event.
-:::
+The hosting window is **11 January–15 February 2027**. Hosts should create and submit their event by **30 December 2026** and confirm their venue by **8 January 2027**.
+
+[Explore the Ignite &#47;&#47;localhost event format and host timeline](/ignite-localhost.html)
