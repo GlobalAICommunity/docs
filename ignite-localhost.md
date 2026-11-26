@@ -136,22 +136,14 @@ Read the [host FAQ](/ignite-localhost/faq.md) or [contact Global AI Community HQ
 
 <p class="landing-price">Up to US$500</p>
 
-The approved amount differs by country and city.
+Your acceptance details show your event’s limit.
 
 </div>
 <div>
 
-### How reimbursement works
+<p id="how-reimbursement-works">Full reimbursement requires <strong>30 or more in-person scanner check-ins</strong>. Submit your report and receipts by <strong>28 February 2027</strong>.</p>
 
-- Your acceptance details show the maximum amount approved for your event.
-- You can claim venue costs within your approved event limit. Food and non-alcoholic drinks are eligible if approved for your event.
-- Alcohol, attendee travel, lodging, and change or cancellation costs are not reimbursed.
-- Full reimbursement requires **30 or more in-person scanner check-ins**. HQ reviews smaller events individually; a reduced payment is not guaranteed.
-- Pay vendors first. Keep their original itemized receipts in local currency and take photos of the items you buy. Submit your claim with your event report by **28 February 2027**.
-- The whole claim is declined if you take registrations outside Global AI Community, claim from both Microsoft and Global AI Community, or submit fake or AI-generated receipts or prices that do not match the local currency.
-- Global AI Community pays through **PayPal or Wise only**. If the first transfer fails, we try once more: **two attempts in total**. Check your details and make sure your PayPal account can receive money if you use it.
-
-[Check what you can claim and how to submit receipts](/ignite-localhost/reimbursement.md)
+<a class="button button-ink" href="/ignite-localhost/reimbursement.html">View reimbursement guide <span aria-hidden="true">→</span></a>
 
 </div>
 </section>

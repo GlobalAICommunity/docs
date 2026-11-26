@@ -534,11 +534,10 @@ kbd { font: .75rem var(--body); padding: 0 6px; border: 1px solid #ccc8bd; borde
 .localhost-dates > div { display: flex; flex-direction: column; gap: 12px; min-height: 150px; padding: 28px; background: var(--cream); }
 .localhost-dates strong { font: 600 1.35rem/1.2 var(--heading); letter-spacing: -.025em; color: var(--ink); }
 .localhost-dates span { color: var(--muted); font-size: .92rem; }
-.localhost-funding { margin-top: 32px; }
-.localhost-funding .landing-price { white-space: nowrap; }
-.localhost-funding h3 { margin-top: 0; }
-.localhost-funding ul { margin: 0; padding-left: 20px; color: var(--muted); }
-.localhost-funding li + li { margin-top: 12px; }
+.localhost-funding { margin-top: 32px; padding: clamp(20px, 3vw, 32px); gap: clamp(12px, 2vw, 24px); }
+.localhost-funding .landing-price { margin-bottom: 4px; font-size: clamp(2rem, 4vw, 3rem); }
+.localhost-funding p:last-child { margin-bottom: 0; }
+.localhost-funding .button-ink { color: var(--white); white-space: normal; }
 .claim-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); margin: 1.5rem 0; padding: 0; gap: 1px; overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: var(--line); }
 .claim-facts > div { padding: 18px; background: var(--cream); }
 .claim-facts dt { margin-bottom: 8px; font: 600 .8rem/1.4 var(--body); color: var(--muted); }
