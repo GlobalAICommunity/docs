@@ -105,6 +105,8 @@ export async function build() {
   await rm(output, { recursive: true, force: true });
   await mkdir(join(output, 'assets'), { recursive: true });
   await cp(join(root, 'public'), output, { recursive: true });
+  const inviteEmail = 'email/ignite-localhost/invite-email.html';
+  await cp(join(root, inviteEmail), join(output, inviteEmail));
   await cp(join(root, 'media'), join(output, 'media'), { recursive: true });
   await cp(join(root, 'agentcamp/screenshots'), join(output, 'agentcamp/screenshots'), { recursive: true });
   await cp(join(root, 'web/styles.css'), join(output, 'assets/styles.css'));
