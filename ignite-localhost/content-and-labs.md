@@ -27,11 +27,13 @@ For an after-work event, choose a start time that gives people time to reach the
 | 19:15–20:30 | Guide attendees through a hands-on lab. |
 | 20:30–21:00 | Answer questions and leave time to meet other attendees. |
 
-If you are not running a lab, use the time for another approved session, a demo or a local discussion. You can add local examples and questions. Keep Microsoft's product claims and required messages intact. Make it clear which examples come from your own team.
+If you are not running a lab, use the time for another approved session, a demo or a local discussion.
+
+You can translate approved Ignite materials and add local examples or questions. You are responsible for the accuracy of your translation. Keep Microsoft's product claims and required messages intact. Label the translation as your team's work, not an official Microsoft translation, and identify any examples you added.
 
 ## Get a lab ready
 
 1. Read the lab instructions and tell attendees what to bring. For the supplied lab environments, attendees do **not** need their own Azure credits or an existing Microsoft or customer account.
-2. Complete the lab yourself at least one day before the event. Try the steps as an attendee, not just as the presenter.
+2. Allow several hours for the lab environment to be ready. Start early enough to complete the whole lab as an attendee at least one day before the event.
 3. Test the venue's Wi-Fi, screen, sound and power. Make sure people have space to use their laptops.
 4. Pick a backup session, demo or discussion in case the lab is unavailable. Tell the other organizers where to find it.

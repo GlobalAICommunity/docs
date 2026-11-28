@@ -8,7 +8,7 @@ description: Understand the approved budget, eligible expenses, receipt requirem
 
 <dl class="claim-facts" aria-label="Reimbursement at a glance">
 <div><dt>Program maximum</dt><dd>Up to US$500</dd></div>
-<div><dt>For full reimbursement</dt><dd>30+ in person</dd></div>
+<div><dt>For full reimbursement</dt><dd>30+ in-person scanner check-ins</dd></div>
 <div><dt>Report and receipts</dt><dd>Before 1 March</dd><dd class="claim-cutoff">Last day to submit: 28 February 2027</dd></div>
 </dl>
 
@@ -60,7 +60,7 @@ Both examples assume you meet the attendance and reporting requirements.
 
 1. Open your event dashboard on the Global AI Community platform and complete the [event report](./reporting.md). Give the registration total and the actual in-person count separately. If you claimed through Microsoft, submit the report **without requesting payment** from Global AI Community.
 2. If you are claiming through Global AI Community, upload readable copies of the original itemized receipts in local currency **and photos of the items you bought**. Claim only eligible expenses within your approved limit. Keep the original receipts.
-3. Submit your report and receipts after your event and **before 1 March 2027**. For all Global AI Community events in this program, the last day to submit is **28 February 2027**.
+3. Submit your Global AI event report by **28 February 2027**, whether or not you claim expenses. Include receipts in the dashboard only if you are claiming through Global AI.
 
 ## How you get paid
 

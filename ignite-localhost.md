@@ -13,13 +13,46 @@ actions:
 # Microsoft Ignite &#47;&#47;localhost
 
 <section class="landing-section">
-<div class="localhost-lockup">
-<div>
-<span class="localhost-kicker">Microsoft Ignite</span>
-<strong>&#47;&#47;localhost</strong>
+<figure id="ignite-localhost-banner" class="localhost-banner">
+<img src="/media/ignite-localhost/banner.png" width="936" height="204" alt="Microsoft Ignite &#47;&#47;localhost">
+<figcaption>Official Ignite learning, brought to life by your local Global AI community.</figcaption>
+</figure>
+</section>
+
+<section class="landing-section">
+<div class="landing-section-heading">
+
+## TL;DR for hosts
+
+Bring an approved Microsoft Ignite session to local developers, students and AI builders. The event is **free to attend and fully in person**. Anyone can apply, as an individual or for a chapter. You don't need to be a Microsoft MVP.
+
 </div>
-<p>Official Ignite learning, brought to life by your local Global AI community.</p>
-</div>
+<ol class="landing-steps">
+<li>
+
+### Create your event
+
+[Apply through Global AI Community](/ignite-localhost/create-event.md) by **30 December 2026**. No venue yet? Enter your city and **TBA**. We'll email a decision within **48 hours** of a complete application. You have until **8 January 2027** to confirm the venue.
+
+</li>
+<li>
+
+### Build the local plan
+
+Host between **11 January and 15 February 2027**. Aim for three to four hours; [hands-on labs are optional](/ignite-localhost/content-and-labs.md). Once approved and the venue is confirmed, promote your public Global AI event page anywhere. If another site takes sign-ups, the event loses reimbursement eligibility.
+
+</li>
+<li>
+
+### Host and share
+
+Walk-ins must register on your public event page first. Use the Global AI scanner for every attendee and collect feedback through Global AI. [Every host reports](/ignite-localhost/reporting.md) by **28 February 2027**, even without a claim. Report sign-ups and check-ins separately, and get permission before taking or sharing attendee photos.
+
+</li>
+</ol>
+
+**Budget:** You pay vendors first. You can [claim eligible costs](/ignite-localhost/reimbursement.md) within your approved local limit, up to **US$500**. Full reimbursement requires **at least 30 in-person check-ins**, not 30 sign-ups. Smaller events can still run; HQ reviews their claims individually. Claim from Microsoft or Global AI, never both.
+
 </section>
 
 <section class="landing-section">
@@ -71,7 +104,7 @@ A strong &#47;&#47;localhost event can combine:
 - Local expert perspectives and community Q&A.
 - Time for networking and meaningful connections.
 
-Plan for a **three-to-four-hour** event. Breakout sessions are approximately **45 minutes** and instructor-led labs approximately **75 minutes**. A lab is not required, but including at least one is strongly encouraged. Approved hosts may request up to three labs.
+A **three-to-four-hour** event is recommended. Breakout sessions are approximately **45 minutes** and instructor-led labs approximately **75 minutes**. Labs are encouraged, not required. Approved hosts may request up to three; wait for confirmation before announcing one.
 
 </section>
 
@@ -88,7 +121,7 @@ Start early enough to secure a venue, choose content, and give your community ti
 <div><strong>4–15 Jan 2027</strong><span>Host readiness sessions</span></div>
 <div><strong>8 Jan 2027</strong><span>Confirm your venue</span></div>
 <div><strong>11 Jan–15 Feb 2027</strong><span>Event hosting window</span></div>
-<div><strong>28 Feb 2027</strong><span>Last day to submit your report and receipts</span></div>
+<div><strong>28 Feb 2027</strong><span>Every host reports. Include receipts if claiming through Global AI.</span></div>
 </div>
 </section>
 
@@ -141,45 +174,12 @@ Your acceptance details show your event’s limit.
 </div>
 <div>
 
-<p id="how-reimbursement-works">Full reimbursement requires <strong>30 or more in-person scanner check-ins</strong>. Submit your report and receipts by <strong>28 February 2027</strong>.</p>
+<p id="how-reimbursement-works">Full reimbursement requires <strong>30 or more in-person scanner check-ins</strong>. Submit your report by <strong>28 February 2027</strong>. Include receipts if you claim through Global AI.</p>
 
 <a class="button button-ink" href="/ignite-localhost/reimbursement.html">View reimbursement guide <span aria-hidden="true">→</span></a>
 
 </div>
 </section>
-</section>
-
-<section class="landing-section">
-<div class="landing-section-heading">
-
-## From application to reporting.
-
-</div>
-<ol class="landing-steps">
-<li>
-
-### Create your event
-
-[Create and submit your event](/ignite-localhost/create-event.md) on the Global AI Community platform by 30 December 2026. Select **Ignite &#47;&#47;Localhost** under **Global calendars**.
-
-</li>
-<li>
-
-### Build the local plan
-
-You can submit before securing a venue, but the event remains pending until venue details are confirmed. Confirm the venue by 8 January, select the most relevant Ignite content, and shape the agenda.
-
-Keep your Global AI Community event page up to date. Once your event is approved and the venue is confirmed, share that page with attendees. It must be the only place they can register. If another system accepts registrations, **we will decline reimbursement for the entire event**.
-
-</li>
-<li>
-
-### Host and share
-
-Use the Global AI Community scanner for every check-in and the Global AI Community platform for attendee feedback. Ask permission before taking or sharing photos. Every host must [submit an event report](/ignite-localhost/reporting.md) by **28 February 2027**, even without a reimbursement claim.
-
-</li>
-</ol>
 </section>
 
 <section class="landing-section landing-split">

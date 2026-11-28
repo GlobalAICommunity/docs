@@ -142,7 +142,7 @@ export const overrides = {
   'chapter-benefits/meetup.md': { status: 'archived', section: 'updates', title: 'Meetup retirement notice' },
   'chapter-benefits/canva.md': { review: ['The request process is marked as being updated. Confirm availability and current eligibility with support before relying on this benefit.'] },
   'platform-event-management.md': { status: 'draft', summary: 'A placeholder for future event publishing, registration, check-in, and reporting guidance.' },
-  'ignite-localhost.md': { guideTitle: 'Ignite //localhost' },
+  'ignite-localhost.md': { guideTitle: 'Ignite //localhost', headingAliases: { 'from-application-to-reporting': 'tl-dr-for-hosts' } },
   'ignite-localhost/create-event.md': { navTitle: 'Create your event' },
   'ignite-localhost/content-and-labs.md': { navTitle: 'Official content and labs' },
   'ignite-localhost/host-readiness.md': { navTitle: 'Host readiness' },

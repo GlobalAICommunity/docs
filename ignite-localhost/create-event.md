@@ -132,7 +132,7 @@ Review every detail before creating the event:
 - In-person format.
 - Venue or TBA location details.
 
-Pay particular attention to the timezone and city. If anything is wrong, go back and correct it before selecting **Create event**.
+Check the timezone and city, and read the [reimbursement rules](./reimbursement.md) and [reporting requirements](./reporting.md) before selecting **Create event**. This submits your application for review; it does not open attendee registration.
 
 <figure class="event-guide-image">
 <img src="/media/ignite-localhost/08-confirm.png" alt="Global AI event confirmation screen summarizing the event type, name, registration, date, format, location, and description">
@@ -141,7 +141,7 @@ Pay particular attention to the timezone and city. If anything is wrong, go back
 
 ## Step 9: Wait for review
 
-After you submit your event, the dashboard shows **Under review**. We'll email you a decision **within 48 hours of receiving a complete application**. If your venue is still listed as **TBA**, your application stays pending. If editing is locked, [send HQ the confirmed venue details](./organizer-support.md) by **8 January 2027**.
+After you submit your event, the dashboard shows **Under review**. We'll email you a decision **within 48 hours of receiving a complete application**. If you applied with **TBA**, you have until **8 January 2027** to confirm your venue. If editing is locked, [send the venue details to HQ](./organizer-support.md) by that date.
 
 While the event is under review:
 

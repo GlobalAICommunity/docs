@@ -29,6 +29,7 @@ Global AI Community Connect is the year-round, chapter-organized conference form
 Partners can collaborate with Global AI Community to bring focused programs to local chapters.
 
 - [GitHub Dev Day](/partner-led-events#github-dev-day) — a partner-led developer event delivered with participating communities.
+- [Microsoft Ignite &#47;&#47;localhost](/ignite-localhost.md) — individuals and chapters can host free, in-person Ignite sessions from **11 January to 15 February 2027**.
 
 ## HQ-organized events
 

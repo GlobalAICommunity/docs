@@ -12,6 +12,18 @@ actions:
 
 # Events
 
+<section class="landing-section landing-card landing-card-featured">
+
+## Microsoft Ignite &#47;&#47;localhost
+
+**11 January–15 February 2027 · Partner event**
+
+Bring an approved Microsoft Ignite session to your city as a free, in-person event. Apply as an individual or for your chapter by **30 December 2026**. You can apply before you have a venue.
+
+[Read the Ignite &#47;&#47;localhost host guide](/ignite-localhost.md)
+
+</section>
+
 <section class="landing-section">
 <div class="landing-section-heading">
 
@@ -51,7 +63,7 @@ Host Global AI Community Connect when your chapter is ready: a full-day conferen
 
 ### Partner opportunities
 
-Run events with our partners, such as GitHub Dev Day, or host Microsoft Ignite &#47;&#47;localhost through the Global AI Community.
+Explore other partner programs, including GitHub Dev Day, and find out how your chapter can take part.
 
 </div>
 <div class="event-banner-action">

@@ -23,7 +23,7 @@ Submit by **30 December 2026**. Sign in to Global AI Community, open **Events**,
 :::
 
 ::: details Can I apply before I have a venue?
-Yes. Enter your city and use **TBA** (“to be announced”) for the venue name and address. Your application stays pending until you confirm the venue. Confirm it by **8 January 2027**. If you cannot edit the event while it is under review, [contact HQ](./organizer-support.md).
+Yes. Enter your city and use **TBA** (“to be announced”) for the venue name and address. You have until **8 January 2027** to confirm the venue. If you cannot edit the event, [send the venue details to HQ](./organizer-support.md) by that date.
 :::
 
 ::: details How will I know if my event is approved?

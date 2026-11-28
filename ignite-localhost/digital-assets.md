@@ -8,8 +8,8 @@ description: Get the Global AI Community logos, prepare your event announcement,
 
 For the **organizer logo**, [download the Global AI Community logos (ZIP)](/logos/gaic/global-ai-community-logos.zip). The [brand guide](/branding/) shows which version to use on light and dark backgrounds. These are community logos, not Microsoft Ignite campaign artwork.
 
-::: info Coming soon: Ignite event artwork
-We'll post the artwork here when it's ready. For session slides and labs, see [official content and labs](./content-and-labs.md).
+::: info Coming soon: Ignite artwork for organizers
+The banner on the program overview is not an organizer artwork kit. We'll post artwork you can use to promote your event here when it's ready. For session slides and labs, see [official content and labs](./content-and-labs.md).
 :::
 
 Use only approved artwork, slides and campaign messages for this edition. Do not reuse artwork from another event, redraw Microsoft logos or describe Microsoft as your sponsor.
